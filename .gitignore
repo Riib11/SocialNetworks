@@ -1,0 +1,12 @@
+systems-papers/authors/
+systems-papers/sys-papers/
+systems-papers/semantic-scholar/
+
+__pycache__
+.pyc
+
+data/dict_gB.json
+data/old/citedsdict.json
+data/old/citeds.json
+
+large/

@@ -1,0 +1,238 @@
+Efficient Computation of Top-k Frequent Terms over Spatial-Temporal Ranges
+Scalable Kernel Density Classification using Threshold-Based Pruning
+An X10 based Distributed Streaming Graph Database Engine
+Exploiting Vector and Multicore Parallelism for Recursive Data- and Task-Parallel Programs
+SoK: Science, Security, and the Elusive Goal of Security as a Scientific Pursuit
+Towards “Full Containerization” in Containerized Network Function Virtualization
+Could Blobs Enable Storage-Based Convergence Between HPC and Big Data?
+ASLR on the Line:  Practical Cache Attacks on the MMU
+"Similarity Forests"
+Canopus: A Scalable, Massively Parallel Consensus Protocol
+One Process to Reap Them All: Garbage Collection As A Service
+Apollo: Reusable Models for Fast and Dynamic Tuning of Input-Dependent Code
+Synthesizing Mapping Relationship Using Table Corpus
+Hardening Java's Access Control by Abolishing Implicit Privilege Elevation
+Co-Locating and Concurrent Fine-Tuning MapReduce Applications on Microservers for Energy Efficienc
+An Efficient MPI/OpenMP Parallelization of the Hartree-Fock Method for the Second Generation of Intel Xeon Phi Processor
+Contention-Aware Kernel-Assisted MPI Collectives for Multi/Many-core Systems
+Leakage-Abuse Attacks on Order-Revealing Encryption
+AutoMatch: An Automated Framework for Relative Performance Estimation and Workload Distribution on Heterogeneous HPC System
+Quality and Cost of Deterministic Network Calculus – Design and Evaluation of an Accurate and Fast Analysis
+An NlogN Parallel Fast Direct Solver for Kernel Metrices
+Design and Evaluation of AWGR-based Photonic NoC Architectures for 2.5D Inegrated High Performance Computing Systems
+Virtual Textual Model Composition for Supporting Maintenance and Aspect-Orientation
+FPGA Based Data Partitioning
+Optimal Reissue Policies For Reducing Tail-Latency
+G-Scalar: Cost-Effective Generalized Scalar Execution Architecture fo Power-Efficient GPUs
+Dynamic Management of In-memory Storage for Efficiently Integrating Compute- and Data-intensive Computing on HPC Systems
+"Hardware is the new software"
+How Unique is Your .onion? An Analysis of the Fingerprintability of Tor Onion Services
+Stein's Method for Mean Field Approximations in Light and Heavy Traffic Regimes
+Ethical issues of research using datasets of illicit origin
+Bounding laconic proof systems by solving CSPs in parallel.
+Collaboratively Improving Topic Discovery and Word Embeddings by Coordinating Global and Local Conte
+Rein: Taming Tail Latency in Key Value Stores via Multiget Scheduling
+Rivulet: Fault-Tolerant Platform for Smart-Home Applications
+Energy Efficiency across Programming Languages: How does energy, time, and memory relate?
+Neural Network-based Graph Embedding for Cross-Platform Binary Code Similarity Detection
+Flash Drive Lifespan is a Problem
+Deterministic Distributed Edge-Coloring, and Vertex-Coloring of Graphs with Bounded Diversity
+"Routing Keys" Zahavi
+PipeLayer: A Pipelined ReRAM-Based Accelerator for Deep Larning
+Template For Implementing Fast Lock-free Trees Using HTM
+Efficient Public Trace-and-Revoke from Standard Assumptions
+"Deterministic Browser"
+Efficiently Enumerating Minimal Triangulation
+Cardiac Scan: A Non-contact and Continuous Heart-based User Authentication System
+Tapir: Embedding Fork-Join Parallelism into LLVM's Intermediate Representation
+MiniCrypt: Reconciling Encryption and Compression for Big Data Stores
+Provably E icient Scheduling of Cache-Oblivious Wavefront Algorithms
+Block-space GPU Mapping for Embedded Sierpinski Gasket Fractals
+The Multiparty Communication Complexity of Testing Triangle-Freeness
+No! Not Another Deep Learning Framework
+keybin Key-based Binning for Distributed Clustering
+Quantifying I/O and Communication Traffic Interference on Burst Buffer Equipped Dragonfly Networks
+Node.fz: Fuzzing Server-side Event-driven JavaScript
+Analytic Models of Checkpointing for Concurrent Component-Based Software Systems 
+"Life Beyond Set Agreement"
+Living in Parallel Realities — Co-Existing Schema Versions with a Bidirectional Database Evolution Language
+AutoPerf: Automated Load Testing and Resource Usage Proﬁling of Multi-Tier Internet Applications
+Will Serverless End Linux’s Dominance in the Cloud?
+MeNa: A Memory Navigator for Modern Hardware in Scale-out Environment
+Online dynamic monitoring of MPI communication
+"Compute Caches"
+Ignore or Comply? On Breaking Symmetry in Consensus
+Optimized Honest-Majority MPC for Malicious Adversaries - Breaking the 1 Billion-Gate Per Second Barrier
+Why Is MPI So Slow? Analyzing the Fundamental Limits in Implementing MPI-3.1
+HyperLogLog Hyper Extended: Sketches for Concave Sublinear   Frequency Statistics
+The lock holder and the lock waiter pre-emption problems: nip them in the bud using informed spinlocks (I-Spinlocks)
+Latch-free Synchronization in Database Systems: Silver Bullet or Fool’s Gold?
+Compressive Millimeter-Wave Sector Selection in Off-the-Shelf IEEE 802.11ad Devices
+Deep and Shallow convections in Atmosphere Models on Intel Xeon Phi Coprocessor Systems
+Deep Priority Conflicts in the Wild - A Pilot Study
+Bounding Cache Miss Costs of Multithreaded Computations Under General Schedulers
+PCSsampler: Sample based, Private-state Cluster Scheduling
+A Domain-Specific Controlled English Language for Automated Regulatory Compliance
+A Probabilistic Reformulation of Memory-Based Collaborative Filtering – Implications on Popularity Biases
+Practical Persistence for Multi-threaded Applications
+Fast Networks and Slow Memories: A Mechanism for Mitigating Bandwidth  Mismatches
+Lightweight Provenance Service for High Performance Computing
+AWL: Turning Spatial Aliasing From Foe to Friend for Accurate WiFi Device Localization
+Securing HPC: Development of a Low Cost, Open Source, Multi-Factor Authentication Infrastructure
+Secure Page Fusion with VUsion
+"The Mobile Server Problem"
+Overcommitment in Cloud Services - Bin Packing with Chance Constraints
+UNO: Unifying Host and Smart NIC Offload for Flexible Packet Processing
+Better Call the Crowd. Using Crowdsourcing to Shape your Domain-Specific Languages
+Project Snowflake: Non-blocking Safe Manual Memory Management for .NET
+QUILTS: Multidimensional Data Partitioning Based on Query Aware, Skew Tolerant Space Filling Curves
+On Moving Averages, Histograms and Time-Dependent Rates for Online Measurement
+Cold Boot Attacks are Still Hot: Security Analysis of Memory Scramblers in Modern Procesors
+Memory Requirements of Hadoop, Spark, and MPI Based Big Data Applications on Commodity Server Class Architecture
+lib·erate, (n): A library for exposing (traffic-classification) rules and avoiding them efficiently
+Cooperative Path-ORAM for Effective Memory Bndwidth Sharing in Server Settings
+A Configurable Rule-Based Classful Token Bucket Filter Network Request Scheduler for the Lustre File System
+ConTutto - A Novel FPGA-based Prototyping Platform Enabling Innovation in the Memory Subsystem of a Server Class Processor
+Layered Architecture for Erasure-Coded Consistent Distributed Storage
+I Can’t Believe It’s Not Causal! Scalable Causal Consistency with No Slowdown Cascades
+Toward a Holistic Framework for ConductingScientific Evaluations of OpenStack
+How to Learn Klingon Without Dictionary: Detection and Measurement of Black Keywords Used by Underground Economy
+Cryptanalysis of Comparable Encryption in SIGMOD’16
+gearshifft–The FFT Benchmark Suite for Heterogeneous Platforms
+Stack Overflow Considered Harmful? --- The Impact of Copy&Paste on Android Application Security
+Application-Specific Performance-Aware Energy Optimization on Android Mobile Device
+Don’t Let One Rotten Apple Spoil the Whole Barrel: Towards Automated Detection of Shadowed Domains
+Fine-Grained DRAM: Energy Efficient DRAM for Extreme Bandwidth Systems
+"Disk|Crypt|Net: rethinking the stack for high performance video streaming"
+"Tessellating Stencils"
+GASPI/GPI In-Memory Check Pointing Library
+Are We There Yet? On RPKI's Deployment and Security
+BatchDB: Efficient Isolated Execution of Hybrid OLTP+OLAP Workloads
+Robust Top-k Multi-class SVM for Visual Category Recognition
+Who is Fiddling with Prices? Building and Deploying a Watchdog Service for E-commerce
+Prophet: Precise QoS Prediction on Non-Preemptive Accelerators to Improve Utilization in Warehouse Scale Computers
+Revisiting Reading Rate with Mobility: Rate-Adaptive Reading in COTS RFID System
+Scaling Up Hands-Off Crowdsourced Entity Matching: An RDBMS Approach
+Simple, fast and safe manual memory management
+Application Clustering Policies to Address System Fairness with Intel's Cache Allocation Technology
+Atomic In-Place Updates for Transactional Non-Volatile Main Memories
+The Complexity of Ontology-Based Data Access with OWL2QL and Bounded Treewidth Queries
+To BLISS-B or not to be - Attacking strongSwan’s Implementation of Post-Quantum Signatures
+Augmenting Amdahl's Second Law: A Theoretical Model to Build Cost-Effective Balanced HPC Infrastructure for Data-Driven Science
+No-Match Attacks and Robust Partnering Definitions — Defining Trivial Attacks for Security Protocols is Not Trivial
+Using Time Without Clocks via Zigzag Causality
+HACL*: A Verified Modern Cryptographic Library
+Information Retrieval Meets Game Theory: The Ranking Competition Between Documents’ Authors
+Swarm-based Incast Congestion Control in datacenter Serving Web Applications
+NICScatter: Backscatter as a Covert Channel in Mobile Device
+Scheduling Multithreaded Applications onto Heterogeneous Composite Cores Architectures
+Anomaly Detection with Robust Deep Auto-encoders
+Optimizations of Two Compute-bound Scientific Kernels on SW26010 Many-core Processor
+Gray Failure: The Achilles’ Heel of Cloud-Scale Systems
+Red Shift: Procedural Shift-Reduce Parsing
+Social Fusion: Integrating Twitter, Instagram for Event Monitoring
+Data breaches, phishing, or malware? Understanding the risks of stolen credentials
+A Robust Tabu Search Heuristic for VM Consolidation under Demand Uncertainity in Virtualized Datacenters
+PReP: Path-Based Relevance from a Probabilistic Perspective in Heteogeneous Information Networks
+Analysis and Modeling of the End-to-End I/O Performance in OLCF’s Titan Supercomputer
+ARM Wrestling with Big Data: A Study of Commodity ARM Server for Big Data Workloads
+The Return of Coppersmith’s Attack: Practical Factorization of Widely Used RSA Moduli
+Flatten and Conquer
+Why Do Developers Get Password Storage Wrong? A Qualitative Usability Study
+Taming Performance Hotspots in Cloud Storage with Dynamic  Load Redistribution
+Unleashing the Power of GPU for Physically Based Rendering via Dynamic Ray Shuffling
+Heaps Don't Lie: Countering Unsoundness with Heap Snapshots
+Following the Blind Seer — Creating Better Performance Models Using Less Information
+One-Way Wave Equation Migration at Scale on GPUs using Directive-Based Programming
+BPTree: an L2 heavy hitters algorithm using constant memory
+"quantum operating systems"
+"Kernel Conditional Clustering"
+Accelerating a burst buffer via user-level I/O isolation.
+QoS- and Contention- Aware Resource Provisioning in Streaming Processing Engine
+A Performance-Centric Approach to Complex Decisions Support
+Towards Network Intrusion Detection at ISP Scale
+Swayam: Distributed Autoscaling to Meet SLAs of Machine Learning Inference Services with Resource Efficiency
+A Stitch in Time: Supporting Android Developers in Writing Secure Code
+Off-Road Performance Modeling — How to Deal with Segmented Data?
+"Repairing Sequential Consistency in C/C++11"
+Weld: A Common Runtime for High Performance Data Analysis
+MOSAIC: Processing a Trillion-Edge Graph on a Single Commodity Machine
+Unimem: Runtime Data Management on Non-Volatile Memory-Based Heterogeneous Main Memory
+Distributed Learning Dynamics in Social Groups
+Families of Graph Algorithms : An SSSP Case Study
+Work as a Team or Individual: Characterizing System-level Impacts of Main Memory Partitioning
+Improving the network of a search engine services through application-aware routing
+The Effect of DNS on Tor's Anonymity
+Accelerating Seismic Simulations Using the Intel Xeon Phi Knight sLanding Processor
+An Open Platform for Experimentation with Commercial Mobile Broadband Networks
+Competition and Peak-Demand Pricing in Clouds Under Tenants' Demand Response
+A New File System I/O Mode for Efﬁcient User-level Caching
+Model-Driven Sparse CP Decomposition for High-Order Tensors
+Understanding Power-performance Relationship of Energy-efficient Modern DRAM Devices for Chip Multiprocessor Workloads
+LAMMPS’PPPM Long-Range Solver for the Second Generation Xeon Phi
+Tool Demonstration: A development environment for the Alf language within the MagicDraw UML tool
+HeteroOS - OS design for heterogeneous memory management in datacenter
+Configtron: Tackling network diversity with heterogeneous configurations.
+Parallel Algorithm for the Computation of Cycles in Relative Neighborhood Graphs
+Most Websites Don’t Need to Vibrate: A Cost-Benefit Approach to Improving Browser Security
+Simple and Fast Parallel Algorithms for the Voronoi Maps and the Euclidean Distance Map, with GPU implementations
+Cloud Standards in Comparison: Are New Security Frameworks  Improving Cloud Security?
+A Control-Plane Perspective on Reducing Data Access Latency in LTE Network
+What Are You Known For? Learning User Topical Profiles with Implicit and Explicit Footprints
+Let’s go in for a closer look: Observing passwords in their natural habitat
+Discovering Your Selling Points: Personalized Social Influential Tag Exploration
+WatchIT: Who Watches Your IT Guy?
+A Novel Implementation of 2D3V Particle-In-Cell (PIC) Algorithm for Kepler GPU Architectures
+An Empirical Study of Computation-Intensive Loops for Identifying and Classifying Loop Kernels
+Addressing Volume and Latency Overheads in 1D-parallel Sparse Matrix Vector Multiplication
+Deep Learning with Edge Computing for Localization of Epileptogenicity using Multimodal rs-fMRI, EEG Big Data
+Demystifying the Characteristics of 3D-Stacked Memories: A Case Study for Hybrid Memory Cub
+Engaged or Frustrated? Disambiguating Emotional State in Search
+Enhancing Security and Privacy of Tor's Ecosystem by Using Trusted Execution Environments
+Lessons learnt from Software Tuning of a Memchaced-Backed, Multi-Tier, Web Cloud Application
+Redesigning Go's Built-In Map to Support Concurrent Operations
+Fine-Grained Energy Profiling for deep Convolutional Neural Network on the Jetson TX1
+An Energy-constrained Makespan Optimization Framework in Fine- to Coarse-grain Partitioned Multicore Systems
+SLO-aware Colocation of Data Center Tasks Based on Instantaneous Resource Requirements
+"Matrix Multiplication, a Li le Faster"
+The BUDS Language for Distributed Machine Learning
+ReFlex: Remote Flash == Local Flash
+Reducing network congestion and global communication bottlenecks during aggregation on Torus and Dragonfly topologies for writing hierarchical data
+The Space Complexity of Fault Tolerant Register Emulations
+Avoding The Man on the Wire: Improving Tor's Security with Trust-Aware Path Selection
+Increasing Interposer Utilization: A Scalable, Energy Efficient and High Bandwidth Multichip Integration Solution
+Furion: Engineering High-Quality Immersive Virtual Reality on Today's Mobile Device
+One TPM to Bind Them All: Fixing TPM2.0 for Provably Secure Anonymous Attestation
+Model-based Scheduling for Stream Processing Systems
+Standardizing Bad Cryptographic Practice: A teardown of the IEEE standard for protecting electronic-design intellectual property
+Minding the Billions: Ultra-wideband Localization for Deployed RFIDs
+It's time to think about an Operating System for Near Data Processing Architecture
+High-Performance Incremental SVM Learning on Intel®Xeon Phi™ Processors
+Landmark indexing for scalable evaluation of label-constrained reachability queries
+Dealing with performance unpredictability in Asymmetric Multicore Processor cloud
+SafeFS: A Modular Architecture for Secure User-Space File Systems (One FUSE to rule them all)
+Hierarchical Self-Tuning of Concurrency, Resource Units in Data-Analytics Frameworks
+Needle : Leveraging Program Analysis to Analyze and Extract Accelerators from Whole Programs
+An Exploratory Study of the State of Practice of Performance Testing in Java-Based Open Source Projects
+Enabling Workflow Aware Scheduling on HPC systems
+Dancing with Wolves: Towards Practical Event-driven VMM Monitoring
+UGuide – User-Guided Discovery of FD-Detectable Errors
+"Towards O(1) Memory"
+Melissa: Large Scale In Transit Global Sensitivity Analysis Avoiding Intermediate Files
+Determining Application-specific Peak Power and Energy Requirements for Ultra-low-power Processors
+Omnix: Accelerator-centric OS for omniprogrammable systems
+Synchronized-by-Default Concurrency for Shared Memory Systems
+Transaction Repair for Mult-Version Concurrency Control
+Multiprogramming a 64 kB Computer Safely and Efficiently
+Mission Accomplished? HTTPS Security after DigiNotar
+Why Do Programs Have Heavy Tails
+NICE: Network-Integrated Cluster Efficient Storage
+Carousel: Scalable Traffic Shaping at End-Hosts
+Browser Fingerprinting via OS and Hardware Level Features
+Checking Open-Source License Violation and 1-day Security Risk at Large Scale
+DC2-MTCP: Light-weight Coding for Efficient Multi-path Transmission in Data Center Network
+Tux²: Distributed Graph Computation for Machine Learning
+Neurosurgeon: Collaborative Intelligence Between Cloud and the Mobile Edge
+Watch Me, but Don’t Touch Me! Contactless Control Flow Monitoring via Electromagnetic Emanations
+Don't cry over spilled records: Memory elasticity of data-parallel applications and its application to cluster scheduling
+BestConfig: Tapping the Performance Potential of Systems via Configuration Adjustment

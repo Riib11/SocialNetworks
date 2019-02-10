@@ -1,0 +1,34 @@
+hindex statistics:
+ - min    : 0
+ - max    : 171
+ - mean   : 17.84917175239756
+ - median : 13.0
+ - std    : 17.311904578790852
+
+hindex5y statistics:
+ - min    : 0
+ - max    : 115
+ - mean   : 13.980819529206626
+ - median : 11.0
+ - std    : 11.956215944276392
+
+npubs statistics:
+ - min    : 1
+ - max    : 3000
+ - mean   : 111.72740482417902
+ - median : 49.0
+ - std    : 216.62896099988544
+
+i10index statistics:
+ - min    : 0
+ - max    : 993
+ - mean   : 36.288578901482126
+ - median : 16.0
+ - std    : 59.10886827681323
+
+ i10index5y statistics:
+ - min    : 0
+ - max    : 653
+ - mean   : 25.943039814007555
+ - median : 13.0
+ - std    : 40.158277508949176

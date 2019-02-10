@@ -1,0 +1,11 @@
+# Independent Study
+
+This document specifies the description and justification for an independent study with Eitan Frachtenburg for Henry Blanchette during the spring of 2019.
+
+## Description
+
+During the summer of 2018, Henry worked under Eitan Frachtenburg to produce a data set and several networks ripe for analysis and many questions to ask of it. The data are of the computer systems publications that were published during 2017. Specifically, this includes features of papers, authors, and conferences. Independent study would continue this work through network analysis and pursuing answers to our posed questions.
+
+## Justification
+
+Henry Blanchette is a Junior and a computer science / mathematics major. This independent study is an opportunity for Henry to gain experience in research methods and project management. Henry will have completed the core of the computer science curriculum including Eitan's computer systems course, and this study would utilize skills from all of these.

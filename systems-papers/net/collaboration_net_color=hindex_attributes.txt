@@ -1,0 +1,6883 @@
+name hindex
+"Aarti Gupta" 40
+"Aditya Akella" 43
+"Ahmed Saeed" 8
+"Alberto Dainotti" 23
+"Alex C. Snoeren" 43
+"Alistair Riddoch" 4
+"Alon Berger" 0
+"Amin Firoozshahian" 10
+"Amin Vahdat" 81
+"Andreas Haeberlen" 30
+"Andrei Voinescu" 6
+"Andrew W. Moore" 27
+"Anirudh Sivaraman" 11
+"Anja Feldmann" 61
+"Ankit Mishra" 1
+"Ankit Singla" 13
+"Ariel Orda" 39
+"Arjun Guha" 18
+"Arjun Roy" 3
+"Arvind Krishnamurthy" 55
+"Asaf Valadarsky" 2
+"Aurojit Panda" 16
+"Barath Raghavan" 23
+"Bhaskaran Raman" 31
+"Boon Thau Loo" 32
+"Brandon Schlinker" 6
+"Brighten Godfrey" 30
+"Changhoon Kim" 24
+"Chen Sun" 1
+"Christoph Dietzel" 3
+"Claudio Soriente" 24
+"Costas Iordanou" 2
+"Costin Raiciu" 24
+"David Choffnes" 24
+"David Walker" 46
+"Dingming Wu" 2
+"Dongsu Han" 20
+"Ethan Katz-Bassett" 21
+"Fadel Adib" 10
+"Fan Yang" 5
+"George Candea" 35
+"George Porter" 24
+"George Varghese" 73
+"Georgios Smaragdakis" 21
+"Gianni Antichi" 11
+"Gil Einziger" 6
+"Gong Zhang" 5
+"Haitham Hassanieh" 13
+"Harsha V. Madhyastha" 27
+"Hong Zhang" 3
+"Hongxin Hu" 27
+"Hongyi Zeng" 10
+"Hongzi Mao" 4
+"Ilias Marinos" 4
+"Inho Cho" 1
+"Isaac Keslassy" 22
+"Italo Cunha" 13
+"James Hongyi Zeng" 10
+"Janardhan Iyengar" 22
+"Jennifer Rexford" 95
+"Jeongkeun Lee" 21
+"Jinho Hwang" 12
+"John W. Byers" 41
+"Jun Bi" 21
+"Justine Sherry" 12
+"K. K. Ramakrishnan" 71
+"Kai Chen" 16
+"Katerina Argyraki" 21
+"Keith Winstein" 12
+"Keon Jang" 14
+"Klaus-Tycho Förster" 7
+"Kok-Kiong Yap" 20
+"Kun Tan" 28
+"Kyle Jamieson" 27
+"Laurent Vanbever" 16
+"Longfei Shangguan" 11
+"Lorenzo Alvisi" 43
+"Luis Pedrosa" 8
+"Marcelo Caggiani Luizelli" 3
+"Marcin Wójcik" 7
+"Marco Canini" 21
+"Mark Crovella" 64
+"Mark Handley" 73
+"Masaharu Morimoto" 4
+"Matt Tierney" 1
+"Matthew Luckie" 18
+"Mayutan Arumaithurai" 11
+"Melvin Walls" 2
+"Michael Mitzenmacher" 71
+"Michael Schapira" 26
+"Michael Sirivianos" 13
+"Michael Walfish" 23
+"Ming Zhang" 35
+"Minlan Yu" 24
+"Mohammad Alizadeh" 17
+"Monia Ghobadi" 11
+"Mosharaf Chowdhury" 19
+"Muhammed Uluyol" 2
+"Mukarram Tariq" 9
+"Murtaza Motiwala" 8
+"Nate Foster" 30
+"Nikolaos Laoutaris" 28
+"Olaf Maennel" 20
+"Osman Yagan" 18
+"Pablo Rodriguez Rodriguez" 57
+"Pamela Zave" 31
+"Patrick P. C. Lee" 28
+"Peter Steenkiste" 59
+"Phillipa Gill" 23
+"Prateesh Goyal" 1
+"Qun Huang" 3
+"Raja R. Sambasivan" 10
+"Rajeev Alur" 78
+"Ranveer Chandra" 51
+"Rashad Eletreby" 3
+"Ratul Mahajan" 46
+"Ravi Netravali" 7
+"Renata Teixeira" 30
+"Robbie Shade" 3
+"Robert Beverly" 18
+"Robert N. M. Watson" 21
+"Ronaldo A. Ferreira" 9
+"Roy Friedman" 32
+"Rubén Cuevas" 16
+"Rui Miao" 9
+"Runhui Li" 5
+"Scott Shenker" 144
+"Sharon Goldberg" 19
+"Shriram Rajagopalan" 7
+"Shyamnath Gollakota" 25
+"Simbarashe Dzinamarira" 1
+"Simon Kassing" 1
+"Soudeh Ghorbani" 6
+"Srinivas Narayana" 5
+"Stefano Vissicchio" 15
+"Sujata Banerjee" 36
+"Suman Banerjee" 51
+"Swarun Kumar" 11
+"Sylvia Ratnasamy" 51
+"T. S. Eugene Ng" 31
+"Theo Benson" 16
+"Thomas Anderson" 89
+"Timothy Wood" 28
+"Trinabh Gupta" 6
+"Vasileios Giotsas" 9
+"Vaspol Ruamviboonsuk" 2
+"Venkat Arun" 3
+"Venkat Padmanabhan" 56
+"Vimalkumar Jeyakumar" 10
+"Vyas Sekar" 38
+"Vytautas Valancius" 10
+"Walter Willinger" 69
+"Wei Bai" 8
+"Xenofontas Dimitropoulos" 23
+"Xiaoming Fu" 27
+"Xiaoye Steven Sun" 3
+"Xin Jin" 11
+"Xuan Kelvin Zou" 4
+"Yashar Ganjali" 26
+"Yi-Chao Chen" 12
+"Yifei Yuan" 5
+"Yiting Xia" 3
+"Z. Morley Mao" 59
+"Zafar Qazi" 5
+"Agostino Cortesi" 25
+"Alessandro Warth" 10
+"Andrea Mauri" 6
+"Andreas Wortmann" 10
+"Ankica Barisic" 7
+"Anthony Sloane" 17
+"Bart Meyers" 7
+"Bernd Fischer" 24
+"Bernhard Rumpe" 51
+"Bruno C. D. S. Oliveira" 16
+"Dominique Blouin" 8
+"Ed Seidewitz" 11
+"Eelco Visser" 45
+"Emma Söderberg" 6
+"Eric Walkingshaw" 10
+"Esther Guerra" 27
+"Eugene Syriani" 16
+"Friedrich Steimann" 1
+"Gunter Mussbacher" 20
+"Görel Hedin" 23
+"Hans Vangheluwe" 33
+"Haoyuan Zhang" 0
+"Jan Ringert" 15
+"Jaroslav Porubän" 10
+"Javier Luis Canovas Izquierdo" 13
+"Jeff Gray" 35
+"Jesper Öqvist" 2
+"Jordi Cabot" 30
+"João Paulo Fernandes" 12
+"João Saraiva" 22
+"Julia Rubin" 17
+"Jurgen Vinju" 18
+"Jácome Cunha" 13
+"Lukas Härtel" 1
+"Manuel Wimmer" 33
+"Marco Brambilla" 29
+"Marco Couto" 3
+"Marjan Mernik" 33
+"Mark van den Brand" 31
+"Markus Voelter" 35
+"Marsha Chechik" 38
+"Martin Rinard" 64
+"Matthew Flatt" 33
+"Michael Homer" 7
+"Miguel Goulao" 16
+"Nicolas Laurent" 3
+"Patrick Dubroy" 4
+"Pieter Spronck" 27
+"Ralf Lämmel" 37
+"Rui H. Pereira" 5
+"Ruth Breu" 29
+"Sagar Sunkle" 10
+"Scott Buckley" 2
+"Sebastian Gerard" 27
+"Simon Van Mierlo" 5
+"Suman Roychoudhury" 12
+"Terence Parr" 14
+"Thorsten Berger" 21
+"Tihamer Levendovszky" 20
+"Tony Clark" 22
+"Vadim Zaytsev" 13
+"Vasco Amaral" 20
+"Vinay Kulkarni" 13
+"Walter Cazzola" 22
+"Yentl Van Tendeloo" 6
+"Aaron D. Jaggard" 21
+"Aaron Johnson" 14
+"Abdelberi Chaabane" 9
+"Adam Bates" 11
+"Adam J. Aviv" 12
+"Ahmad-Reza Sadeghi" 57
+"Aleksander Essex" 13
+"Alessandra Scafuro" 11
+"Alex Biryukov" 42
+"Ali Zand" 5
+"Alina Oprea" 22
+"Amir Herzberg" 39
+"Amir Houmansadr" 18
+"Amir Rahmati" 6
+"Amol Deshpande" 37
+"Anastasis Keliris" 2
+"Andre Pawlowski" 2
+"Andrea Continella" 1
+"Andrea Patané" 4
+"Andrew Miller" 27
+"Aniket Kate" 18
+"Antonio Bianchi" 8
+"Antonio Sanso" 2
+"Anupam Datta" 29
+"Aravind Machiry" 2
+"Ari Jules" 68
+"Arpita Patra" 15
+"Atul Prakash" 36
+"Aurélien Francillon" 20
+"Babak Rahbarinia" 5
+"Ben Gras" 11
+"Ben Livshits" 33
+"Ben Taylor" 8
+"Bin Liu" 1
+"Bo Li" 13
+"Brendan Saltaformaggio" 5
+"Bum Jun Kwon" 2
+"Byoungyoung Lee" 11
+"Calton Pu" 61
+"Carlo Alberto Boano" 17
+"Carmela Troncoso" 19
+"Chad Spensky" 2
+"Changhoon Yoon" 2
+"Charalampos Papamanthou" 21
+"Chen Qian" 14
+"Christian Rossow" 21
+"Christina Poepper" 10
+"Christo Wilson" 23
+"Christopher Kruegel" 83
+"Christopher Liebchen" 9
+"Christopher Salls" 2
+"Christopher W. Fletcher" 16
+"Chuangang Ren" 8
+"Chunyi Peng" 21
+"Claude Castelluccia" 42
+"Claude Fachkha" 6
+"Clémentine Maurice" 7
+"Cristiano Giuffrida" 16
+"Dana Dachman-Soled" 14
+"Daniel Gruss" 7
+"Daniel S. Roche" 10
+"David Adrian" 6
+"David Barrera" 12
+"David Evans" 38
+"Davide Balzarotti" 33
+"Domenic J. Forte" 18
+"Donghyun Kwon" 3
+"Dongyan Xu" 46
+"Drew Springall" 2
+"Earlence Fernandes" 7
+"Edward Suh" 30
+"Elaine Shi" 46
+"Elias Athanasopoulos" 19
+"Elias Bou-Harb" 10
+"Elie Bursztein" 21
+"Emiliano De Cristofaro" 26
+"Engin Kirda" 59
+"Enrico Mariconti" 1
+"Erik Bosman" 4
+"Erman Ayday" 15
+"Ethan Heilman" 6
+"Farinaz Koushanfar" 41
+"Fatma Deniz" 3
+"Florian Shaub" 18
+"Foteini Baldimtsi" 9
+"Gail-Joon Ahn" 44
+"Ghada Dessouky" 2
+"Gianluca Stringhini" 15
+"Giovanni Vigna" 70
+"Gordon Ross" 7
+"Guofei Gu" 35
+"Guohao Lan" 2
+"Guolei Yang" 3
+"Haibo Chen" 28
+"Hamed Okhravi" 16
+"Haya Shulman" 11
+"Heng Yin" 25
+"Herbert Bos" 35
+"Hongda Li" 2
+"Hovav Shacham" 40
+"Hui Liu" 50
+"I Luk Kim" 1
+"Ian Miers" 7
+"Insik Shin" 23
+"Isil Dillig" 18
+"Ittay Eyal" 9
+"Ivan Martinovic" 22
+"J. Alex Halderman" 33
+"Jesper Buus Nielsen" 31
+"Jienan Liu" 0
+"Joan Feigenbaum" 47
+"Joel Reidenberg" 19
+"Johannes Kiesel" 3
+"John Grosen" 2
+"Jonathan McCune" 29
+"Joshua Fried" 3
+"Juan Caballero" 21
+"Juanru Li" 30
+"Jun Sakuma" 15
+"Kangjie Lu" 9
+"Kartik Nayak" 5
+"Kaveh Razavi" 10
+"Kay Römer" 39
+"Kevin Butler" 23
+"Kuang-Ching Wang" 16
+"Kwang In Ki" 22
+"Kyu Hyung Lee" 8
+"Ling Liu" 59
+"Ling Ren" 12
+"Lingyu Wang" 26
+"Long Lu" 8
+"Lorenzo Cavallaro" 19
+"Lucas Davi" 21
+"Lucian Cojocar" 2
+"Lucky Onwuzurike" 2
+"Luis Garcia" 2
+"Lujo Bauer" 37
+"Luke Valenta" 6
+"Mahbub Hassan" 22
+"Makan Pourzandi" 12
+"Manos Antonakakis" 17
+"Manuel Egele" 21
+"Manuel Gomez Rodriguez" 19
+"Manuel Weber" 1
+"Marcella Hastings" 2
+"Markus Dürmuth" 15
+"Marta Kwiatkowska" 55
+"Martina Lindorfer" 10
+"Mathias Payer" 17
+"Matteo Maffei" 23
+"Matthew Fredrikson" 14
+"Maximilian Golla" 2
+"Mehmet H. Cintuglu" 6
+"Micah Sherr" 23
+"Michael Backes" 51
+"Michael Bailey" 27
+"Michael Collins" 12
+"Michael Reiter" 76
+"Michael Schwarz" 3
+"Michael Zohner" 11
+"Ming-Wei Shih" 3
+"Ming-Wei-Shih" 3
+"Moritz Contag" 2
+"Mourad Debbabi" 29
+"Muhammad Naveed" 14
+"Mustaque Ahamad" 35
+"Nadia Heninger" 14
+"Najmeh Miramirkhani" 1
+"Nasir Memon" 72
+"Nathan Dautenhahn" 7
+"Neil Bergmann" 23
+"Neil Zhenqiang Gong" 10
+"Nick Feamster" 55
+"Nick Nikiforakis" 19
+"Nick Sullivan" 6
+"Nicola Paoletti" 9
+"Nicolas Christin" 36
+"Nikos Triandopoulos" 22
+"Nishanth Chandran" 15
+"Norman Sadeh" 52
+"Oleksii Starov" 7
+"Osbert Bastani" 6
+"Panagiotis Andriotis" 4
+"Patrick McDaniel" 49
+"Patrick Traynor" 27
+"Paul Syverson" 49
+"Payman Mohassel" 19
+"Pedro Moreno-Sanchez" 8
+"Peng Liu" 38
+"Per Larsen" 12
+"Phani Vadrevu" 1
+"Philipp Winter" 8
+"Prateek Mittal" 22
+"Prateek Saxena" 20
+"Pratik Sarkar" 1
+"Qi Alfred Chen" 7
+"Raluca Ada Popa" 22
+"Reza Shokri" 20
+"Rob Jansen" 11
+"Roberto Perdisci" 29
+"Roberto Trifiletti" 4
+"Roger Iyengar" 1
+"Roland H. C. Yap" 26
+"Ruben Martins" 9
+"Ruoyu Wang" 5
+"Sajjad Arshad" 4
+"Saman A. Zonouz" 15
+"Sangho Lee" 13
+"Sanjay Rawat" 12
+"Sara Khalifa" 5
+"Sarah Meiklejohn" 13
+"Saswat Anand" 12
+"Sebastian Zimmeck" 5
+"Sencun Zhu" 42
+"Seongmin Kim" 4
+"Seung Geol Choi" 15
+"Seungsoo Lee" 2
+"Seungwon Shin" 15
+"Seyed K. Fayaz" 7
+"Shaanan Cohney" 3
+"Shomir Wilson" 10
+"Shruti Tople" 3
+"Shweta Shinde" 5
+"Simon Birnbach" 1
+"Simon Eberz" 2
+"Srinivasan Seshan" 62
+"Stefan Mangard" 30
+"Stefan Nürnberger" 8
+"Stefan Savage" 73
+"Stefano Tessaro" 16
+"Stephen Crane" 7
+"Steven M. Bellovin" 52
+"Steven Murdoch" 21
+"Stevens Le Blond" 10
+"Taeho Jung" 11
+"Taesoo Kim" 42
+"Thomas Hobson" 4
+"Thomas Schneider" 29
+"Thomas Shrimpton" 21
+"Thorsten Holz" 49
+"Tianlong Yu" 6
+"Tim Ruffing" 5
+"Travis Mayberry" 9
+"Trent Jaeger" 41
+"Tudor Dumitras" 18
+"Utkarsh Upadhyay" 4
+"Vern Paxson" 87
+"Victor van der Veen" 10
+"Vinod Yegneswaran" 30
+"Vipal Goyal" 25
+"Virinchi Srinivas" 2
+"Weitao Xu" 22
+"Wenbo Yang" 4
+"Wenke Lee" 79
+"William Enck" 25
+"William Robertson" 29
+"Wilson Lian" 4
+"Wonkyu Han" 3
+"Xiangyu Zhang" 31
+"XiaoFeng Wang" 31
+"Xiaojiang Chen" 10
+"Xiaorui Pan" 4
+"Xinyang Ge" 4
+"Xueqiang Wang" 5
+"Yan Shoshitaishvili" 10
+"Yanick Fratantonio" 13
+"Yeongpil Cho" 3
+"Yier Jin" 20
+"Ying Cai" 21
+"Yinqian Zhang" 11
+"Yinzhi Cao" 12
+"Yongdae Kim" 38
+"Yosr Jarraya" 7
+"Yossi Gilad" 9
+"Yu Feng" 3
+"Yuanyuan Zhang" 6
+"Yubin Xia" 8
+"Yunhan Jack Jia" 4
+"Yunhao Liu" 61
+"Yunheung Paek" 21
+"Zakir Durumeric" 14
+"Zane Ma" 3
+"Zhanyong Tang" 4
+"Zheng Wang" 13
+"Zhenhua Li" 13
+"Zhenkai Liang" 23
+"Ziming Zhao" 10
+"Ziqi Wang" 44
+"Aaron Schulman" 12
+"Abbas Razaghpanah" 5
+"Aiko Pras" 29
+"Alan Mislove" 33
+"Alastair Beresford" 22
+"Alice Hutchings" 7
+"Alistair King" 7
+"Amogh Dhamdhere" 20
+"Anna Sperotto" 18
+"Apurv Bhartia" 7
+"Arash Molavi Kakhki" 5
+"Arian Akhavan Niaki" 1
+"Austin Murdock" 0
+"Ben Y. Zhao" 58
+"Benoit Donnet" 18
+"Bimal Viswanath" 13
+"Bo Chen" 7
+"Bolun Wang" 5
+"Brian Trammell" 17
+"Bruce Maggs" 50
+"Chadi Barakat" 32
+"Chengyu Song" 14
+"Chris Kanich" 14
+"Cristel Pelsser" 13
+"Cristina Nita-Rotaru" 31
+"Dali Kaafar" 25
+"Damon McCoy" 28
+"Dan Pei" 27
+"Daniel R. Thomas" 3
+"Danny H. Lee" 3
+"Dave Levin" 16
+"Edo Liberty" 18
+"Fabian Bustamante" 29
+"Fangfan Li" 2
+"Felipe Huici" 17
+"Florian Streibelt" 1
+"Frank Li" 9
+"Geoffrey M. Voelker" 68
+"Georg Carle" 27
+"Haitao Zheng" 62
+"Hamed Haddadi" 23
+"Heather Zheng" 62
+"Ilias Leontiadis" 22
+"Janos Szurdi" 2
+"Jean-Jacques Pansiot" 22
+"Jeremy Blackburn" 12
+"Johannes Krupp" 4
+"John Heidemann" 68
+"John Rula" 8
+"Justin Thaler" 14
+"Kameswari Chebrolu" 19
+"Kensuke Fukuda" 20
+"Marinho Barcellos" 16
+"Mark Allman" 45
+"Matteo Varvello" 25
+"Mattijs Jonker" 4
+"Moritz Steiner" 20
+"Nektarios Leontiadis" 6
+"Nicolas Kourtellis" 13
+"Oliver Gasser" 5
+"Panagiotis Papadopoulos" 3
+"Partha Kanuparthy" 7
+"Pascal Mérindol" 13
+"Paul Barford" 41
+"Periwinkle Doerfler" 0
+"Peter Snyder" 3
+"Philipp Richter" 7
+"Pieter-Tjerk de Boer" 16
+"Priya Mahadevan" 20
+"Quirin Scheitle" 3
+"Ralph Holz" 10
+"Raluca Musaloiu-E." 7
+"Ricardo de O. Schmidt" 9
+"Richard Clayton" 23
+"Rocky Chang" 21
+"Roland Rijswijk-Deij" 7
+"Romain Fontugne" 10
+"Roya Ensafi" 9
+"Samuel Jero" 3
+"Savvas Zannettou" 1
+"Sergio Pastrana" 8
+"Shehroze Farooqi" 1
+"Shichang Xu" 1
+"Srikanth Krishnamurthy" 51
+"Srikanth Sundaresan" 13
+"Taejoong Chung" 7
+"Ted Tsung-Te Lai" 6
+"Theophilus Benson" 16
+"Tristan Caulfield" 6
+"Umar Iqbal" 0
+"Wes Hardaker" 9
+"Wouter de Vries" 2
+"Xiaohong Deng" 4
+"Yunhan Jia" 3
+"Yves Vanaubel" 3
+"Zhiyun Qian" 14
+"Zubair Shafiq" 21
+"Özgü Alay" 11
+" Swarat Chaudhuri" 19
+"Aditya Kanade" 9
+"Ahmed Bouajjani" 42
+"Ahmed Rezine" 16
+"Alex Aiken" 66
+"Alexandra Silva" 17
+"Amal Ahmed" 23
+"Amanieu d'Antras" 2
+"Anders Møller" 31
+"Andreas Haas" 6
+"Andreas Zeller" 49
+"Andrey Rybalchenko" 34
+"Armando Solar-Lezama" 20
+"Azadeh Farzan" 18
+"Ben Liblit" 28
+"Bo Joel Svensson" 8
+"Bor-Yuh Evan Chang" 16
+"Boris Köpf" 18
+"Buddhika Chamith" 2
+"Charles Sutton" 27
+"Chengnian Sun" 11
+"Chris Seaton" 9
+"Christian Wimmer" 20
+"Christos Dimoulas" 9
+"Chung-Kil Hur" 14
+"Cormac Flanagan" 47
+"Cosmin Gorgovan" 2
+"Cosmin Oancea" 12
+"Dan Grossman" 35
+"Dan Suciu" 75
+"Daniel Patterson" 2
+"David F. Bacon" 36
+"Derek Dreyer" 25
+"Dileep Kini" 6
+"Dimitrios Vytiniotis" 20
+"Dmytro Petrashko" 2
+"Edward Aftandilian" 6
+"Emery Berger" 27
+"Emina Torlak" 16
+"Eran Yahav" 33
+"Erez Petrank" 37
+"Franz Franchetti" 29
+"Fritz Henglein" 23
+"Gilles Duboscq" 7
+"Goran Doychev" 4
+"Greg Morrisett" 44
+"Grigory Fedyukovich" 7
+"Guy L. Steele Jr." 45
+"Hans-J. Boehm" 30
+"Hongseok Yang" 33
+"James Bornholt" 7
+"Jan Hoffmann" 14
+"Jean-Baptiste Tristan" 6
+"Jeff Huang" 11
+"Jeffrey S. Foster" 34
+"Jens Palsberg" 43
+"Jingling Xue" 27
+"Jitendra Padhye" 47
+"John Regehr" 31
+"Jonathan Lifflander" 10
+"Junfeng Yang" 22
+"Kapil Vaswani" 16
+"Konstantin Weitz" 5
+"Konstantinos Mamouras" 6
+"Koushik Sen" 47
+"Kun-Lung Wu" 49
+"Loris D'Antoni" 15
+"Lukas Holik" 13
+"Lukas Stadler" 11
+"Luke Dalessandro" 14
+"Lélio Brun" 1
+"Madan Musuvathi" 31
+"Mahesh Viswanathan" 31
+"Manuel Costa" 24
+"Marco Pistoia" 24
+"Margus Veanes" 26
+"Martin Elsman" 12
+"Martin Odersky" 49
+"Martin Vechev" 27
+"Matthew Parkinson" 25
+"Matthias Grimmer" 6
+"Mayur Naik" 25
+"Michael Hicks" 42
+"Michael Pradel" 13
+"Mikel Luján" 22
+"Milind Kulkarni" 18
+"Mohamed Faouzi Atig" 17
+"Mukund Raghotaman" 8
+"Nuno P. Lopes" 10
+"Olli Saarikivi" 4
+"Onur Mutlu" 69
+"Ori Lahav" 9
+"P. Madhusudan" 39
+"Parosh Aziz Abdulla" 39
+"Paul Downen" 3
+"Paul Gazzillo" 2
+"Percy Liang" 31
+"Peter Ohmann" 3
+"Phi-Diep Bui" 0
+"Philipp Ruemmer" 20
+"Pierre-Evariste Dagand" 9
+"Piyus Kedia" 1
+"Qirun Zhang" 5
+"Rahul Sharma" 13
+"Rastislav Bodik" 38
+"Ravi Chugh" 7
+"Richard A. Eisenberg" 6
+"Rishabh Singh" 15
+"Ryan R. Newton" 17
+"Sanjeev Khanna" 56
+"Santosh Nagarakatte" 13
+"Sasa Misailovic" 17
+"Scott Schneider" 12
+"Shan Lu" 29
+"Sharon Shoham" 12
+"Shumo Chu" 7
+"Simon Peyton Jones" 68
+"Sorin Lerner" 25
+"Sriram Krishnamoorthy" 26
+"Stefan K. Muller" 1
+"Stephen Freund" 31
+"Steve Zdancewic" 38
+"Suresh Jagannathan" 35
+"Swarat Chaudhuri" 20
+"Tachio Terauchi" 14
+"Thomas Reps" 73
+"Thomas Wuerthinger" 14
+"Tian Tan" 5
+"Tim Harris" 40
+"Timothy Bourke" 10
+"Todd Millstein" 36
+"Todd Mytkowicz" 18
+"Troels Henriksen" 4
+"Uday Bondhugula" 24
+"Umang Mathur" 1
+"Umut A. Acar" 26
+"Vikash Mansinghka" 16
+"Viktor Vafeiadis" 26
+"Vivek Sarkar" 56
+"William Mansky" 5
+"Xavier Leroy" 46
+"Xipeng Shen" 35
+"Yaniv David" 2
+"Yu David Liu" 13
+"Yu-Fang Chen" 15
+"Yuanfeng Peng" 2
+"Yue Li" 7
+"Yufei Ding" 4
+"Zachary G. Ives" 34
+"Zachary Kincaid" 8
+"Zena M. Ariola" 21
+"Zhendong Su" 40
+"Zhong Shao" 36
+"Zhoulai Fu" 3
+"Abdullah Giray Yaglikci" 1
+"Abhishek Chandra" 24
+"Adam Wierman" 37
+"Aditya Agrawal" 5
+"Alexandre Proutiere" 36
+"Anshul Gandhi" 16
+"Ari B. Hayes" 2
+"Aruna Balasubramanian" 16
+"Augustin Chaintreau" 30
+"Beichuan Zhang" 31
+"Benny Van Houdt" 21
+"Berksan Serbetci" 2
+"Bhuvan Urgaonkar" 33
+"Brandon Wang" 4
+"Cathy Xia" 21
+"Cheng-Zhong Xu" 44
+"Chris Gniady" 16
+"Chuan Wu" 32
+"Dan Rubenstein" 45
+"Daniel Figueiredo" 17
+"Daniel Sadoc Menasché" 14
+"David Formby" 3
+"David Irwin" 31
+"Debankur Mukherjee" 2
+"Don Towsley" 122
+"Donghyuk Lee" 20
+"Eddy Zheng Zhang" 17
+"Erich Nahum" 29
+"Eytan Modiano" 52
+"Florin Ciucu" 16
+"Gennady Pekhimenko" 14
+"George Kesidis" 35
+"Gil Zussman" 28
+"Giulia Fanti" 9
+"Giuliana Franceschinis" 8
+"Giuliano Casale" 25
+"Hasan Hassan" 6
+"Hung T. Nguyen" 4
+"Jasper Goseling" 11
+"Javad Nejati" 1
+"Jens B. Schmitt" 30
+"Jia Wang" 47
+"Johan S. H. van Leeuwaarden" 21
+"John C. S. Lui" 51
+"Kang G. Shin" 100
+"Kevin R. Chang" 9
+"Konstantin Avrachenkov" 35
+"Konstantinos Psounis" 35
+"Laurent Massoulié" 50
+"Lavanya Subramanian" 11
+"Leana Golubchik" 31
+"Lei Ying" 29
+"Lingda Li" 2
+"Lixin Gao" 49
+"Long Gong" 13
+"Longbo Huang" 16
+"Mahmut T. Kandemir" 60
+"Marc Lelarge" 24
+"Maxime C. Cohen" 7
+"Michela Meo" 42
+"Mike O'Connor" 29
+"Milan Vojnovic" 28
+"Min Chen" 7
+"Mingyan Liu" 37
+"Mohammad Arjomand" 10
+"Mor Harchol-Balter" 43
+"Morteza Zadimoghaddam" 15
+"Muhammad Wajahat" 0
+"Murali Annavaram" 27
+"My T. Thai" 32
+"Myoungsoo Jung" 10
+"Neda Nasiriani" 7
+"Ness Shroff" 65
+"Nicolas Gast" 15
+"Nidhi Hegde" 16
+"Niklas Carlsson" 19
+"Niladrish Chatterjee" 10
+"Paul Tune" 8
+"Peter Van De Ven" 9
+"Philippe Robert" 1
+"Pierre Sens" 18
+"Pramod Viswanath" 36
+"Prashant Shenoy" 66
+"Prateek Sharma" 6
+"Rachata Ausavarungnirun" 12
+"Raheem Beyah" 25
+"Richard T. B. Ma" 16
+"Roch Guerin" 57
+"Samira Khan" 18
+"Sandip Kundu" 33
+"Saugata Ghose" 11
+"Sem Borst" 39
+"Shigang Chen" 43
+"Sinong Wang" 5
+"Souvik Dhara" 1
+"Stefan Schmid" 30
+"Steffen Bondorf" 5
+"Steve Uhlig" 36
+"Sébastien Monnet" 14
+"Tam Vu" 15
+"Thang N. Dinh" 16
+"Thomas Bonald" 33
+"Tri P. Nguyen" 2
+"Urtzi Ayesta" 19
+"Vahab Mirrokni" 42
+"Vishal Misra" 44
+"Vivek Seshadri" 17
+"Xiaoen Ju" 5
+"Xiaoye Li" 31
+"Yanhua Li" 17
+"Yi Lu" 20
+"Yian Zhou" 6
+"You Zhou" 2
+"Zhi-Li Zhang" 60
+"Zongpeng Li" 29
+"Abhiram Balasubramanian" 1
+"Adrian L. Shaw" 3
+"Alexander Richardson" 2
+"Alexandra Fedorova" 32
+"Alexey Tumanov" 9
+"Amitabha Roy" 10
+"Andrew Baumann" 17
+"Andrew Warfield" 26
+"Anton Burtsev" 5
+"Antonio Barbalace" 11
+"Baptiste Lepers" 7
+"Beom Heyn Kim" 4
+"Bhushan Jain" 6
+"Binoy Ravindran" 31
+"Brent Welch" 30
+"Chia-Che Tsai" 6
+"Christel Baier" 39
+"Christopher J. Rossbach" 15
+"Chuanxiong Guo" 31
+"Dan Boneh" 100
+"Dan Tsafrir" 22
+"David J. Wu" 10
+"David Lie" 20
+"Dejan Milojicic" 31
+"Derek Murray" 14
+"Ding Yuan" 13
+"Donald E. Porter" 15
+"Ehsan Totoni" 8
+"Emmett Witchel" 32
+"Geoffrey Ndu" 2
+"Gilles Muller" 34
+"Goetz Brasche" 6
+"Haryadi Gunawi" 17
+"Henry Corrigan-Gibbs" 8
+"Holm Rauchfuss" 10
+"Ion Stoica" 111
+"Jean-Pierre Lozi" 4
+"Jeffrey F. Lukman" 3
+"Jeffrey Mogul" 64
+"Johann Schleier-Smith" 5
+"John Kubiatowicz" 51
+"Julia Lawall" 34
+"Julien Sopena" 9
+"Kay Ousterhout" 5
+"Krste Asanoviç" 50
+"Leonid Ryzhyk" 10
+"Lidong Zhou" 31
+"Linh Nguyen" 1
+"Margo Seltzer" 56
+"Mark Silberstein" 14
+"Martin Maas" 8
+"Michael I. Jordan" 135
+"Michael Kaminsky" 34
+"Michael M. Swift" 41
+"Michael Stumm" 36
+"Michael Wei" 10
+"Mooly Sagiv" 52
+"Moritz Hoffman" 1
+"Nadav Amit" 6
+"Nicolas Palix" 11
+"Paolo Faraboschi" 27
+"Paul Grubbs" 4
+"Peng Huang" 6
+"Peter Druschel" 63
+"Petros Maniatis" 36
+"Philipp Moritz" 4
+"Pierre Olivier" 5
+"Rebecca Isaacs" 21
+"Reto Achermann" 3
+"Ricardo Koller" 11
+"Richard Liaw" 2
+"Riza O. Suminto" 2
+"Robert Nishihara" 5
+"Sang-Hoon Kim" 5
+"Sascha Klüppelholz" 12
+"Subramanya R. Dulloor" 8
+"Sukwon Oh" 1
+"Tanakorn Leesatapornwongsa" 5
+"Thomas Ristenpart" 35
+"Timothy Roscoe" 40
+"Vijay Chidambaram" 8
+"William Tu" 7
+"Willy Zwaenepoel" 61
+"Xu Zhao" 3
+"Yingnong Dang" 20
+"Youngjin Kwon" 5
+"Yu Luo" 7
+"Yuanyuan Zhou" 55
+"Aaron Gember-Jacobson" 16
+"Adam Chlipala" 20
+"Akash Lal" 19
+"Albert Kwon" 9
+"Ali Ghodsi" 34
+"Amirsaman Memaripour" 3
+"Ananth Raghunathan" 9
+"Andrea Bittau" 8
+"Andrew A. Chien" 55
+"Andrew Ferraiuolo" 5
+"Andrew Putnam" 16
+"Aniraj Kesavan" 1
+"Ashish Vulimiri" 8
+"Ashvin Goel" 29
+"Austin T. Clements" 11
+"Baris Kasikci" 8
+"Ben Niu" 6
+"Benjamin Recht" 45
+"Bojie Li" 3
+"Brad Karp" 25
+"Branden Ghena" 3
+"Bryan Ford" 36
+"Bryan Parno" 29
+"Byung-Gon Chun" 30
+"Cheng Tan" 2
+"Chinmay Kulkarni" 0
+"Chris Rossbach" 15
+"Dan Ports" 13
+"David Lion" 2
+"Derek Leung" 10
+"Douglas B. Terry" 40
+"Eddie Kohler" 47
+"Edouard Bugnion" 23
+"Eli Cortez" 7
+"Ellis Michael" 1
+"Filipe Manco" 4
+"Florian Schmidt" 8
+"Frans Kaashoek" 83
+"George Prekas" 5
+"Georgios Vlachos" 2
+"Gernot Heiser" 46
+"Guohan Lu" 17
+"Haogang Chen" 10
+"Henry Hoffmann" 31
+"Hongqiang Harry Liu" 8
+"Hongqiang Liu" 8
+"Huaicheng Li" 1
+"Idit Keidar" 39
+"Ilya Mironov" 20
+"Ittai Abraham" 35
+"Jakob Eriksson" 19
+"James Mickens" 16
+"Jason Flinn" 37
+"Jason Nieh" 41
+"Jian Xu" 4
+"Jiaxin Cao" 4
+"Jin Tack Lim" 1
+"Jitu Padhye" 51
+"Johannes Gehrke" 68
+"John Ousterhout" 54
+"Jonathan Mace" 4
+"Jose Mendes" 2
+"Kaiyuan Zhang" 11
+"Kaushik Veeraraghavan" 11
+"Kenichi Yasukata" 3
+"Kexin Pei" 2
+"Kian Win Ong" 7
+"Landon Cox" 27
+"Lihua Yuan" 18
+"Lintao Zhang" 26
+"M. Frans Kaashoek" 85
+"Malavika Samak" 4
+"Manos Kapritsos" 9
+"Marco Serafini" 16
+"Marcos K. Aguilera" 37
+"Marcus Fontoura" 25
+"Matei Zaharia" 35
+"Matthew Burke" 1
+"Matthias Schlaipfer" 2
+"Michael Armbrust" 14
+"Michael J. Franklin" 88
+"Miguel Castro" 46
+"Mike Dahlin" 49
+"Mingzhe Hao" 6
+"Nickolai Zeldovich" 40
+"Nitin Agrawal" 12
+"Pandian Raju" 0
+"Pat Pannuto" 10
+"Peter Knowles" 57
+"Peter M. Chen" 43
+"Philip Levis" 54
+"Prabal Dutta" 41
+"Qi Huang" 9
+"Ramakrishna Kotla" 15
+"Remzi Arpaci-Dusseau" 50
+"Robbert van Renesse" 60
+"Robert Ricci" 21
+"Robert Soulé" 12
+"Rodrigo Rodrigues" 30
+"Rong Chen" 15
+"Ryan Stutsman" 13
+"Shivaram Venkataraman" 14
+"Simon Peter" 13
+"Srinivas Devadas" 78
+"Srivatsa S. Bhat" 2
+"Steven Swanson" 36
+"Suman Jana" 15
+"Tyler Hunt" 3
+"Wencong Xiao" 2
+"Wyatt Lloyd" 11
+"Xi Wang" 16
+"Xiaozhou Li" 9
+"Yibo Zhu" 10
+"Yiying Zhang" 7
+"Yongle Zhang" 3
+"Yongqiang Xiong" 21
+"Yuanwei Lu" 2
+"Úlfar Erlingsson" 27
+"Aad van Moorsel" 24
+"Abhik Roychoudhury" 37
+"Abhishek Jain" 19
+"Abhrajit Sengupta" 2
+"Ada Lerner" 3
+"Adam Doupé" 10
+"Adib Nahiyan" 3
+"Adrian Perrig" 89
+"Adrienne Porter Felt" 23
+"Aggelos Kiayias" 32
+"Ahmed Kosba" 12
+"Alain Forget" 15
+"Alejandro Russo" 22
+"Alessandro Orso" 49
+"Alex J. Malozemoff" 8
+"Alexander Gamero-Garrido" 1
+"Alexander Russell" 28
+"Alireza Sadighian" 5
+"Alvaro A. Cardenas" 25
+"Andrea Cerulli" 4
+"Andrea Lanzi" 17
+"Andrew C. Myers" 47
+"Andrew J. Blumberg" 25
+"Andrew W. Appel" 50
+"Andy Rupp" 14
+"Angelos D. Keromytis" 64
+"Antonio Marcedone" 4
+"Anupam Das" 7
+"Ari Juels" 72
+"Ariel Nof" 3
+"Arman Noroozian" 4
+"Arthur Gervais" 6
+"Arya Mazumdar" 13
+"Aseem Rastogi" 7
+"Ashish Bijlani" 3
+"Ashwin Machanavajjhala" 25
+"Athanasios Kountouras" 1
+"Athina Petropulu" 42
+"Attila A. Yavuz" 12
+"Aylin Caliskan" 8
+"Bart Preneel" 69
+"Benedikt Schmidt" 12
+"Benjamin Beurdouche" 2
+"Benny Pinkas" 45
+"Benoït Gérard" 15
+"Bernd Finkbeiner" 23
+"Blase Ur" 23
+"Bo-Yin Yang" 30
+"Brendan Dolan-Gavitt" 9
+"Brent ByungHoon Kang" 14
+"Brian N. Levine" 47
+"Briland Hitaj" 2
+"Carl A. Gunter" 45
+"Carla Ràfols" 13
+"Carmit Hazay" 19
+"Cas Cremers" 26
+"Ceyhun D. Ozkaptan" 0
+"Chang Liu" 14
+"Changwoo Min" 9
+"Changyu Dong" 11
+"Charles Lever" 6
+"Charles Weir" 6
+"Chen Wang" 4
+"Christian Boit" 20
+"Christian Rechberger" 34
+"Claudia Diaz" 28
+"Claudio Orlandi" 19
+"Congzheng Song" 1
+"Cynthia Taylor" 6
+"Daiping Liu" 4
+"Damien Stehle" 30
+"Dan Margolis" 3
+"Daniel Genkin" 11
+"Daniel Ramage" 18
+"Daniel Slamanig" 14
+"Dave Tian" 6
+"David Basin" 50
+"David Derler" 5
+"David Korczynski" 1
+"David Kotz" 67
+"Dawn Song" 91
+"Deian Stefan" 18
+"Dennis Andriesse" 7
+"Dhinakaran Vinayagamurthy" 5
+"Dinghao Wu" 17
+"Divesh Srivastava" 78
+"Dmitri Loguinov" 37
+"Dmitry Kogan" 1
+"Dohyun Kim" 5
+"Dongyu Meng" 1
+"Doowon Kim" 4
+"Douglas Stebila" 22
+"Dov Gordon" 12
+"Duc Cuong Nguyen" 1
+"Duong Hieu Phan" 14
+"Dusan Klinec" 1
+"Eduardo Vela" 4
+"Ee-Chien Chang" 29
+"Ehab Al-Shaer" 36
+"Elette Boyle" 11
+"Eric Osterweil" 14
+"Erik Derr" 4
+"Ethan Cecchetti" 1
+"Eugen Zalinescu" 13
+"Eugene Vasserman" 11
+"Evan Downing" 2
+"Ewa Syta" 7
+"Fabian Monrose" 39
+"Fahad Shaon" 0
+"Fan Zhang" 4
+"Farhaan Fowze" 1
+"Feifei Li" 30
+"Fengwei Zhang" 9
+"Fernando Perez-Cruz" 27
+"Fernando Pérez-González" 30
+"Frank Piessens" 39
+"Franziska Roesner" 15
+"François Dupressoir" 10
+"Gabriel Kaptchuk" 1
+"Gang Tan" 21
+"Gene Tsudik" 85
+"Geoffroy Couteau" 3
+"George Danezis" 40
+"Georgios Portokalidis" 19
+"Gerome Miklau" 24
+"Giancarlo Pellegrino" 8
+"Gihyuk Ko" 7
+"Giuseppe Ateniese" 38
+"Grant Hernandez" 1
+"Gregory Neven" 29
+"Guanhua Yan" 26
+"Gunes Acar" 6
+"Guoming Zhang" 1
+"Guoxing Chen" 3
+"H. Brendan McMahan" 18
+"Hadi Zolfaghari" 1
+"Haining Wang" 37
+"Haixin Duan" 21
+"Haixu Tang" 40
+"Hao Chen" 37
+"Helmut Seidl" 39
+"Hoeteck Wee" 28
+"Hong-Sheng Zhou" 14
+"Hongyu Liu" 1
+"Hossein Siadati" 4
+"Huasong Shan" 1
+"Hugo Pacheco" 9
+"Hung Dang" 3
+"HyungSeok Han" 1
+"Ilia Lebedev" 7
+"Issa Khalil" 23
+"Jack Doerner" 2
+"Jan Camenisch" 58
+"Jason Zhao" 1
+"Je Hong Park" 11
+"Jean-Karim Zinzindohoué" 5
+"Jean-Pierre Seifert" 34
+"Jeremiah Blocki" 12
+"Jeyavijayan Rajendran" 25
+"Jian Huang" 22
+"Jian Weng" 21
+"Jian1 Liu" 6
+"Jian2 Liu" 3
+"Jie Huang" 1
+"Jie Yang" 27
+"Jinhua Cui" 1
+"Joanne Woodage" 1
+"Jonathan Katz" 67
+"Jonathan Protzenko" 6
+"Joseph Jaeger" 3
+"José Bacelar Almeida" 15
+"Juan Garay" 43
+"Jun Pang" 26
+"Jun Xu" 20
+"Juri Ranieri" 11
+"Karn Seth" 6
+"Karthikeyan Bhargavan" 30
+"Kasper Rasmussen" 15
+"Katherine Q. Ye" 1
+"Kehuan Zhang" 11
+"Keith Bonawitz" 5
+"Kirill Levchenko" 24
+"Konstantin Beznosov" 36
+"Kui Ren" 55
+"Kun Sun" 18
+"Kurt Thomas" 15
+"Kyong-Tak Cho" 8
+"Latifur Khan" 42
+"Le Song" 39
+"Leon Groot Bruinderink" 3
+"Levente Buttyán" 48
+"Leyla Bilge" 13
+"Limin Jia" 17
+"Lok Yan" 25
+"Lorrie Faith Cranor" 78
+"Luca Allodi" 6
+"Luca Invernizzi" 9
+"Luca Nizzardo" 3
+"Lucas Waye" 3
+"Luyi Xing" 6
+"Maliheh Shirvanian" 5
+"Manh-Dung Nguyen" 1
+"Manolis Stamatogiannakis" 3
+"Manu Drijvers" 2
+"Manuel Barbosa" 17
+"Marc Juarez" 6
+"Marcel Böhme" 7
+"Marcel Keller" 9
+"Marco Guarnieri" 5
+"Mariana Raykova" 21
+"Mark Tehranipoor" 44
+"Marten van Dijk" 42
+"Martin Johns" 17
+"Martin Kucera" 8
+"Mathias Humbert" 11
+"Mathy Vanhoef" 5
+"Matteo Campanelli" 3
+"Matteo Dell’Amico" 12
+"Matthew Green" 24
+"Matthew Hicks" 8
+"Matthew Thomas" 5
+"Matthew Wright" 21
+"Mattia Fazzini" 3
+"Matus Nemec" 2
+"Mehdi Tibouchi" 21
+"Melissa Chase" 20
+"Michael Hay" 17
+"Michael Weissbacher" 3
+"Michalis Polychronakis" 30
+"Michel van Eeten" 25
+"Michelle L. Mazurek" 17
+"Mihir Bellare" 95
+"Mike Rosulek" 13
+"Milad Nasr" 3
+"Ming-Hsien Tsai" 10
+"Mohammad Mahmody" 12
+"Mohit Tiwari" 17
+"Moinuddin Qureshi" 28
+"Moti Yung" 87
+"Muhammad Yasin" 7
+"Murat Kantarcioglu" 41
+"Muthuramakrishnan Venkitasubramaniam" 12
+"N. Asokan" 43
+"Nan Zhang" 5
+"Neha Chachra" 5
+"Ni Trieu" 4
+"Nico Döttling" 10
+"Nikolaos Pitropakis" 4
+"Nikolaos Vasiloglou" 8
+"Nima Honarmand" 9
+"Nitesh Saxena" 30
+"Niv Gilboa" 10
+"Noah Stephens-Davidowitz" 8
+"Olga Ohrimenko" 11
+"Oliver Schranz" 2
+"Omar Chowdhury" 6
+"Owen Arden" 6
+"Ozgur Sinanoglu" 21
+"Pablo Buiras" 7
+"Pardis Emami Naeini" 1
+"Patrick McCorry" 5
+"Patrick Schaumont" 39
+"Peiyuan Zong" 1
+"Petar Tsankov" 5
+"Peter Pessl" 5
+"Peter Rindal" 3
+"Petr Svenda" 6
+"Philipp Jovanovic" 11
+"Pierre-Alain Fouque" 34
+"Pierre-Yves Strub" 19
+"Piotr Mardziel" 6
+"Pramod Subramanyan" 9
+"Priyam Biswas" 1
+"Qian Feng" 6
+"Qiang Tang" 6
+"Qingyang Wang" 13
+"Rachel Greenstadt" 21
+"Rahul Chatterjee" 4
+"Rainer Böhme" 35
+"Rami Khalil" 1
+"Rebekah Overdorf" 4
+"Rohit Sinha" 6
+"Romain Gay" 5
+"Rosa Romero-Gómez" 4
+"Rosario Gennaro" 58
+"Ryan Henry" 8
+"Sadia Afroz" 15
+"Sam Scott" 3
+"Samaneh Tajalizadehkhoob" 4
+"Samee Zahur" 6
+"Samuel Ranellucci" 5
+"Sanchuan Chen" 2
+"Sang Kil Cha" 9
+"Sanidhya Kashyap" 5
+"Sanjay Bhattacherjee" 3
+"Sanjit Seshia" 39
+"Sarah Pearman" 1
+"Sascha Fahl" 14
+"Satrajit Ghosh" 2
+"Satyanarayana Vusirikala" 1
+"Scott Carr" 2
+"Scott Coull" 15
+"Sebastian Berndt" 2
+"Sebastian Ramacher" 3
+"Serge Egelman" 27
+"Sergey Gorbunov" 10
+"Shahin Tajik" 8
+"Shai Halevi" 65
+"Shashank Agrawal" 9
+"Shay Gueron" 28
+"Sheng Tan" 3
+"Shijie Jia" 3
+"Shirin Nilizadeh" 6
+"Shota Yamada" 10
+"Shuang Hao" 6
+"Shweta Agrawal" 17
+"Simon Oya" 3
+"Song Li" 1
+"Sriharsha Etigowni" 1
+"Srivatsan Ravi" 6
+"Stefan Katzenbeisser" 37
+"Stelios Sidiroglou-Douskos" 27
+"Stephen Chong" 23
+"Steven Goldfeder" 5
+"Sven Bugiel" 15
+"Sven Schäge" 9
+"Syed Mahbub Hafiz" 1
+"Tadayoshi Kohno" 54
+"Tal Malkin" 39
+"Tal Moran" 17
+"Tamara Denning" 14
+"Thang Hoang" 7
+"Theofilos Petsios" 4
+"Thomas Espitau" 4
+"Thomas Vissers" 4
+"Thomas Wies" 22
+"Tiago Oliveira" 1
+"Timon Gehr" 2
+"Timothy Barron" 0
+"Timothy Sherwood" 40
+"Ting Yu" 33
+"Tom Van Goethem" 6
+"Tommaso Frassetto" 2
+"Tongping Liu" 5
+"Tongxin Li" 4
+"Tuba Yavuz" 10
+"Tudor Dumitraş" 19
+"Tyler Moore" 32
+"Tzipora Halevi" 11
+"Vadim Lyubashevsky" 20
+"Van-Thuan Pham" 4
+"Vashek Matyas" 15
+"Vasilios Mavroudis" 2
+"Victor Shoup" 53
+"Viet Tung Hoang" 12
+"Vincent Bindschaedler" 6
+"Vitor Pereira" 0
+"Vivek Srikumar" 14
+"Vladimir Kolesnikov" 23
+"Véronique Cortier" 30
+"Wei Dai" 10
+"Wei You" 7
+"Wen Xu" 2
+"Wenhao2 Wang" 4
+"Wenyuan Xu" 24
+"Xi He" 2
+"Xiao Wang" 8
+"Xiaojun Xu" 2
+"Xiaokui Xiao" 38
+"Xiaolong Bai" 6
+"Xiaoyu Ji" 5
+"Xinyu Xing" 11
+"Xuhua Ding" 20
+"Yacin Nadji" 9
+"Yan Chen" 3
+"Yan Huang" 15
+"Yanchao Zhang" 36
+"Yang Zhang" 7
+"Yao Liu" 13
+"Yao Lu" 4
+"Yehuda Lindell" 45
+"Yeonjoon Lee" 5
+"Yi Chen" 28
+"Yi Han" 0
+"Yilei Wang" 5
+"Yin Yang" 21
+"Yingying Chen" 35
+"Yizheng Chen" 4
+"Yuan Xiao" 2
+"Yufei Han" 12
+"Yujin Kwon" 1
+"Yunmok Son" 4
+"Yuseok Jeon" 2
+"Yuval Ishai" 51
+"Yuval Yarom" 17
+"Zain Shamsi" 1
+"Zhan Qin" 9
+"Zhenyu Wu" 12
+"Zhi Wang" 18
+"Zhiqiang Lin" 21
+"Zhou Li" 13
+"Aaron Harwood" 18
+"Abani Patra" 27
+"Abbas Mehrabian" 8
+"Abdelhalim Amer" 6
+"Abhinav Bhatele" 28
+"Abhinav Vishnu" 20
+"Adrian Cristal" 27
+"Ahmad Samih" 6
+"Ahmed Hemani" 21
+"Ajoy K. Datta" 27
+"Alan Sussman" 36
+"Alberto Marchetti-Spaccamela" 38
+"Alexander Heinecke" 16
+"Alexandros Stamatakis" 47
+"Alfredo Gimenez" 5
+"Ali Pourmiri" 3
+"Amanda Randles" 14
+"Amrita Mathuriya" 2
+"Ana Lucia Varbanescu" 15
+"Anaïs Durand" 1
+"Andrea Clementi" 28
+"Andrea Pietracaprina" 19
+"Andreas Knuepfer" 15
+"Andrew Canning" 25
+"Andrew Lumsdaine" 53
+"Anne Benoit" 22
+"Anouar Benali" 4
+"Anthony Danalis" 14
+"Antonino Tumeo" 17
+"Antonio Pena" 12
+"Anys Bacha" 4
+"Apala Guha" 6
+"Ariful Azad" 8
+"Armando Castañeda" 8
+"Armin Alaghi" 12
+"Arpith Jacob" 15
+"Arrvindh Shriraman" 16
+"Artur Czumaj" 31
+"Ashok Srinivasan" 17
+"Ashwin Aji" 13
+"Aydin Buluç" 19
+"Barry Rountree" 21
+"Ben Juurlink" 26
+"Benjamin Doerr" 28
+"Benjamin Klenk" 3
+"Benjamin Moseley" 17
+"Bertil Schmidt" 35
+"Biagio Cosenza" 7
+"Bill Barth" 11
+"Bingsheng He" 37
+"Bo Mao" 12
+"Bo Wu" 8
+"Borzoo Bonakdarpour" 17
+"Boyu Zhang" 5
+"Brian C. Van Essen" 12
+"Calvin Newport" 25
+"Carl Yang" 4
+"Carlo C. del Mundo" 3
+"Carola Doerr" 14
+"Chen Avin" 18
+"Chen Ding" 27
+"Chenhan D. Yu" 6
+"Chris Hughes" 21
+"Christian Scheideler" 34
+"Christian Schindelhauer" 23
+"Christian Terboven" 13
+"Christof Fetzer" 38
+"Christoph Junghans" 15
+"Christopher Gorman" 1
+"Colette Johnen" 19
+"Costas Bekas" 13
+"Costas Busch" 20
+"Costin Iancu" 19
+"Cynthia Phillips" 31
+"Cyriel Minkenberg" 21
+"César A. F. de Rose" 18
+"Da Zhang" 2
+"Dan Ernst" 10
+"Daniel Bodony" 19
+"Daniel Holladay" 1
+"Daniel S. Katz" 30
+"Dantong Yu" 16
+"Danupon Nanongkai" 19
+"David Abramson" 39
+"David Beckingsale" 6
+"David Bindel" 21
+"David Flores-Peñaloza" 6
+"David Haglin" 14
+"David Patterson" 91
+"David Rogers" 8
+"Devin Matthews" 9
+"Dezun Dong" 11
+"Dhabaleswar K. Panda" 55
+"Dheeraj Sreedhar" 7
+"Diana Goehringer" 14
+"Dilma da Silva" 38
+"Dimitrios S. Nikolopoulos" 29
+"Dingwen Tao" 3
+"Dmitry Lyakh" 13
+"Donald Yeung" 24
+"Dong Li" 17
+"Dongxiao Yu" 13
+"Dorian Arnold" 19
+"Edgar Solomonik" 12
+"Edoardo Apra" 38
+"Eduard Ayguade" 46
+"El Mahdi El Mhamdi" 2
+"Emmanuel Jeannot" 23
+"Enrique Vallejo" 11
+"Eric Bylaska" 30
+"Erik Saule" 19
+"Eun Jung Kim" 38
+"Evangelos Kranakis" 46
+"Fabio Checconi" 16
+"Farrukh Hijaz" 6
+"Feng Qin" 19
+"Fernando Luís Dotti" 12
+"Fernando Pedone" 30
+"Flavio Vella" 4
+"Francesco Pasquale" 14
+"Franck Cappello" 42
+"Francois-Henry Rouet" 6
+"Frank Mueller" 48
+"Frederic Desprez" 26
+"Frederic Magniez" 22
+"Frederic Nataf" 28
+"Fredrik Manne" 26
+"Friedhelm Meyer auf der Heide" 32
+"Frédéric Vivien" 27
+"Gang Qu" 33
+"Georg Hager" 27
+"Georg Stadler" 25
+"George Biros" 34
+"George Giakkoupis" 14
+"George Karypis" 85
+"George M. Slota" 6
+"Geppino Pucci" 20
+"Gerhard Wellein" 33
+"Gianlorenzo D'Angelo" 17
+"Gokarna Sharma" 7
+"Gokcen Kestor" 6
+"Gopal Pandurangan" 27
+"Graham Lopez" 4
+"Grey Ballard" 15
+"Guang R. Gao" 53
+"Guido Proietti" 17
+"Guillaume Aupy" 8
+"H. Howie Huang" 17
+"Hai Jin" 51
+"Haiying Shen" 27
+"Halit Dogan" 2
+"Hans Eberle" 20
+"Hao Wang" 17
+"Haohuan Fu" 19
+"Hari Sundar" 18
+"Hatem Ltaief" 24
+"Henri Casanova" 50
+"Hillery Hunter" 45
+"Hiroshi Inoue" 13
+"Hiroshi Nakashima" 15
+"Holger Fröning" 12
+"Hong Jiang" 36
+"Hui Zhang" 0
+"Huiyang Zhou" 25
+"Hyesoon Kim" 33
+"Hyojong Kim" 3
+"Ignacio Laguna" 10
+"Ioakeim Perros" 3
+"Ivan Walulya" 3
+"Jack Dongarra" 124
+"Jack Wells" 23
+"Jackie Chen" 50
+"Jaehyuk Huh" 16
+"Jaime Arteaga" 2
+"James Ahrens" 26
+"James Lin" 2
+"Jan Lucas" 3
+"Jan Prins" 38
+"Jason Cong" 74
+"Jason Liu" 26
+"Jason N. Byrd" 10
+"Jason Riedy" 15
+"Jed Brown" 13
+"Jee W. Choi" 9
+"Jeff R. Hammond" 23
+"Jeffrey K. Hollingsworth" 36
+"Jeffrey S. Vetter" 43
+"Jen-Cheng Huang" 4
+"Jennifer Welch" 31
+"Jeongnim Kim" 26
+"Jerry L. Trahan" 16
+"Jesus Labarta" 42
+"Jia Rao" 17
+"Jiajia Li" 4
+"Jiang Hu" 34
+"Jianyu Huang" 2
+"Jiarui Fang" 2
+"Jichuan Chang" 21
+"Jie Wang" 11
+"Jie Zhang" 22
+"Jimeng Sun" 45
+"Jing Zhang" 7
+"Jishen Zhao" 16
+"Jithin Jose" 13
+"John D. Owens" 49
+"John Kim" 25
+"John Leidel" 3
+"Jonathan Jenkins" 14
+"Jongsoo Park" 13
+"Josef Weinbub" 6
+"Josep M. Perez" 16
+"Juan J. Durillo" 23
+"Judicael A. Zounmevo" 5
+"Julien Langou" 28
+"Jung Ho Ahn" 28
+"Jungwon Kim" 9
+"Jurek Czyzowicz" 26
+"Kamesh Madduri" 26
+"Kamil Iskra" 21
+"Kanat Tangwongsan" 17
+"Karen Devine" 30
+"Karine Altisen" 13
+"Karthik Vaidyanathan" 5
+"Kartik Gopalan" 26
+"Kathryn Mohror" 13
+"Kazuaki Ishizaki" 12
+"Kazutomo Yoshii" 10
+"Kei Davis" 22
+"Keishla D Ortiz-Lopez" 1
+"Kelly Shaw" 8
+"Ken Jansen" 33
+"Ken Raffenetti" 3
+"Kenjiro Taura" 25
+"Kentaro Torisawa" 29
+"Kento Sato" 9
+"Kirk W. Cameron" 27
+"Kishore Kothapalli" 15
+"Koji Inoue" 18
+"Kolin Paul" 14
+"Kshitij Mehta" 2
+"Kyle Chard" 19
+"Kyle Hale" 6
+"Kyung Hoon Kim" 13
+"Lars Nagel" 7
+"Lata Narayanan" 16
+"Laura Carrington" 19
+"Lawrence L. Larmore" 25
+"Laxmikant Kale" 54
+"Leszek Gasieniec" 34
+"Lifeng Nai" 6
+"Liqiang Wang" 21
+"Lizy K. John" 44
+"Loris Marchal" 19
+"Luciano Gualà" 8
+"Luis Ceze" 38
+"Luke Olson" 14
+"Luke Shulenburger" 12
+"Lélia Blin" 13
+"Maciej Besta" 5
+"Maciej Malawski" 20
+"Madhusudhan Govindaraju" 26
+"Magnus M. Halldórsson" 40
+"Mahantesh Halappanavar" 12
+"Mahdi Jafari Siavoshani" 10
+"Mahdi Nazm Bojnordi" 7
+"Manish Parashar" 48
+"Manisha Gajbe" 2
+"Marc Casas" 12
+"Marc Snir" 58
+"María Jesús Garzarán" 22
+"Maria Potop-Butucaru" 25
+"Mark Hoemmen" 16
+"Mark Oskin" 25
+"Martin Berzins" 33
+"Martin Farach-Colton" 46
+"Martin Schulz" 44
+"Masaaki Kondo" 15
+"Masab Ahmad" 4
+"Masahiro Tanaka" 15
+"Mateo Valero" 56
+"Mathias Jacquelin" 7
+"Mathieu Faverge" 15
+"Matthew Knepley" 21
+"Matthias Blumrich" 23
+"Matthieu Dreher" 5
+"Maxime Hugues" 5
+"Merav Parter" 13
+"Michael Gowanlock" 5
+"Michael Heroux" 29
+"Michael Klemm" 9
+"Michela Taufer" 21
+"Michele Flammini" 20
+"Miquel Vidal" 2
+"Mohammad Taghi Hajiaghayi" 46
+"Moriyoshi Ohara" 10
+"Naeem Abbas" 4
+"Nakul Jindal" 3
+"Nam Sung Kim" 37
+"Nancy Amato" 48
+"Naoya Maruyama" 20
+"Nathan R. Tallent" 14
+"Nikhil Bansal" 38
+"Nikhil Jain" 14
+"Nodari Sitchinava" 12
+"Oded Schwartz" 16
+"Odorico M. Mendizabal" 4
+"Olaf Schenk" 27
+"Olga Pearce" 6
+"Oliver Sinnen" 16
+"Olivier Beaumont" 24
+"Omer Khan" 15
+"Oscar Hernandez" 13
+"Osman Unsal" 27
+"Ozcan Ozturk" 19
+"Pablo Fuentes" 4
+"Palden Lama" 13
+"Paola Flocchini" 41
+"Paolo Penna" 21
+"Pascal Felber" 43
+"Patrick Flick" 3
+"Paul Spirakis" 40
+"Pavan Balaji" 32
+"Pengcheng Li" 4
+"Pete Beckman" 31
+"Peter Kling" 8
+"Philip Carns" 19
+"Philippas Tsigas" 29
+"Philippe Clauss" 16
+"Pierluigi Crescenzi" 29
+"Pierre Fraigniaud" 46
+"Pieter Ghysels" 10
+"Pietro Cicotti" 11
+"Piotr R. Luszczek" 28
+"Piotr Sankowski" 20
+"Pranith Kumar" 3
+"Qi Zhu" 17
+"Qing Yi" 17
+"Quentin F. Stout" 43
+"Rachid Guerraoui" 64
+"Radu Teodorescu" 13
+"Rahul Boyapati" 2
+"Ramesh Balakrishnan" 3
+"Ramon Canal" 18
+"Ramón Beivide" 22
+"Reetuparna Das" 20
+"Richard Murphy" 17
+"Richard Vuduc" 32
+"Rio Yokota" 15
+"Robert B. Ross" 39
+"Robert D. Moser" 39
+"Robert Elsasser" 20
+"Robert Harrison" 52
+"Robert Krauthgamer" 31
+"Robert Latham" 22
+"Robert Senger" 14
+"Robert Van De Geijn" 50
+"Roberto Gioiosa" 18
+"Rodney J. Bartlett" 112
+"Ronald Brightwell" 32
+"Ryan Friese" 8
+"Ryan Grant" 11
+"Sabela Ramos" 9
+"Saber Feki" 5
+"Sam Gutierrez" 3
+"Sameer Shende" 26
+"Samuel K. Gutiérrez" 3
+"Sangmin Seo" 11
+"Sanjeev Baskiyar" 19
+"Sarunya Pumma" 1
+"Scott B. Baden" 25
+"Scott Beamer" 10
+"Scott D. Pakin" 19
+"Seffi Naor" 51
+"Sergio Martin" 3
+"Sergio Rajsbaum" 29
+"Seyong Lee" 13
+"Shaden Smith" 6
+"Sheng Di" 14
+"Shigang Li" 5
+"Shihan Xiao" 3
+"Shlomi Dolev" 42
+"Shuaiwen Leon Song" 17
+"Shun Yao" 3
+"Silvia Bonomi" 10
+"Silvio Lattanzi" 16
+"Simon D. Hammond" 13
+"Sivasankaran Rajamanickam" 14
+"Smruti R. Sarangi" 17
+"Sohan Lal" 2
+"Song Wu" 23
+"Sridutt Bhalachandra" 5
+"Srinivas Aluru" 37
+"Stephen L. Olivier" 13
+"Stéphane Devismes" 15
+"Sudeep Pasricha" 26
+"Suleyman Tosun" 11
+"Sung Woo Chung" 15
+"Sunita Chandrasekaran" 8
+"Suraj Kumar" 4
+"Susanne Albers" 35
+"Suzhen Wu" 10
+"Swann Perarnau" 6
+"Syed M. A. H. Jafri" 10
+"Tamara G. Kolda" 44
+"Tanzima Z. Islam" 5
+"Tao Gao" 2
+"Tapasya Patki" 6
+"Teng Long" 4
+"Teng Wang" 7
+"Thomas R. W. Scogland" 12
+"Thomas Sauerwald" 22
+"Tigran Tonoyan" 5
+"Timothy G. Mattson" 25
+"Timothy Germann" 39
+"Todd Gamblin" 19
+"Tomasz Jurdziński" 14
+"Torsten Hoefler" 33
+"Toshio Endo" 18
+"Trilce Estrada" 10
+"Ulrike Yang" 25
+"Ulya R. Karpuzcu" 9
+"Venkatesan T. Chakaravarthy" 17
+"Vicenç Beltran" 15
+"Vignesh Adhinarayanan" 4
+"Vijay K. Garg" 38
+"Vincenzo Bonifaci" 21
+"Wei Chen" 30
+"Wei Huang" 27
+"Wei Xie" 2
+"Wei Xue" 16
+"Weikuan Yu" 26
+"Weimin Zheng" 31
+"Wesley Bland" 10
+"Wibe De Jong" 31
+"William March" 8
+"Wu Feng" 46
+"Xiang Ni" 8
+"Xiang Pan" 3
+"Xiaobo Zhou" 23
+"Xiaochen Guo" 5
+"Xiaoye Sherry Li" 31
+"Xiaoyi Lu" 15
+"Xin Yuan" 27
+"Xinfeng Xie" 0
+"Xing Liu" 9
+"Xingyun Qi" 7
+"Xu Liu" 10
+"Xuehai Qian" 7
+"Xuewen Cui" 2
+"Yanfei Guo" 9
+"Yangzihao Wang" 5
+"Yanjie Wei" 11
+"Yash Ukidave" 6
+"Ye Luo" 6
+"Yogish Sabharwal" 19
+"Yong Chen" 19
+"Yongchao Liu" 19
+"Yonghong Yan" 9
+"Yongpeng Zhang" 8
+"Yossi Azar" 45
+"Young Wn Song" 2
+"Youwei Zhuo" 1
+"Yu Hua" 16
+"Yuan He" 22
+"Yuanyuan Yang" 49
+"Yuduo Wu" 4
+"Yuechao Pan" 9
+"Yujie An" 2
+"Yukiko Yamauchi" 8
+"Yunquan Zhang" 14
+"Yves Robert" 45
+"Yvonne-Anne Pignolet" 14
+"Zhiyi Huang" 16
+"Zhiying Wang" 11
+"Zizhong Chen" 23
+"Zvi Drezner" 54
+"Ümit V. Çatalyürek" 45
+"Aaron Smith" 8
+"Adrián Castelló" 5
+"Aleksandar Prokopec" 8
+"Alfredo Goldman" 17
+"Amelie Chi Zhou" 7
+"Ana Moreton-Fernandez" 1
+"Andreas Knüpfer" 15
+"Angeles G. Navarro" 10
+"Ann Almgren" 29
+"Anne-Cécile Orgerie" 13
+"Antonio J. Peña" 13
+"Aparna Chandramowlishwaran" 11
+"Arie Taal" 12
+"Arnaud Legrand" 25
+"Arturo Gonzalez-Escribano" 14
+"Aydin Buluc" 20
+"Bora Uçar" 19
+"Boris Teabe" 2
+"Borja Pérez" 2
+"Brandon Cook" 7
+"Bruno Raffin" 21
+"Cees de Laat" 31
+"Cevdet Aykanat" 33
+"Christian Perez" 20
+"Christophe Dubach" 11
+"Christos Zaroliagis" 25
+"Clément Foyer" 1
+"Daniel Hagimont" 22
+"Daniel Ruprecht" 10
+"David E. Keyes" 40
+"David R. Kaeli" 33
+"Deming Chen" 29
+"Denis Barthou" 16
+"Denis Trystram" 32
+"Didem Unat" 9
+"Diego R. Llanos" 12
+"Dirk Habich" 12
+"Diwakar Krishnamurthy" 16
+"Eduardo Roloff" 3
+"Elias P. Duarte Jr." 14
+"Emilio Luque" 24
+"Enrique S. Quintana-Orti" 35
+"Esteban Stafford" 6
+"Evangelos Georganas" 7
+"Fabien Hermenier" 10
+"Fabio Kon" 29
+"Felix Wolf" 29
+"Florina Ciorba" 8
+"Francisco Almeida" 17
+"Francisco F. Rivera" 17
+"Franck Ledoux" 10
+"Franck Pommereau" 13
+"Franz-Josef Pfreundt" 9
+"Gabriel Antoniu" 24
+"George Bosilca" 32
+"Georges da Costa" 17
+"Georgios Chasparis" 9
+"Georgios Goumas" 15
+"Giorgio Lucarelli" 9
+"Goran Flegar" 1
+"Guido Araujo" 20
+"Hannes Voigt" 5
+"Hans Vandierendonck" 19
+"Hassan Halawa" 4
+"Hazem Abdelhafez" 2
+"Henning Meyerhenke" 17
+"Huan Zhou" 3
+"Ian Foster" 123
+"Ioana Banicescu" 16
+"Ivona Brandic" 32
+"Jerónimo Castrillón" 12
+"Jesus Omana Iglesias" 3
+"John Shalf" 50
+"Jorge González-Domínguez" 8
+"Jose Luis Bosque" 13
+"Josef Weidendorfer" 12
+"José C. Cabaleiro" 12
+"José Nelson Amaral" 19
+"João M. P. Cardoso" 26
+"Julian Kunkel" 12
+"Julius Zilinskas" 20
+"Katherine Yelick" 55
+"Krzysztof Rzadca" 12
+"Laleh Aghababaie Beni" 2
+"Laura Pozzi" 25
+"Laura Ricci" 15
+"Leonid Oliker" 40
+"Louis-Claude Canon" 9
+"Lucas Mello Schnorr" 11
+"Luciano Paschoal Gaspary" 18
+"Luiz F. Bittencourt" 14
+"Luís Veiga" 17
+"Marc Gonzalez Tallada" 22
+"Marcin Zalewski" 10
+"Marco Cello" 6
+"Marco Danelutto" 32
+"Marcos Amarís" 2
+"Martin Burtscher" 32
+"Mary Hall" 40
+"Matei Ripeanu" 37
+"Matthias Diener" 10
+"Matthias Müller" 24
+"Matthieu Dorier" 7
+"Mauricio Marin" 16
+"Mauro Bianco" 10
+"Mawussi Zounon" 4
+"Michele Scquizzato" 7
+"Michele Weiland" 5
+"Miquel Moretó" 17
+"Mustafa Abduljabbar" 4
+"Nicholas Higham" 63
+"Oguz Selvitopi" 4
+"Olivier Richard" 18
+"Peter Arbenz" 4
+"Petr Kuznetsov" 21
+"Petr Tůma" 17
+"Philippe Navaux" 22
+"Polyvios Pratikakis" 12
+"Radu Prodan" 38
+"Rafael Asenjo" 10
+"Rafael Mayo Gual" 20
+"Rafael Ubal" 8
+"Ramon Doallo" 23
+"Rizos Sakellariou" 36
+"Rob Van Nieuwpoort" 26
+"Robert Mittermayr" 5
+"Roland Mathà" 1
+"Rui Machado" 4
+"Rui Oliveira" 19
+"Rutger Hofman" 21
+"Samuel Relton" 5
+"Sasko Ristov" 14
+"Seher Acer" 2
+"Shadi Ibrahim" 16
+"Shigeru Chiba" 26
+"Sonia Ben Mokhtar" 20
+"Sophie Demassey" 11
+"Steven Hofmeyr" 22
+"Sven Hammarling" 36
+"Thejaka Amila Kanewala" 3
+"Thomas Fahringer" 46
+"Tien-Dat Phan" 2
+"Tobias Grosser" 13
+"Tomas Margalef" 20
+"Tomás F. Pena" 12
+"Toni Cortés" 23
+"Vania Marangozova-Martin" 6
+"Veronica Veronica Gil-Costa" 12
+"Vincent Gramoli" 18
+"Vladimir Dimić" 0
+"Vladimir Janjic" 5
+"Wasuwee Sodsong" 2
+"Weiqun Zhang" 16
+"Wolfgang Lehner" 33
+"Yang Hu" 6
+"Yiannis Nikolakopoulos" 5
+"Yukinori Sato" 9
+"Yvan Notay" 27
+"Zhiming Zhao" 13
+"Ada Diaconescu" 13
+"Alessandro Papadopoulos" 12
+"Arif Merchant" 34
+"Artur Andrzejak" 23
+"Bashar Nuseibeh" 52
+"Betty Cheng" 47
+"Christian Becker" 28
+"Christopher Stewart" 15
+"Danny Weyns" 36
+"Dario Pompili" 29
+"David Garlan" 70
+"Di Wang" 10
+"Douglas M. Blough" 33
+"Elisabetta Di Nitto" 32
+"Eric Rutten" 21
+"Evangelos Pournaras" 11
+"Evgenia Smirni" 34
+"Fang Zheng" 13
+"Feng Yan" 7
+"Giacomo Cabri" 28
+"Gil Lee" 5
+"Haiyan Zhao" 14
+"Haiyang Sun" 3
+"Hamid Soltanian-Zadeh" 40
+"Hartmut Schmeck" 34
+"Hassan Gomaa" 38
+"Hausi Muller" 42
+"Holger Giese" 36
+"Hui Lei" 37
+"Indranil Gupta" 35
+"Jacob Beal" 26
+"Jeff Kephart" 59
+"Jim Torresen" 26
+"Jose Fortes" 43
+"Julie McCann" 21
+"Jun Wang" 30
+"Klara Nahrstedt" 80
+"Kuangyu Zheng" 4
+"Lance Kaplan" 30
+"Liting Hu" 10
+"Luciano Baresi" 44
+"Lydia Y. Chen" 15
+"Marin Litoiu" 31
+"Michael A. Kozuch" 43
+"Mike Smit" 12
+"Mohammad-Parsa Hosseini" 8
+"Nan Deng" 5
+"Naser Sedaghati" 7
+"Nikita Mishra" 2
+"Ningfang Mi" 21
+"Ole Mengshoel" 22
+"Peter Dinda" 44
+"Philippe Lalanda" 20
+"Phuong Nguyen" 4
+"Prasanna Giridhar" 6
+"Rohit Ranchal" 6
+"Rolf Wuertz" 20
+"Sam Malek" 35
+"Seyyed Ahmad Javadi" 2
+"Shiguang Wang" 14
+"Tanvir Al Amin" 9
+"Tarek Abdelzaher" 79
+"Thomas Vogel" 27
+"Tom Holvoet" 36
+"Tuyen Tran" 6
+"Walter Binder" 29
+"Wenli Zheng" 11
+"Xiaorui Wang" 37
+"Xiaoyun Zhu" 36
+"Ymir Vigfusson" 12
+"Yuxiong He" 20
+"Zhi Jin" 27
+"Albert Cohen" 41
+"Allen Malony" 39
+"Amin Ansari" 16
+"Amro Awad" 4
+"Ananth Grama" 41
+"Andreas Kloeckner" 9
+"Antonio Gonzalez" 50
+"Aravind Sukumaran-Rajam" 5
+"Arkaprava Basu" 9
+"Arvind" 34
+"Babak Falsafi" 54
+"Basilio Fraguela" 20
+"Bhargava Gopireddy" 2
+"Boris Grot" 18
+"Chris Cummins" 3
+"Cristina Silvano" 29
+"Daniel A. Jiménez" 21
+"Daniel Sanchez" 16
+"David Gregg" 18
+"David I. August" 38
+"David Padua" 60
+"Ding-Yong Hong" 6
+"Djordje Jevdjic" 9
+"Dong Dai" 5
+"Francois Irigoin" 23
+"Gabriel H. Loh" 37
+"Gagan Agrawal" 38
+"Hamid Tabani" 2
+"Hugh Leather" 10
+"J. Nelson Amaral" 18
+"Jaejin Lee" 30
+"James Tuck" 17
+"Jan-Jan Wu" 25
+"Javier Picorel" 5
+"Jinsung Kim" 3
+"Joel Emer" 47
+"John Cavazos" 21
+"Jose Maria Arnau" 4
+"Jose Moreira" 42
+"Josep Torrellas" 58
+"Joseph Izraelevitz" 3
+"Julio Sahuquillo" 17
+"Jun Yang" 35
+"Keshav Pingali" 50
+"Konstantinos Nikas" 6
+"Lawrence Rauchwerger" 32
+"Lieven Eeckhout" 43
+"Lingxiang Xiang" 7
+"Louis Jenkins" 0
+"Maleen Abeydeera" 2
+"Manuel Hermenegildo" 51
+"Maria E. Gómez" 21
+"Mark C. Jeffrey" 5
+"Michael Bond" 19
+"Michael C. Huang" 12
+"Michael L. Scott" 55
+"Michael Spear" 26
+"Mohammad Alshboul" 1
+"Muralidaran Vijayaraghavan" 9
+"Nachshon Cohen" 5
+"Nathan Beckmann" 12
+"Nectarios Koziris" 26
+"P. Sadayappan" 57
+"Pavlos Petoumenos" 8
+"Per Stenström" 42
+"Po-An Tsai" 3
+"Priyank Faldu" 1
+"R. Govindarajan" 27
+"Raghavendra Pradyumna Pothukuchi" 2
+"Raj Parihar" 3
+"Rajiv Gupta" 57
+"Reena Panda" 5
+"Saeed Maleki" 4
+"Salvador Petit" 11
+"Samuel Midkiff" 35
+"Sanjay Rajopadhye" 29
+"Seikwon Kim" 1
+"Sergey Blagodurov" 16
+"Sheng-Yu Fu" 3
+"Sizhuo Zhang" 0
+"Suvinay Subramanian" 7
+"T. N. Vijaykumar" 46
+"Taehoon Kim" 1
+"Taewook Oh" 8
+"Tingzhe Zhou" 3
+"Uzi Vishkin" 55
+"Vasileios Porpodas" 4
+"Wonsun Ahn" 8
+"Xianwei Zhang" 4
+"Xiaoming Li" 17
+"Yan Solihin" 30
+"Youtao Zhang" 30
+"Yu-Ping Liu" 1
+"Ahmed E. Ismail" 17
+"Aleksandr Mikhalev" 4
+"Alexander Breuer" 6
+"André Brinkmann" 23
+"Arthur Maccabe" 26
+"Ata Turk" 7
+"Aurelien Bouteiller" 24
+"Axel Klawonn" 27
+"Ayse K. Coskun" 24
+"Azzam Haidar" 20
+"Charles Meneveau" 64
+"Charles Yount" 8
+"Dean Hildebrand" 12
+"Dipanjan Sengupta" 6
+"Emre Ates" 1
+"Federico Silla" 26
+"George S. Markomanolis" 5
+"Hari Subramoni" 20
+"Hideyuki Kawashima" 9
+"Huda Ibeid" 3
+"Ilkay Altintas" 25
+"Jacek Kitowski" 16
+"Jay Lofstead" 17
+"Jiri Jaros" 10
+"John Patchett" 9
+"Josh Tobin" 2
+"Judit Planas" 8
+"Judy Qiu" 22
+"Kadir Akbudak" 3
+"Katharina Kormann" 7
+"Lena Oden" 6
+"Luc Bougé" 25
+"Mahdi Bohlouli" 6
+"Marek Michalewicz" 12
+"Maria S. Perez" 17
+"Martin Kronbichler" 11
+"Narayanan Sundaram" 15
+"Ozan Tuncer" 3
+"Paolo Bientinesi" 17
+"Pedro Javier Garcia" 12
+"Perry Johnson" 6
+"Peter Lindstrom" 29
+"Peter Ziegenhein" 7
+"Priya Vashishta" 71
+"Randal Burns" 40
+"Ryousei Takano" 11
+"Scott Klasky" 35
+"Siddhartha Jana" 4
+"Simon McIntosh-Smith" 12
+"Sourav Chakraborty" 4
+"Stanimire Tomov" 31
+"Steffen Frey" 9
+"Stephen A. Jarvis" 34
+"Stephen I. Roberts" 2
+"Steven A. Wright" 4
+"Suhaib A. Fahmy" 20
+"Sven-Bodo Scholz" 20
+"Sébastien Rumley" 11
+"Timothée Ewart" 7
+"Ulrich Rüde" 32
+"Will Sawyer" 2
+"Wolfgang Karl" 73
+"Yida Wang" 6
+"Yijia Zhang" 2
+"Yuefan Deng" 19
+"Yuichi Tsujita" 10
+"Aaron Blankstein" 6
+"Aashray Arora" 0
+"Ada Gavrilovska" 21
+"Anastasios Andronidis" 1
+"Andreas Ziegler" 3
+"Anirudh Badam" 10
+"Asaf Cidon" 10
+"Aunn Raza" 0
+"Bianca Schroeder" 27
+"Brent Stephens" 7
+"Canturk Isci" 18
+"Carl Waldspurger" 43
+"Charlie Curtsinger" 8
+"Cheng Huang" 31
+"Chengchen Hu" 14
+"Chinmayee Shah" 2
+"Christian Dietrich" 11
+"Christian Priebe" 3
+"Christina Delimitrou" 12
+"Christos Kozyrakis" 64
+"Chunqiang Tang" 29
+"Cristian Cadar" 19
+"Călin Iorgulescu" 4
+"Dan O'Keeffe" 7
+"Daniel Grumberg" 5
+"Daniel Lohmann" 25
+"Daoyuan Wu" 4
+"David Eyers" 20
+"David Goltzsche" 2
+"David Greaves" 13
+"David Wolinsky" 16
+"Diego Didona" 9
+"Do Le Quoc" 6
+"Dongkun Shin" 21
+"Dongsheng Li" 16
+"Eric Eide" 17
+"Eric Xing" 64
+"Fangming Liu" 27
+"Farzaneh Mahdisoltani" 2
+"Fei Xia" 2
+"Felix Xiaozhu Lin" 13
+"Florian Kelbert" 7
+"Florin Dinu" 7
+"Fred Douglis" 50
+"Hao Zhang" 7
+"Heejin Park" 1
+"Huiba Li" 4
+"Ioan Stefanovici" 4
+"James Larus" 61
+"Jasmina Malicevic" 3
+"Jeongseok Son" 2
+"Ji-Yong Shin" 6
+"Jiahuan He" 6
+"Jihong Kim" 28
+"Jilong Xue" 6
+"Jin Li" 48
+"Jingjing Wang" 3
+"Jinliang Wei" 9
+"Jinyang Li" 29
+"Jiwu Shu" 20
+"Jon Crowcroft" 82
+"Joshua Lind" 2
+"Justin Cappos" 14
+"K Gopinath" 1
+"Kai Li" 75
+"Kai Shen" 22
+"Kathryn S. McKinley" 57
+"Li-Pin Chang" 18
+"Liang Shi" 13
+"Linpeng Tang" 6
+"Liuba Shrira" 24
+"Luis Rodrigues" 40
+"Luo Mai" 5
+"Luís Pina" 4
+"Magdalena Balazinska" 45
+"Marcin Wojcik" 7
+"Marcus Hähnel" 4
+"Martin Beck" 29
+"Michael J. Freedman" 44
+"Michio Honda" 7
+"Mihai Christodorescu" 21
+"Mingxing Zhang" 4
+"Myeongjae Jeon" 8
+"Nilton Bila" 8
+"Noa Zilberman" 12
+"Nohhyun Park" 6
+"Oana Balmau" 2
+"Omid Mashayekhi" 2
+"Paolo Costa" 26
+"Paul E. McKenney" 34
+"Pengfei Zuo" 2
+"Pengtao Xie" 8
+"Peter Pietzuch" 29
+"Pietro Bressana" 1
+"Pradeep Kumar" 1
+"Pramod Bhatotia" 12
+"Pulkit A. Misra" 0
+"Qingda Hu" 1
+"Qirong Ho" 16
+"Rachit Agarwal" 12
+"Richard Clegg" 13
+"Richard Mortier" 31
+"Robert Soule" 11
+"Rocky K. C. Chang" 22
+"Ruichuan Chen" 14
+"Rüdiger Kapitza" 21
+"Salvator Galea" 1
+"Sam Whitlock" 3
+"Sangwook Shane Hahn" 4
+"Shai Bergman" 1
+"Shiyou Huang" 1
+"Shuai Mu" 3
+"Siddhartha Sen" 12
+"Song Jiang" 31
+"Sorav Bansal" 14
+"Stephen M. Rumble" 14
+"Stuart Byma" 2
+"Sue Moon" 36
+"Sungjin Lee" 11
+"Thomas Ilsche" 9
+"Till Smejkal" 1
+"Toke Høiland-Jørgensen" 4
+"Trausti Saemundson" 2
+"Trishank Karthik Kuppusamy" 4
+"Valentin Rothberg" 3
+"Wajih Ul Hassan" 1
+"Weichao Li" 12
+"Xiaodan Liang" 15
+"Yafei Dai" 21
+"Yongwei Wu" 21
+"Youmin Chen" 19
+"Youyou Lu" 10
+"Zhi Yang" 10
+"Zhiting Hu" 11
+"Íñigo Goiri" 21
+"Alexander Lenk" 8
+"Alfredo Cuzzocrea" 35
+"Anthony Ayodele" 1
+"Anupam Joshi" 76
+"Ashish Kundu" 15
+"Balaji Palanisamy" 11
+"Benjamin Satzger" 18
+"Beomseok Nam" 13
+"Bharat Bhargava" 55
+"Bharath Balasubramanian" 6
+"Bi Jing" 10
+"Bingjing Zhang" 7
+"Bo Peng" 8
+"Bruno Crispo" 33
+"Chang Ee-Chien" 28
+"Charles Kamhoua" 9
+"Chengwei Wang" 12
+"Ching-Hsien Hsu" 22
+"Christian Nieke" 3
+"Chui-Hui Chiu" 2
+"Claris Castillo" 11
+"Daniel Grosu" 24
+"Danilo Ardagna" 26
+"Deepal Jayasinghe" 16
+"Elena Ferrari" 47
+"Elisa Bertino" 90
+"Fan Yao" 3
+"Feng Chen" 14
+"Francis C. M. Lau" 36
+"Geoffrey C. Fox" 76
+"Gregory Chockler" 23
+"Gueyoung Jung" 14
+"Guru Venkataramani" 10
+"Hamdy Soliman" 11
+"Han Rui" 10
+"Haopeng Chen" 2
+"Hassan Takabi" 12
+"Huang Keman" 9
+"Ignacio Silva-Lepe" 11
+"Iman Saleh" 8
+"Ioan Raicu" 39
+"Ivona Brandić" 32
+"James Joshi" 31
+"Janaka Balasooriya" 7
+"Jiannong Cao" 46
+"Joao Eduardo Ferreira" 18
+"John Brevik" 14
+"Jordi Torres" 31
+"Jorn Altmann" 23
+"Jun Shen" 18
+"Kang Li" 21
+"Karin Becker" 14
+"Kazunori Ogata" 9
+"Keke Chen" 22
+"Kewen Wang" 21
+"Kiran-Kumar Muniswamy-Reddy" 18
+"Kisung Lee" 10
+"Kohei Ichikawa" 7
+"Kwang Mong Sim" 66
+"Kyungyong Lee" 7
+"Leandro Navarro" 18
+"Lei Jiang" 12
+"Lei Lu" 8
+"Ludmila Cherkasova" 47
+"Mani B. Srivastava" 95
+"Marcio Silva" 4
+"Marco Aiello" 32
+"Marty Humphrey" 38
+"Mehdi Azarmi" 5
+"Michael Goul" 22
+"Ming Zhao" 18
+"Mohammad Hamdaqa" 7
+"Mohammad Hammoud" 8
+"Mohammad Maifi Hasan Khan" 9
+"Mulong Luo" 6
+"Nagarajan Kandasamy" 20
+"Omer F. Rana" 38
+"Paul Grefen" 38
+"Pengcheng Xiong" 16
+"Pengfei Chen" 1
+"Philipp Leitner" 24
+"Qi Yu" 21
+"Qiang He" 12
+"Quan Z. Sheng" 29
+"Rahul Ghosh" 13
+"Rajesh K. Gupta" 59
+"Ram Krishnan" 13
+"Ranga Raju Vatsavai" 19
+"Read Sprabery" 3
+"Renato Figueiredo" 27
+"Ridwan Rashid Noel" 2
+"Rina Nakazawa" 2
+"Robert van Engelen" 21
+"Roberto Di Pietro" 37
+"Rong Chang" 18
+"Roy Campbell" 66
+"Sameep Mehta" 16
+"Sean Thorpe" 7
+"Seetharami Seelam" 13
+"SeogChan Oh" 15
+"Seung-Jong Park" 15
+"Shannon Quinn" 5
+"Shantenu Jha" 25
+"Shiping Chen" 19
+"Shiyong Lu" 33
+"Shu Tao" 15
+"Shuiguang Deng" 24
+"Suresh Subramaniam" 33
+"Surya Nepal" 24
+"Suzanne K. McIntosh" 8
+"Swapna Gokhale" 26
+"Tamiya Onodera" 18
+"Tan Wei" 23
+"Tevfik Kosar" 20
+"Thierry Priol" 29
+"Toyotaro Suzumura" 20
+"Tridib Mukherjee" 18
+"Tyrone Grandison" 22
+"Upendra Sharma" 18
+"Vana Kalogeraki" 31
+"Vijay K. Gurbani" 26
+"Waldemar Hummer" 15
+"Wolf-Tilo Balke" 26
+"Wonbae Kim" 0
+"Xiao Zhang" 8
+"Xiaodong Zhu" 5
+"Xiaoxing Ma" 17
+"Xumin Liu" 12
+"Yasuhiko Kanemasa" 14
+"Yiming Zou" 1
+"Ying Zhang" 24
+"Yuan Haitao" 6
+"Yun Yang" 41
+"Zhang Zhang" 46
+"kyuho Jeong" 2
+"Adam Morrison" 9
+"Akihiro Hayashi" 8
+"Aleksandar Zlateski" 5
+"Alex Kogan" 10
+"Alexander Matveev" 8
+"Amit Sabne" 5
+"Ammar Ahmad Awan" 3
+"Anand Raghunathan" 63
+"Arie Tal" 10
+"Bin Ren" 5
+"Bruce Hendrickson" 46
+"Charles Bouman" 47
+"Charles E. Leiserson" 57
+"David Budden" 9
+"David Dice" 26
+"Doug Lea" 24
+"Edward Bortnikov" 9
+"Elmootazbellah Elnozahy" 31
+"Fernando Magno Quintão Pereira" 16
+"Gergely Odor" 2
+"Guoyang Chen" 3
+"Halim Amer" 6
+"Hao Luo" 31
+"Hironori Kasahara" 29
+"Hristo Djidjev" 22
+"I-Ting Angelina Lee" 8
+"Jahanzeb Maqbool Hashmi" 2
+"Jieyang Chen" 2
+"John Mellor-Crummey" 48
+"Kaiming Ouyang" 0
+"Karol Kowalski" 44
+"Keren Zhou" 0
+"Khaled Hamidouche" 11
+"Kunal Agrawal" 21
+"Kunle Olukotun" 59
+"Mark Batty" 11
+"Michael Vollmer" 1
+"Mike Rainey" 10
+"Milind Chabbi" 7
+"Mingyu Chen" 15
+"Naama Ben-David" 3
+"Nathan DeBardeleben" 13
+"Nirmal Prajapati" 1
+"Panruo Wu" 7
+"Peizhao Ou" 1
+"Peng Jiang" 2
+"Qiang Guan" 11
+"Robert Clay" 9
+"Robert Utterback" 2
+"Rumen Andonov" 17
+"Samyam Rajbhandari" 4
+"Sandhya Dwarkadas" 47
+"Satish Narayanasamy" 25
+"Seth Copen Goldstein" 41
+"Sreepathi Pai" 6
+"Sylvain Collange" 12
+"Tal Ben-Nun" 6
+"Tao B. Schardl" 6
+"Thomas R. Gross" 20
+"Timothy G. Rogers" 4
+"Timothy Kaler" 4
+"Weihua Zhang" 7
+"William S. Moses" 1
+"Xin Liang" 3
+"Xiuxia Zhang" 3
+"Yue Zhao" 5
+"Zhaoguo Wang" 5
+"Zhijia Zhao" 7
+"Aditya Sundarrajan" 4
+"Adrian Loch" 6
+"Ahmed O. F. Atya" 4
+"Akshay Jajoo" 0
+"Aleksandar Kuzmanovic" 27
+"Alessandro Mei" 29
+"Ana Paula Couto Da Silva" 13
+"Ander Galisteo" 1
+"Anubhavnidhi Abhashkumar" 2
+"Aran Bergman" 4
+"Athina Markopoulou" 38
+"Azeem Aqil" 2
+"Ben Leong" 17
+"Björn Debaillie" 19
+"Bozidar Radunovic" 27
+"Chaoyun Zhang" 1
+"Christian Esteve Rothenberg" 22
+"Christos Gkantsidis" 30
+"Colleen Josephson" 0
+"Cristina Nita Rotaru" 32
+"Damiano Carra" 14
+"Dan Alistarh" 13
+"Daniel Demmler" 6
+"Daniel Steinmetzer" 4
+"Daniel Wegemer" 3
+"Dario Rossi" 34
+"David Naylor" 8
+"Dejan Kostic" 25
+"Devdeep Ray" 0
+"Dimitrios Koutsonikolas" 20
+"Dinesh Bharadia" 14
+"Domenico Giustiniano" 18
+"Dongyao Chen" 2
+"Eugene Chai" 6
+"Evangelos E. Papalexakis" 20
+"Ganesh Ananthanarayanan" 22
+"Ghufran Baig" 1
+"Giuseppe Bianchi" 35
+"Hany Assasa" 2
+"Huan Chen" 2
+"Hyunseok Chang" 16
+"Idilio Drago" 9
+"Ilker Nadi Bozkurt" 5
+"Istemi Ekin Akkus" 7
+"Ivica Rimac" 18
+"Jacobus Van der Merwe" 41
+"Jie Xiong" 12
+"Joan Palacios" 3
+"Joerg Widmer" 42
+"Joon-Myung Kang" 13
+"Junguk Cho" 6
+"Karim Khalil" 6
+"Karthikeyan Sundaresan" 35
+"KyoungSoo Park" 20
+"Kyu-Han Kim" 20
+"Lei Yang" 24
+"Lili Qiu" 46
+"Luca Muscariello" 23
+"Marcelo Bagnulo" 22
+"Marco Chiesa" 5
+"Marco Mellia" 45
+"Marco Zuniga" 22
+"Matthew K. Mukerjee" 6
+"Matthew Roughan" 34
+"Matthias Schulz" 5
+"Naga Katta" 10
+"Narseo Vallina-Rodriguez" 14
+"Nimantha Baranasuriya" 3
+"Patrick Thiran" 54
+"Paul Patras" 10
+"Peng Cheng" 5
+"Pengyu Zhang" 12
+"Qing Wang" 10
+"Ramanujan K Sheshadri" 5
+"Ramin Sadre" 22
+"Ranjita Bhagwan" 21
+"Ren Zhang" 2
+"Richard Gibbens" 30
+"Richard Li" 1
+"Rohan Gandhi" 7
+"Sachin Katti" 38
+"Sajjad Rizvi" 7
+"Samir R. Das" 54
+"Sampath Rangarajan" 51
+"Sergey Gorinsky" 18
+"Seth Gilbert" 29
+"Shuihai Hu" 3
+"Srinivasan Keshav" 49
+"Sung-Ju Lee" 46
+"T. V. Lakshman" 67
+"Thomas Karagiannis" 30
+"Vijay Sivaraman" 29
+"Volker Hilt" 24
+"Wai Kay Leong" 6
+"Wenfei Wu" 10
+"Wenjun Hu" 17
+"Xi Ouyang" 3
+"Xin Wang" 23
+"Xiufeng Xie" 6
+"Xu Zhang" 1
+"Y. Charlie Hu" 53
+"Yeon-sup Lim" 11
+"Yuedong Xu" 12
+"Yurong Jiang" 7
+"Zhe Chen" 1
+"Zhi-li Zhang" 62
+"Animesh Trivedi" 7
+"Cezary Dubnicki" 27
+"Chunghan Lee" 2
+"Dan Wallach" 46
+"Danny Dolev" 61
+"Danny Raz" 34
+"Dorian Burihabwa" 2
+"Dror Feitelson" 50
+"Dushyanth Narayanan" 23
+"Evangelia Kalyvianaki" 10
+"Eyal de Lara" 35
+"Fan Ni" 3
+"Francisco Maia" 5
+"Frank Bellosa" 20
+"Gala Yadgar" 6
+"Hakim Weatherspoon" 25
+"Helen H. W. Chan" 1
+"Iqbal Mohomed" 13
+"Itai Segall" 11
+"Jingpei Yang" 5
+"Joao Paulo" 3
+"Jon Weissman" 28
+"Kornilios Kourtis" 11
+"Kwangsung Oh" 2
+"Larry Rudolph" 45
+"Maayan Goldstein" 6
+"Mahadev Satyanarayanan" 68
+"Marius Hillenbrand" 7
+"Mathias Gottschlag" 1
+"Mema Roussopoulos" 22
+"Naoto Fukumoto" 3
+"Nikolas Ioannou" 6
+"Nuno Preguica" 20
+"Panayiotis Petrides" 3
+"Patrick Stuedi" 15
+"Pedro Trancoso" 17
+"Peter Desnoyers" 19
+"Philip Shilane" 21
+"Rogério Pontes" 1
+"Sam H. Noh" 25
+"Stefan Saroiu" 34
+"Valerio Schiavoni" 8
+"Xingbo Wu" 4
+"Yuval Cassuto" 14
+"Andrea Calì" 25
+"Andreas Pieris" 17
+"Andrew McGregor" 29
+"André Hernich" 10
+"Angela Bonifati" 26
+"Antoine Amarilli" 9
+"Bas Ketsman" 4
+"Benny Kimelfeld" 22
+"Boris Motik" 52
+"Carsten Lutz" 51
+"Christopher Re" 37
+"David Eppstein" 62
+"David Woodruff" 33
+"Diego Figueira" 13
+"Domagoj Vrgoc" 8
+"Donatello Santoro" 7
+"Fabio Papacchini" 2
+"Floris Geerts" 29
+"Francesco Silvestri" 9
+"Frank Wolter" 53
+"Georg Gottlob" 70
+"George Konstantinidis" 6
+"Giansalvatore Mecca" 30
+"Giuseppe De Giacomo" 67
+"Hung Ngo" 24
+"Jan Hidders" 20
+"Jan Van den Bussche" 31
+"Jef Wijsen" 17
+"Jeff Phillips" 21
+"Jelani Nelson" 17
+"Juan L. Reutter" 16
+"Julia Stoyanovich" 13
+"Ke Yi" 32
+"Kobbi Nissim" 32
+"Leonid Libkin" 49
+"Leopoldo Bertossi" 28
+"Mahmoud Abo Khamis" 4
+"Mario Alviano" 14
+"Michael A. Bender" 40
+"Michael Benedikt" 32
+"Michael Goodrich" 62
+"Michael Zakharyaschev" 45
+"Morteza Monemizadeh" 9
+"Nicole Schweikardt" 18
+"Paolo Papotti" 19
+"Paraschos Koutris" 12
+"Pierre Bourhis" 12
+"Pierre Senellart" 21
+"Priya Govindan" 3
+"Qin Zhang" 15
+"Rada Chirkova" 18
+"Rob Johnson" 19
+"Roman Kontchakov" 24
+"S Muthukrishnan" 74
+"S. Sudarshan" 47
+"Sara Cohen" 20
+"Sepehr Assadi" 6
+"Shiva Kasiviswanathan" 17
+"Simon Mauras" 1
+"Stanislav Kikot" 7
+"Stefan Szeider" 30
+"Stephen Chestnut" 5
+"Stijn Vansummeren" 18
+"Thomas Schwentick" 38
+"Ting Deng" 10
+"Tyler Mayer" 1
+"Vladimir Braverman" 13
+"Vladimir Podolskii" 7
+"Vladislav Ryzhikov" 11
+"Wenfei Fan" 49
+"Wenjie Zhang" 20
+"Xuemin Lin" 46
+"Yaacov Y. Weiss" 10
+"Yi Cui" 2
+"Yufei Tao" 61
+"Zengfeng Huang" 6
+"Achim Streit" 22
+"Alexey Lastovetsky" 25
+"Anthony Maciejewski" 40
+"Dana Petcu" 24
+"Daniel Cordeiro" 9
+"Djamal Zeghlache" 25
+"Domingo Gimenez" 13
+"François Tessier" 3
+"Holger Blume" 16
+"Howard J. Siegel" 59
+"Lilia Zaourar" 4
+"Massinissa Ait Aba" 0
+"Mehmet Deveci" 8
+"Pierre-Francois Dutot" 13
+"Samuel Thibault" 19
+"Stavan Karia" 0
+"Thomas Naughton" 33
+"Victor Lee" 18
+"Abbas Rahimi" 14
+"Abdullah Muzahid" 6
+"Abhinandan Majumdar" 5
+"Abhishek Bhattacharjee" 15
+"Adwait Jog" 10
+"Alex Ramirez" 39
+"Alireza Shafaei" 7
+"Andreas Moshovos" 32
+"Andreas Prodromou" 2
+"Andreas Sembrant" 7
+"Aniruddh Ramrakhyani" 0
+"Arpit Joshi" 3
+"Arun Subramaniyan" 2
+"Ashutosh Pattnaik" 4
+"Benjamin C. Lee" 22
+"Calvin Lin" 36
+"Carmen Martínez" 12
+"Carole-Jean Wu" 12
+"Chenhao Xie" 2
+"Cristóbal Camarero" 7
+"Daehoon Kim" 3
+"Daejin Jung" 5
+"Daniel A. Jimenez" 21
+"Daniel Oliveira" 6
+"David Blaauw" 78
+"David Black-Schaffer" 15
+"David Wentzlaff" 21
+"Dean Tullsen" 48
+"Deqian Kong" 0
+"Derek R. Hower" 10
+"Engin Ipek" 19
+"Eojin Lee" 0
+"Erik Hagersten" 39
+"Fred Chong" 33
+"Glenn Reinman" 31
+"Guihai Yan" 8
+"Hadi Esmaeilzadeh" 18
+"Hamid Sarbazi-Azad" 23
+"Hari Cherupalli" 2
+"Harold W. Cain" 16
+"Henry Duwe" 5
+"Hideharu Amano" 35
+"Hiroki Matsutani" 19
+"Hung-Wei Tseng" 10
+"Hyeonggyu Kim" 1
+"Hyeran Jeon" 7
+"Hyunyoon Cho" 2
+"Ikki Fujiwara" 9
+"Indrani Paul" 7
+"Jae W. Lee" 15
+"Jaewoong Sim" 7
+"Jan M. Rabaey" 83
+"Javier Navaridas" 13
+"Jee Ho Ryoo" 4
+"Jeff Setter" 1
+"Jiajun Li" 0
+"Jiang Xu" 22
+"John Sartori" 16
+"Joseph L. Greathouse" 11
+"José F. Martínez" 23
+"Karthik Rao" 3
+"Karthikeyan Sankaralingam" 31
+"Kiyo Ishii" 27
+"Laércio Pilla" 12
+"Leonardo Piga" 4
+"Linghao Song" 1
+"Lixin Zhang" 30
+"Luigi Carro" 34
+"Lunkai Zhang" 3
+"Marcelo Cintra" 17
+"Masoud Badiei" 4
+"Massoud Pedram" 76
+"Mauricio Hanzich" 8
+"Mehdi Modarressi" 9
+"Michael Ferdman" 17
+"Michihiro Koibuchi" 22
+"Mieszko Lis" 14
+"Mingzhe Zhang" 3
+"Miquel Moreto" 15
+"Miquel Pericas" 11
+"Misiker Tadesse Aga" 1
+"Mohammad Abdel-Majeed" 3
+"Mohammad Alian" 0
+"Mohsen Imani" 7
+"Na Li" 17
+"Nandita Vijaykumar" 5
+"Nick Sumner" 9
+"Nikos Hardavellas" 19
+"Oguz Ergin" 17
+"Onur Kayiran" 8
+"Paolo Grani" 4
+"Paolo Rech" 13
+"Paul Carpenter" 8
+"Paul V. Gratz" 17
+"Pejman Lotfi-Kamran" 10
+"Qiong Cai" 8
+"Qiuyun Llull" 1
+"Rajiv Nishtala" 2
+"Rakesh Kumar" 31
+"Ramyad Hadidi" 1
+"Reza Azimi" 15
+"Roberto Proietti" 22
+"Rujia Wang" 3
+"Salessawi Ferede Yitbarek" 1
+"Seokin Hong" 7
+"Seyed Majid Zahedi" 4
+"Shaizeen Aga" 2
+"Sherief Reda" 26
+"Shih-Lien Lu" 33
+"Shuang Chen" 8
+"Snehasish Kumar" 4
+"Soner Onder" 11
+"Songchun Fan" 2
+"Soontae Kim" 19
+"Stijn Eyerman" 20
+"Stratis Viglas" 15
+"Supreet Jeloka" 5
+"Syed Gilani" 7
+"Tajana S. Rosing" 44
+"Thomas F. Wenisch" 37
+"Timothy N. Miller" 6
+"Todd Austin" 53
+"Trevor Mudge" 68
+"Tushar Krishna" 15
+"Valeria Bertacco" 33
+"Vijay Nagarajan" 13
+"Vinicius Petrucci" 12
+"Weidong Ye" 1
+"Xavier Martorell" 11
+"Xiaodong Wang" 3
+"Xiaowei Li" 30
+"Xin Zhan" 3
+"Xulong Tang" 4
+"Xun Jian" 7
+"Yale Patt" 65
+"Yannis Papakonstantinou" 48
+"Yanqi Zhou" 4
+"Yao Wang" 3
+"Yingying Tian" 5
+"Yiran Chen" 40
+"Yoav Etsion" 19
+"Young Hoon Son" 4
+"Yuan Xie" 59
+"Yuchen Hao" 3
+"Yuhwan Ro" 11
+"Yutao Liu" 6
+"Zhe Wang" 6
+"Zhenman Fang" 7
+"Zhiyong Liu" 55
+"Zhongyuan Tian" 2
+"Aamer Jaleel" 25
+"Adam Holmes" 4
+"Akhil Arunkumar" 3
+"Alaa Alameldeen" 25
+"AmirAli Abdolrashidi" 4
+"Amirali Boroumand" 5
+"Anand Sivasubramaniam" 56
+"Andre Seznec" 36
+"Andrew Lukefahr" 5
+"Ang Li" 5
+"Animesh Jain" 2
+"Arun Raghavan" 9
+"Athanasios Chatzidimitriou" 4
+"Babak Zamirai" 2
+"Barry P. Rand" 42
+"Ben Lee" 23
+"Berkin Ilbeyi" 2
+"Bo Yuan" 10
+"Brandon Lucia" 15
+"Cagri Balkesen" 7
+"Caiwen Ding" 3
+"Carmen G. Almudever" 5
+"Chang-Hong Hsu" 6
+"Chanyoung Oh" 2
+"Chao Wang" 26
+"Chen Zou" 1
+"Chita R. Das" 49
+"Christopher Batten" 17
+"Christopher Torng" 3
+"Daniel J. Sorin" 37
+"Daniel Lustig" 9
+"Daniel Wong" 7
+"Daphne I. Gorman" 0
+"David A. Wood" 58
+"David Lo" 39
+"David Nellans" 18
+"Dennis Sylvester" 71
+"Devashree Tripathy" 2
+"Diana Franklin" 13
+"Dimin Niu" 13
+"Dimitrios Skarlatos" 1
+"Dimitris Gizopoulos" 28
+"Divya Mahajan" 6
+"Dmitry Ponomarev" 22
+"Eiman Ebrahimi" 13
+"Elvira Teran" 2
+"Eric Chung" 18
+"Eric Sedlar" 22
+"Evgeny Bolotin" 12
+"Felix Heide" 12
+"Gabriel Falcao" 13
+"Geng Yuan" 2
+"George Papadimitriou" 1
+"Georgios Giannikis" 5
+"Gerard O'Leary" 0
+"Gilles Pokam" 18
+"Guangyu Sun" 24
+"Gunjae Koo" 3
+"Hadi Esmailzadeh" 18
+"Haibo Zhang" 2
+"Hanjun Kim" 10
+"Hardik Sharma" 3
+"Hoda Naghibijouybari" 2
+"Imran Ashraf" 4
+"Isaac Gelado" 13
+"Ivan Tanasic" 2
+"Jack Sampson" 17
+"James Hoe" 37
+"Jangwoo Kim" 11
+"Jason Mars" 22
+"Jayneel Gandhi" 8
+"Jeremie S. Kim" 4
+"Jian Tang" 33
+"John Kloosterman" 1
+"Jonathan Assouline" 2
+"Jongse Park" 9
+"Joon Kyung Kim" 2
+"Joonmoo Huh" 2
+"Jorge Albericio" 8
+"Jose Renau" 21
+"Kaisheng Ma" 9
+"Karu Sankaralingam" 32
+"Kenneth R. Brown" 24
+"Khaled N. Khasawneh" 2
+"Kim Hazelwood" 25
+"Kiran Kumar Matam" 6
+"Koen Bertels" 26
+"Krishna T. Malladi" 3
+"Kyle Mandli" 7
+"Lei Yu" 16
+"Leonardo DiCarlo" 32
+"Lingjia Tang" 19
+"Manolis Kaliorakis" 5
+"Margaret Martonosi" 65
+"Martha A. Kim" 13
+"Matthew Guthaus" 14
+"Md E. Haque" 6
+"Mehmet Esat Belviranli" 5
+"Michael Laurenzano" 17
+"Michael Taylor" 28
+"Milos Prvulovic" 25
+"Mingoo Seok" 23
+"Minsoo Rhu" 8
+"Nachiappan Chidambaram Nachiappan" 7
+"Nacho Navarro" 25
+"Nadathur Satish" 26
+"Nael Abu-Ghazaleh" 31
+"Natalie Enright Jerger" 19
+"Ning Liu" 6
+"Opeoluwa Matthews" 2
+"Oreste Villa" 22
+"Orhan Kislal" 2
+"Parker Hill" 2
+"Pedro Tomas" 7
+"Phillip Gibbons" 67
+"Prasanna Venkatesh Rengasamy" 3
+"Prashant J. Nair" 10
+"Prathmesh Kallurkar" 2
+"Qinru Qiu" 23
+"Raguram Damodaran" 7
+"Rajeev Balasubramonian" 37
+"Rami Sheikh" 4
+"Ravi Iyer" 35
+"Ravi Rajwar" 19
+"Reza Yazdani" 1
+"Roman Genov" 23
+"Ruby B. Lee" 45
+"Sameh Elnikety" 25
+"Sandeep R. Agrawal" 2
+"Satish Kumar Tirukkovalluri" 1
+"Scott Mahlke" 63
+"Shidhartha Das" 14
+"Shreesha Srinath" 5
+"Shruti Padmanabha" 5
+"Shuang Song" 3
+"Shuangchen Li" 9
+"Shulin Zhao" 2
+"Shunning Jiang" 2
+"Simone Campanoni" 12
+"Siyu Liao" 1
+"Stefanos Kaxiras" 27
+"Stephen Keckler" 49
+"Swamit S. Tannu" 1
+"Thu D. Nguyen" 31
+"Todd C. Mowry" 44
+"Tony Nowatzki" 10
+"Trevor E. Carlson" 12
+"Vance Miller" 0
+"Venkatanathan Varadarajan" 6
+"Venkatraman Govindaraju" 7
+"Vijay Janapa Reddi" 21
+"Vijaykrishnan Narayanan" 72
+"Vivienne Sze" 21
+"Wenfeng Zhao" 5
+"William Dally" 86
+"Xiang Fu" 2
+"Xiangyao Yu" 12
+"Xiaolong Ma" 2
+"Xue Lin" 18
+"Yanzhi Wang" 26
+"Yashwant Marathe" 1
+"Yongpan Liu" 18
+"Youngmin Yi" 12
+"Youngsok Kim" 4
+"Yu Bai" 3
+"Yuanwei Fang" 3
+"Zecheng He" 0
+"Zhaoxia Deng" 2
+"Zhe Li" 5
+"Alejandro Martinez" 10
+"Alejandro Rico" 8
+"Aleksandar Ilic" 9
+"Almadena Chtchelkanova" 10
+"Andrey Rodchenko" 1
+"Andy Nisbet" 12
+"Antoniu Pop" 11
+"Bjoern Franke" 17
+"Bruno Bodin" 5
+"Christos Kotselidis" 9
+"David Lowenthal" 26
+"Eric Van Hensbergen" 21
+"Estela Suarez" 6
+"Fabrizio Petrini" 35
+"Francois Guimbretiere" 29
+"Frederico Pratas" 7
+"Harry Wagstaff" 3
+"Hyoukjun Kwon" 1
+"Izzat El Hajj" 5
+"Jaewon Lee" 4
+"Jiajun Wang" 1
+"Juan Gómez-Luna" 8
+"Kanishka Lahiri" 24
+"Katherine Isaacs" 8
+"Kirshanthan Sundararajah" 2
+"Kristof Du Bois" 5
+"Leonel Sousa" 34
+"Li-Wen Chang" 11
+"Mark Stephenson" 10
+"Rajit Manohar" 30
+"Saumay Dublish" 1
+"Simon Garcia de Gonzalo" 3
+"Siva Kumar Sastry Hari" 14
+"Stephan Diestelhorst" 11
+"Suzanne Rivoire" 11
+"Tayyar Rzayev" 1
+"Thomas B. Jablin" 11
+"Timothy Tsai" 18
+"Tom Spink" 2
+"Valentina Salapura" 24
+"Valerie Taylor" 26
+"Victor Garcia-Flores" 2
+"Vince Weaver" 13
+"Wen-Mei Hwu" 66
+"Xiaosong Ma" 28
+"Xinnian Zheng" 2
+"Yipeng Wang" 2
+"Amer Diwan" 29
+"Amr El Abbadi" 68
+"Andres Lagar Cavilla" 16
+"Baochun Li" 72
+"Divyakant Agrawal" 74
+"Dániel Géhberger" 2
+"Ethan L. Miller" 46
+"Henry Xu" 18
+"Hitesh Ballani" 21
+"Hong Xu" 20
+"Irene Finocci" 26
+"Kaustubh Joshi" 19
+"Lalith Suresh" 8
+"Lianjie Cao" 2
+"Mark Goldstein" 1
+"Michael Kaufmann" 2
+"Mohammad Noormohammadpour" 1
+"Mohammad Shahrad" 2
+"Muhammad Tirmazi" 0
+"Muli Ben-Yehuda" 25
+"Nesime Tatbul" 27
+"Peter Alvaro" 13
+"Peter Fischer" 15
+"Puneet Sharma" 42
+"Purushottam Kulkarni" 20
+"Péter Mátray" 9
+"Qiang Cao" 6
+"Ragunathan Rajkumar" 35
+"Sahil Suneja" 5
+"Sandeep D'souza" 1
+"Sarana Nutanong" 13
+"Scott Rixner" 30
+"Sindhu Ghanta" 4
+"Srikanth Kandula" 38
+"Sriram Rao" 18
+"Steffen Smolka" 3
+"Stephen Fink" 32
+"Supreeth Shastri" 3
+"Swaminathan Sundararaman" 13
+"Tanuj Mittal" 3
+"Tanvi Ranjan" 1
+"Thomas Pasquier" 10
+"Vaibhav Arora" 4
+"Victor Bahl" 74
+"Vinay Saxena" 1
+"Xueyuan Han" 1
+"Aditya Singh Rathore" 1
+"Adrian Sampson" 11
+"Aftab Hussain" 1
+"Akash Kumar" 21
+"Ali Jose Mashtizadeh" 10
+"Alvin R. Lebeck" 36
+"Ana Klimovic" 3
+"Andrew Chi" 2
+"Angela Demke Brown" 16
+"Anthony Carno" 2
+"Ao Ren" 4
+"Ardalan Amiri" 7
+"Austin Rovinski" 1
+"Ben Laurie" 19
+"Brooks Davis" 7
+"Cao Gao" 2
+"Caroline Trippel" 2
+"Changhee Jung" 10
+"Channoh Kim" 2
+"Chen Song" 6
+"Chi Zhou" 16
+"Cynthia Sturton" 5
+"Danfeng Zhang" 8
+"David Brooks" 45
+"David Chisnall" 9
+"David G. Andersen" 51
+"David Terei" 6
+"Dongyoon Lee" 8
+"Dooyoung Kim" 11
+"Gu-Yeon Wei" 37
+"Guangpu Li" 27
+"Guilherme Cox" 3
+"Guoqing Harry Xu" 21
+"Gwangsun Kim" 7
+"Hailong Yang" 12
+"Haopeng Liu" 2
+"Haris Volos" 13
+"Heiner Litz" 9
+"Henk Corporaal" 35
+"Henrique Malvar" 53
+"Irina Calciu" 6
+"Ismail Akturk" 5
+"Jacob Nelson" 8
+"Jade Alglave" 16
+"Jaehyeok Kim" 1
+"Jagadish Kotra" 3
+"Jared Roesch" 3
+"Jason Jong Kyu Park" 3
+"Jerry Ajay" 3
+"Ji Li" 6
+"Jianfei Chen" 5
+"Jihye Seo" 1
+"Jinchun Kim" 3
+"Jing Pu" 4
+"Johann Hauswald" 3
+"John Carter" 38
+"John Criswell" 9
+"John Vilk" 2
+"Jonathan Woodruff" 6
+"Jun Zhu" 28
+"Kai Wang" 4
+"Kaiwei Li" 3
+"Keval Vora" 3
+"Laith Sakka" 1
+"Lawton Nichols" 1
+"Lena E. Olson" 3
+"Mahesh Balakrishnan" 21
+"Marc Shapiro" 34
+"Marcos K. Auguilera" 36
+"Mark D. Hill" 71
+"Mark Horowitz" 110
+"Martha Kim" 17
+"Mengxing Liu" 1
+"Michael Carbin" 14
+"Ming Wu" 16
+"Mingyu Gao" 3
+"Minyi Guo" 32
+"Moein Khazraee" 3
+"Namho Kim" 1
+"Narges Shahidi" 2
+"Natalie Stanley" 2
+"Neha Agarwal" 5
+"Nima Elyasi" 1
+"Olatunji Ruwase" 6
+"Quan Chen" 10
+"Ram Srivatsa Kannan" 3
+"Robert N. M. Waston" 20
+"Sam Likun Xi" 4
+"Sanketh Nalli" 3
+"Seth H. Pugsley" 8
+"Shachar Raindel" 3
+"Simon W. Moore" 24
+"Sudhanva Gurumurthi" 26
+"Sungmin Kim" 14
+"Svilen Kanev" 7
+"Swapnil Haria" 1
+"Victor W. Lee" 20
+"Vincent Legout" 5
+"Weifeng Liu" 7
+"Wenyao Xu" 17
+"Wilson Hsieh" 28
+"Wook-hee Kim" 3
+"Woongki Baek" 7
+"Xuechen Zhang" 10
+"Yiping Kang" 1
+"Yongjun Park" 7
+"Young H. Oh" 3
+"Yungang Bao" 11
+"Yuxin Bai" 4
+"Zeshan A. Chishti" 19
+"Zhiqiang Zuo" 20
+"Ahmed Hussein" 4
+"Ali B. Hashemi" 12
+"Andrea Arpaci-Dusseau" 50
+"Arnamoy Bhattacharyya" 3
+"Cristiana Amza" 24
+"Debadatta Mishra" 5
+"Galen Hunt" 43
+"Hann Huang" 4
+"John Goodacre" 8
+"John Mawer" 3
+"Juan Fumero" 6
+"Leo Arulraj" 2
+"Malgorzata Gosia Steinder" 27
+"Michel Steuwer" 8
+"Naila Farooqui" 5
+"Paolo Bonzini" 8
+"Stefan Marr" 8
+"Tony Hosking" 26
+"Xianhua Liu" 22
+"Yueqiang Cheng" 7
+"Zachary J. Estrada" 4
+"Aaron Harlap" 1
+"Akhilesh Chaganti" 1
+"Ali Kheradmand" 2
+"Amar Phanishayee" 11
+"Amy Ousterhout" 2
+"Amy Tai" 1
+"Anees Shaikh" 36
+"Ang Chen" 5
+"Ankur Dave" 7
+"Anran Wang" 3
+"Antoine Kaufmann" 4
+"Ashish Kapoor" 28
+"Ashutosh Dhekne" 3
+"Azzam Alsudais" 0
+"Brent Chun" 1
+"Changho Hwang" 1
+"Chunming Qiao" 68
+"Cole Schlesinger" 6
+"Dahlia Malkhi" 46
+"Daniel Crankshaw" 4
+"Daniel Firestone" 1
+"Daniel S. Berger" 3
+"Dave Maltz" 54
+"David Wetherall" 72
+"Deepak Ganesan" 36
+"Deepak Vasisht" 5
+"Devavrat Shah" 55
+"Dina Katabi" 55
+"Donghwi Kim" 2
+"Eric Keller" 21
+"Frank Wang" 7
+"Gregory R. Ganger" 65
+"Guilio Zhou" 2
+"Hang Guan" 6
+"Hari Balakrishnan" 103
+"Ignacio Cano" 3
+"Jaehyeong Ha" 1
+"Jean-Baptiste Jeannin" 7
+"Jianshu Chen" 17
+"John Wilkes" 48
+"Jonathan Perry" 5
+"Jongho Won" 4
+"Joseph E. Gonzalez" 4
+"Joshua R. Smith" 46
+"Junchen Jiang" 12
+"Juncheng Gu" 4
+"Kevin Hsieh" 6
+"Krishna Chintalapudi" 24
+"Li Chen" 6
+"Lin Zhong" 45
+"Luigi Rizzo" 27
+"Mahanth Gowda" 6
+"Matthai Philipose" 35
+"Michael Waidner" 56
+"Mohit Tawarmalani" 20
+"Muhammad Asim Jamshed" 5
+"Natacha Crooks" 3
+"Nathan Bronson" 17
+"Naveen Kr. Sharma" 8
+"Omid Abari" 8
+"Omid Alipourfard" 3
+"Peter Bodik" 20
+"Ramachandran Ramjee" 44
+"Rodrigo Fonseca" 32
+"Romil Bhardwaj" 1
+"Romit Roy Choudhury" 41
+"Sanjay G. Rao" 25
+"Sanjeev Kumar" 22
+"Sharad Agarwal" 26
+"Sheng Shen" 2
+"Sudipta N. Sinha" 27
+"Syed Akbar Mehdi" 3
+"Teng Wei" 5
+"Udi Wieder" 22
+"Vamsi Talla" 8
+"Varun Arora" 9
+"Vikram Iyer" 2
+"Vinod Vaikuntanathan" 40
+"Wenchao Zhou" 16
+"Wenting Zheng" 4
+"Xiaohe Hu" 3
+"Xinxin Jin" 5
+"Yang Wu" 3
+"Yiyang Chang" 4
+"YoungGyoun Moon" 3
+"Younghwan Go" 6
+"Youngmoon Lee" 1
+"Zerina Kapetanovic" 2
+"Aishwarya Ganesan" 2
+"Alex Conway" 1
+"An-I Andy Wang" 17
+"Bikash Sharma" 8
+"Bradley Kuszmaul" 25
+"Danny Harnik" 17
+"David H.C. Du" 12
+"Edgar Zamora" 1
+"Eno Thereska" 20
+"Erez Zadok" 40
+"Erik Riedel" 28
+"Fabiano Botelho" 9
+"Francisco Perez-Sorrosal" 6
+"Garth Gibson" 62
+"Geoff Kuenning" 12
+"Hang Liu" 4
+"Henry Nelson" 9
+"Hwanju Kim" 12
+"Hyukjoong Kim" 3
+"Jim Dowling" 17
+"Jinkyu Jeong" 10
+"Josep Sampé" 3
+"Jun Yuan" 5
+"Keith A. Smith" 16
+"Lanyue Lu" 8
+"Mahmoud Ismail" 2
+"Marc Sánchez-Artigas" 16
+"Matias Bjørling" 6
+"Matthieu Morel" 7
+"Michael Philippsen" 25
+"Ming Chen" 5
+"Ohad Shacham" 9
+"Pedro García-López" 17
+"Philippe Bonnet" 22
+"Raju Rangaswami" 20
+"Ramnatthan Alagappan" 3
+"Raúl Gracia-Tinedo" 8
+"Salman Niazi" 4
+"Sangwook Kim" 6
+"Seif Haridi" 35
+"Shiqin Yan" 3
+"Sudipta Sengupta" 40
+"Suman Nath" 41
+"Thanumalayan Sankaranarayana Pillai" 6
+"Theodore M. Wong" 16
+"Vasily Tarasov" 10
+"Weiping He" 8
+"William Jannen" 4
+"Yang Zhan" 3
+"Yizheng Jiao" 37
+"Zili Shao" 24
+"Alba Cristina Magalhaes Alves de Melo" 14
+"Albert Y. Zomaya" 56
+"Alberto Miranda" 3
+"Alessandro Pellegrini" 11
+"Alexandru Costan" 15
+"Ali R. Butt" 24
+"Amer Abdelhalim" 5
+"Amrita Dhakal Ghimire" 0
+"An Huynh" 4
+"Anand D. Sarwate" 16
+"Andrew J. Younge" 13
+"Anna Queralt" 12
+"Ashish Tapdiya" 2
+"Balazs Nemeth" 1
+"Bangtian Liu" 1
+"Bin Dong" 8
+"Bogdan Nicolae" 14
+"Bora Ucar" 19
+"Boyana Norris" 23
+"Chris Carothers" 26
+"Christian Hundt" 7
+"Christine Klymko" 8
+"Christopher Carothers" 26
+"Daeyoun Kang" 0
+"Daeyoung Kim" 28
+"Daniel Fabbri" 6
+"Daniele Lezzi" 12
+"Dave Pugmire" 13
+"David Pugmire" 13
+"David Rohr" 58
+"Debojyoti Ghosh" 5
+"Deukyeon Hwang" 2
+"Dohyeun Kim" 9
+"Domenico Talia" 40
+"Emil Constantinescu" 19
+"Engin Arslan" 6
+"Eric Suchyta" 25
+"Estanislao Mercadal" 3
+"Florin Isaila" 14
+"Florin Pop" 20
+"Forrest Hoffman" 34
+"Francesco Quaglia" 23
+"Gabrielle Dawn Allen" 28
+"George Ostrouchov" 18
+"George Teodoro" 16
+"Glenn K. Lockwood" 7
+"Greg Eisenhauer" 28
+"Hank Childs" 19
+"Harald Servat" 10
+"Hisham A. Kholidy" 8
+"Houjun Tang" 3
+"Hui Wang" 3
+"Hyeonsang Eom" 15
+"Hyuck Han" 12
+"Hyungsoo Jung" 10
+"Jaehwan Lee" 9
+"Janine C. Bennett" 12
+"Jelena Pjesivac-Grbovic" 13
+"Jens Breitbart" 8
+"Jens Gustedt" 15
+"Jeremy Logan" 10
+"Jesus Carretero" 23
+"Jialin Liu" 8
+"Jie Wu" 82
+"Jik-Soo Kim" 10
+"Jitendra Kumar" 10
+"Joel Saltz" 63
+"Johannes Langguth" 6
+"Jon Woodring" 15
+"Jonathan Marti" 4
+"Jong Youl Choi" 16
+"Jongmoo Choi" 23
+"JorJi Nonaka" 7
+"Jun Kong" 24
+"Jun Shirako" 17
+"Kai Wu" 0
+"Kalyana Chadalavada" 4
+"Kavitha Chandrasekar" 5
+"Kenneth Kent" 12
+"Kevin Huck" 11
+"Kevin Pedretti" 20
+"Kiran Sasikumar" 5
+"Kristin Potter" 14
+"Kun Tang" 2
+"Kurt Ferreira" 19
+"Kwan-Liu Ma" 65
+"Larry Kaplan" 10
+"Leigh Orf" 8
+"Leonardo Bautista Gomez" 9
+"Lipeng Wan" 3
+"Marco Aldinucci" 25
+"Mark Ainsworth" 36
+"Martin Quinson" 17
+"Maryam Mehri Dehnavi" 7
+"María S. Pérez" 17
+"Masahiro Nakao" 6
+"Massimo Torquati" 17
+"Matt Martineau" 3
+"Matthew Wolf" 23
+"Mauro Ianni" 2
+"Melissa Romanus" 5
+"Michael Kuhn" 10
+"Michael Papka" 26
+"Min Si" 4
+"Miquel Pericàs" 11
+"Misbah Mubarak" 8
+"Mohamed Wahib" 8
+"Moohyeon Nam" 0
+"Norbert Podhorszki" 28
+"Omer Subasi" 6
+"Orcun Yildiz" 4
+"Pablo Mininni" 39
+"Panagiotis Patros" 2
+"Patrick Bridges" 23
+"Paul Kelly" 29
+"Paul Rich" 7
+"Peng Sun" 3
+"Pierre Matri" 1
+"Pierre-Louis Guhur" 0
+"Pilar Gonzalez-Ferez" 4
+"Qing Liu" 36
+"Rafael Ferreira Da Silva" 14
+"Ramon Nou" 9
+"Raul Sirvent" 10
+"Renan Fischer E Silva" 2
+"Richard Mills" 15
+"Robert Sisneros" 6
+"Roland Haas" 50
+"Rong Ge" 17
+"Sarat Sreepathi" 6
+"Saurabh Gupta" 7
+"Scott Levy" 5
+"Shaomeng Li" 2
+"Sherif Abdelwahed" 23
+"Simon Mcintosh-Smith" 12
+"Simon Pickartz" 5
+"Soonwook Hwang" 10
+"Stefan Lankes" 12
+"Stefano Iannucci" 5
+"Stratos Dimopoulos" 2
+"Subramanian Sankaranarayanan" 24
+"Sudhanshu Sane" 1
+"Sudharshan S. Vazhkudai" 23
+"Suren Byna" 21
+"Ta Nguyen Binh Duong" 9
+"Tae Joon Jun" 1
+"Tahsin Reza" 3
+"Tao Lu" 1
+"Tasuku Hiraishi" 6
+"Thomas Ludwig" 21
+"Thomas Peterka" 25
+"Tom Cornebize" 1
+"Tom Haber" 10
+"Toni Cortes" 23
+"Travis Johnston" 5
+"Tyler Fox" 0
+"Unnikrishnan Cheramangalath" 1
+"Varun Chandola" 17
+"Venkatram Vishwanath" 19
+"Vicente Adolfo Bolea Sanchez" 0
+"Vivek Pallipuram" 6
+"Volker Lindenstruth" 88
+"Volodymyr Kindratenko" 20
+"William Godoy" 5
+"William Hargrove" 34
+"Wim Lamotte" 13
+"Xinyu Chen" 7
+"Xizhou Feng" 18
+"Xuanhua Shi" 17
+"Xubin He" 23
+"Yang Li" 4
+"Yevhen Alforov" 3
+"Yingchao Huang" 0
+"Yonggang Wen" 33
+"Yuan Xue" 27
+"Yuping Fan" 1
+"Zahir Tari" 31
+"Zhen Jiang" 14
+"Zhiling Lan" 27
+"Abdelkamel Tari" 7
+"Ala Al-Fuqaha" 16
+"Alan Mickelson" 24
+"Ali Akoglu" 12
+"Amir Nakib" 14
+"Anna Kobusinska" 6
+"Anshuman Verma" 1
+"Apoorv Gupta" 1
+"Ari Rasch" 1
+"Aryabartta Sahu" 1
+"Basheer Qolomany" 1
+"Batyrkhan Omarov" 5
+"Benjamín Bustos" 23
+"Benoît Garbinato" 20
+"Berk Celik" 5
+"Bertil Chapuis" 1
+"Biplab Saha" 0
+"Bo Wan" 25
+"Chase Wu" 21
+"Chris North" 46
+"Christian Trott" 11
+"Christoph Lindemann" 27
+"Cihan Tunc" 7
+"Cristóbal A. Navarro" 4
+"Dakai Zhu" 25
+"Dan Feng" 32
+"David Carrera" 23
+"Dharanipragada Janakiram" 18
+"Driss Benhaddou" 12
+"El-Ghazali Talbi" 47
+"Eric Renault" 10
+"Fei Gu" 2
+"Feiyi Wang" 21
+"Ferad Zyulkyarov" 7
+"Flavia Delicato" 20
+"Gheorghe Mogan" 5
+"Hamid Reza Faragardi" 8
+"Hanxu Hou" 6
+"Hossein Fotouhi" 9
+"Huadong Ma" 37
+"Hugo Meyer" 3
+"Huwida Said" 8
+"Hyun-Wook Jin" 20
+"Ivan B. Djordjevic" 43
+"James She" 18
+"Javier Aracil" 29
+"Jianqiang Zeng" 5
+"Jinshu Su" 20
+"John Morrison" 16
+"Jong-Kook Kim" 15
+"Jordà Polo" 6
+"Junnan Li" 0
+"Kanika Sood" 2
+"Ke Liu" 7
+"Laurence T Yang" 45
+"Lei Ju" 12
+"Li Ruan" 7
+"M.Reza Hoseinyfarahabady" 9
+"Maciej Stasiak" 20
+"Madhu Mutyam" 15
+"Maode Ma" 29
+"Massimo Marchiori" 42
+"Matthew Fontaine" 1
+"Meikang Qiu" 35
+"Michael Haidl" 4
+"Ming Cheung" 4
+"Mingwei Yang" 2
+"Mohsen Amini Salehi" 9
+"Nancy Hitschfeld" 14
+"Nedaa Al Barghuthi" 6
+"Nicola Cadenelli" 0
+"Nong Xiao" 19
+"Periklis Andritsos" 15
+"Peter K. Jimack" 23
+"Praveen Alapati" 0
+"Rahim Rahmani" 6
+"Rakesh Pandey" 0
+"Rami Melhem" 54
+"Ravi Nanjundiah" 18
+"Ravindran Balaraman" 22
+"Rehana Begam" 1
+"Renyu Yang" 7
+"Ricky Kwok" 44
+"Sajal Dash" 0
+"Salim Hariri" 30
+"Sandeep Madireddy" 2
+"Sathish Vadhiyar" 18
+"Sergei Gorlatch" 28
+"Sergio Lopez-Buedo" 15
+"Shuaiwen Song" 17
+"Slawomir Hanczewski" 10
+"Songkuk Kim" 6
+"Srinivasan Ramesh" 0
+"Sudheer Chunduri" 4
+"Sudsanguan Ngamsuriyaroj" 6
+"Sushanta Karmakar" 10
+"Thomas Nolte" 28
+"Tim Mattson" 25
+"Timothy Hansen" 5
+"Tony Maciejewski" 39
+"Veera Muangsin" 4
+"Venkat Durvasulu" 0
+"Vinaychandran Pn" 29
+"Wei Zhang" 11
+"Weiqi Dai" 5
+"Xi Li" 11
+"Xianlan Chen" 14
+"Xiaolong Cui" 2
+"Xueqi Li" 3
+"Yandong Wang" 12
+"Yongxin Zhu" 16
+"Yufei Ren" 5
+"Yuhui Deng" 13
+"Yunchun Li" 5
+"Zhengguo Chen" 1
+"Zhihui Du" 43
+"Zhonghai Zhang" 33
+"Zhuan Chen" 4
+"Akshat Verma" 25
+"Alejandro Buchmann" 43
+"Alexander Frömmgen" 4
+"Alysson Bessani" 23
+"Amr Rizk" 10
+"Amy Murphy" 31
+"Antonio Rodrigues" 2
+"Arpan Gujarati" 3
+"Ashraf Mahgoub" 2
+"Barry Porter" 11
+"Ben Mokhtar Sonia" 20
+"Bettina Kemme" 30
+"Björn B. Brandenburg" 22
+"Boris Koldehofe" 22
+"Boutet Antoine" 9
+"Carsten Binnig" 17
+"Christine Julien" 21
+"David R. Matos" 1
+"Diego Lugones" 7
+"Felber Pascal" 43
+"Flavio Junqueira" 27
+"Folker Meyer" 53
+"Francois Taiani" 16
+"Gordon Blair" 56
+"Hans-Arno Jacobsen" 42
+"He Wang" 15
+"Heng Zhang" 0
+"Ioana Giurgiu" 7
+"Jan Rellermeyer" 10
+"Jeff Rasley" 3
+"Jeremy Andrus" 8
+"Jordi Arjona Aroca" 7
+"Kaiwen Zhang" 7
+"Kevin Huguenin" 14
+"Kurt Rothermel" 50
+"Laurent Reveillere" 16
+"Lei Jiao" 10
+"Luwei Cheng" 6
+"Masoud Saeida Ardekani" 7
+"Max Weller" 11
+"Miguel Correia" 28
+"Miguel Pardal" 5
+"Mohammad Sadoghi" 14
+"Muhammad Adnan Tariq" 11
+"Nalini Venkatasubramanian" 35
+"Naser AlDuaij" 1
+"Pasin Marcelo" 12
+"Patrick Eugster" 31
+"Paul Wood" 3
+"Paulo Ferreira" 22
+"Pires Rafael" 5
+"Rajesh Panta" 13
+"Ralf Steinmetz" 53
+"Ramya Raghavendra" 15
+"Rayman Preet Singh" 7
+"Rodrigo Bruno" 3
+"Ruben Mayer" 5
+"Sachandhan Ganesh" 0
+"Saurabh Bagchi" 38
+"Schiavoni Valerio" 8
+"Somali Chaterji" 8
+"Subrata Mitra" 6
+"Tony Suo" 1
+"Travis Harrison" 19
+"Umakishore Ramachandran" 31
+"Vinod Muthusamy" 19
+"Wolfgang Gerlach" 11
+"Xavier Defago" 27
+"Yong Zhao" 2
+"Adam Manzanares" 15
+"Antony Rowstron" 48
+"Ashlie Martinez" 5
+"Atish Kathpal" 2
+"Austin Donnelly" 19
+"Carlos Maltzahn" 22
+"Christina R Strong" 10
+"Cyril Guyot" 9
+"Ennan Zhai" 10
+"Ethan C. Ahn" 9
+"Euiseong Seo" 14
+"He Xiao" 19
+"Hugh Williams" 35
+"Hwansoo Han" 14
+"Ivo Jimenez" 3
+"Jaegyu Lee" 8
+"Jaeho Kim" 6
+"Jayashree Mohan" 1
+"Jivko Sinapov" 16
+"Jooyoung Hwang" 31
+"Junghee Lee" 8
+"Jungsik Choi Sungkyunkwan" 2
+"Kai Mast" 1
+"Kanchan Joshi" 0
+"Luis Remis" 0
+"Mai Zheng" 7
+"Mansour Shafaei" 4
+"Matthew Halpern" 5
+"Michael A. Sevilla" 3
+"Nathanael Cheriere" 2
+"Noah Watkins" 5
+"Om Rameshwar Gatla" 0
+"Peter Stone" 67
+"Priya Sehgal" 8
+"Santiago Gonzalez" 2
+"Sergey Legtchenko" 4
+"Sung-hun Kim" 2
+"Suparna Bhattacharya" 14
+"Tianyin Xu" 15
+"Youjip Won" 19
+"Youngjae Kim" 19
+"Yu-Sheng Chen" 2
+"Abhinav Agrawal" 1
+"Ahmed E. Helal" 2
+"Amrita Mazumdar" 2
+"Bagus Wibowo" 0
+"Bahar Asgari" 2
+"Burhan Ahmad Mudassar" 1
+"Carl Friedrich Bolz-Tereick" 12
+"Crefeda Faviola Rodrigues" 0
+"David C. Wong" 15
+"Dennis Abts" 17
+"Drew Hilton" 7
+"Ganesh Gopalakrishnan" 36
+"German Ceballos" 1
+"Graham Riley" 15
+"Hosam Fathy" 30
+"Hosein Mohammadi Makrani" 1
+"Houman Homayoun" 18
+"Ian Briggs" 3
+"Iyswarya Narayanan" 6
+"Jieming Yin" 3
+"Johnathan Alsop" 3
+"Kaixi Hou" 6
+"Leiming Yu" 4
+"Lizhong Chen" 10
+"Maria Malik" 7
+"Matthew D. Sinclair" 5
+"Michela Becchi" 21
+"Neftali Watkinson" 0
+"Norm Rubin" 14
+"Pingqiang Zhou" 10
+"Rui Hou" 0
+"Saibal Mukhopadhyay" 40
+"Sarita V. Adve" 57
+"Seongbeom Kim" 8
+"Sheng Li" 12
+"Teruo Tanimoto" 2
+"Trevor E. Carlsson" 12
+"Vignyan Reddy" 2
+"Visvesh Sathe" 14
+"Wenwen Wang" 2
+"Xiaodong Yu" 4
+"Yifan Sun" 7
+"Zhi Chen" 7
+"Adam Dziedzic" 2
+"Aditya Parameswaran" 26
+"Ahmed Elmagarmid" 61
+"Akon Dey" 3
+"Alan Fekete" 36
+"Alexander Rasin" 11
+"Alkis Simitsis" 35
+"Anastasia Ailamaki" 50
+"Andrew Pavlo" 16
+"Andrey Gubichev" 8
+"Anhai Doan" 51
+"Anil Shanbhag" 3
+"Anthony Tomasic" 30
+"Arka Bhattacharyya" 7
+"Badrish Chandramouli" 18
+"Bahareh Sadat Arab" 3
+"Barzan Mozafari" 16
+"Bernharde Radke" 0
+"Bill Howe" 26
+"Boris Glavic" 13
+"Brandon Myers" 6
+"Carlo Curino" 29
+"Chaoran Wang" 1
+"Christian Garcia-Arellano" 8
+"Daisy Zhe Wang" 11
+"Danica Porobic" 4
+"Daniel Deutch" 13
+"Daniel Halperin" 13
+"Daniel J. Abadi" 33
+"Daniel Zilio" 12
+"David Maier" 59
+"Deepak Narayanan" 3
+"Dominik Moritz" 5
+"Dong Deng" 11
+"Dylan Hutchinson" 3
+"Edward Xue" 5
+"Eli Upfal" 50
+"Emanuel Zgraggen" 4
+"Eugene Wu" 19
+"Fatma Ozcan" 22
+"Fotis Psallidas" 3
+"Gerhard Weikum" 81
+"Gianmaria Silvello" 11
+"Guy Lohman" 46
+"Haibin Lin" 1
+"Hamid Pirahesh" 41
+"Hideaki Kimura" 10
+"Holger Pirk" 10
+"Hugo Jehle" 1
+"Ihab Ilyas" 31
+"Ippokratis Pandis" 20
+"Jennifer Ortiz" 4
+"Jignesh M. Patel" 50
+"Jose Blakeley" 25
+"Jose M. Faleiro" 4
+"Joseph M. Hellerstein" 84
+"Joy Arulraj" 8
+"Justin Levandoski" 17
+"Karrie Karahalios" 24
+"Kevin Wilkinson" 18
+"Kexin Rong" 31
+"Laura Rettig" 2
+"Lefteris Sidirourgos" 8
+"Lin Ma" 5
+"Malte Schwarzkopt" 9
+"Manos Karpathiotakis" 11
+"Martin Kersten" 44
+"Matthew Perron" 2
+"Mattias Boehm" 10
+"Mohammad Dashti" 3
+"Mourad Ouzzani" 25
+"Nan Tang" 19
+"Navneet Potti" 1
+"Olga Papaemmanouil" 12
+"Oliver Kennedy" 9
+"Peter Bailis" 16
+"Phil Cudre-Mauroux" 30
+"Philip A. Bernstein" 74
+"Pinar Tozun" 9
+"Prashanth Menon" 3
+"Prithviraj Sen" 17
+"Raja Appuswamy" 8
+"Rakesh Agrawal" 97
+"Rene Mueller" 20
+"Rogers Jeffrey Leo John" 2
+"Ruslan Mavlyutov" 2
+"Ryan Marcus" 2
+"Saman Amarasinghe" 60
+"Samuel Madden" 78
+"Sergey Melnik" 11
+"Shangyu Luo" 3
+"Shengliang Xu" 7
+"Shirish Tatikonda" 12
+"Shoumik Palkar" 2
+"Shrainik Jain" 1
+"Sibo Wang" 5
+"Stan Zdonik" 70
+"Stratos Idreos" 26
+"Sudipto Das" 22
+"Susan Davidson" 44
+"Tanu Malik" 13
+"Tarek Elgamal" 3
+"Tarique Siddiqui" 2
+"Thomas Neumann" 30
+"Tieying Zhang" 7
+"Tim Kraska" 28
+"Tova Milo" 48
+"Vikram Sreekanti" 1
+"Viktor Leis" 9
+"WenLei Xie" 10
+"Yuanyuan Tian" 14
+"Zechao Shang" 4
+"Zheguang Zhao" 5
+"Ziawasch Abedjan" 11
+"Alex Borges Vieira" 10
+"Alexei Zamyatin" 0
+"Andrea Marin" 12
+"Aniket Mahanti" 8
+"Anne Remke" 12
+"Azer Bestavros" 56
+"Bin Nie" 2
+"Catherine Mulligan" 10
+"Christian Engelmann" 27
+"Daniel Menasce" 51
+"David Nicol" 51
+"Derek Eager" 44
+"Dick Epema" 47
+"Emir Halepovic" 16
+"Erol Gelenbe" 72
+"Glauber Dias Gonçalves" 6
+"Guy Martin Tchamgoue" 7
+"Hany Kashif" 8
+"Jean-Michel Fourneau" 20
+"Ji Xue" 3
+"Jiangyuan Yao" 2
+"Jussara Almeida" 39
+"Katinka Wolter" 18
+"Kishwar Ahmed" 3
+"Martin Arlitt" 40
+"Max Schuchard" 6
+"Min Li" 12
+"Mostafa Ammar" 72
+"Nigel Thomas" 18
+"Pansy Arafa" 3
+"Paolo Romano" 23
+"Peter Harrison" 34
+"Philipp Andelfinger" 5
+"Ping Huang" 7
+"Qingkai Liang" 4
+"Randall Berry" 43
+"Ricardo Lent" 17
+"Samer Al-Kiswany" 13
+"Samuel Kounev" 28
+"Sanjeev Setia" 30
+"Shouhuai Xu" 27
+"Sophie Chabridon" 13
+"Srinivas Shakkottai" 22
+"Swades De" 19
+"Tim Brecht" 22
+"Uday Shanbhag" 20
+"Valeria Cardellini" 24
+"Wei Ding" 23
+"Weijun Xiao" 11
+"William .J. Knottenbelt" 28
+"Xingfu Wu" 25
+"Abhradeep Thakurta" 11
+"Adam Smith" 44
+"Adrian Tang" 5
+"Ahmed M. Azab" 8
+"Andrea Maria Zanchettin" 12
+"Andrei Popescu" 16
+"Andrei Sabelfeld" 34
+"Anja Lehmann" 16
+"Anne Edmundson" 3
+"Antoine Delignat-Lavaud" 12
+"Ariel Hamlin" 3
+"Arjun Baokar" 2
+"Arkady Yerukhimovich" 9
+"Aslan Askarov" 17
+"Aviv Zohar" 21
+"Ben Hermann" 4
+"Benjamin Fuller" 6
+"Bihuan Chen" 7
+"Bogdan Warinschi" 30
+"Bruno Blanchet" 32
+"Carl Herrmann" 20
+"Chaz Lever" 5
+"Chenxiong Qian" 5
+"Colin O’Flynn" 8
+"Constantin Cătalin Drăgan" 4
+"Cormac Herley" 45
+"Cédric Fournet" 52
+"David Brumley" 35
+"David Cash" 20
+"David Novick" 22
+"David Wagner" 80
+"Davide Quarta" 1
+"Dawson Engler" 44
+"Dimitrios Papadopoulos" 7
+"Dongpeng Xu" 3
+"Endadul Hoque" 9
+"Eric Bodden" 31
+"Eyal Ronen" 0
+"Federico Maggi" 21
+"Felix Fischer" 2
+"Feng Qian" 17
+"Franco Raimondi" 19
+"Geumhwan Cho" 4
+"Hakjoo Oh" 8
+"Hayawardh Vijayakumar" 9
+"Heejo Lee" 32
+"Huang Xiao" 6
+"Huangyi Ge" 1
+"Hyoungshick Kim" 14
+"Ioannis Papagiannis" 8
+"Ismail Khoffi" 3
+"Jalaj Upadhyay" 5
+"James Larisch" 1
+"Jason Hong" 63
+"Jean-Pierre Hubaux" 78
+"Jiang Ming" 7
+"Jinkyu Koo" 8
+"Johannes Lerch" 4
+"Joseph Bonneau" 26
+"Jun Ho Huh" 12
+"Junjie Wang" 3
+"Junsung Cho" 2
+"Juraj Somorovsky" 13
+"Jörg Schwenk" 28
+"Khaled Saab" 1
+"Lei Wei" 5
+"Li Zhang" 35
+"Liqun Chen" 38
+"M. Angela Sasse" 50
+"Marcello Pogliani" 1
+"Mario Polino" 3
+"Markulf Kohlweiss" 29
+"Mathias Lecuyer" 3
+"Michael J. Fischer" 49
+"Mira Mezini" 44
+"Mohammad Emtiyaz Khan" 9
+"Mohammad Rezaeirad" 2
+"Mung Chiang" 65
+"Nadim Kobeissi" 4
+"Nicholas Carlini" 7
+"Nicolas Gailly" 3
+"Niels Provos" 33
+"Nigel Smart" 54
+"Nikhil Swamy" 27
+"Nikita Borisov" 36
+"Ninghui Li" 58
+"Pascal Berrang" 5
+"Patrick Tague" 17
+"Paul C. van Oorschot" 68
+"Paul Pearce" 5
+"Peng Wang" 5
+"Platon Kotzias" 6
+"Primal Wijesekera" 2
+"Ranjit Jhala" 41
+"Richard Shay" 20
+"Riley Spahn" 5
+"Robert K. Cunningham" 25
+"Robin David" 21
+"Roland Eils" 73
+"Rui Qiao" 4
+"Ruowen Wang" 4
+"Salvatore Stolfo" 80
+"Santiago Zanella-Béguelin" 18
+"Seongyeol Oh" 2
+"Sergio Maffeis" 20
+"Seulbae Kim" 1
+"Seunghoon Woo" 1
+"Simon Chung" 11
+"Simson Garfinkel" 41
+"Srdjan Capkun" 53
+"Stefano Zanero" 23
+"Stephanos Matsumoto" 5
+"Stephen Checkoway" 11
+"Sumayah Alrwais" 7
+"Suphannee Sivakorn" 5
+"Sébastien Bardin" 15
+"Tao Xie" 56
+"Tiffany Bao" 1
+"Tzu-Kuo Huang" 8
+"Ulrich Rührmair" 22
+"Van Chan Ngo" 4
+"Wenbo Shen" 6
+"Xianghang Mi" 1
+"Yang Liu" 24
+"Yixin Sun" 2
+"Yuan Tian" 6
+"Yupeng Zhang" 4
+"Zhongmin Cai" 10
+"Abhishek Agrawal" 3
+"Abhishek Roy" 3
+"Ahmad Qawasmeh" 3
+"Alexander Aved" 7
+"Amlan Ganguly" 18
+"Barbara Chapman" 30
+"Bhavesh Khemka" 6
+"Christof Teuscher" 23
+"Cristinel Ababei" 15
+"Donald Kline Jr." 3
+"Eli Bozorgzadeh" 25
+"Erik Brunvand" 24
+"Fa Zhang" 13
+"Gang Quan" 27
+"Hafiz Fahad Sheikh" 6
+"Hakan Aydin" 30
+"Huangxin Wang" 3
+"Ishan Thakkar" 5
+"Ishfaq Ahmad" 49
+"Israel Koren" 41
+"James Laros" 11
+"James Stine" 17
+"Jean-Marc Pierson" 21
+"Joyanta Biswas" 0
+"Kirk Pruhs" 40
+"Krishna Kant" 27
+"Lee Ward" 18
+"Lennart Johnsson" 40
+"Li Li" 4
+"Lu Chao" 1
+"Luhao Wang" 4
+"M Meraj Ahmed" 1
+"Mahdi Nikdast" 15
+"Maurizio Palesi" 27
+"Md Abdullah Shahneous Bari" 1
+"Md Yusuf Sarwar Uddin" 10
+"Mohit Kumar" 0
+"Muhammad Shafique" 26
+"Nailah Alhassoun" 1
+"Naseef Mansoor" 5
+"Nilanjan Banerjee" 20
+"Partha Pande" 34
+"Paul Bogdan" 20
+"Petru Eles" 42
+"Preeti Panda" 24
+"Rami Melhem," 53
+"Sayed Ashraf Mamun" 3
+"Soamar Homsi" 1
+"Song Fu" 18
+"Thomas Rauber" 13
+"Weisong Shi" 37
+"William Stanchina" 22
+"Wujie Wen" 11
+"Xingzhou Zhang" 1
+"Youshi Wang" 2
+"Adam Roegiest" 8
+"Adrian-Gabriel Chifu" 4
+"Adriano Veloso" 23
+"Ahmed El Kholy" 9
+"Ahmed Hassan" 20
+"Ahmed Hassan Awadallah" 20
+"Aixin Sun" 35
+"Alan Said" 17
+"Aleksandr Farseev" 3
+"Alessandro Moschitti" 40
+"Alessandro Sordoni" 10
+"Alexander Kotov" 11
+"Alexandros Ntoulas" 18
+"Aliaksei Severyn" 14
+"Alistair Moffat" 52
+"Allan Hanbury" 33
+"Altigran S. Da Silva" 29
+"Amin Mantrach" 9
+"Andrew Trotman" 24
+"Andrew Turpin" 31
+"Andrey Filchenkov" 15
+"Anne-Marie Kermarrec" 47
+"Antonio Mallia" 0
+"Arjen de Vries" 42
+"Ashlee Edwards" 4
+"Asia J. Biega" 6
+"Avi Arampatzis" 17
+"Aya Soffer" 28
+"B. Taner Dincer" 6
+"Bahareh Sarrafzadeh" 2
+"Barbara Poblete" 15
+"Bei Shi" 1
+"Benjamin Piwowarski" 19
+"Benyou Wang" 2
+"Berthier Ribeiro-Neto" 34
+"Bhaskar Mitra" 9
+"Bin Gao" 19
+"Bin Wang" 19
+"Bing Liu" 76
+"Birger Larsen" 22
+"Bo Pang" 23
+"Bora Edizel" 0
+"Bowei Chen" 5
+"Brian Davison" 41
+"Carlos Castillo" 49
+"Carsten Eickhoff" 12
+"Chao Zhang" 8
+"Chathra Hendahewa" 6
+"Cheng Li" 3
+"Cheng Luo" 4
+"ChengXiang Zhai" 72
+"Chenliang Li" 9
+"Chenyan Xiong" 6
+"Chi Wang" 21
+"Chirag Shah" 27
+"Christina Lioma" 14
+"Christoph Trattner" 15
+"Christopher Leckie" 36
+"Chuan-Ju Wang" 5
+"Claudia Hauff" 19
+"Claudio Lucchese" 23
+"Craig Macdonald" 38
+"Dae Hoon Park" 6
+"Dah Ming Chiu" 44
+"Damiano Spina" 12
+"Daqing He" 21
+"David Carmel" 39
+"David Elsweiler" 16
+"David Graus" 5
+"David Maxwell" 5
+"David Vallet" 21
+"Dawei Yin" 12
+"Debasis Ganguly" 8
+"Debora Donato" 26
+"Deng Cai" 54
+"Denis Savenkov" 5
+"Diane Kelly" 30
+"Dina Demner" 33
+"Djoerd Hiemstra" 34
+"Dmitry Lagun" 10
+"Donald Metzler" 34
+"Dongyan Zhao" 19
+"Doug Downey" 19
+"Douglas Oard" 44
+"Edgar Meij" 22
+"Edward Lank" 20
+"Ee-Peng Lim" 49
+"Elif Aktolga" 4
+"Emine Yilmaz" 22
+"Enrique Amigó" 17
+"Enver Kayaaslan" 8
+"Eric Gaussier" 34
+"Eugene Agichtein" 38
+"Evangelos Kanoulas" 21
+"Evgeniy Gabrilovich" 37
+"Evgeny Kharitonov" 6
+"Fabrizio Silvestri" 32
+"Faegheh Hasibi" 4
+"Falk Scholer" 22
+"Fang Liu" 5
+"Filip Radlinski" 26
+"Flavio Chierichetti" 18
+"Franco Maria Nardini" 11
+"Frank Hopfgartner" 18
+"Fuli Feng" 1
+"Fumin Shen" 13
+"Furu Wei" 29
+"Gabriella Pasi" 31
+"Gaurav Baruah" 3
+"Gianluca Demartini" 21
+"Giulio Ermanno Pibiri" 1
+"Giuseppe Ottaviano" 8
+"Gordon V. Cormack" 38
+"Grace Hui Yang" 16
+"Grzegorz Chrupala" 14
+"Guido Zuccon" 19
+"Hadas Raviv" 5
+"Haggai Roitman" 16
+"Hamed Zamani" 6
+"Hancheng Ge" 5
+"Hang Li" 52
+"Hanwang Zhang" 14
+"Hao Ma" 27
+"Haokai Lu" 3
+"Heikki Keskustalo" 17
+"Heng Tao Shen" 42
+"Henry Feild" 13
+"Hideo Joho" 27
+"Hongbo Deng" 18
+"Hongning Wang" 5
+"Hongteng Xu" 7
+"Hsin-Hsi Chen" 37
+"Huan Liu" 85
+"Huawei Shen" 4
+"Iadh Ounis" 45
+"Ian Soboroff" 35
+"Ido Guy" 23
+"Ilya Markov" 10
+"Ingmar Weber" 27
+"Ioannis Arapakis" 11
+"Irwin King" 52
+"Isabelle Moulinier" 10
+"Ismail Sengor Altingovde" 16
+"Ivan Samborskii" 3
+"Iván Cantador" 27
+"J. Shane Culpepper" 12
+"Jaap Kamps" 34
+"Jaime Arguello" 18
+"Jaime Teevan" 44
+"James Allan" 63
+"James Caverlee" 29
+"Jamie Callan" 57
+"Javed Aslam" 37
+"Jeffrey Chan" 13
+"Jeffrey Dalton" 7
+"Ji-Rong Wen" 45
+"Jiafeng Guo" 22
+"Jialie Shen" 25
+"Jian Pei" 75
+"Jian Wang" 8
+"Jian-Yun Nie" 41
+"Jiaul Paik" 6
+"Jiawei Han" 151
+"Jie Tang" 49
+"Jiepu Jiang" 14
+"Jiliang Tang" 29
+"Jimmy Lin" 56
+"Jinfeng Li" 4
+"Jingkuan Song" 15
+"Jingzhou Liu" 2
+"Jiyin He" 15
+"Joao Magalhaes" 11
+"Joemon Jose" 36
+"Johanne Trippas" 2
+"Josiane Mothe" 19
+"Julia Kiseleva" 8
+"Julian Mcauley" 22
+"Julio Gonzalo" 32
+"Junchi Yan" 15
+"Jung Hyun Kim" 4
+"Jussi Karlgren" 25
+"Justin Zobel" 63
+"K. Selçuk Candan" 37
+"Karthik Raman" 9
+"Katja Hofmann" 20
+"Kazunari Sugiyama" 15
+"Kevin Chang" 42
+"Kevin Ong" 4
+"Kevyn Collins-Thompson" 27
+"Kira Radinsky" 15
+"Klaus Berberich" 21
+"Krisztian Balog" 29
+"Kwan Hui Lim" 9
+"Lantao Yu" 2
+"Laura Dietz" 11
+"Laure Soulier" 5
+"Laurence Park" 16
+"Le Sun" 15
+"Leif Azzopardi" 26
+"Liangda Li" 7
+"Liangjie Hong" 17
+"Lidong Bing" 9
+"Liqiang Nie" 20
+"Liu Yang" 8
+"Luca Maria Aiello" 18
+"Luchen Tan" 6
+"Luke Gallagher" 1
+"Luu Anh Tuan" 4
+"Léa Laporte" 2
+"Maarten de Rijke" 63
+"Madian Khabsa" 11
+"Makoto P. Kato" 12
+"Makoto Yamada" 16
+"Mandar Mitra" 24
+"Manolis Terrovitis" 16
+"Manos Tsagkias" 16
+"Marc Sloan" 6
+"Marcos André Gonçalves" 39
+"Marcos Goncalves" 39
+"Maria Luisa Sapino" 20
+"Mark Sanderson" 45
+"Mark Smucker" 19
+"Martha Larson" 28
+"Martin Halvey" 18
+"Massih-Reza Amini" 21
+"Massimo Melucci" 20
+"Matt Lease" 26
+"Michael Bendersky" 17
+"Michael Cole" 14
+"Michael Lyu" 76
+"Mihaela Curmei" 1
+"Mihai Lupu" 14
+"Mikhail Ageev" 11
+"Min Zhang" 28
+"Ming-Feng Tsai" 11
+"Minh C Phan" 2
+"Mohan Kankanhalli" 48
+"Mohand Boughanem" 27
+"Morgan Harvey" 11
+"Mostafa Dehghani" 7
+"Ni Lao" 13
+"Nicholas Belkin" 50
+"Nick Craswell" 42
+"Nicola Ferro" 26
+"Nicola Tonellotto" 15
+"Nivio Ziviani" 37
+"Norbert Fuhr" 44
+"Oleg Rokhlenko" 10
+"Omar Alonso" 22
+"Pablo Castells" 37
+"Panagiotis Karras" 18
+"Parikshit Sondhi" 7
+"Patrick Gallinari" 36
+"Paul N. Bennett" 29
+"Paul Thomas" 15
+"Pavel Serdyukov" 22
+"Peng Zhang" 9
+"Peter Bailey" 22
+"Peter Bruza" 36
+"Piji Li" 7
+"Ping Luo" 18
+"Qi He" 18
+"Qi Zhang" 16
+"Qiaozhu Mei" 36
+"Qingyao Ai" 5
+"Quan Wang" 9
+"Quan Yuan" 12
+"Radu Tudor Ionescu" 11
+"Raffaele Perego" 30
+"Ralf Schenkel" 31
+"Raphael Campos" 1
+"Ravi Kumar" 74
+"Ricardo Baeza-Yates" 72
+"Richang Hong" 28
+"Richard McCreadie" 19
+"Rishabh Mehrotra" 6
+"Rishiraj Saha Roy" 6
+"Robert Capra" 20
+"Roberto González-Ibáñez" 12
+"Rocío Cañamares" 1
+"Rodrygo L. T. Santos" 19
+"Rohail Syed" 2
+"Roi Blanco" 24
+"Rossano Venturini" 13
+"Ruey-Cheng Chen" 6
+"Rui Li" 11
+"Ruihua Song" 25
+"Russell Power" 10
+"Ryen White" 49
+"Sachindra Joshi" 15
+"Salvatore Orlando" 30
+"Sergei Ivanov" 0
+"Shangsong Liang" 9
+"Shanika Karunasekera" 22
+"Shen Jialie" 25
+"Shlomo Geva" 27
+"Shoaib Jameel" 5
+"Shuai Ding" 7
+"Shuaiqiang Wang" 10
+"Shubhra Kanti Karmaker Santu" 1
+"Siu Cheung Hui" 32
+"Steven Schockaert" 21
+"Susan T. Dumais" 91
+"Svein Erik Bratsberg" 9
+"Sérgio Canuto" 4
+"Tamer Elsayed" 13
+"Tao Mei" 42
+"Tat-Seng Chua" 65
+"Tetsuya Sakai" 28
+"Thiago Salles" 7
+"Thibaut Thonet" 2
+"Thomas Demeester" 10
+"Tie-Yan Liu" 40
+"Tim Hanratty" 7
+"Timothy Baldwin" 41
+"Ting Yao" 13
+"Udo Kruschwitz" 19
+"Vanessa Murdock" 24
+"Vassilis Plachouras" 26
+"Vineet Kumar" 1
+"Virgil Pavlu" 18
+"Vishwa Vinay" 10
+"W. Bruce Croft" 98
+"Wai Lam" 37
+"Wayne Xin Zhao" 14
+"Wei Liu" 34
+"Wei Wu" 7
+"Wei-Cheng Chang" 3
+"Weinan Zhang" 14
+"Weize Kong" 6
+"Winston Hsu" 30
+"Xia Hu" 21
+"Xiang Ren" 13
+"Xiang Wang" 12
+"Xiangnan He" 8
+"Xiaochi Wei" 2
+"Xiaohui Xie" 44
+"Xiaolu Lu" 3
+"Xiaozhong Liu" 12
+"Xin Li" 3
+"Xu Chen" 2
+"Xueqi Cheng" 42
+"Yadong Mu" 18
+"Yan Zhang" 2
+"Yang Yang" 24
+"Yanyan Lan" 16
+"Yashar Moshfeghi" 10
+"Yi Tay" 1
+"Yi Zhang" 24
+"Yiming Yang" 46
+"Yinghui Xu" 4
+"Yingwei Pan" 7
+"Yoelle Maarek" 31
+"Yong Li" 28
+"Yongfeng Zhang" 8
+"Yosi Mass" 5
+"Yu Gong" 1
+"Yuan Fang" 7
+"Yuanhua Lv" 14
+"Yue Wang" 4
+"Yuening Hu" 8
+"Yuxin Su" 3
+"Yuzhen Huang" 5
+"Zhaochun Ren" 9
+"Zhaofan Qiu" 4
+"Zheng Ye" 10
+"Zhicheng Dou" 16
+"Zhifeng Bao" 16
+"Zhiyong Cheng" 7
+"Zhiyuan Liu" 22
+"Ahmed Elmokashfi" 11
+"Ali Safari Khatouni" 2
+"Anand Padmanabha Iyer" 12
+"Andra Lutu" 6
+"Andreas Terzis" 42
+"Ashiwan Sivakumar" 4
+"Ashkan Nikravesh" 5
+"Ashutosh Sabarwal" 50
+"Audun Hansen" 21
+"Changzhi Li" 29
+"Chanyou Hwang" 4
+"Chenren Xu" 14
+"Chi Zhang" 5
+"Chiara Petriolli" 38
+"Christina Fragouli" 41
+"David Chu" 19
+"Džiugas Baltrunas" 3
+"Elizabeth Belding" 54
+"Eric Rozner" 18
+"Fei Wu" 4
+"Geoffrey Challen" 16
+"Giovanni Pau" 29
+"Guangtao Xue" 17
+"Guobin Shen" 32
+"Himanshu Gupta" 31
+"Hongbo Jiang" 24
+"Hun-Seok Kim" 9
+"Ioannis Pefkianakis" 10
+"Jiaqi Xu" 2
+"Jon Longtin" 26
+"Jonas Karlsson" 7
+"Josh Smith" 49
+"Ju Wang" 4
+"Jun Luo" 25
+"Junehwa Song" 31
+"Kannan Srinivasan" 19
+"Karthik Dantu" 15
+"Kassem Fawaz" 13
+"Kristian Evensen" 12
+"Kyungho Jeon" 4
+"Li Erran Li" 45
+"Li-Xuan Chuo" 3
+"Lu Chen" 2
+"Mahesh K. Marina" 23
+"Marco Ajmone Marsan" 49
+"Marco Gruteser" 43
+"Mario Gerla" 116
+"Mark Corner" 28
+"Matt Welsh" 62
+"Md. Shaifur Rahman" 2
+"Mehrdad Khaledi" 6
+"Mithuna Thottethodi" 19
+"Mo Li" 32
+"Mohammad A. Khojastepour" 32
+"Neal Patwari" 40
+"Ningwei Dai" 4
+"Panos Papadimitratos" 42
+"Polly Huang" 35
+"Prasun Sinha" 43
+"Qian Zhang" 72
+"Qianyi Huang" 4
+"Qingqing Cao" 1
+"Raghupathy Sivakumar" 44
+"Rajesh Krishna Balan" 24
+"Robert LiKamWa" 8
+"Robin Kravets" 39
+"Sanjib Sur" 7
+"Shangqing Zhao" 1
+"Shankaranarayanan Puzhavakath Narayanan" 4
+"Sharath Chandrashekhara" 2
+"Shilin Zhu" 6
+"Sneha Kasera" 25
+"Songwu Lu" 62
+"Souvik Sen" 26
+"Srihari Nelakuditi" 30
+"Stefan Alfredsson" 7
+"Steven Y. Ko" 19
+"Swadhin Pradhan" 3
+"Taeyeon Ki" 4
+"Tarun Bansal" 1
+"Thyaga Nandagopal" 23
+"Tian He" 61
+"Vincenzo Mancuso" 19
+"Vishnu Navda" 19
+"Xia Zhou" 18
+"Xiaoguang Li" 47
+"Yanbing Yang" 2
+"Yang Shen" 32
+"Yi Gao" 8
+"Yihua Ethan Guo" 3
+"Yong Cui" 28
+"Yuanjie Li" 6
+"Yunxin Liu" 18
+"Zengwen Yuan" 4
+"Zeqi Lai" 3
+"Zhaowei Tan" 2
+"Zhengping Luo" 0
+"Zhenlin An" 0
+"Zhice Yang" 3
+"Zhihao Cheng" 1
+"Zhuo Lu" 11
+"Abdul Wasay" 1
+"Abolfazl Asudeh" 3
+"Akhil Arora" 3
+"Alan Fern" 29
+"Alekh Jindal" 12
+"Alexandra Meliou" 12
+"Alexandros Labrinidis" 26
+"Alin Deutsch" 36
+"Altigran-Soares Dasilva" 29
+"Amir Shaikhha" 3
+"Amit Chavan" 4
+"Andreas Behrend" 8
+"Anshuman Dutt" 3
+"Anthony K. H. Tung" 44
+"Anurag Khandelwal" 2
+"Arnab Nandi" 12
+"Arun Kumar" 11
+"Ashraf Aboulnaga" 30
+"Asif Khan" 2
+"Asterios Katsifodimos" 9
+"Avrilia Floratou" 6
+"Azade Nazi" 5
+"Beng Chin Ooi" 70
+"Bin Cui" 29
+"Bo Tang" 2
+"Bo Zhao" 15
+"Bogdan Cautis" 13
+"Bongki Moon" 32
+"Carlos Ordonez" 26
+"Ce Zhang" 18
+"Chao Xie" 3
+"Chee-Yong Chan" 29
+"Cheng Long" 7
+"Chengliang Chai" 2
+"Chris Jermaine" 25
+"Christoph Koch" 42
+"Chuan Lei" 7
+"Chunbin Lin" 4
+"Claude Barthels" 3
+"Cong Ding" 6
+"Cong Yu" 37
+"Curtis Dyreson" 26
+"Dan Olteanu" 28
+"Dario Colazzo" 15
+"Darko Makreshanski" 3
+"David Mount" 38
+"David Sidler" 3
+"Davide Martinenghi" 18
+"Dongchul Kim" 4
+"Dongxiang Zhang" 14
+"Eduard Dragut" 10
+"Elias Stehle" 0
+"Elisa Quintarelli" 18
+"Elke Rundensteiner" 55
+"Emad Soroush" 8
+"Esteban Arcaute" 7
+"Evan Ye" 6
+"Fisnik Kastrati" 1
+"Florent Masseglia" 20
+"Florin Rusu" 12
+"Frank Neven" 32
+"François Goasdoué" 20
+"Gao Cong" 42
+"Gautam Das" 53
+"Geoff Gordon" 14
+"George H. L. Fletcher" 15
+"Giorgio Orsi" 17
+"Graham Cormode" 50
+"Grant Schoenebeck" 13
+"Guido Moerkotte" 38
+"Guoliang Li" 32
+"Gustavo Alonso" 66
+"H. V. Jagadish" 69
+"Haitao Yuan" 5
+"Haixun Wang" 53
+"Hank Korth" 46
+"Hao Wei" 5
+"Harish Doraiswamy" 11
+"Haruo Yokota" 21
+"Hector Garcia-Molina" 128
+"Herodotos Herodotou" 14
+"Hideaki Kim" 5
+"Himchan Park" 1
+"Hui Li" 27
+"Hyeontaek Lim" 10
+"Ilia Petrov" 11
+"Immanuel Trummer" 7
+"Ingo Müller" 6
+"Ioana Manolescu" 33
+"Ioannis Demertzis" 2
+"Ios Kotsogiannis" 1
+"Ira Assent" 25
+"Iwata Tomoharu" 19
+"James Cheney" 32
+"Jana Giceva" 7
+"Jeffrey Naughton" 70
+"Jens Dittrich" 24
+"Jens Teubner" 24
+"Jerome Simeon" 34
+"Jiaheng Lu" 22
+"Jiamin Huang" 5
+"Jian Li" 6
+"Jiannan Wang" 18
+"Jianxin Li" 18
+"Jiawei Jiang" 3
+"Jing Gao" 36
+"Jingbo Xu" 3
+"John Abowd" 46
+"John Cieslewicz" 13
+"Jorge Arnulfo Quiane Ruiz" 16
+"Jorge-Arnulfo Quiane-Ruiz" 16
+"Joshua Auerbach" 8
+"Ju Fan" 10
+"Juliana Freire" 47
+"Julien Leblay" 6
+"Junfeng Zhou" 19
+"Junhao Gan" 2
+"Kaan Kara" 1
+"Kai Herrmann" 2
+"Kamalika Chaudhuri" 25
+"Kamesh Munagala" 36
+"Katja Hose" 18
+"Kayhan Dursun" 3
+"Keita Xagawa" 9
+"Ken-Ichi Kawarabayashi" 28
+"Kenneth S. Bøgh" 5
+"Kesheng Wu" 41
+"Koh Takeuchi" 4
+"Konstantinos Karanasos" 11
+"Konstantinos Xirogiannopoulos" 1
+"Kristian Kersting" 41
+"Kyriakos Mouratidis" 24
+"Lars Vilhuber" 14
+"Laure Berti-Equille" 17
+"Lei Chen" 47
+"Lele Yu" 20
+"Leong Hou U" 12
+"Letizia Tanca" 31
+"Lianghong Xu" 7
+"Lijun Chang" 15
+"Louis Mandel" 10
+"Luis Perez" 9
+"Lyublena Antova" 11
+"M. Tamer Ozsu" 54
+"Mahashweta Das" 7
+"Mahbub Hasan" 3
+"Man Lung Yiu" 37
+"Manas Joglekar" 8
+"Manos Athanassoulis" 11
+"Mark Kutzbach" 7
+"Martin Hirzel" 23
+"Martin Theobald" 26
+"Mathieu Blondel" 7
+"Matthew Graham" 2
+"Matthias Renz" 22
+"Mayuresh Kunjir" 4
+"Melanie Herschel" 19
+"Michael Cafarella" 30
+"Michael R. Anderson" 4
+"Milos Nikolic" 6
+"Min-Soo Kim" 15
+"Mohamed Mokbel" 47
+"Mohamed Sarwat" 11
+"Muhammad Idris" 6
+"Muhsen Owaida" 5
+"Naonori Ueda" 30
+"Naoto Ohsaka" 3
+"Neoklis Polyzotis" 33
+"Ngai Meng Kou" 3
+"Nikos Mamoulis" 48
+"Oktie Hassanzadeh" 19
+"Olga Poppe" 5
+"Parisa Ataei" 1
+"Paul Suganthan" 4
+"Peter Nugent" 77
+"Pingfan Meng" 4
+"Prashant Pandey" 3
+"Pritom Ahmed" 2
+"Radu Ciucanu" 8
+"Rainer Gemulla" 17
+"Rajasekar Krishnamurthy" 24
+"Raman Grover" 7
+"Raymond Chi-Wing Wong" 36
+"Reynold Cheng" 31
+"Robert Gottstein" 5
+"Romuald Thion" 5
+"Rui Liu" 3
+"Sael Lee" 13
+"Sainyam Galhotra" 3
+"Sanjay Chawla" 32
+"Sarah Cohen-Boulakia" 16
+"Saravanan Thirumuruganathan" 8
+"Sayan Ranu" 10
+"Sean Chester" 9
+"Sebastian Michel" 27
+"Sebastian Schelter" 8
+"Semih Salihoglu" 9
+"Senjuti Basu Roy" 19
+"Shaleen Deep" 1
+"Shijie Zhou" 5
+"Shimin Chen" 21
+"Shoji Nishimura" 5
+"Siarhei Bykau" 5
+"Somesh Jha" 67
+"Spyros Blanas" 9
+"Stavros Papadopoulos" 17
+"Stefan Manegold" 29
+"Stefano Ceri" 72
+"Stelios Paparizos" 16
+"Sudeepa Roy" 13
+"Sunil Prabhakar" 35
+"Surajit Chaudhuri" 9
+"Tao Guo" 2
+"Theodoros Rekatsinas" 7
+"Thomas Heinis" 14
+"Tilmann Rabl" 15
+"Toby Bloom" 16
+"Todd Green" 29
+"Torsten Grust" 22
+"Tsz Nam Chan" 1
+"Tyson Condie" 24
+"U Kang" 27
+"Uday Evani" 9
+"Ugo Comignani" 1
+"Vagelis Hristidis" 31
+"Vasilis Vassalos" 23
+"Vassilis J. Tsotras" 44
+"Vijay Raghavendra" 0
+"Vincent Oria" 15
+"Vineet Pandey" 2
+"Walid Aref" 54
+"Wei Li" 4
+"Weijie Zhao" 3
+"Wenbo Tao" 1
+"Wentao Wu" 11
+"Wolfgang Gatterbauer" 19
+"Xi Wu" 8
+"Xiang Lian" 22
+"Xiaolan Wang" 7
+"Xin Cao" 13
+"Xin Dong" 29
+"Yael Amsterdamer" 10
+"Yang Cao" 7
+"Yanif Ahmad" 13
+"Yanlei Diao" 28
+"Yannis Velegrakis" 21
+"Yaron Kanza" 19
+"Yicheng Tu" 2
+"Yinan Li" 10
+"Ying Yan" 12
+"Yinghui Wu" 14
+"Yongchul Kwon" 16
+"Yongjoo Park" 3
+"Yongxin Tong" 13
+"Youngchoon Park" 9
+"Yuchen Li" 2
+"Yudian Zheng" 4
+"Yuichi Yoshida" 13
+"Zekai Gao" 4
+"Zhongjun Jin" 1
+"Zoi Kaoudi" 11
+"Zongheng Yang" 2
+"Zsolt Istvan" 6
+"Aiman Fang" 4
+"Akira Nukada" 17
+"Akshay Venkatesh" 9
+"Alexander Hohl" 2
+"Alistair Rendell" 34
+"Ananth Kalyanaraman" 17
+"Andreas Wingen" 19
+"Aniket Chakrabarti" 3
+"Aniruddha Gokhale" 40
+"Ann Chervenak" 33
+"Armin Mehrabian" 1
+"Athena Elafrou" 0
+"Aurélien Cavelan" 4
+"Bahamn Javadi" 16
+"Balsa Terzic" 11
+"Benjamin Rubinstein" 20
+"Carlos Varela" 22
+"Celestine Dünner" 2
+"Charles Lively" 5
+"Chentao Wu" 5
+"Chenxi Qiu" 7
+"Ching-Hsiang Chu" 4
+"Christoph Hagleitner" 27
+"David Wallom" 24
+"Davide Rossetti" 13
+"Dimitris Letsios" 8
+"Dip Sankar Banerjee" 4
+"Douglas Thain" 29
+"Edoardo Fusella" 7
+"Eric Delmelle" 18
+"Ewa Deelman" 59
+"Ezekial Unterberg" 20
+"Fengguang Song" 11
+"Frank Takes" 9
+"Guojing Cong" 15
+"Haralampos Pozidis" 24
+"Hartwig Anzt" 14
+"Hervé Yviquel" 8
+"Hiroki Nakahara" 10
+"Ioannis Milis" 11
+"Ivan Rodero" 20
+"Ivy Peng" 7
+"Javid Taheri" 20
+"Javier Diaz-Montes" 12
+"Javier Verdu" 9
+"Jens Domke" 4
+"Jeremy Fineman" 15
+"Jesus Escudero-Sahuquillo" 9
+"Jianwu Wang" 15
+"Johanne Cohen" 15
+"Jordyn Maglalang" 2
+"Kamer Kaya" 20
+"Ken Hawick" 27
+"Klaus Jansen" 36
+"Koji Nakano" 29
+"Kubilay Atasu" 12
+"Laurent Philippe" 11
+"Leandro Fiorin" 12
+"Lena Mashayekhy" 12
+"Long Cheng" 6
+"Lutz Gross" 11
+"Magnus Almgren" 13
+"Marina Papatriantafilou" 17
+"Martin Farach Colton" 46
+"Matthew Curtis-Maury" 10
+"Maxwell Young" 12
+"Mayank Goswami" 5
+"Mehmet Fatih Aktaş" 9
+"Milinda Fernando" 1
+"Minwei Feng" 7
+"Mustafa Kemal Taş" 1
+"Nancy Wilkins-Diehr" 13
+"Nuria Losada" 2
+"Olaf Landsiedel" 18
+"Onkar Bhardwaj" 4
+"Pantea Zardoshti" 1
+"Parmeshwar Khurd" 16
+"Patrick Loiseau" 11
+"Rajkumar Buyya" 112
+"Raul Marin Prades" 17
+"Richard Sinnott" 21
+"Robert Lim" 2
+"Ryota Yasudo" 1
+"Ryusuke Egawa" 12
+"Samuel Mccauley" 5
+"Sanath Jayasena" 4
+"Sangyoon Oh" 11
+"Satoshi Matsuoka" 51
+"Seelam Seetharami" 12
+"Shirley Moore" 29
+"Shuibing He" 8
+"Siddeswara Guru" 11
+"Sreeram Potluri" 16
+"Srinivasan Parthasarathy" 55
+"Stefano Markidis" 19
+"Steven Hirshman" 7
+"Sudarsun Kannan" 6
+"Sunimal Rathnayake" 1
+"Sven-Arne Reinemo" 13
+"Tarek El-Ghazawi" 33
+"Thomas Herault" 28
+"Thomas Parnell" 5
+"Vikram Narayana" 9
+"Weigang Wu" 24
+"Wentong Cai" 29
+"Wenwu Tang" 17
+"Xiaomeng Huang" 16
+"Yang You" 8
+"Yasuaki Ito" 16
+"Yoav Freund" 46
+"Yogesh Simmhan" 30
+"Yusuke Nagasaka" 2
+"Alexander Schwarzmann" 30
+"Alexander Spiegelman" 5
+"Allen Clement" 20
+"Andrea Richa" 27
+"Andrzej Pelc" 46
+"Anisur Molla" 4
+"Antonio Fernandez Anta" 28
+"Bernhard Haeupler" 19
+"Bogdan Chlebus" 22
+"Chaodong Zheng" 3
+"Christian Cachin" 39
+"Christopher Purcell" 4
+"Chryssis Georgiou" 17
+"Danny Hendler" 20
+"Elad Schiller" 17
+"Ellis Hershkowitz" 1
+"Emanuele Natale" 6
+"Fabian Kuhn" 36
+"Franck Petit" 2
+"Francois Le Gall" 14
+"Frederik Mallmann-Trenn" 4
+"Gadi Taubenfeld" 20
+"Gregory Schwartzman" 3
+"Grzegorz Stachowiak" 10
+"Guy Blelloch" 52
+"Hagit Attiya" 39
+"Hsin-Hao Su" 10
+"James Aspnes" 34
+"Janne H. Korhonen" 6
+"Javier Esparza" 44
+"Jerry Li" 6
+"Joel Rybicki" 8
+"Johannes Lengler" 7
+"Juho Hirvonen" 6
+"Jukka Suomela" 17
+"Karl Bringmann" 16
+"Keren Censor-Hillel" 15
+"Kishori Konwar" 16
+"Magnus Halldorsson" 39
+"Massimo Franceschetti" 34
+"Maurice Herlihy" 61
+"Michael Blondin" 4
+"Michael Elkin" 27
+"Muriel Medard" 68
+"Nancy Lynch" 72
+"Nisheeth Vishnoi" 20
+"Nitin Vaidya" 72
+"Oren Weimann" 19
+"Panagiota Faturu" 11
+"Patric R. J. Östergård" 28
+"Patrick Nicholson" 8
+"Pawel Gawrychowski" 15
+"Peter Krafft" 3
+"Philipp Woelfel" 18
+"Przemyslaw Uznanski" 6
+"Robert Elsässer" 20
+"Sandeep Kulkarni" 33
+"Sebastian Brandt" 14
+"Taisuke Izumi" 11
+"Thomas Dickerson" 2
+"Trevor Brown" 5
+"Tuomo Lempiäinen" 5
+"Weiming Feng" 1
+"Will Rosenbaum" 3
+"Wojciech Golab" 14
+"Yitong Yin" 9
+"Yoram Moses" 31
+"Yossi Lev" 19
+"Aditya Nori" 23
+"Adrian Francalanza" 14
+"Alastair Donaldson" 21
+"Alastair Reid" 19
+"Aleksey Nogin" 12
+"Alexei Colin" 3
+"Alexi Turcotte" 1
+"Alok Kumbhare" 9
+"Ameya Ketkar" 1
+"Ana Milanova" 17
+"Andrew Rice" 19
+"Ara Vartanian" 0
+"Atsushi Igarashi" 24
+"Avik Chaudhuri" 12
+"Aws Albarghouthi" 12
+"Baijun Wu" 2
+"Binhang Yuan" 2
+"Christoffer Quist Adamsen" 2
+"Ciera Jaspan" 8
+"Crista Lopes" 43
+"Danny Dig" 27
+"David Swasey" 4
+"Davide Ancona" 22
+"Davood Mazinanian" 5
+"Deepak Garg" 17
+"Dominic Mulligan" 8
+"Dominic Orchard" 9
+"Edd Barrett" 4
+"Elena Zucca" 21
+"Elisa Gonzalez Boix" 10
+"Ellen Arteca" 1
+"Eric L. Seidel" 7
+"Erik Krogh Kristensen" 1
+"Fabrício Ferracioli" 3
+"Francisco Martins" 12
+"Frank Tip" 42
+"Fredrik Kjolstad" 7
+"Gabriel Kliot" 14
+"Giuliano Losa" 5
+"Heather Miller" 7
+"Hitesh Sajnani" 7
+"Hoan Anh Nguyen" 21
+"Hridesh Rajan" 23
+"Irene Finocchi" 26
+"Jan Vitek" 46
+"Jens Dietrich" 18
+"Jeremy Siek" 28
+"Johannes Späth" 2
+"Jonathan Aldrich" 32
+"Jonathan Balkind" 2
+"Jorgen Thelin" 8
+"Joshua Sunshine" 7
+"Juliana Franco" 3
+"Karim Ali" 5
+"Kathryn E. Gray" 8
+"Kihong Heo" 5
+"Kim Bruce" 34
+"Klaus V. Gleissenthall" 3
+"Laurence Tratt" 19
+"Lingming Zhang" 16
+"Lu Zhang" 39
+"Magnus Madsen" 6
+"Man Cao" 6
+"Mark Santolucito" 3
+"Martin Kleppmann" 4
+"Matthew Might" 17
+"Max Grossman" 8
+"Michael D. Adams" 10
+"Milos Gligoric" 15
+"Mistral Contrastin" 2
+"Muntasir Raihan Rahman" 12
+"Navid Yaghmazadeh" 2
+"Neville Grech" 3
+"Nikolaos Tsantalis" 20
+"Oded Padon" 3
+"Pantazis Deligiannis" 6
+"Paola Accioly" 5
+"Pat Hanrahan" 82
+"Paul He" 1
+"Paulo Borba" 30
+"Petr Maj" 4
+"Radu Grigore" 11
+"Rebecca Killick" 6
+"Rezwana Karim" 6
+"Rishi Surendran" 5
+"Romain Robbes" 27
+"Ronghui Gu" 4
+"Ross Tate" 8
+"Ruzica Piskac" 15
+"Sam Tobin-Hochstadt" 17
+"Sarah Mount" 10
+"Sarah Nadi" 10
+"Sarfraz Khurshid" 40
+"Sebastian Burckhardt" 24
+"Sehun Jeong" 3
+"Serdar Tasiran" 21
+"Shane McIntosh" 17
+"Sheng Chen" 7
+"Shoaib Kamil" 22
+"Sophia Drossopoulou" 32
+"Spenser Bauman" 2
+"Sylvan Clebsch" 4
+"Talia Ringer" 1
+"Thomas Dillig" 18
+"Tiago Cogumbreiro" 4
+"Tien Nguyen" 45
+"Tobias Wrigstad" 16
+"Tom Van Cutsem" 16
+"Vaibhav Saini" 5
+"Vasco T. Vasconcelos" 26
+"Venkatesh Srinivasan" 4
+"Victor Gomes" 6
+"Vijayaraghavan Murali" 6
+"Viviana Bono" 19
+"Westley Weimer" 42
+"Xiaokang Qiu" 11
+"Xin Zhang" 8
+"Xujie Si" 3
+"Yannis Smaragdakis" 37
+"Yizhou Zhang" 2
+"Yuepeng Wang" 4
+"Abdelhafid Mazouz" 5
+"Ahmed Ali-Eldin" 9
+"Ajay Kattepur" 7
+"Akhilesh Kommireddy" 0
+"Alberto Avritzer" 21
+"Alessandro Vittorio Papadopoulos" 12
+"Alexandru Iosup" 35
+"Alexey Ilyushkin" 2
+"Ali Abedi" 13
+"Amy Apon" 15
+"Anne Koziolek" 17
+"Anshul Gupta" 0
+"Antinisca Di Marco" 19
+"Arvinder Kaur" 24
+"Benjamin Cassell" 2
+"Bogdan Ghit" 7
+"Catia Trubiani" 12
+"Changhyun Park" 2
+"Chris Lupo" 3
+"Cor-Paul Bezemer" 6
+"Daniel Hackenberg" 16
+"Daniel Molka" 13
+"David Kuck" 36
+"Denys Poshyvanyk" 43
+"Devidas Gawali" 0
+"Dorina Petriu" 29
+"Drew Zagieboylo" 0
+"Enrico Vicario" 22
+"Fábio André Coelho" 1
+"Georgios Bouloukakis" 3
+"Hanspeter Mössenböck" 23
+"Heiko Koziolek" 25
+"Henk Sips" 32
+"Jalil Boudjadar" 6
+"Jianmei Guo" 11
+"Jose Pereira" 19
+"José Merseguer" 22
+"Kazuo Minami" 6
+"Krzysztof Czarnecki" 49
+"Lubomír Bulej" 12
+"Masatomo Hashimoto" 6
+"Michael Menth" 22
+"Mirco Tribastone" 17
+"Miyuru Dayarathna" 9
+"Murray Woodside" 35
+"Nikolaos Georgantas" 21
+"Nikolas Herbst" 9
+"Pavel Valov" 1
+"Petr Tuma" 17
+"Raffaela Mirandola" 30
+"Raghu Ramakrishnan" 81
+"Ralf Reussner" 34
+"Raoufeh Hashemian" 4
+"Ricardo Vilaça" 7
+"Robert Schoene" 13
+"Seongjin Lee" 6
+"Simin Nadjm-Tehrani" 24
+"Steffen Becker" 25
+"Valérie Issarny" 43
+"Varsha Apte" 15
+"Vojtěch Horký" 7
+"Wilhelm Hasselbring" 34
+"William Jalby" 25
+"Adam Funnell" 3
+"Ajay Joshi" 17
+"Avinash Kodi" 20
+"Benn C. Thomsen" 23
+"Brice Goglin" 15
+"Craig Stunkel" 25
+"Eitan Zahavi" 11
+"Francisco J. Quiles" 18
+"Galen Shipman" 22
+"James Dinan" 18
+"Keith D. Underwood" 26
+"Kirill Kogan" 13
+"Mario Flajslik" 8
+"Michael K. Lang" 14
+"Mitch Gusat" 16
+"Paolo Giaccone" 25
+"Pedro Yebenes" 3
+"Peiman Faizian" 1
+"Philip M. Watts" 15
+"Rajarshi Biswas" 0
+"Ravindra Babu Ganapathi" 1
+"Sebastian Werner" 3
+"Taylor Groves" 4
+"Timo Schneider" 13
+"Aaron Schwartz-Duval" 3
+"Abhinav Srivastava" 14
+"Adriano Fiorese" 6
+"Adrien Lèbre" 10
+"Alejandro Calderon" 4
+"Alex Sim" 19
+"Ali Raza" 2
+"Ali Shoker" 6
+"Alireza Ranjbar" 1
+"Anastasios Gounaris" 20
+"Andreas Kassler" 21
+"Andreas Metzger" 22
+"Andreea Anghel" 5
+"Andrew Lenharth" 10
+"Anirban Mandal" 14
+"Aniruddha Marathe" 4
+"Anthony Simonet" 4
+"Ariel Oleksiak" 17
+"Arsalan Shadid" 6
+"Atsushi Hori" 18
+"Avi Mendelson" 27
+"Benoît Parrein" 14
+"Boudewijn van Dongen" 40
+"Camille Coti" 10
+"Chaima Ghribi" 3
+"Chao Zheng" 2
+"Chao-Wen Huang" 1
+"Charles Christian Miers" 5
+"Chia-Chun Shih" 6
+"Christian Inzinger" 11
+"Christine Morin" 30
+"Ciprian Dobre" 19
+"Claus Pahl" 30
+"Cristian Klein" 11
+"Damian Dechev" 8
+"Dan Holmes" 2
+"Daniel Turull" 5
+"Daniele Venzano" 5
+"David E. Singh" 11
+"David Koll" 4
+"David Parker" 44
+"Deepak Tosh" 4
+"Dimitrios Tsoumakos" 13
+"Dongyao Wu" 3
+"Edgar Gabriel" 20
+"Eduardo Huedo" 20
+"Erik Elmroth" 33
+"Erwin Laure" 20
+"Estefania Serrano" 2
+"Ewnetu Bayuh Lakew" 5
+"Fabrice Huet" 17
+"Fabrizio Marozzo" 9
+"Felix Freitag" 15
+"Feng Luo" 21
+"Fernando Ramos" 10
+"Francesco Pace" 0
+"Francisco Brasileiro" 27
+"Francisco J. Clemente-Castelló" 2
+"Frederic Suter" 17
+"Fulya Kaplan" 2
+"Gabor Kecskemeti" 14
+"George Pallis" 19
+"Gero Dittmann" 8
+"Gihan Mudalige" 12
+"Giovani Estrada" 16
+"Giovanni Farias" 2
+"Giovanni Mariani" 11
+"Gonzalo P. Rodrigo" 2
+"Guilherme Koslovski" 8
+"Gulay Yalcin" 8
+"Hamid Arabnejad" 6
+"Hamza Ouarnoughi" 2
+"Hani Nemati" 3
+"Helen Karatza" 23
+"Heonyoung Yeom" 25
+"Hoang-Vu Dang" 4
+"Holger Karl" 36
+"Hong-Linh Truong" 31
+"Huansong Fu" 2
+"Huijun Wu" 0
+"Hyogi Sim" 5
+"Hyunwook Baek" 2
+"Hélène Coullon" 3
+"Istvan Reguly" 10
+"Javier Garcia-Blas" 10
+"Jeremiah J. Wilke" 10
+"Jiangtao Yin" 7
+"Jiaqi Liu" 2
+"Jigang Wu" 61
+"Joanna Kolodziej" 27
+"Joel Scheuner" 3
+"John Bent" 17
+"Jonathan Kho" 0
+"Jordi Guitart" 27
+"Jose Angel Bañares" 12
+"Joseph P. Kenny" 14
+"Julien Bigot" 8
+"Kamel Boukhalfa" 9
+"Kaoutar El Maghraoui" 12
+"Karl Fuerlinger" 13
+"Konstantinos Tsakalozos" 6
+"Kris Bubendorfer" 18
+"Laurent Lemarchand" 5
+"Laurent Njilla" 3
+"Lionel Seinturier" 28
+"Llorenç Cerdà-Alabern" 18
+"Long Chen" 3
+"Manuel Dolz" 11
+"Marcus Carvalho" 4
+"Marian Bubak" 27
+"Marouen Mechtri" 5
+"Martina Maggio" 18
+"María J. Martín" 11
+"Matthew Caesar" 29
+"Maxime Colmant" 2
+"Mazhar Naqvi" 8
+"Melissa Smith" 26
+"Mennan Selimi" 7
+"Michael Kluge" 6
+"Michel Dagenais" 22
+"Miguel Cárdenas" 15
+"Miika Komu" 11
+"Mina Guirguis" 11
+"Mina Sedaghat" 5
+"Mohan Baruwal Chhetri" 10
+"Mohan Gurusamy" 24
+"Moustafa Abdelbaky" 8
+"Nathan Debardeleben" 13
+"Nicholas Wright" 20
+"Nikela Papadopoulou" 1
+"Nishant Saurabh" 1
+"Noah Wolfe" 2
+"Patricia Gonzalez" 11
+"Patrick Carribault" 10
+"Pedro A. R. S. Costa" 4
+"Pengfei Xuan" 7
+"Philipp Gschwandtner" 6
+"Pierangelo Di Sanzo" 10
+"Pietro Michiardi" 26
+"Pooyan Jamshidi" 13
+"Pradip Srimani" 31
+"Prasad Calyam" 17
+"Rajeev Thakur" 43
+"Rami Bahsoon" 17
+"Ramin Yahyapour" 32
+"Raquel Lopes" 6
+"Rashid Tahir" 5
+"Rick Siow Mong Goh" 13
+"Rik Jongerius" 5
+"Rinku Gupta" 35
+"Robayet Nasim" 4
+"Romain Rouvoy" 24
+"Ryszard Kowalczyk" 27
+"Sachin Shetty" 13
+"Salvatore Distefano" 20
+"Sarunas Girdzijauskas" 12
+"Sebastien Lafond" 10
+"Sebastien Varrette" 11
+"Sevil Dräxler" 2
+"Shajulin Benedict" 9
+"Shaoliang Peng" 13
+"Sharad Seth" 27
+"Shashank Gugnani" 4
+"Sherif Sakr" 22
+"Shigeru Imai" 7
+"Shrisha Rao" 15
+"Siegfried Benkner" 28
+"Silvina Caíno-Lores" 2
+"Simone Economo" 1
+"Sorina Camarasu Pop" 10
+"Spyros Sioutas" 13
+"Stacy Patterson" 13
+"Suchakrapani Datt Sharma" 1
+"Travis Desell" 14
+"Tristan Glatard" 21
+"Tuomas Aura" 30
+"Valentin Cristea" 23
+"Vatche Ishakian" 10
+"Vishwanath Venkatesan" 5
+"Warren Smith" 23
+"Wei Zheng" 8
+"Wei-Keng Liao" 29
+"Wes J. Lloyd" 10
+"Wil van der Aalst" 132
+"Witawas Srisa-An" 14
+"Won-Ki Jeong" 20
+"Wucherl Yoo" 5
+"Xueping Liang" 1
+"Yanjun Wu" 12
+"Yong Liu" 6
+"Young Choon Lee" 23
+"Yupu Zhang" 6
+"Zheng Qin" 8
+"Zoltan Mann" 11
+"Adriana Iamnitchi" 29
+"Adrien Lebre" 10
+"Alberto Montresor" 35
+"Bo Fang" 5
+"Carey E. Priebe" 30
+"Da Zheng" 5
+"Devarshi Ghoshal" 5
+"Disa Mhembere" 4
+"Edgar A. Leon" 7
+"Evan R. Sparks" 9
+"Gayane Vardoyan" 3
+"Gonzalo P. Rodrigo Alvarez" 2
+"Henri Bal" 55
+"Joshua T. Vogelstein" 21
+"Karthik Pattabiraman" 25
+"Liana Fong" 21
+"Marius Poke" 2
+"Nageswara Rao" 37
+"P-O Ostberg" 8
+"Prasanna Balaprakash" 13
+"Rong Zhang" 9
+"Sangmi Pallickara" 14
+"Sarp Oral" 15
+"Satyabrata Sen" 10
+"Suli Yang" 2
+"Tom Z. J. Fu" 10
+"Wei Tan" 23
+"William Gropp" 67
+"Xiaolong Xie" 4
+"Yun Liang" 18
+"Zhao Zhang" 17
+"Zhengchun Liu" 4
+"Zhenjie Zhang" 24
+"Alessandra Sala" 19
+"Alex Shraer" 15
+"Andrew Or" 4
+"Asim Kadav" 11
+"Avani Wildani" 8
+"Bernhard Egger" 10
+"Bharath Hariharan" 17
+"Bo Fu" 0
+"Changyeon Jo" 3
+"Cheng Jin" 6
+"Cong Xu" 16
+"Conglong Li" 2
+"Cristian Lumezanu" 17
+"Da Yan" 12
+"Daniar H. Kurniawan" 1
+"David M. Johnson" 5
+"Di Niu" 13
+"Fahad Dogar" 10
+"Georgos Siganos" 18
+"Gianmarco De Francisci Morales" 15
+"Giuseppe Lettieri" 9
+"Han Wang" 7
+"Heming Cui" 9
+"Henggang Cui" 7
+"Hua Fan" 2
+"Ishai Menache" 25
+"Jianxun Liu" 18
+"Jonas Traub" 1
+"Jorge Quiane" 16
+"Josh Kunz" 1
+"Julian Stephen" 5
+"Juncheng Yang" 7
+"Ken Birman" 62
+"Kenji Kono" 15
+"Kia Teymourian" 11
+"Lakshmi Ganesh" 9
+"Lei Tian" 21
+"Liang Zheng" 8
+"Ludovic Henrio" 16
+"Matteo Interlandi" 7
+"Meikel Poess" 19
+"Mingda Li" 2
+"Miryung Kim" 27
+"Morley Z. Mao" 59
+"Muhammad Ali Gulzar" 4
+"Neeraja J. Yadwadkar" 5
+"Ning Xia" 2
+"Qiang Fu" 20
+"Qiang Xu" 13
+"Randy Katz" 113
+"Rebecca Smith" 2
+"Reza Karimi" 1
+"Sameer Agarwal" 10
+"Savvas Savvides" 2
+"Sebastian Breß" 12
+"Seongwook Jin" 6
+"Shinpei Kato" 24
+"Sourav Sikdar" 1
+"Thomas Moyer" 8
+"Timothy Zhu" 6
+"Trausti Sæmundsson" 2
+"Viktor Rosenfeld" 2
+"Vinaitheerthan Sundaram" 8
+"Vincentius Martin" 2
+"Vincenzo Maffione" 3
+"Volker Markl" 33
+"Walfredo Cirne" 30
+"Xue Liu" 41
+"Yizhou Shan" 0
+"Yu Gu" 14
+"Yuqing Zhu" 6
+"Yusuke Suzuki" 2
+"Aayush Gupta" 8
+"Alessandrto Margara" 15
+"Andrew Chung" 9
+"Antonis Papadimitriou" 6
+"Arjun Narayan" 7
+"Bart Coppens" 7
+"Bjorn De Sutter" 29
+"Brian Cho" 8
+"Christoph Kirsch" 25
+"Daniel Goodman" 9
+"Dejan Kostić" 25
+"Dmitrii Kuvaiskii" 4
+"Erik van der Kouwe" 3
+"Feilong Liu" 1
+"Gaël Thomas" 14
+"Gauthier Voron" 1
+"Georgios Chatzopoulos" 2
+"Georgios Varisteas" 2
+"Gianpaolo Cugola" 31
+"Igor Zablotchi" 2
+"Indrajit Roy" 10
+"James Davis" 1
+"Jeff LeFevre" 7
+"John Liagouris" 5
+"Jun He" 7
+"Kevin Boos" 4
+"Koen De Bosschere" 38
+"Koen Koning" 2
+"Lluís Vilanova" 7
+"Marta Patiño" 25
+"Mejbah ul Alam" 1
+"Michele Papalini" 5
+"Mihai Ionescu" 9
+"Neeraj Suri" 29
+"Ning Ding" 6
+"Oleksii Oleksenko" 2
+"Orran Krieger" 29
+"Paulo Veríssimo" 46
+"Peter Van Roy" 31
+"Roger Wattenhofer" 73
+"Steffen Maass" 2
+"Steven Hand" 33
+"Stijn Volckaert" 4
+"Terry Ching-Hsiang Hsu" 1
+"Vasileios P. Kemerlis" 14
+"Vasileios Trigonakis" 3
+"Vinod Nigade" 1
+"Vivien Quéma" 23
+"Waleed Reda" 0
+"Wonook Song" 1
+"Zheng Zhang" 40
+"Zhenyu Guo" 4
+"Abdullah Mueen" 18
+"Abhimanyu Das" 10
+"Abhishek Gupta" 6
+"Ad Feelders" 22
+"Adith Swaminathan" 7
+"Aditya Bhaskara" 10
+"Aidong Zhang" 40
+"Akshay Krishnamurthy" 13
+"Akshay Soni" 7
+"Albert Bifet" 31
+"Alessandro Bozzon" 17
+"Alessandro Epasto" 6
+"Alessio Conte" 3
+"Alex Beutel" 14
+"Alex Deng" 8
+"Alex Fabrikant" 11
+"Alina Ene" 12
+"Amin Karbasi" 15
+"Amit Dhurandhar" 6
+"Amol Ghoting" 18
+"Andras A. Benczur" 21
+"Andreas Hotho" 47
+"Andrew McCallum" 91
+"Aneesh Sharma" 8
+"Aniket Kittur" 35
+"Anil K. Jain" 171
+"Anil Kumar Vullikanti" 31
+"Anirban Dasgupta" 24
+"Anirban Majumder" 6
+"Anna Monreale" 17
+"Anna Squicciarini" 30
+"Anshumali Shrivastava" 10
+"Anthony Wirth" 16
+"Antti Ukkonen" 13
+"Aram Galstyan" 27
+"Ari Kobren" 3
+"Arindam Banerjee" 41
+"Aris Anagnostopoulos" 19
+"Aristides Gionis" 45
+"Assaf Schuster" 44
+"Austin R. Benson" 7
+"Aviv Yehezkel" 2
+"Ayhan Demiriz" 14
+"B. Aditya Prakash" 23
+"B. Barla Cambazoglu" 29
+"Baharan Mirzasoleiman" 9
+"Ben Kao" 39
+"Benjamin C. M. Fung" 36
+"Bernhard Pfahringer" 37
+"Bin Gu" 11
+"Bo Long" 30
+"Boi Faltings" 57
+"Bokai Cao" 6
+"Bolin Ding" 24
+"Bruno Abrahao" 9
+"Bruno Ribeiro" 16
+"Bryan Perozzi" 9
+"Byron Gao" 15
+"C. Seshadhri" 23
+"Can Wang" 18
+"Cao Xiao" 2
+"Chang Xu" 13
+"Chang-Tien Lu" 32
+"Charalampos Tsourakakis" 22
+"Charu Aggarwal" 86
+"Chedy Raïssi" 13
+"Chengkai Li" 21
+"Chengxi Zang" 1
+"Chenhao Tan" 12
+"Chenzi Zhang" 1
+"Chih-Jen Lin" 57
+"Cho-Jui Hsieh" 25
+"Chotirat Ann Ratanamahatana" 27
+"Christian Böhm" 38
+"Christos Faloutsos" 116
+"Chuanren Liu" 9
+"Chun-Nan Hsu" 30
+"Chun-Ta Lu" 5
+"Chunqiu Zeng" 9
+"Claudia Plant" 16
+"Conglei Shi" 9
+"Cristian Danescu-Niculescu-Mizil" 17
+"Cynthia Rudin" 21
+"Dacheng Tao" 85
+"Dafna Shahaf" 12
+"Daniel Alabi" 2
+"Dashun Wang" 11
+"David Buttler" 16
+"David Garcia" 15
+"David F. Gleich" 23
+"David Jensen" 43
+"David Peleg" 67
+"Dawei Zhou" 3
+"Defu Lian" 9
+"Deguang Kong" 11
+"Derek Greene" 22
+"Diane Cook" 56
+"Dik Lee" 50
+"Dimitrios Gunopulos" 68
+"Dinh Phung" 25
+"Dino Pedreschi" 41
+"Djellel Eddine Difallah" 10
+"Donatella Firmani" 7
+"Dong Wang" 20
+"Duen Horng Chau" 24
+"Dunja Mladenic" 43
+"Duo Zhang" 26
+"Eamonn Keogh" 78
+"Edith Cohen" 44
+"Einoshin Suzuki" 20
+"Eirini Ntoutsi" 15
+"Elad Yom-Tov" 24
+"Elaine Angelino" 13
+"Emmanuel Müller" 22
+"Emre Kiciman" 29
+"Evimaria Terzi" 25
+"Fan Wei" 3
+"Fei Wang" 38
+"Feida Zhu" 23
+"Feiping Nie" 46
+"Felipe Llinares Lopez" 4
+"Fosca Giannotti" 37
+"Francesco Bonchi" 43
+"Francesco Gullo" 15
+"Francois Petitjean" 10
+"Gabriele Tolomei" 9
+"Guan Wang" 10
+"Guangtao Wang" 4
+"Guangxu Xun" 3
+"Guannan Liu" 6
+"Guozhu Dong" 41
+"Gustavo Batista" 25
+"Hanghang Tong" 40
+"Hao Yin" 2
+"Haoyu Zhang" 2
+"Hasan Davulcu" 23
+"Heng Huang" 35
+"Himabindu Lakkaraju" 9
+"Hisashi Kashima" 28
+"Hoang Anh Dau" 4
+"Hongke Zhao" 2
+"Honglei Zhuang" 8
+"Hsiang-Fu Yu" 13
+"Hsuan-Tien Lin" 20
+"Hsun-Ping Hsieh" 8
+"Huan Gui" 5
+"Huan Sun" 8
+"Huan Zhao" 1
+"Huayu Li" 5
+"Hui Xiong" 47
+"Huzefa Rangwala" 19
+"Ian Davidson" 32
+"Ian E. H. Yen" 9
+"Ichiro Takeuchi" 23
+"Inci Baytas" 2
+"Inderjit Dhillon" 67
+"Ingemar Cox" 71
+"Ioannis Koutis" 16
+"Jaideep Vaidya" 35
+"James Sharpnack" 7
+"Jan Ramon" 28
+"Jenna Wiens" 8
+"Jens Ludwig" 56
+"Jian Cao" 22
+"Jiang Bian" 17
+"Jianxi Gao" 15
+"Jiayu Zhou" 16
+"Jiebo Luo" 68
+"Jieping Ye" 61
+"Jilles Vreeken" 25
+"Jinbo Bi" 28
+"Jingrui He" 20
+"Jingwei Xu" 3
+"Jiuyong Li" 26
+"Joao Gama" 45
+"Joel Chan" 8
+"Joerg Sander" 39
+"Johannes Fürnkranz" 38
+"Jon Kleinberg" 95
+"Jose Cadena" 4
+"Joshua Moore" 7
+"Jun Luke Huan" 22
+"Junming Liu" 3
+"Jure Leskovec" 73
+"Kai Zhang" 20
+"Kevin Kai Zheng" 20
+"Kai-Ming Ting" 28
+"Katharina Morik" 29
+"Kaushik Sinha" 8
+"Ke Wang" 54
+"Keli Xiao" 5
+"Kevin Small" 15
+"Klemens Böhm" 30
+"Komal Kapoor" 7
+"Krishna Gummadi" 43
+"Kristina Lerman" 47
+"Kun Kuang" 1
+"Kun Zhang" 17
+"Kush Varshney" 15
+"Kyumin Lee" 15
+"Laks Lakshmanan" 64
+"Le Wu" 7
+"Leilei Sun" 4
+"Leonardo F. R. Ribeiro" 7
+"Liangyue Li" 7
+"Lifang He" 9
+"Liran Katzir" 13
+"Liyuan Liu" 1
+"Liyue Fan" 9
+"Longbing Cao" 35
+"Longin Jan Latecki" 43
+"Mahito Sugiyama" 7
+"Mamta Jaiswal" 8
+"Mario Boley" 13
+"Martin Ester" 53
+"Masashi Sugiyama" 44
+"Matteo Riondato" 10
+"Maurizio Patrignani" 23
+"Mehmet Yigit Yildirim" 1
+"Meng Jiang" 11
+"Mianwei Zhou" 6
+"Michael Mathioudakis" 8
+"Michael Steinbach" 35
+"Michele Catasta" 10
+"Milad Shokouhi" 25
+"Min-Ling Zhang" 24
+"Ming-Syan Chen" 62
+"Mirco Nanni" 21
+"Mohammad Hasan" 21
+"Mohammad Taha Bahadori" 11
+"Mohammed Zaki" 61
+"Mounia Lalmas" 43
+"Mudhakar Srivatsa" 23
+"Muhan Zhang" 2
+"Mustafa Bilgic" 14
+"Nan Cao" 18
+"Nan Du" 20
+"Neal Lathia" 21
+"Nemanja Djuric" 12
+"Nicholas Monath" 3
+"Nicola Barbieri" 11
+"Nikolaj Tatti" 18
+"Nishanth Sastry" 13
+"Nitesh V. Chawla" 47
+"Norbou Buchler" 10
+"Olfa Nasraoui" 38
+"Panagiotis Mandros" 1
+"Panayiotis Tsaparas" 24
+"Pannaga Shivaswamy" 16
+"Panos Kalnis" 36
+"Parikshit Shah" 14
+"Partha Talukdar" 25
+"Patrick Lucey" 24
+"Pauli Miettinen" 14
+"Pavid Fuhry" 9
+"Peixiang Zhao" 13
+"Peng Cui" 21
+"Peter Flach" 47
+"Peter Lofgren" 7
+"Peter Walker" 6
+"Petros Drineas" 39
+"Philip S. Yu" 140
+"Philippe Cudre-Mauroux" 30
+"Ping Chen" 28
+"Po-Wei Chan" 1
+"Pradeep Ravikumar" 32
+"Qi Liu" 14
+"Quanming Yao" 5
+"Quanquan Gu" 22
+"Rajesh Bordawekar" 30
+"Ran Wolff" 17
+"Randy Paffenroth" 12
+"Rasmus Pagh" 27
+"Raul Santos-Rodriguez" 8
+"Renato Assuncao" 28
+"Renato Paes Leme" 15
+"Renchi Yang" 0
+"Riccardo Guidotti" 4
+"Riccardo Torlone" 26
+"Richard Baraniuk" 94
+"Richard Maclin" 20
+"Rina Panigrahy" 36
+"Robert West" 12
+"Rong Pan" 13
+"Rui Chen" 16
+"Rui Zhang" 9
+"Rumi Ghosh" 17
+"Sahely Bhadra" 7
+"Saket Sathe" 8
+"Salvatore Ruggieri" 20
+"Saso Dzeroski" 56
+"Sebastian Moreno" 10
+"Sendhil Mullainathan" 60
+"Sergei Vassilvitskii" 27
+"Shen Wang" 3
+"Sheng-Jun Huang" 9
+"Shichao Zhang" 35
+"Shuai Li" 10
+"Shuai Ma" 22
+"Shuiwang Ji" 28
+"Shuo Chen" 8
+"Si Si" 9
+"Si Zhang" 2
+"Siddhartha Bhattacharyya" 23
+"Siegfried Nijssen" 23
+"Slobodan Vucetic" 31
+"Songqing Chen" 31
+"Srijan Kumar" 7
+"Steffen Rendle" 20
+"Stephan Günnemann" 19
+"Stephen Bach" 10
+"Stephen Boyd" 103
+"Stratis Ioannidis" 19
+"Suhang Wang" 8
+"Szymon Jaroszewicz" 16
+"Takeshi Yamada" 11
+"Tanya Berger-Wolf" 25
+"Tao Qin" 23
+"Taylor Berg-Kirkpatrick" 11
+"Theodoros Lappas" 13
+"Thomas Gaertner" 21
+"Tim Althoff" 8
+"Tim Weninger" 15
+"Tina Eliassi-Rad" 26
+"Ting Wang" 15
+"Tingjin Luo" 2
+"Tom Hope" 6
+"Tomoharu Iwata" 19
+"Torsten Suel" 41
+"Ulf Brefeld" 20
+"Vikas Sindhwani" 36
+"Vincent S. Tseng" 39
+"Vincent W. Zheng" 18
+"Vineet Chaoji" 17
+"Vladan Radosavljevic" 15
+"Volker Tresp" 46
+"Wagner Meira Jr." 40
+"Wang-Chien Lee" 56
+"Wei Wang" 49
+"Weiyi Meng" 43
+"Weizhong Zhang" 2
+"Wenjun Zhou" 10
+"Wenlu Zhang" 6
+"Wenqing Hu" 4
+"Wenwu Zhu" 51
+"Wilfred Ng" 29
+"Wook-Shin Han" 20
+"Wray Buntine" 36
+"Xi Zhang" 6
+"Xia Ben Hu" 21
+"Xiang Zhang" 17
+"Xiangnan Kong" 21
+"Xiangru Huang" 2
+"Xianping Tao" 21
+"Xiao Huang" 3
+"Xiao Yu" 9
+"Xiaojun Chang" 15
+"Xiaopeng Li" 2
+"Xiaowei Xu" 31
+"Xifeng Yan" 51
+"Xindong Wu" 54
+"Xing Xie" 54
+"Xingquan Zhu" 40
+"Xintao Wu" 26
+"Xuanzhe Liu" 17
+"Ya Zhang" 20
+"Yaliang Li" 10
+"Yan Zheng" 6
+"Yanen Li" 11
+"Yang Yu" 16
+"Yangqiu Song" 23
+"Yanjie Fu" 8
+"Yexi Jiang" 11
+"Yi Yang" 49
+"Yin Lou" 9
+"Yisong Yue" 20
+"Yixin Chen" 35
+"Yizhou Sun" 31
+"Yong Ge" 22
+"Yong Ren" 5
+"Yong Wang" 4
+"Yu Shi" 2
+"Yu Zhang" 18
+"Yu Zheng" 54
+"Yuan Yao" 8
+"Yuchen Zhao" 11
+"Yun Fu" 43
+"Yupeng Gu" 2
+"Yuxiao Dong" 12
+"Zaiqing Nie" 22
+"Zhenhui Li" 19
+"Zhewei Wei" 6
+"Zhijun Yin" 14
+"Zoran Obradovic" 52
+"Zvi Lotker" 27
+"Akhil Langer" 7
+"Albert-Jan Yzelman" 7
+"Alejandro Ribes" 9
+"Alice-Agnes Gabriel" 7
+"Allison H. Baker" 16
+"Ana Gainaru" 9
+"Andreas Mang" 9
+"Bernd Hamann" 49
+"Bertrand Iooss" 24
+"Bhavya Kailkhura" 8
+"Bilel Hadri" 10
+"Boyce Griffith" 25
+"Bronson Messer" 23
+"Bruce Jacob" 33
+"Carol Woodward" 17
+"Cheng Chen" 6
+"Christos Davatzikos" 81
+"Chundong Wang" 7
+"Cindy Rubio-Gonzalez" 8
+"Cris Cecka" 7
+"Damian S. Steiger" 5
+"Darrell D. E. Long" 50
+"David Cox" 27
+"Edmond Chow" 25
+"Elizabeth H. Madden" 4
+"Elsa Gonsiorowski" 3
+"Espen Birger Raknes" 5
+"Ethan Coon" 8
+"Evan Racah" 4
+"Gengbin Zheng" 27
+"Geoffroy R. Vallee" 19
+"Giorgis Georgakoudis" 5
+"Guanpeng Li" 4
+"Hajime Fujita" 8
+"Hamid Krim" 34
+"Harsh Vardhan" 6
+"Heather Quinn" 16
+"Holger Froening" 12
+"Hongbo Li" 1
+"Hua Tan" 12
+"Ian Karlin" 10
+"Ioannis Mitliagkas" 8
+"Jack Deslippe" 15
+"Jae-Seung Yeom" 8
+"Jayaraman Thiagarajan" 12
+"Jaydeep Bardhan" 17
+"Jean-Baptiste Besnard" 2
+"Jerry Chou" 10
+"Jian Zhang" 3
+"Jiayuan Meng" 17
+"John Cary" 40
+"Jonathan Beard" 4
+"Jürgen Kaiser" 6
+"Kalyan Kumaran" 11
+"Kate Keahey" 28
+"Kazem Cheshmi" 3
+"Keith Underwood" 26
+"Kelly Gaither" 14
+"Keren Bergman" 55
+"Kerstin Kleese van Dam" 15
+"Kevin Harms" 9
+"Klaudius Scheufele" 4
+"Kristopher Keipert" 4
+"Kyungjoo Kim" 8
+"Lorena Barba" 15
+"Mads Ruben Burgdorff Kristensen" 6
+"Manu Shantharam" 6
+"Marc Orr" 4
+"Marc Perache" 8
+"Marcelo Carneiro do Amaral" 5
+"Markus Schordan" 13
+"Matt Otten" 4
+"Mattan Erez" 28
+"Mauricio Breternitz" 18
+"Md Mostofa Patwary" 16
+"Michael B. Sullivan" 10
+"Michael Chuvelev" 2
+"Michael Garland" 50
+"Michael Lang" 14
+"Michael LeBeane" 3
+"Michel Kinsy" 11
+"Michelle Mills Strout" 18
+"Miriam Mehl" 16
+"Miroslav Stoyanov" 9
+"Misun Min" 8
+"Mohammadreza Bayatpour" 1
+"Mohammed Sourouri" 4
+"Morris Riedel" 16
+"Neil Chue Hong" 15
+"Nico Reissmann" 2
+"Nosayba El-Sayed" 6
+"Oceane Bel" 1
+"Patricia Kovatch" 9
+"Paul Fischer" 43
+"Peer-Timo Bremer" 32
+"Pei-Hung Lin" 9
+"Per Gunnar Kjeldsberg" 14
+"Peyman Faizian" 1
+"Philippe Tillet" 3
+"Pradeep Dubey" 51
+"Qingsong Wei" 9
+"Raghul Gunasekaran" 8
+"Raphael Y. de Camargo" 11
+"Raymond C. Clay III" 6
+"Reid Priedhorsky" 14
+"Rita Borgo" 14
+"Robert Schöne" 14
+"Rosa M. Badia" 37
+"Rushil Anirudh" 4
+"Ryan Chard" 6
+"Sandra Gesing" 10
+"Sean Couch" 19
+"Sean Treichler" 6
+"Seung-Hwan Lim" 8
+"Shigeru Iwase" 2
+"Shuai Che" 13
+"Siddharth Bhat" 0
+"Srinivas Sridharan" 8
+"Stefan Wild" 24
+"Stephanie Wollherr" 0
+"Steve Scott" 16
+"Swaroop Pophale" 6
+"Tareq Malas" 6
+"Tetsuya Sakurai" 17
+"Thilina Rathnayake" 1
+"Thomas Häner" 5
+"Thorsten Kurth" 15
+"Tim Randles" 1
+"Timothy B. Costa" 3
+"Tirthak Patel" 1
+"Tomofumi Yuki" 9
+"Vladimir A. Mironov" 6
+"Wonchan Lee" 16
+"X. Sherry Li" 31
+"Yan Li" 7
+"Yasunori Futamura" 6
+"Yifan Gong" 4
+"Yuri Alexeev" 15
+"Zhou Tong" 1
+"Abhinav Sarje" 10
+"Adeesha Wijayasiri" 0
+"Ajai George" 1
+"Ajay Panyala" 2
+"Alexandre Eichenberger" 25
+"Alok Choudhary" 61
+"Anindya Sundar Dhar" 11
+"Ankit Agrawal" 20
+"Anshuman Goswami" 2
+"Arshad Jhumka" 17
+"Assefaw Gebremedhin" 19
+"Ayan Palchaudhuri" 4
+"Bhaskar Chaudhury" 12
+"Bilge Acun" 5
+"Can Hankendi" 7
+"Carlo Bertolli" 14
+"Cesar Caiafa" 13
+"Chia-Lin Yang" 31
+"Chrysostomos Nicopoulos" 20
+"Cédric Bastoul" 23
+"David A. Bader" 48
+"David Chiu" 15
+"Devavret Makkar" 1
+"Dharanidhar Dang" 3
+"Dhaval Patel" 6
+"Dipendra Jha" 1
+"Edward Chuah" 4
+"Esteban Rangel" 3
+"Eun Kyung Lee" 10
+"Franco Pestilli" 15
+"Georgios Michelogiannakis" 11
+"Gheorghe-Teodor Bercea" 7
+"Harsha Vardhan Simhadri" 8
+"Hongyang Sun" 10
+"Hyojin Sung" 6
+"Jaroslaw Zola" 12
+"Jayanth Kalyanasundaram" 0
+"Jia Zhan" 7
+"Jianwei Xiao" 1
+"Julian Shun" 12
+"Jyotikrishna Dass" 2
+"Kartik Lakhotia" 1
+"Linchuan Chen" 6
+"Mark Schmalz" 2
+"Mark Stillwell" 8
+"Marziyeh Nourian" 2
+"Michael McDermott" 3
+"Mingzhe Li" 6
+"Mucahid Kutlu" 6
+"Nentawe Gurumdimma" 2
+"Oded Green" 9
+"P J Narayanan" 26
+"Philippe Helluy" 15
+"Rabi Mahapatra" 22
+"Rajgopal Kannan" 29
+"Rengan Xu" 7
+"Sadayappan P" 57
+"Samuel Antao" 12
+"Sangkeun Lee" 10
+"Sanjay Ranka" 49
+"Sanjukta Bhowmick" 13
+"Sanket Gupte" 2
+"Santonu Sarkar" 16
+"Sartaj Sahni" 66
+"Sharma V. Thankachan" 12
+"Shreyas Singapura" 2
+"Sidharth Kumar" 6
+"Steve Petruzza" 1
+"Sunwoo Lee" 1
+"Sureyya Emre Kurt" 0
+"Sushil Prasad" 20
+"Sven Karlsson" 9
+"Tekin Bicer" 10
+"Theo Damoulas" 14
+"Theocharis Theocharides" 16
+"Upinder Bhalla" 34
+"Valerio Pascucci" 50
+"Vasimuddin Md" 1
+"Vikram Goyal" 6
+"Viktor Prasanna" 66
+"Vincent Loechner" 12
+"Vito Giovanni" 6
+"Weirong Jiang" 20
+"Xin Huo" 8
+"Xuan Zhang" 9
+"Zhihao Jia" 3
+"Aasheesh Kolli" 5
+"Alberto Ros" 14
+"Alenka Zajic" 17
+"Alexandros Daglis" 3
+"Alireza Nazari" 2
+"Alper Buyuktosunoglu" 28
+"Amir Salek" 7
+"Antonio Puglielli" 2
+"Anurag Mukkara" 1
+"Aosen Wang" 5
+"Ardavan Pedram" 9
+"Ariel Feldman" 9
+"Ashish Ranjan" 4
+"Bin Altaf" 2
+"Binzhang Fu" 7
+"Brucek Khailany" 17
+"Chris Batten" 16
+"Christopher De Sa" 9
+"David J. Schlais" 0
+"David Koeplinger" 4
+"Dibakar Gope" 3
+"Dionisios Pnevmatikatos" 24
+"Dmitrii Ustiugov" 1
+"Doe Hyun Yoon" 16
+"Doowon Lee" 2
+"Doug Burger" 58
+"Duckhwan Kim" 4
+"Emre Ozer" 14
+"Eric Wilcox" 13
+"Gaurav Agrawal" 3
+"Gokul Subramanian Ravi" 1
+"Gregory Sizikov" 3
+"Hanna Alam" 1
+"Itir Akgun" 2
+"Jaeha Kung" 4
+"Ján Veselý" 4
+"Jeffrey Dean" 60
+"Jiecao Yu" 0
+"Julian Ibarz" 5
+"Jung Kim" 39
+"Jungi Jeong" 2
+"Mario Drumond" 2
+"Masoud Daneshtalab" 24
+"Masoumeh Ebrahimi" 20
+"Mehdi Alipour" 4
+"Mengjia Yan" 1
+"Mikko H. Lipasti" 40
+"Monjur Alam" 5
+"Muhammad Shoaib" 2
+"Nader Sehatbakhsh" 3
+"Natalie Enright-Jerger" 17
+"Newsha Ardalani" 1
+"Nooshin Mirzadeh" 1
+"Paul Whatmough" 6
+"Peter Milder" 17
+"Pritam Majumder" 1
+"Raghu Prabhakar" 6
+"Rangharajan Venkatesan" 9
+"Robert Hundt" 20
+"Ronald Dreslinski" 26
+"Ruohuang Zheng" 0
+"Russ Joseph" 16
+"S. Karen Khatamifard" 1
+"Sally McKee" 31
+"Selçuk Köse" 13
+"Sriram Govindan" 14
+"Stefan Hadjis" 7
+"Subarno Banerjee" 2
+"Sui Chen" 3
+"Suresh Bhatia" 47
+"Swagath Venkataramani" 12
+"Taekyung Heo" 1
+"Vaibhav Gogte" 1
+"Victor A. Ying" 1
+"Vijay Vasudevan" 11
+"Vinay Gangadhar" 4
+"Vinson Young" 1
+"Weize Yu" 5
+"Won Woo Ro" 12
+"Xiaoyao Liang" 15
+"Yajing Chen" 5
+"Yakun Sophia Shao" 7
+"Yaqi Zhang" 0
+"Yun Long" 0
+"Zhenning Wang" 4
+"Zi Yan" 1
+"Abon Chaudhuri" 6
+"Adil Alim" 0
+"Adriano Augusto" 1
+"Aijun An" 31
+"Alan Kuhnle" 4
+"Alexander Marx" 1
+"Alexandre Termier" 13
+"Andrea Tagarelli" 19
+"Annalisa Appice" 19
+"Anne Denton" 14
+"Anne Laurent" 20
+"Anthony Bagnall" 24
+"Arbee L.P. Chen" 40
+"Arvind Ramanathan" 12
+"Ayan Acharya" 12
+"Baojian Zhou" 3
+"Barry Drake" 11
+"Bhavani Thuraisingham" 50
+"Bin Li" 17
+"Bin Tong" 5
+"Blaz Zupan" 42
+"Bo Du" 23
+"Bradley Malin" 37
+"Brendan O’Connor" 17
+"Bruno Cremilleux" 23
+"Carlotta Domeniconi" 28
+"Chen Fang" 10
+"Chen Gong" 16
+"Cheng Deng" 16
+"Chenghao Liu" 2
+"Chengqi Zhang" 42
+"Chenwei Zhang" 3
+"Chin-Chia Michael Yeh" 6
+"Chiranjib Bhattacharyya" 22
+"Christian Bauckhage" 34
+"Christine O'Keefe" 26
+"Christoph F. Eick" 20
+"Christopher Marcum" 8
+"Christopher Morris" 2
+"Cyrus Shahabi" 53
+"Damian Roqueiro" 8
+"Dan Sheldon" 16
+"Dan Simovici" 21
+"Danai Koutra" 18
+"Daniel Nikovski" 17
+"David Taniar" 37
+"Debrup Banerjee" 3
+"Dejing Dou" 20
+"Di Jin" 1
+"Dik Lun Lee" 51
+"Dingqi Yang" 11
+"Dingxiong Deng" 7
+"Dino Ienco" 13
+"Dongjin Song" 8
+"Dorothea Wagner" 50
+"Duru Turkoglu" 6
+"Dzung T. Phan" 12
+"Elena Baralis" 26
+"Ernestina Menasalvas" 20
+"Ernesto Damiani" 44
+"Evaggelia Pitoura" 38
+"Fabien Labernia" 2
+"Fabio Fassetti" 10
+"Fenglong Ma" 4
+"Florian Yger" 8
+"Frans Coenen" 31
+"Fu-Lai Chung" 39
+"Gaurav Pandey" 4
+"Georgios B. Giannakis" 128
+"Gianvito Pio" 6
+"Giovanni Stilo" 8
+"Grigorios Loukides" 18
+"Haesun Park" 57
+"Hang Hang Tong" 41
+"Hao Fu" 4
+"Haoyi Xiong" 15
+"He Zhao" 3
+"Hengchang Liu" 21
+"Hongxu Chen" 1
+"Hongzhi Yin" 14
+"Hye-Chung Kum" 14
+"Indrajit Bhattacharya" 15
+"Jaegul Choo" 14
+"Jaemin Yoo" 1
+"James Bailey" 29
+"James T. Kwok" 52
+"Jason Lines" 11
+"Jason T. L. Wang" 73
+"Jay Pujara" 9
+"Jayant Kalagnanam" 33
+"Jessica Lin" 25
+"Jia Wu" 16
+"Jianboi Li" 6
+"Jianyong Wang" 43
+"Jiawei Zhang" 11
+"Jiming Chen" 49
+"Jingchao Ni" 3
+"Josep Domingo-Ferrer" 51
+"Joshua D. Trzasko" 16
+"Julian McAuley" 22
+"Kamalakar Karlapalem" 36
+"Kamalika Das" 13
+"Kanishka Bhaduri" 19
+"Karsten Borgwardt" 40
+"Kazi Islam" 0
+"Keith Chan" 34
+"Kevin Chen-Chuan Chang" 43
+"Kishlay Jha" 1
+"Kun zhang" 16
+"Kyuseok Shim" 48
+"Lan Du" 11
+"Laura Pullum" 10
+"Lawrence Hall" 50
+"Lefei Zhang" 17
+"Lei Li" 12
+"Leman Akoglu" 25
+"Lemin Xiao" 2
+"Liang Hu" 6
+"Liang Zhao" 8
+"Lingfei Wu" 8
+"Linhong Zhu" 12
+"Lise Getoor" 59
+"Liudmila Ulanova" 6
+"Lu Su" 21
+"Lu Wang" 18
+"Ludovic Denoyer" 19
+"Luiza Antonie" 12
+"Maguelonne Teisseire" 24
+"Marcello La Rosa" 36
+"Maria Halkidi" 17
+"Marlon Dumas" 64
+"Martin Atzmueller" 29
+"Masafumi Oyamada" 2
+"Matjaz Gams" 21
+"Michael Hamann" 4
+"Michelangelo Ceci" 20
+"Michele Coscia" 16
+"Miguel Ramos de Araujo" 6
+"Mihajlo Grbovic" 14
+"Minghui Qiu" 11
+"Minos Garofalakis" 60
+"Naren Ramakrishnan" 41
+"NhatHai Phan" 7
+"Nico Piatkowski" 9
+"Nicola Fanizzi" 25
+"Osmar Zaiane" 52
+"Padmini Srinivasan" 34
+"Pascal Poncelet" 22
+"Pasquale Minervini" 5
+"Paul Bradley" 30
+"Pavel Senin" 10
+"Pedro Manuel Pinto Ribeiro" 11
+"Peilin Zhao" 21
+"Pengpeng Zhao" 9
+"Petra Mutzel" 39
+"Philip Chan" 41
+"Pigi Kouki" 3
+"Pin-Yu Chen" 13
+"Prasenjit Mitra" 41
+"Qing He" 25
+"Qinghua Hu" 39
+"Quoc Viet Hung Nguyen" 13
+"Raffaele Conforti" 11
+"Rajmonda Sulo Caceres" 6
+"Rasmus Ulslev Pedersen" 12
+"Roberto Trasarti" 15
+"Roger Xu" 5
+"Rohan Baxter" 23
+"Rosa Meo" 17
+"Ryan Benton" 6
+"S. S. Ravi" 35
+"Saket Maheshwary" 1
+"Santu Rane" 8
+"Sarah M. Erfani" 4
+"Saurav Karmakar" 4
+"Shaghayegh Gharghabi" 3
+"Shiming Zhang" 7
+"Shin Ando" 13
+"Shirish Shevade" 16
+"Shuo Zhou" 3
+"Sihong Xie" 10
+"Soumya Ray" 16
+"Sourav S. Bhowmick" 27
+"Stefan Kramer" 34
+"Stephan Guennemann" 20
+"Steven C.H. Hoi" 45
+"Stijn Luca" 5
+"Sunil Gupta" 17
+"Svetha Venkatesh" 54
+"Tao Sun" 2
+"Tapio Elomaa" 13
+"Toshihiro Kamishima" 13
+"Trong Dinh Thac Do" 1
+"Trung Le" 9
+"Tsuyoshi Ide" 20
+"Tu Dinh Nguyen" 8
+"Ugur Demiryurek" 15
+"Usman Shahid" 6
+"Victor S. Sheng" 20
+"Vijay Raghavan" 37
+"Vikram Pudi" 12
+"Vishrawas Gopalakrishnan" 4
+"Vladimir Estivill-Castro" 28
+"Vu Nguyen" 6
+"Wang-Cheng Kang" 2
+"Wei Cheng" 10
+"Weijie Wu" 9
+"Weizhong Zhao" 10
+"William Eberle" 11
+"Wouter Duivesteijn" 8
+"Xia Ning" 2
+"Xiangliang Zhang" 18
+"Xiao He" 7
+"Xiaoshuai Sun" 15
+"Xinyue Liu" 1
+"Xuchao Zhang" 1
+"Xun Zhou" 10
+"Yada Zhu" 7
+"Yan Zhu" 3
+"Yanchi Liu" 9
+"Yang Wang" 14
+"Yang Zhou" 13
+"Yao Zhang" 5
+"Yao Zhou" 2
+"Yi Ding" 2
+"Yifeng Gao" 2
+"Ying Ding" 43
+"Yiu-ming Cheung" 27
+"Yuanchao Shu" 11
+"Yuchen Bian" 3
+"Zemin Liu" 1
+"Zhaowen Wang" 14
+"Zheng Chen" 61
+"Zhi Wei" 26
+"Zhi-Hua Zhou" 83
+"Zhishan Guo" 11
+"Zhiyuan Chen" 21
+"Zidong Yang" 2
+"masoud makrehchi" 9
+"Aleksander Mądry" 11
+"Alexander Skopalik" 13
+"Erez Kantor" 10
+"Fabrizio Grandoni" 29
+"Frank Dehne" 36
+"Giuseppe Persiano" 29
+"Guoxin Liu" 8
+"Hamidreza Jahanjou" 2
+"Haoyu Wang" 4
+"He Sun" 11
+"Hossein Asadi" 21
+"Hossein Esfandiari" 5
+"Hubert Chan" 17
+"Jesmin Jahan Tithi" 4
+"Laura Sanità" 9
+"Laxman Dhulipala" 3
+"Luca Zanetti" 2
+"Manuel Lafond" 7
+"Marcin Bienkowski" 10
+"Martin Hoefer" 20
+"Mauricio Resende" 68
+"Mohammad Hossein Bateni" 13
+"Nicolás Rivera" 4
+"Peter Varman" 26
+"Rajesh Chitnis" 9
+"Rajmohan Rajaraman" 33
+"Rezaul Chowdhury" 16
+"Richard Cole" 50
+"Richard Peng" 17
+"Riko Jacob" 20
+"Runtian Ren" 2
+"Ryan O'Donnell" 33
+"Ryan Williams" 26
+"Samir Khuller" 50
+"Shahbaz Khan" 2
+"Sudipto Guha" 52
+"Vijaya Ramachandran" 36
+"Vincent Chau" 5
+"Wang Kai" 1
+"Yi Li" 9
+"Yuan Tang" 6
+"Yuval Rabani" 39

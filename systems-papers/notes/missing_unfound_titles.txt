@@ -1,0 +1,24 @@
+Quality and Cost of Deterministic Network Calculus – Design and Evaluation of an Accurate and Fast Analysis
+An NlogN Parallel Fast Direct Solver for Kernel Metrices
+Design and Evaluation of AWGR-based Photonic NoC Architectures for 2.5D Inegrated High Performance Computing Systems
+G-Scalar: Cost-Effective Generalized Scalar Execution Architecture fo Power-Efficient GPUs
+Collaboratively Improving Topic Discovery and Word Embeddings by Coordinating Global and Local Conte
+MiniCrypt: Reconciling Encryption and Compression for Big Data Stores
+HyperLogLog Hyper Extended: Sketches for Concave Sublinear Frequency Statistics
+Robust Top-k Multi-class SVM for Visual Category Recognition Xiaojun Chang
+Improving the Network of Search Engine Services Through Application-Driven Routing
+MOSAIC: Processing a Trillion-Edge Graph on a Single Commodity Machine
+Families of Graph Algorithms : An SSSP Case Study
+Off-Road Performance Modeling - How to Deal with Segmented Data?
+Understanding Power-performance Relationship of Energy-efficient Modern DRAM Devices for Chip Multiprocessor Workloads
+Accelerating Seismic Simulations Using the Intel Xeon Phi Knight sLanding Processor
+Addressing Volume and Latency Overheads in 1D-parallel Sparse Matrix Vector Multiplication
+One TPM to Bind Them All: Fixing TPM2.0 for Provably Secure Anonymous Attestation
+Matrix Multiplication, a Li le Faster
+High-Performance Incremental SVM Learning on Intel Xeon Phi™ Processors
+It's time to think about an Operating System for Near Data Processing Architecture
+Avoding The Man on the Wire: Improving Tor's Security with Trust-Aware Path Selection
+Transaction Repair for Mult-Version Concurrency Control
+Omnix: Accelerator-centric OS for omniprogrammable systems
+Checking Open-Source License Violation and 1-day Security Risk at Large Scale
+Tux²: Distributed Graph Computation for Machine Learning

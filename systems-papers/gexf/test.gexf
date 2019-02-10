@@ -1,0 +1,38 @@
+<graph mode="static" defaultedgetype="directed">
+  <nodes>
+
+    <node id="A" label="Cluster A">
+      <nodes>
+        <node id="A1" label="A"/>
+        <node id="A2" label="A"/>
+        <node id="A3" label="A"/>
+        <node id="A4" label="A"/>
+        <node id="A5" label="A"/>
+        <node id="A6" label="A"/>
+      </nodes>
+    </node>
+    
+    <node id="B" label="Cluster B">
+      <nodes>
+        <node id="B1" label="B"/>
+        <node id="B2" label="B"/>
+        <node id="B3" label="B"/>
+        <node id="B4" label="B"/>
+        <node id="B5" label="B"/>
+        <node id="B6" label="B"/>
+      </nodes>
+    </node>
+    
+    <node id="C" label="Cluster C">
+      <nodes>
+        <node id="C1" label="C"/>
+        <node id="C2" label="C"/>
+        <node id="C3" label="C"/>
+        <node id="C4" label="C"/>
+        <node id="C5" label="C"/>
+        <node id="C6" label="C"/>
+      </nodes>
+    </node>
+  
+  </nodes>
+</graph>

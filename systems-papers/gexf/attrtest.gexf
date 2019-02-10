@@ -1,0 +1,29 @@
+<gexf version="1.3">
+    <graph mode="static" defaultedgetype="undirected">
+        <attributes class="node">
+            <attribute id="color" type="string" title="color">
+                <default>#000000</default>
+            </attribute>
+        </attributes>
+        <attributes class="edge">
+        </attributes>
+        <nodes>
+            <node id="n_0">
+                <attvalues>
+                    <attvalue for="color" value="#FF0000"/>
+                </attvalues>
+            </node>
+            <node id="n_1">
+                <attvalues>
+                    <attvalue for="color" value="#00FF00"/>
+                </attvalues>
+            </node>
+        </nodes>
+        <edges>
+            <edge id="e_0" source="n_0" target="n_1">
+                <attvalues>
+                </attvalues>
+            </edge>
+        </edges>
+    </graph>
+</gexf>

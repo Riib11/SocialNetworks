@@ -1,0 +1,14 @@
+<gexf>
+    <graph mode="static" defaultedgetype="undirected">
+        
+        <nodes>
+            <node id="0" label="Hello" />
+            <node id="1" label="Word" />
+        </nodes>
+        
+        <edges>
+            <edge id="0" source="0" target="1" />
+        </edges>
+    
+    </graph>
+</gexf>
