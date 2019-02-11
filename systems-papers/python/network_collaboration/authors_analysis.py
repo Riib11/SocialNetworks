@@ -1,20 +1,10 @@
 """
 
-Creates a colored network of author collaboration.
+Creates network of author collaboration.
 
-- Info:
-
-    - Nodes are identified by the respective author's names.
-
-    - Edges are identified by the key of the paper that it represents collaboration on, with an 
-      integer suffix to distinguish the many edges resulting from one paper collaboration. For 
-      example, a paper with three authors results in three edges, since each author collaborated 
-      with each other author once.
-
-    - Coloring:
-        - Color: Interpolates between Red and Blue, where Red is high and Blue is low (normalized for data set).
-        - Node: Colored by the `hindex` of the author that the node reprents. Is that max of all values found among data/authors/*.json. If the target attribtute is not avaliable for a node, the node is colored black.
-        - Edge: Colored by the maximum value of the nodes connected by this edge.
+- Nodes are authors.
+- Nodes are linked if the authors collaborated on at
+  least one paper in the data set.
 
 """
 
@@ -32,29 +22,39 @@ from tqdm import tqdm
 import utils.data as u_data
 import authors.author_features as a_features
 import semantic_scholar.s2data as s2data
-from graph.papers_graph import AuthorsGraph
+from authors_network.authors_network import AuthorsNetwork
 
-################################################################
+################################################################################
 print("[*] Loading Data")
 
 papers = s2data.get_dict_gA()
 
-################################################################
-print("[*] Creating Authors Graph")
+################################################################################
+print("[*] Creating Authors Network")
 
-G = AuthorsGraph()
+G = AuthorsNetwork()
 for paper_id, paper in papers.items(): G.add_paper(paper)
 G.fill_graph()
 
-################################################################
-print("[*] Analyzing Graph")
 
-G.print_statistics()
 
-# G.calculate_centralities()
-G.plot_centralities()
+################################################################################
+if False:
+  print("[*] Analyzing Network Statistics")
+  G.print_statistics()
 
-################################################################
-print("[*] Writing Graph")
 
-# G.write()
+if False:
+  print("[*] Calculating Network Centralities")
+  G.calculate_centralities()
+
+################################################################################
+if True:
+  print("[*] Analyzing Network")
+  G.plot_centralities()
+
+################################################################################
+if False:
+  print("[*] Writing Network File")
+
+  G.write()

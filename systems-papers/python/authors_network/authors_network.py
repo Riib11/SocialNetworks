@@ -3,14 +3,17 @@ import networkx as nx
 import matplotlib.pyplot as plt
 from utils.json import *
 
-class AuthorsGraph:
+parent_dir = "authors_network/"
+data_dir   = parent_dir + "data/"
+
+class AuthorsNetwork:
   def __init__(self):
     self.authors = {} # author_id => paper_id
     self.papers  = {} # paper_id  => paper (dict)
     self.graph = nx.Graph()
 
   # def draw(self): nx.draw(self.graph)
-  def write(self): nx.write_gexf(self.graph, "graph/papers-graph.gexf")
+  def write(self): nx.write_gexf(self.graph, parent_dir + "authors-network.gexf")
 
   def add_paper(self, paper):
     paper_id = paper["id"]
@@ -71,29 +74,50 @@ class AuthorsGraph:
   def calculate_centralities(self):
     # dump calculated data
     dump_json(nx.degree_centrality(self.graph),
-      "graph/data/degree_centralities")
+      data_dir + "degree_centralities")
     dump_json(nx.eigenvector_centrality(self.graph),
-      "graph/data/eigenvector_centralities")
+      data_dir + "eigenvector_centralities")
     dump_json(nx.closeness_centrality(self.graph),
-      "graph/data/closeness_centralities")
+      data_dir + "closeness_centralities")
     dump_json(nx.betweenness_centrality(self.graph),
-      "graph/data/betweenness_centralities")
+      data_dir + "betweenness_centralities")
 
   def plot_centralities(self):
-    plt.subplot(221)
-    plt.title("Degree Centralities")
-    plt.xlabel('Degree Centrality')
-    plt.ylabel('Node Share')
-    plt.grid(True)
-    plt.hist(list(load_json("graph/data/degree_centralities").values()),
-      70, histtype="bar", facecolor="blue", alpha=1.0)
+    def plot_histogram(position, title, xlabel, ylabel, xticks, bins, data):
+      plt.subplot(position)
+      plt.title(title)
+      plt.xlabel(xlabel)
+      plt.ylabel(ylabel)
+      plt.grid(True)
+      plt.xticks(xticks)
+      plt.hist(data,
+        bins,
+        log = False,
+        histtype = "bar",
+        facecolor = "blue",
+      )
+
+    authors_count = len(self.authors)
+    plot_histogram(221,
+      "Degree Centralities",
+      "Connections",
+      "Nodes",
+      np.arange(min(data), max(data), 5),
+      30,
+      list(
+        filter(lambda x: x <= 30,
+        map(lambda x: x * authors_count,
+          load_json(data_dir + "degree_centralities").values())))
+    )
+    plt.show()
+    return
 
     plt.subplot(222)
     plt.title("Eigenvector Centralities")
     plt.xlabel('Eigenvector Centrality')
     plt.ylabel('Node Share')
     plt.grid(True)
-    plt.hist(list(load_json("graph/data/eigenvector_centralities").values()),
+    plt.hist(list(load_json(data_dir + "eigenvector_centralities").values()),
       20, histtype="bar", facecolor="blue", alpha=1.0)
 
     plt.subplot(223)
@@ -101,7 +125,7 @@ class AuthorsGraph:
     plt.xlabel('Closeness Centrality')
     plt.ylabel('Node Share')
     plt.grid(True)
-    plt.hist(list(load_json("graph/data/closeness_centralities").values()),
+    plt.hist(list(load_json(data_dir + "closeness_centralities").values()),
       70, histtype="bar", facecolor="blue", alpha=1.0)
 
     plt.subplot(224)
@@ -109,7 +133,7 @@ class AuthorsGraph:
     plt.xlabel('Betweenness Centrality')
     plt.ylabel('Node Share')
     plt.grid(True)
-    plt.hist(list(load_json("graph/data/betweenness_centralities").values()),
+    plt.hist(list(load_json(data_dir + "betweenness_centralities").values()),
       40, histtype="bar", facecolor="blue", alpha=1.0)
     
     plt.tight_layout()
