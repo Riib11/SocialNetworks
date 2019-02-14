@@ -7,6 +7,7 @@ from utils.json import *
 
 parent_dir = "authors_network/"
 data_dir   = parent_dir + "data/"
+gephi_dir  = parent_dir + "gephi/"
 
 class AuthorsNetwork:
   def __init__(self):
@@ -18,7 +19,7 @@ class AuthorsNetwork:
 
   def write(self):
     suffix = "".join([ "_" + k + "=" + v for (k,v) in self.attributes.items() ])
-    nx.write_gexf(self.graph, parent_dir + "authors-network"+suffix+"gexf")
+    nx.write_gexf(self.graph, gephi_dir + "authors-network"+suffix+".gexf")
 
   def add_paper(self, paper):
     paper_id = paper["id"]
@@ -164,31 +165,28 @@ class AuthorsNetwork:
 
   # nodes are colored by their connected component
   # colors only the largest 10 or so conn-comps, and the rest are gray
-  def color_components(self, components_to_color=3):
+  def color_components(self, components_to_color=10):
     # order from largest to smallest
     components = sorted(
-      list(nx.connected_components(self.graoh)),
-      key=len, reversed=True)
+      list(nx.connected_components(self.graph)),
+      key=len, reverse=True)
 
     colors = [
-      "#FF0000","#00FF00","#0000FF",
-      "#FFFF00","#FF00FF","#00FFFF"]
-    color_default = ["#888888"]
+      "#ff0000","#00ff00","#0000ff",
+      "#ffff00","#ff00ff","#00ffff",
+      "#ff4444","#44ff44","#4444ff",
+      "#ffff44","#ff44ff","#44ffff"]
+    color_default = "#888888"
 
-    # record new node attributes
-    node_attributes = {}
     # set colors of nodes
     for comp_i in range(len(components)):
       comp = components[comp_i]
-      # color component
-      if comp_i < components_to_color:
-        for node in comp: node_attributes[node] = colors[i]
-      # don't color component (too small)
-      else:
-        for node in comp: node_attributes[node] = color_default
-    # set new node attributes: color
-    nx.set_node_attributes(self.graph, "color", node_attributes)
-    # track graph modification
+      # calculate color
+      color = colors[comp_i] if comp_i < components_to_color else color_default
+      # color node by component
+      for node in comp: self.graph.node[node]["color"] = color
+
+    # track graph modification: coloring = components
     self.attributes["coloring"] = "components"
 
 def extract_author_id(author):
