@@ -36,8 +36,6 @@ G = AuthorsNetwork()
 for paper_id, paper in papers.items(): G.add_paper(paper)
 G.fill_graph()
 
-
-
 ################################################################################
 if False:
   print("[*] Analyzing Network Statistics")

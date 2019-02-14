@@ -1,6 +1,8 @@
 import numpy as np
 import networkx as nx
 import matplotlib.pyplot as plt
+from matplotlib.ticker import FormatStrFormatter
+
 from utils.json import *
 
 parent_dir = "authors_network/"
@@ -83,59 +85,56 @@ class AuthorsNetwork:
       data_dir + "betweenness_centralities")
 
   def plot_centralities(self):
-    def plot_histogram(position, title, xlabel, ylabel, xticks, bins, data):
+    log = True
+    # helper function for plotting the 4 centralities graphs
+    def plot_histogram(
+      position,
+      title,
+      xlabel, ylabel,
+      bins,
+      xmax,
+      data
+    ):
+      data = list(filter(lambda x: x <= xmax, list(data)))
+      print("max for", xlabel, ":", max(list(data)))
+      xlabel_prefix = ""
+      ylabel_prefix = "Log of " if log else ""
       plt.subplot(position)
       plt.title(title)
-      plt.xlabel(xlabel)
-      plt.ylabel(ylabel)
+      plt.xlabel(xlabel_prefix + xlabel)
+      plt.ylabel(ylabel_prefix + ylabel)
       plt.grid(True)
-      plt.xticks(xticks)
-      plt.hist(data,
-        bins,
-        log = False,
-        histtype = "bar",
-        facecolor = "blue",
-      )
+
+      xticks = np.arange(0.0, max(data), (max(data)-min(data))/bins*8)
+      xticks_labels = map(lambda x: "{:.2e}".format(x), xticks)
+       # str(round(x, 4))
+      plt.xticks(xticks, xticks_labels, rotation=15)
+
+      plt.hist(data, bins, log = log, histtype = "bar", facecolor = "blue")
 
     authors_count = len(self.authors)
     plot_histogram(221,
-      "Degree Centralities",
-      "Connections",
-      "Nodes",
-      np.arange(min(data), max(data), 5),
-      30,
-      list(
-        filter(lambda x: x <= 30,
-        map(lambda x: x * authors_count,
-          load_json(data_dir + "degree_centralities").values())))
-    )
-    plt.show()
-    return
+      "Degree Centralities", "Connections", "Nodes",
+      bins = 30, xmax = 30,
+      data = map(lambda x: x * authors_count,
+        load_json(data_dir + "degree_centralities").values()))
 
-    plt.subplot(222)
-    plt.title("Eigenvector Centralities")
-    plt.xlabel('Eigenvector Centrality')
-    plt.ylabel('Node Share')
-    plt.grid(True)
-    plt.hist(list(load_json(data_dir + "eigenvector_centralities").values()),
-      20, histtype="bar", facecolor="blue", alpha=1.0)
+    plot_histogram(222,
+      "Eigenvector Centralities", "Eigenvector Centrality", "Node Share",
+      bins = 20, xmax = 0.00003,
+      data = load_json(data_dir + "eigenvector_centralities").values())
 
-    plt.subplot(223)
-    plt.title("Closeness Centralities")
-    plt.xlabel('Closeness Centrality')
-    plt.ylabel('Node Share')
-    plt.grid(True)
-    plt.hist(list(load_json(data_dir + "closeness_centralities").values()),
-      70, histtype="bar", facecolor="blue", alpha=1.0)
+    plot_histogram(223,
+      "Closeness Centralities", "Closeness Centrality", "Node Share",
+      bins = 30, xmax = 30,
+      data = load_json(data_dir + "closeness_centralities").values())
 
-    plt.subplot(224)
-    plt.title("Betweenness Centralities")
-    plt.xlabel('Betweenness Centrality')
-    plt.ylabel('Node Share')
-    plt.grid(True)
-    plt.hist(list(load_json(data_dir + "betweenness_centralities").values()),
-      40, histtype="bar", facecolor="blue", alpha=1.0)
-    
+    plot_histogram(224,
+      "Betweenness Centralities", "Betweenness Centrality", "Node Share",
+      bins = 30, xmax = 30,
+      data = load_json(data_dir + "betweenness_centralities").values())
+
+
     plt.tight_layout()
     plt.show()
 

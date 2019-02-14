@@ -1,3 +1,5 @@
+import math
+
 bad_tokens = "\""
 
 def clean(s):
