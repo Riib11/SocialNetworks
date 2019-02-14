@@ -14,8 +14,11 @@ class AuthorsNetwork:
     self.papers  = {} # paper_id  => paper (dict)
     self.graph = nx.Graph()
 
-  # def draw(self): nx.draw(self.graph)
-  def write(self): nx.write_gexf(self.graph, parent_dir + "authors-network.gexf")
+    self.attributes = {} # keep track of modifications to graph
+
+  def write(self):
+    suffix = "".join([ "_" + k + "=" + v for (k,v) in self.attributes.items() ])
+    nx.write_gexf(self.graph, parent_dir + "authors-network"+suffix+"gexf")
 
   def add_paper(self, paper):
     paper_id = paper["id"]
@@ -158,6 +161,35 @@ class AuthorsNetwork:
   # transpose of adjacency matrix
   def to_transformed_adjacency_matrix(self):
     return self.to_adjacency_matrix().T
+
+  # nodes are colored by their connected component
+  # colors only the largest 10 or so conn-comps, and the rest are gray
+  def color_components(self, components_to_color=3):
+    # order from largest to smallest
+    components = sorted(
+      list(nx.connected_components(self.graoh)),
+      key=len, reversed=True)
+
+    colors = [
+      "#FF0000","#00FF00","#0000FF",
+      "#FFFF00","#FF00FF","#00FFFF"]
+    color_default = ["#888888"]
+
+    # record new node attributes
+    node_attributes = {}
+    # set colors of nodes
+    for comp_i in range(len(components)):
+      comp = components[comp_i]
+      # color component
+      if comp_i < components_to_color:
+        for node in comp: node_attributes[node] = colors[i]
+      # don't color component (too small)
+      else:
+        for node in comp: node_attributes[node] = color_default
+    # set new node attributes: color
+    nx.set_node_attributes(self.graph, "color", node_attributes)
+    # track graph modification
+    self.attributes["coloring"] = "components"
 
 def extract_author_id(author):
   # success - author in data set (has id)

@@ -41,18 +41,22 @@ if False:
   print("[*] Analyzing Network Statistics")
   G.print_statistics()
 
-
 if False:
   print("[*] Calculating Network Centralities")
   G.calculate_centralities()
 
 ################################################################################
-if True:
+if False:
   print("[*] Analyzing Network")
   G.plot_centralities()
 
 ################################################################################
 if False:
   print("[*] Writing Network File")
+  G.write()
 
+################################################################################
+if True:
+  print("[*] Writing Network File: Coloring Components")
+  G.color_components()
   G.write()
