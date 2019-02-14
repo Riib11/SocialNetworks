@@ -46,7 +46,7 @@ if False:
   G.calculate_centralities()
 
 ################################################################################
-if False:
+if True:
   print("[*] Analyzing Network")
   G.plot_centralities()
 
@@ -56,7 +56,7 @@ if False:
   G.write()
 
 ################################################################################
-if True:
+if False:
   print("[*] Writing Network File: Coloring Components")
   G.color_components()
   G.write()

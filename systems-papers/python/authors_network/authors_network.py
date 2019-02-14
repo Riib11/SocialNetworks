@@ -8,6 +8,7 @@ from utils.json import *
 parent_dir = "authors_network/"
 data_dir   = parent_dir + "data/"
 gephi_dir  = parent_dir + "gephi/"
+figs_dir    = parent_dir + "figs/"
 
 class AuthorsNetwork:
   def __init__(self):
@@ -89,7 +90,12 @@ class AuthorsNetwork:
       data_dir + "betweenness_centralities")
 
   def plot_centralities(self):
-    log = True
+    suffix = ""
+    # PARAMETERS
+    SHOW_FIG = False
+    version = 1.1
+    log     = False
+
     # helper function for plotting the 4 centralities graphs
     def plot_histogram(
       position,
@@ -110,8 +116,11 @@ class AuthorsNetwork:
       plt.grid(True)
 
       xticks = np.arange(0.0, max(data), (max(data)-min(data))/bins*8)
-      xticks_labels = map(lambda x: "{:.2e}".format(x), xticks)
-       # str(round(x, 4))
+
+      if title == "Eigenvector Centralities":
+        xticks_labels = map(lambda x: "{:.2e}".format(x), xticks)
+      else:
+        xticks_labels = map(lambda x: round(x, 2), xticks)
       plt.xticks(xticks, xticks_labels, rotation=15)
 
       plt.hist(data, bins, log = log, histtype = "bar", facecolor = "blue")
@@ -138,9 +147,18 @@ class AuthorsNetwork:
       bins = 30, xmax = 30,
       data = load_json(data_dir + "betweenness_centralities").values())
 
+    # SUFFIX
+    suffix += "_v"+str(version)
+    suffix += "_log="+str(log)
 
-    plt.tight_layout()
-    plt.show()
+    # FIGURE
+    if SHOW_FIG:
+      plt.show()
+    else:
+      fig = plt.gcf()
+      fig.set_size_inches(11.0, 8.5)
+      plt.tight_layout()
+      fig.savefig(figs_dir+"centralities"+suffix + ".png", dpi=100)
 
   def to_adjacency_matrix(self):
     # matrix of author-author collaborations
