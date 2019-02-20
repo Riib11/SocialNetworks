@@ -189,8 +189,8 @@ class AuthorsNetwork:
   # connected component they are a part of
   def fill_ccsizes(self):
     for comp in nx.connected_components(self.graph):
-      ccsize = len(comp)
-      for node in comp: self.graph.node[node]["cc-size"] = ccsize
+      for node in comp: self.graph.node[node]["cc-size"] = len(comp)
+    
     self.attributes["coloring"] = "cc-size"
 
 def extract_author_id(author):

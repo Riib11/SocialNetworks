@@ -46,7 +46,7 @@ if False:
   G.calculate_centralities()
 
 ################################################################################
-if True:
+if False:
   print("[*] Analyzing Network")
   G.plot_centralities()
 
@@ -55,8 +55,11 @@ if False:
   print("[*] Writing Network File")
   G.write()
 
+if True:
+  print("[*] Coloring Nodes by CC-Size")
+  G.fill_ccsizes()
+
 ################################################################################
-if False:
-  print("[*] Writing Network File: Coloring Components")
-  G.color_components()
+if True:
+  print("[*] Writing Network File")
   G.write()
