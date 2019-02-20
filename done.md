@@ -2,7 +2,11 @@
 
 ## February 15-21
 
-- make PapersGraph in which each node is a paper and nodes are connected if they share authors.
+- convert centrality measures to log-log scale
+
+- colored PapersNetwork in Gephi by each centrality measure
+
+- make PapersNetwork in which each node is a paper and nodes are connected if they share authors.
 
 ## February 8-14
 

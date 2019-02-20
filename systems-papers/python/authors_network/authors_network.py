@@ -5,10 +5,10 @@ from matplotlib.ticker import FormatStrFormatter
 
 from utils.json import *
 
-parent_dir = "authors_network/"
-data_dir   = parent_dir + "data/"
-gephi_dir  = parent_dir + "gephi/"
-figs_dir    = parent_dir + "figs/"
+DIR_PARENT = "authors_network/"
+DIR_DATA   = DIR_PARENT + "data/"
+DIR_GEPHI  = DIR_PARENT + "gephi/"
+DIR_FIGS   = DIR_PARENT + "figs/"
 
 class AuthorsNetwork:
   def __init__(self):
@@ -20,7 +20,7 @@ class AuthorsNetwork:
 
   def write(self):
     suffix = "".join([ "_" + k + "=" + v for (k,v) in self.attributes.items() ])
-    nx.write_gexf(self.graph, gephi_dir + "authors-network"+suffix+".gexf")
+    nx.write_gexf(self.graph, DIR_GEPHI + "authors-network"+suffix+".gexf")
 
   def add_paper(self, paper):
     paper_id = paper["id"]
@@ -81,20 +81,19 @@ class AuthorsNetwork:
   def calculate_centralities(self):
     # dump calculated data
     dump_json(nx.degree_centrality(self.graph),
-      data_dir + "degree_centralities")
+      DIR_DATA + "degree_centralities")
     dump_json(nx.eigenvector_centrality(self.graph),
-      data_dir + "eigenvector_centralities")
+      DIR_DATA + "eigenvector_centralities")
     dump_json(nx.closeness_centrality(self.graph),
-      data_dir + "closeness_centralities")
+      DIR_DATA + "closeness_centralities")
     dump_json(nx.betweenness_centrality(self.graph),
-      data_dir + "betweenness_centralities")
+      DIR_DATA + "betweenness_centralities")
 
   def plot_centralities(self):
     suffix = ""
     # PARAMETERS
     SHOW_FIG = False
-    version = 1.1
-    log     = False
+    version = 2.1
 
     # helper function for plotting the 4 centralities graphs
     def plot_histogram(
@@ -105,51 +104,56 @@ class AuthorsNetwork:
       xmax,
       data
     ):
-      data = list(filter(lambda x: x <= xmax, list(data)))
+      xmax = None
+      data = list(data)
+      if xmax: data = list(filter(lambda x: x <= xmax, data))
       print("max for", xlabel, ":", max(list(data)))
-      xlabel_prefix = ""
-      ylabel_prefix = "Log of " if log else ""
+      xlabel_prefix = "Log of "
+      ylabel_prefix = "Log of "
       plt.subplot(position)
       plt.title(title)
       plt.xlabel(xlabel_prefix + xlabel)
       plt.ylabel(ylabel_prefix + ylabel)
+      plt.xscale("log")
       plt.grid(True)
 
-      xticks = np.arange(0.0, max(data), (max(data)-min(data))/bins*8)
+      # x0, x1 = min(data), max(data)
+      # xticks = np.array([ x1 / 10**i  for i in np.arange(20,-1,-1) ])
+      # if title == "Eigenvector Centralities":
+      #   xticks_labels = map(lambda x: "{:.2e}".format(x), xticks)
+      # else:
+      #   xticks_labels = map(lambda x: round(x, 2), xticks)
+      # plt.xticks(xticks, xticks_labels, rotation=15)
 
-      if title == "Eigenvector Centralities":
-        xticks_labels = map(lambda x: "{:.2e}".format(x), xticks)
-      else:
-        xticks_labels = map(lambda x: round(x, 2), xticks)
-      plt.xticks(xticks, xticks_labels, rotation=15)
-
-      plt.hist(data, bins, log = log, histtype = "bar", facecolor = "blue")
+      plt.hist(data, bins,
+        log = True,
+        histtype = "bar",
+        facecolor = "blue")
 
     authors_count = len(self.authors)
     plot_histogram(221,
-      "Degree Centralities", "Connections", "Nodes",
-      bins = 30, xmax = 30,
+      "Degree Centralities", "Degree", "Nodes",
+      bins = 50, xmax = 30,
       data = map(lambda x: x * authors_count,
-        load_json(data_dir + "degree_centralities").values()))
+        load_json(DIR_DATA + "degree_centralities").values()))
 
     plot_histogram(222,
       "Eigenvector Centralities", "Eigenvector Centrality", "Node Share",
-      bins = 20, xmax = 0.00003,
-      data = load_json(data_dir + "eigenvector_centralities").values())
+      bins = 100, xmax = 0.00003,
+      data = load_json(DIR_DATA + "eigenvector_centralities").values())
 
     plot_histogram(223,
       "Closeness Centralities", "Closeness Centrality", "Node Share",
-      bins = 30, xmax = 30,
-      data = load_json(data_dir + "closeness_centralities").values())
+      bins = 50, xmax = 30,
+      data = load_json(DIR_DATA + "closeness_centralities").values())
 
     plot_histogram(224,
       "Betweenness Centralities", "Betweenness Centrality", "Node Share",
-      bins = 30, xmax = 30,
-      data = load_json(data_dir + "betweenness_centralities").values())
+      bins = 50, xmax = 30,
+      data = load_json(DIR_DATA + "betweenness_centralities").values())
 
     # SUFFIX
     suffix += "_v"+str(version)
-    suffix += "_log="+str(log)
 
     # FIGURE
     if SHOW_FIG:
@@ -158,7 +162,7 @@ class AuthorsNetwork:
       fig = plt.gcf()
       fig.set_size_inches(11.0, 8.5)
       plt.tight_layout()
-      fig.savefig(figs_dir+"centralities"+suffix + ".png", dpi=100)
+      fig.savefig(DIR_FIGS+"centralities"+suffix + ".png", dpi=100)
 
   def to_adjacency_matrix(self):
     # matrix of author-author collaborations
@@ -181,31 +185,13 @@ class AuthorsNetwork:
   def to_transformed_adjacency_matrix(self):
     return self.to_adjacency_matrix().T
 
-  # nodes are colored by their connected component
-  # colors only the largest 10 or so conn-comps, and the rest are gray
-  def color_components(self, components_to_color=10):
-    # order from largest to smallest
-    components = sorted(
-      list(nx.connected_components(self.graph)),
-      key=len, reverse=True)
-
-    colors = [
-      "#ff0000","#00ff00","#0000ff",
-      "#ffff00","#ff00ff","#00ffff",
-      "#ff4444","#44ff44","#4444ff",
-      "#ffff44","#ff44ff","#44ffff"]
-    color_default = "#888888"
-
-    # set colors of nodes
-    for comp_i in range(len(components)):
-      comp = components[comp_i]
-      # calculate color
-      color = colors[comp_i] if comp_i < components_to_color else color_default
-      # color node by component
-      for node in comp: self.graph.node[node]["color"] = color
-
-    # track graph modification: coloring = components
-    self.attributes["coloring"] = "components"
+  # nodes are given a value cc-size indicating the size (in nodes) of the
+  # connected component they are a part of
+  def fill_ccsizes(self):
+    for comp in nx.connected_components(self.graph):
+      ccsize = len(comp)
+      for node in comp: self.graph.node[node]["cc-size"] = ccsize
+    self.attributes["coloring"] = "cc-size"
 
 def extract_author_id(author):
   # success - author in data set (has id)
