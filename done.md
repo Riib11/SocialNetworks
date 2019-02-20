@@ -2,6 +2,8 @@
 
 ## February 15-21
 
+- in authors network, colored connected components by component size (measured in number of nodes)
+
 - convert centrality measures to log-log scale
 
 - colored PapersNetwork in Gephi by each centrality measure
