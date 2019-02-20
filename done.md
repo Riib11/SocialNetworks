@@ -1,6 +1,10 @@
 # Done
 
-## February 14th
+## February 15-21
+
+- make PapersGraph in which each node is a paper and nodes are connected if they share authors.
+
+## February 8-14
 
 - think of interesting semantic questions for network
   - wrote descriptions in notes/Research Questions.md
@@ -12,7 +16,7 @@
   - betweenness centrality: how many efficient connections between authors are facilitated by an author; how many efficiency-bridges this author is part of
 
 - explore conn-comps (graph colors top 10ish), and dist of sizes
-  - make gephi graph where the top 10 components are colored, and others are gray
+  - make Gephi graph where the top 10 components are colored, and others are gray
   - seems to really help visually in interpreting the graph
 
 - change axis to log scale
@@ -24,7 +28,7 @@
 - remove TPU paper (Google), and outline
   - restricted x-range to have maximum. each centrality measure found its own sweet spot that captured a reasonable majority of the data
 
-## February 17th
+## January 31 - February 7
 
 - measure centralities
   - created graph object and use networkx library to calculate degree, eigenvector, closeness, and betweeness centralities. implemented in python/authors_network/authors_network.py
