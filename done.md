@@ -2,14 +2,7 @@
 
 ## February 15-21
 
-- "one-sentence" explanations of centrality measurements:
-  - authors network (collaboration)
-    - degree: number of co-authors
-    - eigenvector:
-    - closeness:
-    - betweenness:
-  - papers network (collaboration)
-    - degree: sum of out-co-authors of authors
+- "one-sentence" explanations of centrality measurements: `notes/Centralities.md`
 
 - for AuthorsNetwork and PapersNetwork: made 4 colorings of networks by centrality measurements
 
@@ -24,7 +17,7 @@
 ## February 8-14
 
 - think of interesting semantic questions for network
-  - wrote descriptions in notes/Research Questions.md
+  - wrote descriptions in `notes/Research Questions.md`
 
 - think about what centrality means, go through each of the measures so far
   - degree centrality: how many authors collaborated with an author
