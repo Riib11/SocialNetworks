@@ -55,9 +55,14 @@ if False:
   print("[*] Writing Network File")
   G.write()
 
-if True:
+if False:
   print("[*] Coloring Nodes by CC-Size")
   G.fill_ccsizes()
+
+if True:
+  centrality = "closeness"
+  print("[*] Calculating Nodes' " + centrality + " Centrality")
+  G.fill_centralities(centrality)
 
 ################################################################################
 if True:

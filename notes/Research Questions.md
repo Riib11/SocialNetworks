@@ -14,6 +14,8 @@ __Variation 2__: Connect conferences to each other when they share an author in 
 
 __Notes__: Conferences come in many different sizes, which will affect the sizes of the edges (e.g., how many papers can cite to begin with?). Overcome by either making boolean edges (shares co-authors or not; cites or not), or with normalized, relative edges (10% of authors shared, also directed graph).
 
+__Idea__: Connected components of paper collaborations seem to reflect a large center mass that could correlate with a "thematic center" for the the field of Computer Systems.
+
 ## Influence vs Centrality
 
 __Background__: Most authors are assigned an "influence score" that intend to represent how influential a given author is on other authors. These scores use different calculations, and include `hindex`, `i10index`, and some others.

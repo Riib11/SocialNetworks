@@ -189,9 +189,17 @@ class AuthorsNetwork:
   # connected component they are a part of
   def fill_ccsizes(self):
     for comp in nx.connected_components(self.graph):
-      for node in comp: self.graph.node[node]["cc-size"] = len(comp)
+      for node in comp:
+        self.graph.node[node]["cc-size"] = len(comp)
     
     self.attributes["coloring"] = "cc-size"
+
+  def fill_centralities(self, centrality):
+    centralities = load_json(DIR_DATA + centrality+"_centralities")
+    for node, c in centralities.items():
+      self.graph.node[node][centrality+"-centrality"] = c
+
+    self.attributes["centrality"] = centrality
 
 def extract_author_id(author):
   # success - author in data set (has id)

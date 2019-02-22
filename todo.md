@@ -1,8 +1,7 @@
 # To Do
 
-- color smaller components by gray-scale (measured by node (paper) member count)
-
-- for AuthorsNetwork: make 4 colorings of networks by centrality measurements, use format that separates connected components
+- separate connected components into their own gexf files
+- do centrality measurements for each component separately
 
 - come up with "one-sentence" explanation for each centrality measure
 

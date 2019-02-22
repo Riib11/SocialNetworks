@@ -2,6 +2,17 @@
 
 ## February 15-21
 
+- "one-sentence" explanations of centrality measurements:
+  - authors network (collaboration)
+    - degree: number of co-authors
+    - eigenvector:
+    - closeness:
+    - betweenness:
+  - papers network (collaboration)
+    - degree: sum of out-co-authors of authors
+
+- for AuthorsNetwork and PapersNetwork: made 4 colorings of networks by centrality measurements
+
 - in authors network, colored connected components by component size (measured in number of nodes)
 
 - convert centrality measures to log-log scale
