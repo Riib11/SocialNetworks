@@ -21,9 +21,17 @@ The sum of the ranks of `n`'s direct neighbors, weighted by rank. This is like t
 
 ## Closeness Centrality
 
-The inverse of the average distance of `n` to every other node in `G`. This is the distance of `n` from the center of mass of the `G`. 
+The inverse of the average distance of `n` to every other node in `G`. This is the distance of `n` from the center of mass of `G`. 
 
 ## Betweenness Centrality
 
 The proportion of shortest paths that `n` is a node of.
- This is the strength of `n` on the interaction of unconnected nodes in `G`. In other words, it is the proportional likelihood that a (random) path of influence between two nodes will go through `n`.
+ This is the strength of `n` on the interaction of unconnected nodes in `G`. In other words, it is the proportional likelihood that a (random weighted by length) path of influence between two nodes will go through `n`.
+
+
+# Notes
+
+In order of short-to-long distance consideration:
+- Degree: hyper-closeness (direct) collaboration
+- Eigenvector centrality is like short-distance collaboration
+- Betweenness/Closeness (which one?) is like long-distance influence/connectivity
