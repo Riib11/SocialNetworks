@@ -2,6 +2,16 @@
 
 ## February 22 - February 28
 
+- units for networkx centrality measurements:
+  - __eigenvector__ is normalized by definition.
+  - __closeness__ is default normalized by the number of nodes in the component, but I turned that off. so, the units now just are node^{-1} since the closeness is inverse of the distance (number of nodes along shortest path).
+  - __betweenness__ is default normalized by `(2/((n-1)(n-2)))` where `n` is the number of nodes in the component.
+  - __degree__ is default normalized by the number of nodes in the component.
+
+- for PapersNetwork:
+  - don't color centralities
+  - color by conferences in papers graph
+
 - for AuthorsNetwork:
   - separate connected components into their own gexf files (via `AuthorsGraph.isolate_component(cc_rank)`)
   - do centrality measurements for each component separately (via `AuthorsGraph.fill_all_centralities(calculate = True)` after `AuthorsGraph.isolate_component(cc_rank)`)

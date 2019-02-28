@@ -1,5 +1,6 @@
 import json
 import os
+import csv
 
 # ON GIT
 
@@ -15,6 +16,8 @@ features_directory = systems_papers_directory+"authors/features/"
 papers_directory   = systems_papers_directory + "sys-papers/"
 
 script_directory   = "../script/"
+
+persons_directory  = systems_papers_directory + "persons/"
 
 # OFF GIT
 
