@@ -2,7 +2,8 @@ import numpy as np
 import networkx as nx
 import matplotlib.pyplot as plt
 from matplotlib.ticker import FormatStrFormatter
-import authors.persons_features
+import authors.persons_features as persons_features
+import utils.shared_utils as utils
 
 from utils.json import *
 
@@ -44,7 +45,7 @@ class AuthorsNetwork:
   def add_author_id_name(self, author_id, author_name):
     if not author_id in self.authors:
       self.authors[author_id] = []
-      self.author_names[author_id] = 
+      self.author_names[author_id] = None
       self.authors_features[author_id] = get_person_features(author_name)
 
   # add to author a paper they wrote
@@ -346,6 +347,8 @@ class AuthorsNetwork:
         key = len, reverse = True) \
       [cc_rank]
     self.attributes["cc-rank"] = cc_rank
+    print(self.graph.number_of_nodes())
+    exit()
 
   def get_person_features(author_name):
     for pf in self.persons_features:
