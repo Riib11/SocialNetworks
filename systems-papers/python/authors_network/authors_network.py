@@ -14,29 +14,33 @@ class AuthorsNetwork:
   def __init__(self):
     self.authors = {} # author_id => paper_id
     self.papers  = {} # paper_id  => paper (dict)
+    self.author_names = {} # author_id => string
     self.graph = nx.Graph()
 
     self.attributes = {} # keep track of modifications to graph
 
   def write(self):
-    suffix = "".join([ "_" + k + "=" + v for (k,v) in self.attributes.items() ])
+    suffix = "".join(
+      [ "_" + k + "=" + str(v)
+      for (k,v) in self.attributes.items() ])
     nx.write_gexf(self.graph, DIR_GEPHI + "authors-network"+suffix+".gexf")
 
   def add_paper(self, paper):
     paper_id = paper["id"]
     self.papers[paper_id] = paper
     for author in paper["authors"]:
-      author_id = extract_author_id(author)
+      author_id, author_name = extract_author_id_name(author)
       if author_id:
-        self.add_author_id(author_id)
+        self.add_author_id_name(author_id, author_name)
         self.add_author_paper(author_id, paper_id)
     return paper_id
 
   def get_paper(self, paper_id): return self.papers[paper_id]
 
-  def add_author_id(self, author_id):
+  def add_author_id_name(self, author_id, author_name):
     if not author_id in self.authors:
       self.authors[author_id] = []
+      self.author_names[author_id] = author_name
 
   # add to author a paper they wrote
   def add_author_paper(self, author_id, paper_id):
@@ -47,24 +51,26 @@ class AuthorsNetwork:
   # get author list (in data set) of the given paper
   def get_paper_authors(self, paper_id):
     for author in self.get_paper(paper_id)["authors"]:
-      author_id = extract_author_id(author)
+      author_id, author_name = extract_author_id_name(author)
       if author_id: yield author_id
 
   # gets list of authors that the given author has collaborated with
-  def get_author_collaborators(self, author_id):
-    for paper_id in self.get_author_papers(author_id):
+  def get_author_collaborators(self, author_id, paper_ids):
+    for paper_id in paper_ids:
       for a_id in self.get_paper_authors(paper_id):
-        if a_id != author_id: yield a_id
+        if a_id != author_id: yield (a_id, paper_id)
 
   # fill self.graph : nx.Graph
   def fill_graph(self):
     # nodes
     for author_id in self.authors.keys():
-      self.graph.add_node(author_id)
+      self.graph.add_node(author_id,
+        attr_dict = {"author-name": self.author_names[author_id]})
     # edges
     for author_id, paper_ids in self.authors.items():
-      for a_id in self.get_author_collaborators(author_id):
-        self.graph.add_edge(author_id, a_id)
+      for (a_id, paper_id) in self.get_author_collaborators(author_id, paper_ids):
+        self.graph.add_edge(author_id, a_id,
+          attr_dict = {"paper-title": self.papers[paper_id]["title"]})
 
   def print_statistics(self):
     print("-------------------------------------------")
@@ -194,15 +200,61 @@ class AuthorsNetwork:
     
     self.attributes["coloring"] = "cc-size"
 
-  def fill_centralities(self, centrality):
-    centralities = load_json(DIR_DATA + centrality+"_centralities")
+  # def calculate_centralities(self):
+  #   # dump calculated data
+  #   dump_json(nx.degree_centrality(self.graph),
+  #     DIR_DATA + "degree_centralities")
+  #   dump_json(nx.eigenvector_centrality(self.graph),
+  #     DIR_DATA + "eigenvector_centralities")
+  #   dump_json(nx.closeness_centrality(self.graph),
+  #     DIR_DATA + "closeness_centralities")
+  #   dump_json(nx.betweenness_centrality(self.graph),
+  #     DIR_DATA + "betweenness_centralities")
+
+  def fill_centralities(self, centrality, calculate=False):
+    if calculate:
+      print("    - calculating "+centrality+" centrality...")
+      centrality_functions = {
+        "degree": nx.degree_centrality,
+        "eigenvector": nx.eigenvector_centrality,
+        "closeness": nx.closeness_centrality,
+        "betweenness": nx.betweenness_centrality
+      }
+      centralities = centrality_functions[centrality](self.graph)
+      # if   centrality == "degree"      : centralities = xs.degree_centrality(self.graph)
+      # elif centrality == "eigenvector" : centralities = xs.eigenvector_centrality(self.graph)
+      # elif centrality == "closeness"   : centralities = xs.closeness_centrality(self.graph)
+      # elif centrality == "Betweenness" : centralities = xs.betweenness_centrality(self.graph)
+    else:
+      centralities = load_json(DIR_DATA + centrality+"_centralities")
+    
     for node, c in centralities.items():
       self.graph.node[node][centrality+"-centrality"] = c
 
     self.attributes["centrality"] = centrality
 
-def extract_author_id(author):
+  def fill_all_centralities(self, calculate=False):
+    centrality_names = ["degree", "eigenvector", "closeness", "betweenness"]
+    for centrality_name in centrality_names:
+      self.fill_centralities(centrality_name, calculate=calculate)
+
+    self.attributes["centrality"] = "all"
+
+  # remove all nodes except for those in the cc_ranked connected component,
+  # where components are ranked from largest to smallest node count
+  def isolate_component(self, cc_rank):
+    self.graph = \
+      sorted(nx.connected_component_subgraphs(self.graph),
+        key = len, reverse = True) \
+      [cc_rank]
+
+    self.attributes["cc-rank"] = cc_rank
+
+def extract_author_id_name(author):
   # success - author in data set (has id)
-  if "ids" in author and len(author["ids"]) > 0: return author["ids"][0]
+  if "ids" in author and "name" in author and len(author["ids"]) > 0:
+    return author["ids"][0], author["name"]
   # failure - author not in data set (doesn't have id)
-  else: return False
+  else:
+    print(author)
+    return (False, False)

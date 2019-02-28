@@ -1,10 +1,5 @@
-import pickle
+import networkx as nx
 
-x = {"hello":1}
+graph = nx.Graph()
 
-with open("test.json", "wb+") as file:
-    pickle.dump(x, file)
-
-with open("test.json", "rb") as file:
-    x = pickle.load(file)
-    print(x)
+graph.add_edge(1,2)

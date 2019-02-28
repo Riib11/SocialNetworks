@@ -46,12 +46,34 @@ class PapersNetwork:
     self.papers[paper_id] = author_ids
 
   def fill_graph(self):
+    venues = [
+      # from papers
+      "asplos","atc","ccgrid","ccs","cidr", "cloud","cluster","conext","euro-par","eurosys","fast","hcw","hipc","hotcloud","hoti","hotos","hotstorage","hpca","hpcc","hpdc","icac","icdm","icpe","icpp","igsc","iiswc","imc","ipdps","isc","isca","ispass","kdd","mascots","micro","middleware","mobicom","ndss","nsdi","oopsla","pact","pldi","podc","pods","ppopp","sc","sigcomm","sigir","sigmetrics","sigmod","sle","socc","sosp","sp","spaa","systor","vee",
+      # extra
+      "pacmpl","iacr","usenix","pomacs"
+    ]
+
+    def get_venue_index(venue):
+      for i in range(len(venues)):
+        if venues[i] in venue: return i
+      return -1
+
     # nodes: papers
     for paper_id, paper in self.papers_data.items():
       self.graph.add_node(paper_id)
-      title = paper["title"] if "title" in paper else "NONE"
+      title = paper["title"] if "title" in paper else "no title"
       self.graph.node[paper_id]["title"] = title
-        
+
+      venue = paper["venue"].lower() \
+        if ("venue" in paper) \
+        else ("missing venue")
+      venue_i = get_venue_index(venue)
+
+      if venue_i == -1: print(venue)
+
+      self.graph.node[paper_id]["venue-index"] = venue_i
+      self.graph.node[paper_id]["venue"] = venue
+
     # edges: shared authors (collaborations)
     # for each paper p
     for paper_id, author_ids in self.papers.items():
@@ -92,6 +114,19 @@ class PapersNetwork:
       self.graph.node[node][centrality_name+"-centrality"] = value
     # set graph attribute
     self.attributes["centrality"] = centrality_name
+
+  # remove all nodes except for those in the cc_ranked connected component,
+  # where components are ranked from largest to smallest node count
+  def isolate_component(self, cc_rank):
+    self.graph = \
+      sorted(nx.connected_component_subgraphs(self.graph),
+        key = len, reverse = True) \
+      [cc_rank]
+
+    self.attributes["cc-rank"] = cc_rank
+
+      
+
 
 def extract_author_id(author):
   # success - author in data set (has id)

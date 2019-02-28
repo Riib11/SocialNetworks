@@ -1,5 +1,11 @@
 # Done
 
+## February 22 - February 28
+
+- for AuthorsNetwork:
+  - separate connected components into their own gexf files (via `AuthorsGraph.isolate_component(cc_rank)`)
+  - do centrality measurements for each component separately (via `AuthorsGraph.fill_all_centralities(calculate = True)` after `AuthorsGraph.isolate_component(cc_rank)`)
+
 ## February 15-21
 
 - "one-sentence" explanations of centrality measurements: `notes/Centralities.md`

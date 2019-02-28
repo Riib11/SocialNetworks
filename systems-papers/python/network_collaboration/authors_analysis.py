@@ -42,7 +42,7 @@ if False:
   G.print_statistics()
 
 if False:
-  print("[*] Calculating Network Centralities")
+  print("[*] Calculating All Network Centralities")
   G.calculate_centralities()
 
 ################################################################################
@@ -51,16 +51,29 @@ if False:
   G.plot_centralities()
 
 ################################################################################
-if False:
-  print("[*] Writing Network File")
-  G.write()
+
+if True:
+  cc_rank = 0
+  print("[*] Isolating the "+str(cc_rank)+"th Connected Component")
+  G.isolate_component(cc_rank)
+
+  if False:
+    centrality = "degree"
+    print("[*] Calculating Nodes' "+centrality+" Centrality")
+    G.fill_centralities(centrality, calculate = True)
+
+  if True:
+    print("[*] Calculating All Nodes' Centralities")
+    G.fill_all_centralities(calculate = True)
+
+################################################################################
 
 if False:
   print("[*] Coloring Nodes by CC-Size")
   G.fill_ccsizes()
 
-if True:
-  centrality = "closeness"
+if False:
+  centrality = "degree"
   print("[*] Calculating Nodes' " + centrality + " Centrality")
   G.fill_centralities(centrality)
 

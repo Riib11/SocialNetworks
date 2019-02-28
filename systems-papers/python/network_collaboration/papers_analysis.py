@@ -55,7 +55,7 @@ if False:
 
 ################################################################################
 # Attributes
-if True:
+if False:
   centrality_name = "betweenness"
   print("[*] Coloring nodes by "+centrality_name+" centrality")
   G.fill_node_centralities(centrality_name)

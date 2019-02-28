@@ -1,0 +1,2219 @@
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 2017 IEEE International Conference on Data Mining (ICDM)
+* 2017 IEEE International Conference on Data Mining (ICDM)
+* 2017 IEEE International Conference on Data Mining (ICDM)
+* 2017 IEEE International Conference on Data Mining (ICDM)
+* 2017 IEEE International Conference on Data Mining (ICDM)
+* 2017 IEEE International Conference on Data Mining (ICDM)
+* 2017 IEEE International Conference on Data Mining (ICDM)
+* 2017 IEEE International Conference on Data Mining (ICDM)
+* 2017 IEEE International Conference on Data Mining (ICDM)
+* 2017 IEEE International Conference on Data Mining (ICDM)
+* 2017 IEEE International Conference on Data Mining (ICDM)
+* 2017 IEEE International Conference on Data Mining (ICDM)
+* 2017 IEEE International Conference on Data Mining (ICDM)
+* 2017 IEEE International Conference on Data Mining (ICDM)
+* 2017 IEEE International Conference on Data Mining (ICDM)
+* 2017 IEEE International Conference on Data Mining (ICDM)
+* 2017 IEEE International Conference on Data Mining (ICDM)
+* 2017 IEEE International Conference on Data Mining (ICDM)
+* 2017 IEEE International Conference on Data Mining (ICDM)
+* 2017 IEEE International Conference on Data Mining (ICDM)
+* 2017 IEEE International Conference on Data Mining (ICDM)
+* 2017 IEEE International Conference on Data Mining (ICDM)
+* 2017 IEEE International Conference on Data Mining (ICDM)
+* 2017 IEEE International Conference on Data Mining (ICDM)
+* 2017 IEEE International Conference on Data Mining (ICDM)
+* 2017 IEEE International Conference on Data Mining (ICDM)
+* 
+* 2017 IEEE International Conference on Data Mining (ICDM)
+* 2017 IEEE International Conference on Data Mining (ICDM)
+* 2017 IEEE International Conference on Data Mining (ICDM)
+* 2017 IEEE International Conference on Data Mining (ICDM)
+* 2017 IEEE International Conference on Data Mining (ICDM)
+* 2017 IEEE International Conference on Data Mining (ICDM)
+* 2017 IEEE International Conference on Data Mining (ICDM)
+* 2017 IEEE International Conference on Data Mining (ICDM)
+* 2017 IEEE International Conference on Data Mining (ICDM)
+* 2017 IEEE International Conference on Data Mining (ICDM)
+* 2017 IEEE International Conference on Data Mining (ICDM)
+* 2017 IEEE International Conference on Data Mining (ICDM)
+* 2017 IEEE International Conference on Data Mining (ICDM)
+* 2017 IEEE International Conference on Data Mining (ICDM)
+* 2017 IEEE International Conference on Data Mining (ICDM)
+* 2017 IEEE International Conference on Data Mining (ICDM)
+* 2017 IEEE International Conference on Data Mining (ICDM)
+* 2017 IEEE International Conference on Data Mining (ICDM)
+* 2017 IEEE International Conference on Data Mining (ICDM)
+* 2017 IEEE International Conference on Data Mining (ICDM)
+* 2017 IEEE International Conference on Data Mining (ICDM)
+* 
+* 2017 IEEE International Conference on Data Mining (ICDM)
+* 2017 IEEE International Conference on Data Mining (ICDM)
+* 2017 IEEE International Conference on Data Mining (ICDM)
+* 2017 IEEE International Conference on Data Mining (ICDM)
+* 2017 IEEE International Conference on Data Mining (ICDM)
+* 2017 IEEE International Conference on Data Mining (ICDM)
+* 2017 IEEE International Conference on Data Mining (ICDM)
+* 2017 IEEE International Conference on Data Mining (ICDM)
+* 2017 IEEE International Conference on Data Mining (ICDM)
+* 2017 IEEE International Conference on Data Mining (ICDM)
+* 2017 IEEE International Conference on Data Mining (ICDM)
+* 2017 IEEE International Conference on Data Mining (ICDM)
+* 2017 IEEE International Conference on Data Mining (ICDM)
+* 2017 IEEE International Conference on Data Mining (ICDM)
+* 2017 IEEE International Conference on Data Mining (ICDM)
+* 2017 IEEE International Conference on Data Mining (ICDM)
+* 
+* 2017 IEEE International Conference on Data Mining (ICDM)
+* 2017 IEEE International Conference on Data Mining (ICDM)
+* 2017 IEEE International Conference on Data Mining (ICDM)
+* 2017 IEEE International Conference on Data Mining (ICDM)
+* 2017 IEEE International Conference on Data Mining (ICDM)
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 2017 IEEE International Symposium on High Performance Computer Architecture (HPCA)
+* 2017 IEEE International Symposium on High Performance Computer Architecture (HPCA)
+* 2017 IEEE International Symposium on High Performance Computer Architecture (HPCA)
+* 2017 IEEE International Symposium on High Performance Computer Architecture (HPCA)
+* 2017 IEEE International Symposium on High Performance Computer Architecture (HPCA)
+* 2017 IEEE International Symposium on High Performance Computer Architecture (HPCA)
+* 2017 IEEE International Symposium on High Performance Computer Architecture (HPCA)
+* 2017 IEEE International Symposium on High Performance Computer Architecture (HPCA)
+* 2017 IEEE International Symposium on High Performance Computer Architecture (HPCA)
+* 2017 IEEE International Symposium on High Performance Computer Architecture (HPCA)
+* 2017 IEEE International Symposium on High Performance Computer Architecture (HPCA)
+* 2017 IEEE International Symposium on High Performance Computer Architecture (HPCA)
+* 2017 IEEE International Symposium on High Performance Computer Architecture (HPCA)
+* 2017 IEEE International Symposium on High Performance Computer Architecture (HPCA)
+* 2017 IEEE International Symposium on High Performance Computer Architecture (HPCA)
+* 2017 IEEE International Symposium on High Performance Computer Architecture (HPCA)
+* 2017 IEEE International Symposium on High Performance Computer Architecture (HPCA)
+* 2017 IEEE International Symposium on High Performance Computer Architecture (HPCA)
+* 2017 IEEE International Symposium on High Performance Computer Architecture (HPCA)
+* 2017 IEEE International Symposium on High Performance Computer Architecture (HPCA)
+* 2017 IEEE International Symposium on High Performance Computer Architecture (HPCA)
+* 2017 IEEE International Symposium on High Performance Computer Architecture (HPCA)
+* 2017 IEEE International Symposium on High Performance Computer Architecture (HPCA)
+* 2017 IEEE International Symposium on High Performance Computer Architecture (HPCA)
+* 2017 IEEE International Symposium on High Performance Computer Architecture (HPCA)
+* 2017 IEEE International Symposium on High Performance Computer Architecture (HPCA)
+* 2017 IEEE International Symposium on High Performance Computer Architecture (HPCA)
+* 2017 IEEE International Symposium on High Performance Computer Architecture (HPCA)
+* 2017 IEEE International Symposium on High Performance Computer Architecture (HPCA)
+* 2017 IEEE International Symposium on High Performance Computer Architecture (HPCA)
+* 2017 IEEE International Symposium on High Performance Computer Architecture (HPCA)
+* 2017 IEEE International Symposium on High Performance Computer Architecture (HPCA)
+* 2017 IEEE International Symposium on High Performance Computer Architecture (HPCA)
+* 2017 IEEE International Symposium on High Performance Computer Architecture (HPCA)
+* 2017 IEEE International Symposium on High Performance Computer Architecture (HPCA)
+* 2017 IEEE International Symposium on High Performance Computer Architecture (HPCA)
+* 2017 IEEE International Symposium on High Performance Computer Architecture (HPCA)
+* 2017 IEEE International Symposium on High Performance Computer Architecture (HPCA)
+* 2017 IEEE International Symposium on High Performance Computer Architecture (HPCA)
+* 2017 IEEE International Symposium on High Performance Computer Architecture (HPCA)
+* 2017 IEEE International Symposium on High Performance Computer Architecture (HPCA)
+* 2017 IEEE International Symposium on High Performance Computer Architecture (HPCA)
+* 2017 IEEE International Symposium on Performance Analysis of Systems and Software (ISPASS)
+* 2017 IEEE International Symposium on Performance Analysis of Systems and Software (ISPASS)
+* 2017 IEEE International Symposium on Performance Analysis of Systems and Software (ISPASS)
+* 2017 IEEE International Symposium on Performance Analysis of Systems and Software (ISPASS)
+* 2017 IEEE International Symposium on Performance Analysis of Systems and Software (ISPASS)
+* 2017 IEEE International Symposium on Performance Analysis of Systems and Software (ISPASS)
+* 2017 IEEE International Symposium on Performance Analysis of Systems and Software (ISPASS)
+* 2017 IEEE International Symposium on Performance Analysis of Systems and Software (ISPASS)
+* 2017 IEEE International Symposium on Performance Analysis of Systems and Software (ISPASS)
+* 2017 IEEE International Symposium on Performance Analysis of Systems and Software (ISPASS)
+* 2017 IEEE International Symposium on Performance Analysis of Systems and Software (ISPASS)
+* 2017 IEEE International Symposium on Performance Analysis of Systems and Software (ISPASS)
+* 2017 IEEE International Symposium on Performance Analysis of Systems and Software (ISPASS)
+* 2017 IEEE International Symposium on Performance Analysis of Systems and Software (ISPASS)
+* 2017 IEEE International Symposium on Performance Analysis of Systems and Software (ISPASS)
+* 2017 IEEE International Symposium on Performance Analysis of Systems and Software (ISPASS)
+* 2017 IEEE International Symposium on Performance Analysis of Systems and Software (ISPASS)
+* 2017 IEEE International Symposium on Performance Analysis of Systems and Software (ISPASS)
+* 2017 IEEE International Symposium on Performance Analysis of Systems and Software (ISPASS)
+* 2017 IEEE International Symposium on Performance Analysis of Systems and Software (ISPASS)
+* 2017 IEEE International Symposium on Performance Analysis of Systems and Software (ISPASS)
+* 2017 IEEE International Symposium on Performance Analysis of Systems and Software (ISPASS)
+* 2017 IEEE International Symposium on Performance Analysis of Systems and Software (ISPASS)
+* 2017 IEEE International Symposium on Performance Analysis of Systems and Software (ISPASS)
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 2017 IEEE 24th International Conference on High Performance Computing (HiPC)
+* 2017 IEEE 24th International Conference on High Performance Computing (HiPC)
+* 2017 IEEE 24th International Conference on High Performance Computing (HiPC)
+* 2017 IEEE 24th International Conference on High Performance Computing (HiPC)
+* 2017 IEEE 24th International Conference on High Performance Computing (HiPC)
+* 2017 IEEE 24th International Conference on High Performance Computing (HiPC)
+* 2017 IEEE 24th International Conference on High Performance Computing (HiPC)
+* 2017 IEEE 24th International Conference on High Performance Computing (HiPC)
+* 2017 IEEE 24th International Conference on High Performance Computing (HiPC)
+* 2017 IEEE 24th International Conference on High Performance Computing (HiPC)
+* 2017 IEEE 24th International Conference on High Performance Computing (HiPC)
+* 2017 IEEE 24th International Conference on High Performance Computing (HiPC)
+* 2017 IEEE 24th International Conference on High Performance Computing (HiPC)
+* 2017 IEEE 24th International Conference on High Performance Computing (HiPC)
+* 2017 IEEE 24th International Conference on High Performance Computing (HiPC)
+* 2017 IEEE 24th International Conference on High Performance Computing (HiPC)
+* 2017 IEEE 24th International Conference on High Performance Computing (HiPC)
+* 2017 IEEE 24th International Conference on High Performance Computing (HiPC)
+* 2017 IEEE 24th International Conference on High Performance Computing (HiPC)
+* 2017 IEEE 24th International Conference on High Performance Computing (HiPC)
+* 2017 IEEE 24th International Conference on High Performance Computing (HiPC)
+* 2017 IEEE 24th International Conference on High Performance Computing (HiPC)
+* 2017 IEEE 24th International Conference on High Performance Computing (HiPC)
+* 2017 IEEE 24th International Conference on High Performance Computing (HiPC)
+* 2017 IEEE 24th International Conference on High Performance Computing (HiPC)
+* 2017 IEEE 24th International Conference on High Performance Computing (HiPC)
+* 2017 IEEE 24th International Conference on High Performance Computing (HiPC)
+* 2017 IEEE 24th International Conference on High Performance Computing (HiPC)
+* 2017 IEEE 24th International Conference on High Performance Computing (HiPC)
+* 2017 IEEE 24th International Conference on High Performance Computing (HiPC)
+* 2017 IEEE 24th International Conference on High Performance Computing (HiPC)
+* 2017 IEEE 24th International Conference on High Performance Computing (HiPC)
+* 2017 IEEE 24th International Conference on High Performance Computing (HiPC)
+* 2017 IEEE 24th International Conference on High Performance Computing (HiPC)
+* 2017 IEEE 24th International Conference on High Performance Computing (HiPC)
+* 2017 IEEE 24th International Conference on High Performance Computing (HiPC)
+* 2017 IEEE 24th International Conference on High Performance Computing (HiPC)
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* Operating Systems Review
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* CoRR
+* CoRR
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 2017 46th International Conference on Parallel Processing (ICPP)
+* 2017 46th International Conference on Parallel Processing (ICPP)
+* 2017 46th International Conference on Parallel Processing (ICPP)
+* 2017 46th International Conference on Parallel Processing (ICPP)
+* 2017 46th International Conference on Parallel Processing (ICPP)
+* 2017 46th International Conference on Parallel Processing (ICPP)
+* 2017 46th International Conference on Parallel Processing (ICPP)
+* 2017 46th International Conference on Parallel Processing (ICPP)
+* 2017 46th International Conference on Parallel Processing (ICPP)
+* 2017 46th International Conference on Parallel Processing (ICPP)
+* 2017 46th International Conference on Parallel Processing (ICPP)
+* 2017 46th International Conference on Parallel Processing (ICPP)
+* 2017 46th International Conference on Parallel Processing (ICPP)
+* 2017 46th International Conference on Parallel Processing (ICPP)
+* 2017 46th International Conference on Parallel Processing (ICPP)
+* 2017 46th International Conference on Parallel Processing (ICPP)
+* 2017 46th International Conference on Parallel Processing (ICPP)
+* 2017 46th International Conference on Parallel Processing (ICPP)
+* 2017 46th International Conference on Parallel Processing (ICPP)
+* 2017 46th International Conference on Parallel Processing (ICPP)
+* 2017 46th International Conference on Parallel Processing (ICPP)
+* 2017 46th International Conference on Parallel Processing (ICPP)
+* 2017 46th International Conference on Parallel Processing (ICPP)
+* 2017 46th International Conference on Parallel Processing (ICPP)
+* 2017 46th International Conference on Parallel Processing (ICPP)
+* 2017 46th International Conference on Parallel Processing (ICPP)
+* 2017 46th International Conference on Parallel Processing (ICPP)
+* 2017 46th International Conference on Parallel Processing (ICPP)
+* 2017 46th International Conference on Parallel Processing (ICPP)
+* 2017 46th International Conference on Parallel Processing (ICPP)
+* 2017 46th International Conference on Parallel Processing (ICPP)
+* 2017 46th International Conference on Parallel Processing (ICPP)
+* 2017 46th International Conference on Parallel Processing (ICPP)
+* 2017 46th International Conference on Parallel Processing (ICPP)
+* 2017 46th International Conference on Parallel Processing (ICPP)
+* 2017 46th International Conference on Parallel Processing (ICPP)
+* 2017 46th International Conference on Parallel Processing (ICPP)
+* 2017 46th International Conference on Parallel Processing (ICPP)
+* 2017 46th International Conference on Parallel Processing (ICPP)
+* 2017 46th International Conference on Parallel Processing (ICPP)
+* 2017 46th International Conference on Parallel Processing (ICPP)
+* 2017 46th International Conference on Parallel Processing (ICPP)
+* 2017 46th International Conference on Parallel Processing (ICPP)
+* 2017 46th International Conference on Parallel Processing (ICPP)
+* 2017 46th International Conference on Parallel Processing (ICPP)
+* 2017 46th International Conference on Parallel Processing (ICPP)
+* 2017 46th International Conference on Parallel Processing (ICPP)
+* 2017 46th International Conference on Parallel Processing (ICPP)
+* 2017 46th International Conference on Parallel Processing (ICPP)
+* 2017 46th International Conference on Parallel Processing (ICPP)
+* 2017 46th International Conference on Parallel Processing (ICPP)
+* 2017 46th International Conference on Parallel Processing (ICPP)
+* 2017 46th International Conference on Parallel Processing (ICPP)
+* 2017 46th International Conference on Parallel Processing (ICPP)
+* 2017 46th International Conference on Parallel Processing (ICPP)
+* 2017 46th International Conference on Parallel Processing (ICPP)
+* 2017 46th International Conference on Parallel Processing (ICPP)
+* 
+* 
+* 
+* 
+* 
+* 
+* IACR Cryptology ePrint Archive
+* 
+* 
+* IACR Cryptology ePrint Archive
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* IACR Cryptology ePrint Archive
+* 
+* 
+* 
+* 
+* 
+* IACR Cryptology ePrint Archive
+* 
+* 
+* 
+* 
+* 
+* IACR Cryptology ePrint Archive
+* 
+* 
+* 
+* IACR Cryptology ePrint Archive
+* 
+* 
+* 
+* 
+* 
+* 
+* IACR Cryptology ePrint Archive
+* CoRR
+* 
+* 
+* IACR Cryptology ePrint Archive
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* IACR Cryptology ePrint Archive
+* 
+* 
+* IACR Cryptology ePrint Archive
+* 
+* IACR Cryptology ePrint Archive
+* 
+* IACR Cryptology ePrint Archive
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* IACR Cryptology ePrint Archive
+* IACR Cryptology ePrint Archive
+* 
+* 
+* IACR Cryptology ePrint Archive
+* 
+* 
+* 
+* IACR Cryptology ePrint Archive
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* IACR Cryptology ePrint Archive
+* 
+* IACR Cryptology ePrint Archive
+* 
+* 
+* 
+* 
+* 
+* IACR Cryptology ePrint Archive
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* IACR Cryptology ePrint Archive
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* IACR Cryptology ePrint Archive
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 2017 IEEE 25th Annual Symposium on High-Performance Interconnects (HOTI)
+* 2017 IEEE 25th Annual Symposium on High-Performance Interconnects (HOTI)
+* 2017 IEEE 25th Annual Symposium on High-Performance Interconnects (HOTI)
+* 2017 IEEE 25th Annual Symposium on High-Performance Interconnects (HOTI)
+* 2017 IEEE 25th Annual Symposium on High-Performance Interconnects (HOTI)
+* 2017 IEEE 25th Annual Symposium on High-Performance Interconnects (HOTI)
+* 2017 IEEE 25th Annual Symposium on High-Performance Interconnects (HOTI)
+* 2017 IEEE 25th Annual Symposium on High-Performance Interconnects (HOTI)
+* 2017 IEEE 25th Annual Symposium on High-Performance Interconnects (HOTI)
+* 2017 IEEE 25th Annual Symposium on High-Performance Interconnects (HOTI)
+* 2017 IEEE 25th Annual Symposium on High-Performance Interconnects (HOTI)
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 2017 IEEE International Conference on Cluster Computing (CLUSTER)
+* 2017 IEEE International Conference on Cluster Computing (CLUSTER)
+* 2017 IEEE International Conference on Cluster Computing (CLUSTER)
+* 2017 IEEE International Conference on Cluster Computing (CLUSTER)
+* 2017 IEEE International Conference on Cluster Computing (CLUSTER)
+* 2017 IEEE International Conference on Cluster Computing (CLUSTER)
+* 2017 IEEE International Conference on Cluster Computing (CLUSTER)
+* 2017 IEEE International Conference on Cluster Computing (CLUSTER)
+* 2017 IEEE International Conference on Cluster Computing (CLUSTER)
+* 2017 IEEE International Conference on Cluster Computing (CLUSTER)
+* 2017 IEEE International Conference on Cluster Computing (CLUSTER)
+* 2017 IEEE International Conference on Cluster Computing (CLUSTER)
+* 2017 IEEE International Conference on Cluster Computing (CLUSTER)
+* 2017 IEEE International Conference on Cluster Computing (CLUSTER)
+* 2017 IEEE International Conference on Cluster Computing (CLUSTER)
+* 2017 IEEE International Conference on Cluster Computing (CLUSTER)
+* 2017 IEEE International Conference on Cluster Computing (CLUSTER)
+* 2017 IEEE International Conference on Cluster Computing (CLUSTER)
+* 2017 IEEE International Conference on Cluster Computing (CLUSTER)
+* 2017 IEEE International Conference on Cluster Computing (CLUSTER)
+* 2017 IEEE International Conference on Cluster Computing (CLUSTER)
+* 2017 IEEE International Conference on Cluster Computing (CLUSTER)
+* 2017 IEEE International Conference on Cluster Computing (CLUSTER)
+* 2017 IEEE International Conference on Cluster Computing (CLUSTER)
+* 2017 IEEE International Conference on Cluster Computing (CLUSTER)
+* 2017 IEEE International Conference on Cluster Computing (CLUSTER)
+* 2017 IEEE International Conference on Cluster Computing (CLUSTER)
+* 2017 IEEE International Conference on Cluster Computing (CLUSTER)
+* 2017 IEEE International Conference on Cluster Computing (CLUSTER)
+* 2017 IEEE International Conference on Cluster Computing (CLUSTER)
+* 2017 IEEE International Conference on Cluster Computing (CLUSTER)
+* 2017 IEEE International Conference on Cluster Computing (CLUSTER)
+* 2017 IEEE International Conference on Cluster Computing (CLUSTER)
+* 2017 IEEE International Conference on Cluster Computing (CLUSTER)
+* 2017 IEEE International Conference on Cluster Computing (CLUSTER)
+* 2017 IEEE International Conference on Cluster Computing (CLUSTER)
+* 2017 IEEE International Conference on Cluster Computing (CLUSTER)
+* 2017 IEEE International Conference on Cluster Computing (CLUSTER)
+* 2017 IEEE International Conference on Cluster Computing (CLUSTER)
+* 2017 IEEE International Conference on Cluster Computing (CLUSTER)
+* 2017 IEEE International Conference on Cluster Computing (CLUSTER)
+* 2017 IEEE International Conference on Cluster Computing (CLUSTER)
+* 2017 IEEE International Conference on Cluster Computing (CLUSTER)
+* 2017 IEEE International Conference on Cluster Computing (CLUSTER)
+* 2017 IEEE International Conference on Cluster Computing (CLUSTER)
+* 2017 IEEE International Conference on Cluster Computing (CLUSTER)
+* 2017 IEEE International Conference on Cluster Computing (CLUSTER)
+* 2017 IEEE International Conference on Cluster Computing (CLUSTER)
+* 2017 IEEE International Conference on Cluster Computing (CLUSTER)
+* 2017 IEEE International Conference on Cluster Computing (CLUSTER)
+* 2017 IEEE International Conference on Cluster Computing (CLUSTER)
+* 2017 IEEE International Conference on Cluster Computing (CLUSTER)
+* 2017 IEEE International Conference on Cluster Computing (CLUSTER)
+* 2017 IEEE International Conference on Cluster Computing (CLUSTER)
+* 2017 IEEE International Conference on Cluster Computing (CLUSTER)
+* 2017 IEEE International Conference on Cluster Computing (CLUSTER)
+* 2017 IEEE International Conference on Cluster Computing (CLUSTER)
+* 2017 IEEE International Conference on Cluster Computing (CLUSTER)
+* 2017 IEEE International Conference on Cluster Computing (CLUSTER)
+* 
+* 2017 IEEE 25th International Symposium on Modeling, Analysis, and Simulation of Computer and Telecommunication Systems (MASCOTS)
+* 2017 IEEE 25th International Symposium on Modeling, Analysis, and Simulation of Computer and Telecommunication Systems (MASCOTS)
+* 2017 IEEE 25th International Symposium on Modeling, Analysis, and Simulation of Computer and Telecommunication Systems (MASCOTS)
+* 2017 IEEE 25th International Symposium on Modeling, Analysis, and Simulation of Computer and Telecommunication Systems (MASCOTS)
+* 2017 IEEE 25th International Symposium on Modeling, Analysis, and Simulation of Computer and Telecommunication Systems (MASCOTS)
+* 2017 IEEE 25th International Symposium on Modeling, Analysis, and Simulation of Computer and Telecommunication Systems (MASCOTS)
+* 2017 IEEE 25th International Symposium on Modeling, Analysis, and Simulation of Computer and Telecommunication Systems (MASCOTS)
+* 2017 IEEE 25th International Symposium on Modeling, Analysis, and Simulation of Computer and Telecommunication Systems (MASCOTS)
+* 2017 IEEE 25th International Symposium on Modeling, Analysis, and Simulation of Computer and Telecommunication Systems (MASCOTS)
+* 2017 IEEE 25th International Symposium on Modeling, Analysis, and Simulation of Computer and Telecommunication Systems (MASCOTS)
+* 2017 IEEE 25th International Symposium on Modeling, Analysis, and Simulation of Computer and Telecommunication Systems (MASCOTS)
+* 2017 IEEE 25th International Symposium on Modeling, Analysis, and Simulation of Computer and Telecommunication Systems (MASCOTS)
+* 2017 IEEE 25th International Symposium on Modeling, Analysis, and Simulation of Computer and Telecommunication Systems (MASCOTS)
+* 2017 IEEE 25th International Symposium on Modeling, Analysis, and Simulation of Computer and Telecommunication Systems (MASCOTS)
+* 2017 IEEE 25th International Symposium on Modeling, Analysis, and Simulation of Computer and Telecommunication Systems (MASCOTS)
+* 2017 IEEE 25th International Symposium on Modeling, Analysis, and Simulation of Computer and Telecommunication Systems (MASCOTS)
+* 2017 IEEE 25th International Symposium on Modeling, Analysis, and Simulation of Computer and Telecommunication Systems (MASCOTS)
+* 2017 IEEE 25th International Symposium on Modeling, Analysis, and Simulation of Computer and Telecommunication Systems (MASCOTS)
+* 2017 IEEE 25th International Symposium on Modeling, Analysis, and Simulation of Computer and Telecommunication Systems (MASCOTS)
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* CoRR
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 2017 IEEE 10th International Conference on Cloud Computing (CLOUD)
+* 2017 IEEE 10th International Conference on Cloud Computing (CLOUD)
+* 2017 IEEE 10th International Conference on Cloud Computing (CLOUD)
+* 2017 IEEE 10th International Conference on Cloud Computing (CLOUD)
+* 2017 IEEE 10th International Conference on Cloud Computing (CLOUD)
+* 2017 IEEE 10th International Conference on Cloud Computing (CLOUD)
+* 2017 IEEE 10th International Conference on Cloud Computing (CLOUD)
+* 2017 IEEE 10th International Conference on Cloud Computing (CLOUD)
+* 2017 IEEE 10th International Conference on Cloud Computing (CLOUD)
+* 2017 IEEE 10th International Conference on Cloud Computing (CLOUD)
+* 2017 IEEE 10th International Conference on Cloud Computing (CLOUD)
+* 2017 IEEE 10th International Conference on Cloud Computing (CLOUD)
+* 2017 IEEE 10th International Conference on Cloud Computing (CLOUD)
+* 2017 IEEE 10th International Conference on Cloud Computing (CLOUD)
+* 2017 IEEE 10th International Conference on Cloud Computing (CLOUD)
+* 2017 IEEE 10th International Conference on Cloud Computing (CLOUD)
+* 2017 IEEE 10th International Conference on Cloud Computing (CLOUD)
+* 2017 IEEE 10th International Conference on Cloud Computing (CLOUD)
+* 2017 IEEE 10th International Conference on Cloud Computing (CLOUD)
+* 2017 IEEE 10th International Conference on Cloud Computing (CLOUD)
+* 2017 IEEE 10th International Conference on Cloud Computing (CLOUD)
+* 2017 IEEE 10th International Conference on Cloud Computing (CLOUD)
+* 2017 IEEE 10th International Conference on Cloud Computing (CLOUD)
+* 2017 IEEE 10th International Conference on Cloud Computing (CLOUD)
+* 2017 IEEE 10th International Conference on Cloud Computing (CLOUD)
+* 2017 IEEE 10th International Conference on Cloud Computing (CLOUD)
+* 2017 IEEE 10th International Conference on Cloud Computing (CLOUD)
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* CoRR
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* CoRR
+* 
+* 
+* 2017 IEEE International Parallel and Distributed Processing Symposium (IPDPS)
+* 2017 IEEE International Parallel and Distributed Processing Symposium (IPDPS)
+* 2017 IEEE International Parallel and Distributed Processing Symposium (IPDPS)
+* 2017 IEEE International Parallel and Distributed Processing Symposium (IPDPS)
+* 2017 IEEE International Parallel and Distributed Processing Symposium (IPDPS)
+* 2017 IEEE International Parallel and Distributed Processing Symposium (IPDPS)
+* 2017 IEEE International Parallel and Distributed Processing Symposium (IPDPS)
+* 2017 IEEE International Parallel and Distributed Processing Symposium (IPDPS)
+* 2017 IEEE International Parallel and Distributed Processing Symposium (IPDPS)
+* 2017 IEEE International Parallel and Distributed Processing Symposium (IPDPS)
+* 2017 IEEE International Parallel and Distributed Processing Symposium (IPDPS)
+* 2017 IEEE International Parallel and Distributed Processing Symposium (IPDPS)
+* 2017 IEEE International Parallel and Distributed Processing Symposium (IPDPS)
+* 2017 IEEE International Parallel and Distributed Processing Symposium (IPDPS)
+* 2017 IEEE International Parallel and Distributed Processing Symposium (IPDPS)
+* 2017 IEEE International Parallel and Distributed Processing Symposium (IPDPS)
+* 2017 IEEE International Parallel and Distributed Processing Symposium (IPDPS)
+* 2017 IEEE International Parallel and Distributed Processing Symposium (IPDPS)
+* 2017 IEEE International Parallel and Distributed Processing Symposium (IPDPS)
+* 2017 IEEE International Parallel and Distributed Processing Symposium (IPDPS)
+* 2017 IEEE International Parallel and Distributed Processing Symposium (IPDPS)
+* 2017 IEEE International Parallel and Distributed Processing Symposium (IPDPS)
+* 2017 IEEE International Parallel and Distributed Processing Symposium (IPDPS)
+* 2017 IEEE International Parallel and Distributed Processing Symposium (IPDPS)
+* 2017 IEEE International Parallel and Distributed Processing Symposium (IPDPS)
+* 2017 IEEE International Parallel and Distributed Processing Symposium (IPDPS)
+* 2017 IEEE International Parallel and Distributed Processing Symposium (IPDPS)
+* 2017 IEEE International Parallel and Distributed Processing Symposium (IPDPS)
+* 2017 IEEE International Parallel and Distributed Processing Symposium (IPDPS)
+* 2017 IEEE International Parallel and Distributed Processing Symposium (IPDPS)
+* 2017 IEEE International Parallel and Distributed Processing Symposium (IPDPS)
+* 2017 IEEE International Parallel and Distributed Processing Symposium (IPDPS)
+* 2017 IEEE International Parallel and Distributed Processing Symposium (IPDPS)
+* 2017 IEEE International Parallel and Distributed Processing Symposium (IPDPS)
+* 2017 IEEE International Parallel and Distributed Processing Symposium (IPDPS)
+* 2017 IEEE International Parallel and Distributed Processing Symposium (IPDPS)
+* 2017 IEEE International Parallel and Distributed Processing Symposium (IPDPS)
+* 2017 IEEE International Parallel and Distributed Processing Symposium (IPDPS)
+* 2017 IEEE International Parallel and Distributed Processing Symposium (IPDPS)
+* 2017 IEEE International Parallel and Distributed Processing Symposium (IPDPS)
+* 2017 IEEE International Parallel and Distributed Processing Symposium (IPDPS)
+* 2017 IEEE International Parallel and Distributed Processing Symposium (IPDPS)
+* 2017 IEEE International Parallel and Distributed Processing Symposium (IPDPS)
+* 2017 IEEE International Parallel and Distributed Processing Symposium (IPDPS)
+* 2017 IEEE International Parallel and Distributed Processing Symposium (IPDPS)
+* 2017 IEEE International Parallel and Distributed Processing Symposium (IPDPS)
+* 2017 IEEE International Parallel and Distributed Processing Symposium (IPDPS)
+* 2017 IEEE International Parallel and Distributed Processing Symposium (IPDPS)
+* 2017 IEEE International Parallel and Distributed Processing Symposium (IPDPS)
+* 2017 IEEE International Parallel and Distributed Processing Symposium (IPDPS)
+* 2017 IEEE International Parallel and Distributed Processing Symposium (IPDPS)
+* 2017 IEEE International Parallel and Distributed Processing Symposium (IPDPS)
+* 2017 IEEE International Parallel and Distributed Processing Symposium (IPDPS)
+* 2017 IEEE International Parallel and Distributed Processing Symposium (IPDPS)
+* 2017 IEEE International Parallel and Distributed Processing Symposium (IPDPS)
+* 2017 IEEE International Parallel and Distributed Processing Symposium (IPDPS)
+* 2017 IEEE International Parallel and Distributed Processing Symposium (IPDPS)
+* 2017 IEEE International Parallel and Distributed Processing Symposium (IPDPS)
+* 2017 IEEE International Parallel and Distributed Processing Symposium (IPDPS)
+* 2017 IEEE International Parallel and Distributed Processing Symposium (IPDPS)
+* 2017 IEEE International Parallel and Distributed Processing Symposium (IPDPS)
+* 2017 IEEE International Parallel and Distributed Processing Symposium (IPDPS)
+* 2017 IEEE International Parallel and Distributed Processing Symposium (IPDPS)
+* 2017 IEEE International Parallel and Distributed Processing Symposium (IPDPS)
+* 2017 IEEE International Parallel and Distributed Processing Symposium (IPDPS)
+* 2017 IEEE International Parallel and Distributed Processing Symposium (IPDPS)
+* 2017 IEEE International Parallel and Distributed Processing Symposium (IPDPS)
+* 2017 IEEE International Parallel and Distributed Processing Symposium (IPDPS)
+* 2017 IEEE International Parallel and Distributed Processing Symposium (IPDPS)
+* 2017 IEEE International Parallel and Distributed Processing Symposium (IPDPS)
+* 
+* 2017 IEEE International Parallel and Distributed Processing Symposium (IPDPS)
+* 2017 IEEE International Parallel and Distributed Processing Symposium (IPDPS)
+* 2017 IEEE International Parallel and Distributed Processing Symposium (IPDPS)
+* 2017 IEEE International Parallel and Distributed Processing Symposium (IPDPS)
+* 2017 IEEE International Parallel and Distributed Processing Symposium (IPDPS)
+* 2017 IEEE International Parallel and Distributed Processing Symposium (IPDPS)
+* 2017 IEEE International Parallel and Distributed Processing Symposium (IPDPS)
+* 2017 IEEE International Parallel and Distributed Processing Symposium (IPDPS)
+* 2017 IEEE International Parallel and Distributed Processing Symposium (IPDPS)
+* 2017 IEEE International Parallel and Distributed Processing Symposium (IPDPS)
+* 2017 IEEE International Parallel and Distributed Processing Symposium (IPDPS)
+* 2017 IEEE International Parallel and Distributed Processing Symposium (IPDPS)
+* 2017 IEEE International Parallel and Distributed Processing Symposium (IPDPS)
+* 2017 IEEE International Parallel and Distributed Processing Symposium (IPDPS)
+* 2017 IEEE International Parallel and Distributed Processing Symposium (IPDPS)
+* 2017 IEEE International Parallel and Distributed Processing Symposium (IPDPS)
+* 2017 IEEE International Parallel and Distributed Processing Symposium (IPDPS)
+* 2017 IEEE International Parallel and Distributed Processing Symposium (IPDPS)
+* 2017 IEEE International Parallel and Distributed Processing Symposium (IPDPS)
+* 2017 IEEE International Parallel and Distributed Processing Symposium (IPDPS)
+* 2017 IEEE International Parallel and Distributed Processing Symposium (IPDPS)
+* 2017 IEEE International Parallel and Distributed Processing Symposium (IPDPS)
+* 2017 IEEE International Parallel and Distributed Processing Symposium (IPDPS)
+* 2017 IEEE International Parallel and Distributed Processing Symposium (IPDPS)
+* 2017 IEEE International Parallel and Distributed Processing Symposium (IPDPS)
+* 2017 IEEE International Parallel and Distributed Processing Symposium (IPDPS)
+* 2017 IEEE International Parallel and Distributed Processing Symposium (IPDPS)
+* CoRR
+* 2017 IEEE International Parallel and Distributed Processing Symposium (IPDPS)
+* 2017 IEEE International Parallel and Distributed Processing Symposium (IPDPS)
+* 2017 IEEE International Parallel and Distributed Processing Symposium (IPDPS)
+* 2017 IEEE International Parallel and Distributed Processing Symposium (IPDPS)
+* 2017 IEEE International Parallel and Distributed Processing Symposium (IPDPS)
+* 2017 IEEE International Parallel and Distributed Processing Symposium (IPDPS)
+* 2017 IEEE International Parallel and Distributed Processing Symposium (IPDPS)
+* 2017 IEEE International Parallel and Distributed Processing Symposium (IPDPS)
+* 2017 IEEE International Parallel and Distributed Processing Symposium (IPDPS)
+* 2017 IEEE International Parallel and Distributed Processing Symposium (IPDPS)
+* 2017 IEEE International Parallel and Distributed Processing Symposium (IPDPS)
+* 2017 IEEE International Parallel and Distributed Processing Symposium (IPDPS)
+* IACR Cryptology ePrint Archive
+* 
+* CoRR
+* 
+* 
+* 
+* 
+* IACR Cryptology ePrint Archive
+* CoRR
+* 
+* 
+* 
+* 
+* 
+* IACR Cryptology ePrint Archive
+* 
+* 
+* CoRR
+* 
+* IACR Cryptology ePrint Archive
+* 
+* 
+* 
+* 
+* 
+* IACR Cryptology ePrint Archive
+* 
+* 
+* 
+* IACR Cryptology ePrint Archive
+* 
+* IACR Cryptology ePrint Archive
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* IACR Cryptology ePrint Archive
+* 
+* CoRR
+* 
+* 
+* 
+* 
+* 
+* IACR Cryptology ePrint Archive
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* Proceedings of the ACM SIGPLAN ... Conference on Programming Language Design and Implementation. ACM SIGPLAN Conference on Programming Language Design and Implementation
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 2017 IEEE International Parallel and Distributed Processing Symposium Workshops (IPDPSW)
+* 2017 IEEE International Parallel and Distributed Processing Symposium Workshops (IPDPSW)
+* 2017 IEEE International Parallel and Distributed Processing Symposium Workshops (IPDPSW)
+* 2017 IEEE International Parallel and Distributed Processing Symposium Workshops (IPDPSW)
+* 2017 IEEE International Parallel and Distributed Processing Symposium Workshops (IPDPSW)
+* 2017 IEEE International Parallel and Distributed Processing Symposium Workshops (IPDPSW)
+* 2017 IEEE International Parallel and Distributed Processing Symposium Workshops (IPDPSW)
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* TOS
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 2017 IEEE 19th International Conference on High Performance Computing and Communications; IEEE 15th International Conference on Smart City; IEEE 3rd International Conference on Data Science and Systems (HPCC/SmartCity/DSS)
+* 2017 IEEE 19th International Conference on High Performance Computing and Communications; IEEE 15th International Conference on Smart City; IEEE 3rd International Conference on Data Science and Systems (HPCC/SmartCity/DSS)
+* 2017 IEEE 19th International Conference on High Performance Computing and Communications; IEEE 15th International Conference on Smart City; IEEE 3rd International Conference on Data Science and Systems (HPCC/SmartCity/DSS)
+* 2017 IEEE 19th International Conference on High Performance Computing and Communications; IEEE 15th International Conference on Smart City; IEEE 3rd International Conference on Data Science and Systems (HPCC/SmartCity/DSS)
+* 2017 IEEE 19th International Conference on High Performance Computing and Communications; IEEE 15th International Conference on Smart City; IEEE 3rd International Conference on Data Science and Systems (HPCC/SmartCity/DSS)
+* 2017 IEEE 19th International Conference on High Performance Computing and Communications; IEEE 15th International Conference on Smart City; IEEE 3rd International Conference on Data Science and Systems (HPCC/SmartCity/DSS)
+* 2017 IEEE 19th International Conference on High Performance Computing and Communications; IEEE 15th International Conference on Smart City; IEEE 3rd International Conference on Data Science and Systems (HPCC/SmartCity/DSS)
+* 2017 IEEE 19th International Conference on High Performance Computing and Communications; IEEE 15th International Conference on Smart City; IEEE 3rd International Conference on Data Science and Systems (HPCC/SmartCity/DSS)
+* 2017 IEEE 19th International Conference on High Performance Computing and Communications; IEEE 15th International Conference on Smart City; IEEE 3rd International Conference on Data Science and Systems (HPCC/SmartCity/DSS)
+* 2017 IEEE 19th International Conference on High Performance Computing and Communications; IEEE 15th International Conference on Smart City; IEEE 3rd International Conference on Data Science and Systems (HPCC/SmartCity/DSS)
+* 2017 IEEE 19th International Conference on High Performance Computing and Communications; IEEE 15th International Conference on Smart City; IEEE 3rd International Conference on Data Science and Systems (HPCC/SmartCity/DSS)
+* 2017 IEEE 19th International Conference on High Performance Computing and Communications; IEEE 15th International Conference on Smart City; IEEE 3rd International Conference on Data Science and Systems (HPCC/SmartCity/DSS)
+* 2017 IEEE 19th International Conference on High Performance Computing and Communications; IEEE 15th International Conference on Smart City; IEEE 3rd International Conference on Data Science and Systems (HPCC/SmartCity/DSS)
+* 2017 IEEE 19th International Conference on High Performance Computing and Communications; IEEE 15th International Conference on Smart City; IEEE 3rd International Conference on Data Science and Systems (HPCC/SmartCity/DSS)
+* 2017 IEEE 19th International Conference on High Performance Computing and Communications; IEEE 15th International Conference on Smart City; IEEE 3rd International Conference on Data Science and Systems (HPCC/SmartCity/DSS)
+* 2017 IEEE 19th International Conference on High Performance Computing and Communications; IEEE 15th International Conference on Smart City; IEEE 3rd International Conference on Data Science and Systems (HPCC/SmartCity/DSS)
+* 2017 IEEE 19th International Conference on High Performance Computing and Communications; IEEE 15th International Conference on Smart City; IEEE 3rd International Conference on Data Science and Systems (HPCC/SmartCity/DSS)
+* 2017 IEEE 19th International Conference on High Performance Computing and Communications; IEEE 15th International Conference on Smart City; IEEE 3rd International Conference on Data Science and Systems (HPCC/SmartCity/DSS)
+* 2017 IEEE 19th International Conference on High Performance Computing and Communications; IEEE 15th International Conference on Smart City; IEEE 3rd International Conference on Data Science and Systems (HPCC/SmartCity/DSS)
+* 2017 IEEE 19th International Conference on High Performance Computing and Communications; IEEE 15th International Conference on Smart City; IEEE 3rd International Conference on Data Science and Systems (HPCC/SmartCity/DSS)
+* 2017 IEEE 19th International Conference on High Performance Computing and Communications; IEEE 15th International Conference on Smart City; IEEE 3rd International Conference on Data Science and Systems (HPCC/SmartCity/DSS)
+* 2017 IEEE 19th International Conference on High Performance Computing and Communications; IEEE 15th International Conference on Smart City; IEEE 3rd International Conference on Data Science and Systems (HPCC/SmartCity/DSS)
+* 2017 IEEE 19th International Conference on High Performance Computing and Communications; IEEE 15th International Conference on Smart City; IEEE 3rd International Conference on Data Science and Systems (HPCC/SmartCity/DSS)
+* 2017 IEEE 19th International Conference on High Performance Computing and Communications; IEEE 15th International Conference on Smart City; IEEE 3rd International Conference on Data Science and Systems (HPCC/SmartCity/DSS)
+* 2017 IEEE 19th International Conference on High Performance Computing and Communications; IEEE 15th International Conference on Smart City; IEEE 3rd International Conference on Data Science and Systems (HPCC/SmartCity/DSS)
+* 2017 IEEE 19th International Conference on High Performance Computing and Communications; IEEE 15th International Conference on Smart City; IEEE 3rd International Conference on Data Science and Systems (HPCC/SmartCity/DSS)
+* 2017 IEEE 19th International Conference on High Performance Computing and Communications; IEEE 15th International Conference on Smart City; IEEE 3rd International Conference on Data Science and Systems (HPCC/SmartCity/DSS)
+* 2017 IEEE 19th International Conference on High Performance Computing and Communications; IEEE 15th International Conference on Smart City; IEEE 3rd International Conference on Data Science and Systems (HPCC/SmartCity/DSS)
+* 2017 IEEE 19th International Conference on High Performance Computing and Communications; IEEE 15th International Conference on Smart City; IEEE 3rd International Conference on Data Science and Systems (HPCC/SmartCity/DSS)
+* 2017 IEEE 19th International Conference on High Performance Computing and Communications; IEEE 15th International Conference on Smart City; IEEE 3rd International Conference on Data Science and Systems (HPCC/SmartCity/DSS)
+* 2017 IEEE 19th International Conference on High Performance Computing and Communications; IEEE 15th International Conference on Smart City; IEEE 3rd International Conference on Data Science and Systems (HPCC/SmartCity/DSS)
+* 2017 IEEE 19th International Conference on High Performance Computing and Communications; IEEE 15th International Conference on Smart City; IEEE 3rd International Conference on Data Science and Systems (HPCC/SmartCity/DSS)
+* 
+* 2017 IEEE 19th International Conference on High Performance Computing and Communications; IEEE 15th International Conference on Smart City; IEEE 3rd International Conference on Data Science and Systems (HPCC/SmartCity/DSS)
+* 2017 IEEE 19th International Conference on High Performance Computing and Communications; IEEE 15th International Conference on Smart City; IEEE 3rd International Conference on Data Science and Systems (HPCC/SmartCity/DSS)
+* 2017 IEEE 19th International Conference on High Performance Computing and Communications; IEEE 15th International Conference on Smart City; IEEE 3rd International Conference on Data Science and Systems (HPCC/SmartCity/DSS)
+* 2017 IEEE 19th International Conference on High Performance Computing and Communications; IEEE 15th International Conference on Smart City; IEEE 3rd International Conference on Data Science and Systems (HPCC/SmartCity/DSS)
+* 2017 IEEE 19th International Conference on High Performance Computing and Communications; IEEE 15th International Conference on Smart City; IEEE 3rd International Conference on Data Science and Systems (HPCC/SmartCity/DSS)
+* 2017 IEEE 19th International Conference on High Performance Computing and Communications; IEEE 15th International Conference on Smart City; IEEE 3rd International Conference on Data Science and Systems (HPCC/SmartCity/DSS)
+* 2017 IEEE 19th International Conference on High Performance Computing and Communications; IEEE 15th International Conference on Smart City; IEEE 3rd International Conference on Data Science and Systems (HPCC/SmartCity/DSS)
+* 2017 IEEE 19th International Conference on High Performance Computing and Communications; IEEE 15th International Conference on Smart City; IEEE 3rd International Conference on Data Science and Systems (HPCC/SmartCity/DSS)
+* 2017 IEEE 19th International Conference on High Performance Computing and Communications; IEEE 15th International Conference on Smart City; IEEE 3rd International Conference on Data Science and Systems (HPCC/SmartCity/DSS)
+* 2017 IEEE 19th International Conference on High Performance Computing and Communications; IEEE 15th International Conference on Smart City; IEEE 3rd International Conference on Data Science and Systems (HPCC/SmartCity/DSS)
+* 2017 IEEE 19th International Conference on High Performance Computing and Communications; IEEE 15th International Conference on Smart City; IEEE 3rd International Conference on Data Science and Systems (HPCC/SmartCity/DSS)
+* 2017 IEEE 19th International Conference on High Performance Computing and Communications; IEEE 15th International Conference on Smart City; IEEE 3rd International Conference on Data Science and Systems (HPCC/SmartCity/DSS)
+* 2017 IEEE 19th International Conference on High Performance Computing and Communications; IEEE 15th International Conference on Smart City; IEEE 3rd International Conference on Data Science and Systems (HPCC/SmartCity/DSS)
+* 2017 IEEE 19th International Conference on High Performance Computing and Communications; IEEE 15th International Conference on Smart City; IEEE 3rd International Conference on Data Science and Systems (HPCC/SmartCity/DSS)
+* 2017 IEEE 19th International Conference on High Performance Computing and Communications; IEEE 15th International Conference on Smart City; IEEE 3rd International Conference on Data Science and Systems (HPCC/SmartCity/DSS)
+* 2017 IEEE 19th International Conference on High Performance Computing and Communications; IEEE 15th International Conference on Smart City; IEEE 3rd International Conference on Data Science and Systems (HPCC/SmartCity/DSS)
+* 2017 IEEE 19th International Conference on High Performance Computing and Communications; IEEE 15th International Conference on Smart City; IEEE 3rd International Conference on Data Science and Systems (HPCC/SmartCity/DSS)
+* 2017 IEEE 19th International Conference on High Performance Computing and Communications; IEEE 15th International Conference on Smart City; IEEE 3rd International Conference on Data Science and Systems (HPCC/SmartCity/DSS)
+* 2017 IEEE 19th International Conference on High Performance Computing and Communications; IEEE 15th International Conference on Smart City; IEEE 3rd International Conference on Data Science and Systems (HPCC/SmartCity/DSS)
+* 2017 IEEE 19th International Conference on High Performance Computing and Communications; IEEE 15th International Conference on Smart City; IEEE 3rd International Conference on Data Science and Systems (HPCC/SmartCity/DSS)
+* 2017 IEEE 19th International Conference on High Performance Computing and Communications; IEEE 15th International Conference on Smart City; IEEE 3rd International Conference on Data Science and Systems (HPCC/SmartCity/DSS)
+* 2017 IEEE 19th International Conference on High Performance Computing and Communications; IEEE 15th International Conference on Smart City; IEEE 3rd International Conference on Data Science and Systems (HPCC/SmartCity/DSS)
+* 2017 IEEE 19th International Conference on High Performance Computing and Communications; IEEE 15th International Conference on Smart City; IEEE 3rd International Conference on Data Science and Systems (HPCC/SmartCity/DSS)
+* 2017 IEEE 19th International Conference on High Performance Computing and Communications; IEEE 15th International Conference on Smart City; IEEE 3rd International Conference on Data Science and Systems (HPCC/SmartCity/DSS)
+* 2017 IEEE 19th International Conference on High Performance Computing and Communications; IEEE 15th International Conference on Smart City; IEEE 3rd International Conference on Data Science and Systems (HPCC/SmartCity/DSS)
+* 2017 IEEE 19th International Conference on High Performance Computing and Communications; IEEE 15th International Conference on Smart City; IEEE 3rd International Conference on Data Science and Systems (HPCC/SmartCity/DSS)
+* 2017 IEEE 19th International Conference on High Performance Computing and Communications; IEEE 15th International Conference on Smart City; IEEE 3rd International Conference on Data Science and Systems (HPCC/SmartCity/DSS)
+* 2017 IEEE 19th International Conference on High Performance Computing and Communications; IEEE 15th International Conference on Smart City; IEEE 3rd International Conference on Data Science and Systems (HPCC/SmartCity/DSS)
+* 2017 IEEE 19th International Conference on High Performance Computing and Communications; IEEE 15th International Conference on Smart City; IEEE 3rd International Conference on Data Science and Systems (HPCC/SmartCity/DSS)
+* 2017 IEEE 19th International Conference on High Performance Computing and Communications; IEEE 15th International Conference on Smart City; IEEE 3rd International Conference on Data Science and Systems (HPCC/SmartCity/DSS)
+* 2017 IEEE 19th International Conference on High Performance Computing and Communications; IEEE 15th International Conference on Smart City; IEEE 3rd International Conference on Data Science and Systems (HPCC/SmartCity/DSS)
+* 2017 IEEE 19th International Conference on High Performance Computing and Communications; IEEE 15th International Conference on Smart City; IEEE 3rd International Conference on Data Science and Systems (HPCC/SmartCity/DSS)
+* 2017 IEEE 19th International Conference on High Performance Computing and Communications; IEEE 15th International Conference on Smart City; IEEE 3rd International Conference on Data Science and Systems (HPCC/SmartCity/DSS)
+* 2017 IEEE 19th International Conference on High Performance Computing and Communications; IEEE 15th International Conference on Smart City; IEEE 3rd International Conference on Data Science and Systems (HPCC/SmartCity/DSS)
+* 2017 IEEE 19th International Conference on High Performance Computing and Communications; IEEE 15th International Conference on Smart City; IEEE 3rd International Conference on Data Science and Systems (HPCC/SmartCity/DSS)
+* 2017 IEEE 19th International Conference on High Performance Computing and Communications; IEEE 15th International Conference on Smart City; IEEE 3rd International Conference on Data Science and Systems (HPCC/SmartCity/DSS)
+* 2017 IEEE 19th International Conference on High Performance Computing and Communications; IEEE 15th International Conference on Smart City; IEEE 3rd International Conference on Data Science and Systems (HPCC/SmartCity/DSS)
+* 2017 IEEE 19th International Conference on High Performance Computing and Communications; IEEE 15th International Conference on Smart City; IEEE 3rd International Conference on Data Science and Systems (HPCC/SmartCity/DSS)
+* 2017 IEEE 19th International Conference on High Performance Computing and Communications; IEEE 15th International Conference on Smart City; IEEE 3rd International Conference on Data Science and Systems (HPCC/SmartCity/DSS)
+* 2017 IEEE 19th International Conference on High Performance Computing and Communications; IEEE 15th International Conference on Smart City; IEEE 3rd International Conference on Data Science and Systems (HPCC/SmartCity/DSS)
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 2017 ACM/IEEE 44th Annual International Symposium on Computer Architecture (ISCA)
+* 2017 ACM/IEEE 44th Annual International Symposium on Computer Architecture (ISCA)
+* 2017 ACM/IEEE 44th Annual International Symposium on Computer Architecture (ISCA)
+* 2017 ACM/IEEE 44th Annual International Symposium on Computer Architecture (ISCA)
+* 2017 ACM/IEEE 44th Annual International Symposium on Computer Architecture (ISCA)
+* 2017 ACM/IEEE 44th Annual International Symposium on Computer Architecture (ISCA)
+* 2017 ACM/IEEE 44th Annual International Symposium on Computer Architecture (ISCA)
+* 2017 ACM/IEEE 44th Annual International Symposium on Computer Architecture (ISCA)
+* 2017 ACM/IEEE 44th Annual International Symposium on Computer Architecture (ISCA)
+* 2017 ACM/IEEE 44th Annual International Symposium on Computer Architecture (ISCA)
+* 2017 ACM/IEEE 44th Annual International Symposium on Computer Architecture (ISCA)
+* 2017 ACM/IEEE 44th Annual International Symposium on Computer Architecture (ISCA)
+* 2017 ACM/IEEE 44th Annual International Symposium on Computer Architecture (ISCA)
+* 2017 ACM/IEEE 44th Annual International Symposium on Computer Architecture (ISCA)
+* 2017 ACM/IEEE 44th Annual International Symposium on Computer Architecture (ISCA)
+* 2017 ACM/IEEE 44th Annual International Symposium on Computer Architecture (ISCA)
+* 2017 ACM/IEEE 44th Annual International Symposium on Computer Architecture (ISCA)
+* 2017 ACM/IEEE 44th Annual International Symposium on Computer Architecture (ISCA)
+* 2017 ACM/IEEE 44th Annual International Symposium on Computer Architecture (ISCA)
+* 2017 ACM/IEEE 44th Annual International Symposium on Computer Architecture (ISCA)
+* 2017 ACM/IEEE 44th Annual International Symposium on Computer Architecture (ISCA)
+* 2017 ACM/IEEE 44th Annual International Symposium on Computer Architecture (ISCA)
+* 2017 ACM/IEEE 44th Annual International Symposium on Computer Architecture (ISCA)
+* 2017 ACM/IEEE 44th Annual International Symposium on Computer Architecture (ISCA)
+* 2017 ACM/IEEE 44th Annual International Symposium on Computer Architecture (ISCA)
+* 2017 ACM/IEEE 44th Annual International Symposium on Computer Architecture (ISCA)
+* 2017 ACM/IEEE 44th Annual International Symposium on Computer Architecture (ISCA)
+* 2017 ACM/IEEE 44th Annual International Symposium on Computer Architecture (ISCA)
+* 2017 ACM/IEEE 44th Annual International Symposium on Computer Architecture (ISCA)
+* 2017 ACM/IEEE 44th Annual International Symposium on Computer Architecture (ISCA)
+* 2017 ACM/IEEE 44th Annual International Symposium on Computer Architecture (ISCA)
+* 2017 ACM/IEEE 44th Annual International Symposium on Computer Architecture (ISCA)
+* 2017 ACM/IEEE 44th Annual International Symposium on Computer Architecture (ISCA)
+* 2017 ACM/IEEE 44th Annual International Symposium on Computer Architecture (ISCA)
+* 2017 ACM/IEEE 44th Annual International Symposium on Computer Architecture (ISCA)
+* 2017 ACM/IEEE 44th Annual International Symposium on Computer Architecture (ISCA)
+* 2017 ACM/IEEE 44th Annual International Symposium on Computer Architecture (ISCA)
+* 2017 ACM/IEEE 44th Annual International Symposium on Computer Architecture (ISCA)
+* 2017 ACM/IEEE 44th Annual International Symposium on Computer Architecture (ISCA)
+* 2017 ACM/IEEE 44th Annual International Symposium on Computer Architecture (ISCA)
+* 2017 ACM/IEEE 44th Annual International Symposium on Computer Architecture (ISCA)
+* 2017 ACM/IEEE 44th Annual International Symposium on Computer Architecture (ISCA)
+* 2017 ACM/IEEE 44th Annual International Symposium on Computer Architecture (ISCA)
+* 2017 ACM/IEEE 44th Annual International Symposium on Computer Architecture (ISCA)
+* 2017 ACM/IEEE 44th Annual International Symposium on Computer Architecture (ISCA)
+* 2017 ACM/IEEE 44th Annual International Symposium on Computer Architecture (ISCA)
+* 2017 ACM/IEEE 44th Annual International Symposium on Computer Architecture (ISCA)
+* 2017 ACM/IEEE 44th Annual International Symposium on Computer Architecture (ISCA)
+* 2017 ACM/IEEE 44th Annual International Symposium on Computer Architecture (ISCA)
+* 2017 ACM/IEEE 44th Annual International Symposium on Computer Architecture (ISCA)
+* 2017 ACM/IEEE 44th Annual International Symposium on Computer Architecture (ISCA)
+* 2017 ACM/IEEE 44th Annual International Symposium on Computer Architecture (ISCA)
+* 2017 ACM/IEEE 44th Annual International Symposium on Computer Architecture (ISCA)
+* 2017 17th IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing (CCGRID)
+* 2017 17th IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing (CCGRID)
+* 2017 17th IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing (CCGRID)
+* 2017 17th IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing (CCGRID)
+* 2017 17th IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing (CCGRID)
+* 2017 17th IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing (CCGRID)
+* 2017 17th IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing (CCGRID)
+* 2017 17th IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing (CCGRID)
+* 
+* 2017 17th IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing (CCGRID)
+* 2017 17th IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing (CCGRID)
+* 2017 17th IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing (CCGRID)
+* 2017 17th IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing (CCGRID)
+* 2017 17th IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing (CCGRID)
+* 2017 17th IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing (CCGRID)
+* 2017 17th IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing (CCGRID)
+* 2017 17th IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing (CCGRID)
+* 2017 17th IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing (CCGRID)
+* 2017 17th IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing (CCGRID)
+* 2017 17th IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing (CCGRID)
+* 2017 17th IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing (CCGRID)
+* 2017 17th IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing (CCGRID)
+* 2017 17th IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing (CCGRID)
+* 2017 17th IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing (CCGRID)
+* 2017 17th IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing (CCGRID)
+* 2017 17th IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing (CCGRID)
+* 2017 17th IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing (CCGRID)
+* 2017 17th IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing (CCGRID)
+* 2017 17th IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing (CCGRID)
+* 2017 17th IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing (CCGRID)
+* 2017 17th IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing (CCGRID)
+* 2017 17th IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing (CCGRID)
+* 2017 17th IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing (CCGRID)
+* 2017 17th IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing (CCGRID)
+* 2017 17th IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing (CCGRID)
+* 2017 17th IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing (CCGRID)
+* 2017 17th IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing (CCGRID)
+* 2017 17th IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing (CCGRID)
+* 2017 17th IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing (CCGRID)
+* 2017 17th IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing (CCGRID)
+* 2017 17th IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing (CCGRID)
+* 2017 17th IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing (CCGRID)
+* 2017 17th IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing (CCGRID)
+* 2017 17th IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing (CCGRID)
+* 2017 17th IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing (CCGRID)
+* 2017 17th IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing (CCGRID)
+* 2017 17th IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing (CCGRID)
+* 2017 17th IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing (CCGRID)
+* 2017 17th IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing (CCGRID)
+* 2017 17th IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing (CCGRID)
+* 2017 17th IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing (CCGRID)
+* 2017 17th IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing (CCGRID)
+* 2017 17th IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing (CCGRID)
+* 2017 17th IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing (CCGRID)
+* 2017 17th IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing (CCGRID)
+* 2017 17th IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing (CCGRID)
+* 2017 17th IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing (CCGRID)
+* 2017 17th IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing (CCGRID)
+* 2017 17th IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing (CCGRID)
+* 2017 17th IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing (CCGRID)
+* 2017 17th IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing (CCGRID)
+* 2017 17th IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing (CCGRID)
+* 2017 17th IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing (CCGRID)
+* 2017 17th IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing (CCGRID)
+* 2017 17th IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing (CCGRID)
+* 2017 17th IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing (CCGRID)
+* 2017 17th IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing (CCGRID)
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* POMACS
+* POMACS
+* POMACS
+* 
+* POMACS
+* POMACS
+* 
+* POMACS
+* POMACS
+* 
+* POMACS
+* 
+* POMACS
+* 
+* 
+* POMACS
+* 
+* 
+* POMACS
+* POMACS
+* POMACS
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 2017 IEEE International Conference on Autonomic Computing (ICAC)
+* 2017 IEEE International Conference on Autonomic Computing (ICAC)
+* 2017 IEEE International Conference on Autonomic Computing (ICAC)
+* 2017 IEEE International Conference on Autonomic Computing (ICAC)
+* 2017 IEEE International Conference on Autonomic Computing (ICAC)
+* 2017 IEEE International Conference on Autonomic Computing (ICAC)
+* 2017 IEEE International Conference on Autonomic Computing (ICAC)
+* 2017 IEEE International Conference on Autonomic Computing (ICAC)
+* 2017 IEEE International Conference on Autonomic Computing (ICAC)
+* 2017 IEEE International Conference on Autonomic Computing (ICAC)
+* 2017 IEEE International Conference on Autonomic Computing (ICAC)
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 2017 IEEE International Symposium on Workload Characterization (IISWC)
+* 2017 IEEE International Symposium on Workload Characterization (IISWC)
+* 2017 IEEE International Symposium on Workload Characterization (IISWC)
+* 2017 IEEE International Symposium on Workload Characterization (IISWC)
+* 
+* 2017 IEEE International Symposium on Workload Characterization (IISWC)
+* 2017 IEEE International Symposium on Workload Characterization (IISWC)
+* 2017 IEEE International Symposium on Workload Characterization (IISWC)
+* 2017 IEEE International Symposium on Workload Characterization (IISWC)
+* 2017 IEEE International Symposium on Workload Characterization (IISWC)
+* 2017 IEEE International Symposium on Workload Characterization (IISWC)
+* 2017 IEEE International Symposium on Workload Characterization (IISWC)
+* 2017 IEEE International Symposium on Workload Characterization (IISWC)
+* 2017 IEEE International Symposium on Workload Characterization (IISWC)
+* 2017 IEEE International Symposium on Workload Characterization (IISWC)
+* 2017 IEEE International Symposium on Workload Characterization (IISWC)
+* 2017 IEEE International Symposium on Workload Characterization (IISWC)
+* 2017 IEEE International Symposium on Workload Characterization (IISWC)
+* 2017 IEEE International Symposium on Workload Characterization (IISWC)
+* 2017 IEEE International Symposium on Workload Characterization (IISWC)
+* 2017 IEEE International Symposium on Workload Characterization (IISWC)
+* 2017 IEEE International Symposium on Workload Characterization (IISWC)
+* 
+* IACR Cryptology ePrint Archive
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 2017 IEEE Symposium on Security and Privacy (SP)
+* 2017 IEEE Symposium on Security and Privacy (SP)
+* 2017 IEEE Symposium on Security and Privacy (SP)
+* 2017 IEEE Symposium on Security and Privacy (SP)
+* 2017 IEEE Symposium on Security and Privacy (SP)
+* 2017 IEEE Symposium on Security and Privacy (SP)
+* 2017 IEEE Symposium on Security and Privacy (SP)
+* 2017 IEEE Symposium on Security and Privacy (SP)
+* 2017 IEEE Symposium on Security and Privacy (SP)
+* 2017 IEEE Symposium on Security and Privacy (SP)
+* 2017 IEEE Symposium on Security and Privacy (SP)
+* 2017 IEEE Symposium on Security and Privacy (SP)
+* 2017 IEEE Symposium on Security and Privacy (SP)
+* 2017 IEEE Symposium on Security and Privacy (SP)
+* 2017 IEEE Symposium on Security and Privacy (SP)
+* 2017 IEEE Symposium on Security and Privacy (SP)
+* 2017 IEEE Symposium on Security and Privacy (SP)
+* 2017 IEEE Symposium on Security and Privacy (SP)
+* 2017 IEEE Symposium on Security and Privacy (SP)
+* 2017 IEEE Symposium on Security and Privacy (SP)
+* 2017 IEEE Symposium on Security and Privacy (SP)
+* 2017 IEEE Symposium on Security and Privacy (SP)
+* 2017 IEEE Symposium on Security and Privacy (SP)
+* 2017 IEEE Symposium on Security and Privacy (SP)
+* 
+* 2017 IEEE Symposium on Security and Privacy (SP)
+* 2017 IEEE Symposium on Security and Privacy (SP)
+* 2017 IEEE Symposium on Security and Privacy (SP)
+* 2017 IEEE Symposium on Security and Privacy (SP)
+* 2017 IEEE Symposium on Security and Privacy (SP)
+* 2017 IEEE Symposium on Security and Privacy (SP)
+* 2017 IEEE Symposium on Security and Privacy (SP)
+* 2017 IEEE Symposium on Security and Privacy (SP)
+* 2017 IEEE Symposium on Security and Privacy (SP)
+* 2017 IEEE Symposium on Security and Privacy (SP)
+* 2017 IEEE Symposium on Security and Privacy (SP)
+* 2017 IEEE Symposium on Security and Privacy (SP)
+* 2017 IEEE Symposium on Security and Privacy (SP)
+* 2017 IEEE Symposium on Security and Privacy (SP)
+* 2017 IEEE Symposium on Security and Privacy (SP)
+* 2017 IEEE Symposium on Security and Privacy (SP)
+* 2017 IEEE Symposium on Security and Privacy (SP)
+* 2017 IEEE Symposium on Security and Privacy (SP)
+* 2017 IEEE Symposium on Security and Privacy (SP)
+* IEEE Security & Privacy
+* 2017 IEEE Symposium on Security and Privacy (SP)
+* 2017 IEEE Symposium on Security and Privacy (SP)
+* 2017 IEEE Symposium on Security and Privacy (SP)
+* 2017 IEEE Symposium on Security and Privacy (SP)
+* 2017 IEEE Symposium on Security and Privacy (SP)
+* 2017 IEEE Symposium on Security and Privacy (SP)
+* 2017 IEEE Symposium on Security and Privacy (SP)
+* 2017 IEEE Symposium on Security and Privacy (SP)
+* 2017 IEEE Symposium on Security and Privacy (SP)
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* PACMPL
+* PACMPL
+* PACMPL
+* PACMPL
+* PACMPL
+* PACMPL
+* PACMPL
+* PACMPL
+* PACMPL
+* PACMPL
+* PACMPL
+* PACMPL
+* PACMPL
+* PACMPL
+* PACMPL
+* PACMPL
+* PACMPL
+* PACMPL
+* PACMPL
+* PACMPL
+* PACMPL
+* PACMPL
+* PACMPL
+* PACMPL
+* PACMPL
+* PACMPL
+* PACMPL
+* PACMPL
+* PACMPL
+* PACMPL
+* PACMPL
+* PACMPL
+* PACMPL
+* PACMPL
+* PACMPL
+* PACMPL
+* PACMPL
+* PACMPL
+* PACMPL
+* PACMPL
+* PACMPL
+* PACMPL
+* PACMPL
+* PACMPL
+* PACMPL
+* PACMPL
+* PACMPL
+* PACMPL
+* PACMPL
+* PACMPL
+* PACMPL
+* PACMPL
+* PACMPL
+* PACMPL
+* PACMPL
+* PACMPL
+* PACMPL
+* PACMPL
+* PACMPL
+* PACMPL
+* PACMPL
+* PACMPL
+* PACMPL
+* PACMPL
+* PACMPL
+* 2017 Eighth International Green and Sustainable Computing Conference (IGSC)
+* 2017 Eighth International Green and Sustainable Computing Conference (IGSC)
+* 2017 Eighth International Green and Sustainable Computing Conference (IGSC)
+* 2017 Eighth International Green and Sustainable Computing Conference (IGSC)
+* 2017 Eighth International Green and Sustainable Computing Conference (IGSC)
+* 2017 Eighth International Green and Sustainable Computing Conference (IGSC)
+* 2017 Eighth International Green and Sustainable Computing Conference (IGSC)
+* 2017 Eighth International Green and Sustainable Computing Conference (IGSC)
+* 2017 Eighth International Green and Sustainable Computing Conference (IGSC)
+* 2017 Eighth International Green and Sustainable Computing Conference (IGSC)
+* 2017 Eighth International Green and Sustainable Computing Conference (IGSC)
+* 2017 Eighth International Green and Sustainable Computing Conference (IGSC)
+* 2017 Eighth International Green and Sustainable Computing Conference (IGSC)
+* 2017 Eighth International Green and Sustainable Computing Conference (IGSC)
+* 2017 Eighth International Green and Sustainable Computing Conference (IGSC)
+* 2017 Eighth International Green and Sustainable Computing Conference (IGSC)
+* 2017 Eighth International Green and Sustainable Computing Conference (IGSC)
+* 2017 Eighth International Green and Sustainable Computing Conference (IGSC)
+* 2017 Eighth International Green and Sustainable Computing Conference (IGSC)
+* 2017 26th International Conference on Parallel Architectures and Compilation Techniques (PACT)
+* 2017 26th International Conference on Parallel Architectures and Compilation Techniques (PACT)
+* 2017 26th International Conference on Parallel Architectures and Compilation Techniques (PACT)
+* 2017 26th International Conference on Parallel Architectures and Compilation Techniques (PACT)
+* 2017 26th International Conference on Parallel Architectures and Compilation Techniques (PACT)
+* 2017 26th International Conference on Parallel Architectures and Compilation Techniques (PACT)
+* 2017 26th International Conference on Parallel Architectures and Compilation Techniques (PACT)
+* 2017 26th International Conference on Parallel Architectures and Compilation Techniques (PACT)
+* 2017 26th International Conference on Parallel Architectures and Compilation Techniques (PACT)
+* 
+* 2017 26th International Conference on Parallel Architectures and Compilation Techniques (PACT)
+* 2017 26th International Conference on Parallel Architectures and Compilation Techniques (PACT)
+* 2017 26th International Conference on Parallel Architectures and Compilation Techniques (PACT)
+* 2017 26th International Conference on Parallel Architectures and Compilation Techniques (PACT)
+* 2017 26th International Conference on Parallel Architectures and Compilation Techniques (PACT)
+* 2017 26th International Conference on Parallel Architectures and Compilation Techniques (PACT)
+* 
+* 2017 26th International Conference on Parallel Architectures and Compilation Techniques (PACT)
+* 2017 26th International Conference on Parallel Architectures and Compilation Techniques (PACT)
+* 2017 26th International Conference on Parallel Architectures and Compilation Techniques (PACT)
+* 2017 26th International Conference on Parallel Architectures and Compilation Techniques (PACT)
+* 2017 26th International Conference on Parallel Architectures and Compilation Techniques (PACT)
+* 2017 26th International Conference on Parallel Architectures and Compilation Techniques (PACT)
+* 
+* 2017 26th International Conference on Parallel Architectures and Compilation Techniques (PACT)
