@@ -2,6 +2,8 @@
 
 ## February 22 - February 28
 
+- added person's data to AuthorsNetwork (from `persons/persons.csv`)
+
 - units for networkx centrality measurements:
   - __eigenvector__ is normalized by definition.
   - __closeness__ is default normalized by the number of nodes in the component, but I turned that off. so, the units now just are node^{-1} since the closeness is inverse of the distance (number of nodes along shortest path).

@@ -126,7 +126,7 @@ class AuthorsNetwork:
   def plot_centralities(self):
     # PARAMETERS
     SHOW_FIG = False
-    version = 3
+    version = 3.1
 
     plt.title("Authors Network: Centralities")
 
@@ -143,8 +143,8 @@ class AuthorsNetwork:
       data = list(data)
       # print("max for", xlabel, ":", max(list(data)))
       if xmax: data = list(filter(lambda x: x <= xmax, data))
-      xlabel_prefix = "Log of "
-      ylabel_prefix = "Log of "
+      xlabel_prefix = ""
+      ylabel_prefix = ""
       plt.subplot(position)
       plt.title(title)
       plt.xlabel(xlabel_prefix + xlabel)
