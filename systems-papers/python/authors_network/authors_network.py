@@ -1,5 +1,7 @@
 import numpy as np
 import networkx as nx
+from scipy import stats
+import itertools as it
 import matplotlib.pyplot as plt
 from matplotlib.ticker import FormatStrFormatter
 import authors.persons_features as PF
@@ -298,6 +300,22 @@ class AuthorsNetwork:
         "v"+str(version)+
         "_"+suffix+
       ".png", dpi=100)
+
+  def print_centralities_correlations(self):
+    centralities_names = ["degree", "eigenvector", "betweenness", "closeness"]
+    centralities_data = {
+      name: list(load_json(DIR_DATA+"degree_centralities").values())
+      for name in centralities_names
+    }
+    
+    for (name1, name2) in it.combinations(centralities_names, 2):
+      data1 = centralities_data[name1]
+      data2 = centralities_data[name2]
+      r, pv = stats.stats.pearsonr(data1, data2)
+      message("="*40)
+      message("Correlating:", name1, "and", name2)
+      message("      r =", r)
+      message("p-value =", pv)
 
   def to_adjacency_matrix(self):
     # matrix of author-author collaborations

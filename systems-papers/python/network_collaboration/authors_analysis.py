@@ -42,12 +42,16 @@ if False:
   message("Analyzing Network Statistics")
   G.print_statistics()
 
+if True:
+  message("Analyzing Centralities Correlations")
+  G.print_centralities_correlations()
+
 if False:
   message("Calculating All Network Centralities")
   G.calculate_centralities()
 
 ################################################################################
-if True:
+if False:
   message("Analyzing Network")
   G.plot_centralities()
 
