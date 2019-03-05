@@ -2,7 +2,8 @@ import numpy as np
 import networkx as nx
 import matplotlib.pyplot as plt
 from matplotlib.ticker import FormatStrFormatter
-import authors.persons_features as persons_features
+import authors.persons_features as PF
+from utils.debug import *
 import utils.shared_utils as utils
 
 from utils.json import *
@@ -14,13 +15,15 @@ DIR_FIGS   = DIR_PARENT + "figs/"
 
 class AuthorsNetwork:
   def __init__(self):
-    self.authors = {} # author_id => paper_id
-    self.papers  = {} # paper_id  => paper (dict)
+    self.authors = {}      # author_id => paper_id
+    self.papers  = {}      # paper_id  => paper (dict)
     self.author_names = {} # author_id => string
     self.graph = nx.Graph()
 
-    self.persons_features = persons_features.getPersonsFeatures()
-    self.persons_features_keys = []
+    self.persons_features_named = { # author_name => person_features
+      f["name"]: f for f in PF.getPersonsFeatures() }
+    self.persons_features = {}      # author_id   => person_features
+    self.missing_names = set()
 
     self.attributes = {} # keep track of modifications to graph
 
@@ -45,8 +48,14 @@ class AuthorsNetwork:
   def add_author_id_name(self, author_id, author_name):
     if not author_id in self.authors:
       self.authors[author_id] = []
-      self.author_names[author_id] = None
-      self.authors_features[author_id] = get_person_features(author_name)
+      self.author_names[author_id] = author_name
+      if author_name in self.persons_features_named:
+        self.persons_features[author_id] = \
+          self.persons_features_named[author_name]
+      else:
+        self.missing_names.add(author_name)
+      
+        
 
   # add to author a paper they wrote
   def add_author_paper(self, author_id, paper_id):
@@ -71,14 +80,21 @@ class AuthorsNetwork:
     # nodes
     for author_id in self.authors.keys():
       self.graph.add_node(author_id,
-        attr_dict = {"author-name": self.author_names[author_id]})
+        attr_dict = {
+          "author-name": self.author_names[author_id],
+          "author-id": author_id
+        }
+      )
     # edges
     for author_id, paper_ids in self.authors.items():
       for (a_id, paper_id) in \
         self.get_author_collaborators(author_id, paper_ids) \
       :
         self.graph.add_edge(author_id, a_id,
-          attr_dict = {"paper-title": self.papers[paper_id]["title"]})
+          attr_dict = {
+            "paper-title": self.papers[paper_id]["title"]
+          }
+        )
 
     for node, author_name in \
       nx.get_node_attributes(self.graph, "author-name").items() \
@@ -86,16 +102,16 @@ class AuthorsNetwork:
       self.fill_persons_features(self.graph.node[node], author_name)
 
   def print_statistics(self):
-    print("-------------------------------------------")
-    print("-- Graph Statistics -----------------------")
-    print()
-    print("   isolates:", nx.number_of_isolates(self.graph))
-    print("    density:", nx.density(self.graph))
-    print("    bridges:", len(list(nx.bridges(self.graph))))
-    print("    cliques:", nx.graph_clique_number(self.graph))
-    print(" conn-comps:", nx.number_connected_components(self.graph))
-    print()
-    print("-------------------------------------------")
+    message("-------------------------------------------")
+    message("-- Graph Statistics -----------------------")
+    message()
+    message("   isolates:", nx.number_of_isolates(self.graph))
+    message("    density:", nx.density(self.graph))
+    message("    bridges:", len(list(nx.bridges(self.graph))))
+    message("    cliques:", nx.graph_clique_number(self.graph))
+    message(" conn-comps:", nx.number_connected_components(self.graph))
+    message()
+    message("-------------------------------------------")
 
   def fill_features(self):
     isolates = nx.isolates(self.graph)
@@ -110,20 +126,23 @@ class AuthorsNetwork:
       suffix += "cc-rank="+str(self.attributes["cc-rank"])
 
     # dump calculated data
-    print("    - Calculating Nodes' Degree Centrality...")
+    log("    - Calculating Nodes' Degree Centrality...")
     dump_json(nx.degree_centrality(self.graph),
       DIR_DATA+"degree_centralities"+suffix)
-    print("    - Calculating Nodes' Eigenvector Centrality...")
+    log("    - Calculating Nodes' Eigenvector Centrality...")
     dump_json(nx.eigenvector_centrality(self.graph),
       DIR_DATA+"eigenvector_centralities"+suffix)
-    print("    - Calculating Nodes' Closeness Centrality...")
+    log("    - Calculating Nodes' Closeness Centrality...")
     dump_json(nx.closeness_centrality(self.graph),
       DIR_DATA+"closeness_centralities"+suffix)
-    print("    - Calculating Nodes' Betweenness Centrality...")
+    log("    - Calculating Nodes' Betweenness Centrality...")
     dump_json(nx.betweenness_centrality(self.graph, normalized=False),
       DIR_DATA+"betweenness_centralities"+suffix)
 
   def plot_centralities(self):
+    debug("missing names:", self.missing_names)
+    debug("missing names count:", len(self.missing_names))
+
     # PARAMETERS
     SHOW_FIG = False
     version = 3.1
@@ -141,7 +160,7 @@ class AuthorsNetwork:
     ):
       xmax = None
       data = list(data)
-      # print("max for", xlabel, ":", max(list(data)))
+      # debug("max for", xlabel, ":", max(list(data)))
       if xmax: data = list(filter(lambda x: x <= xmax, data))
       xlabel_prefix = ""
       ylabel_prefix = ""
@@ -199,7 +218,7 @@ class AuthorsNetwork:
       fig = plt.gcf()
       fig.set_size_inches(11.0, 8.5)
       plt.tight_layout()
-      fig.savefig(DIR_FIGS+"centralities_"+str(version)+".png", dpi=100)
+      fig.savefig(DIR_FIGS+"centralities_v"+str(version)+".png", dpi=100)
 
   def plot_component_centralities(self):
     cc_rank = self.attributes["cc-rank"]
@@ -222,7 +241,7 @@ class AuthorsNetwork:
     ):
       xmax = None
       data = list(data)
-      # print("max for", xlabel, ":", max(list(data)))
+      # debug("max for", xlabel, ":", max(list(data)))
       if xmax: data = list(filter(lambda x: x <= xmax, data))
       xlabel_prefix = "Log of "
       ylabel_prefix = "Log of "
@@ -316,7 +335,7 @@ class AuthorsNetwork:
       suffix += "cc-rank="+str(self.attributes["cc-rank"])
 
     if calculate:
-      print("    - calculating "+centrality+" centrality...")
+      log("    - calculating "+centrality+" centrality...")
       centrality_functions = {
         "degree"      : nx.degree_centrality,
         "eigenvector" : nx.eigenvector_centrality,
@@ -347,20 +366,15 @@ class AuthorsNetwork:
         key = len, reverse = True) \
       [cc_rank]
     self.attributes["cc-rank"] = cc_rank
-    print(self.graph.number_of_nodes())
-    exit()
 
-  def get_person_features(author_name):
-    for pf in self.persons_features:
-      if author_name == pf["name"]:
-        return pf
+    if False:
+      message("number of nodes:",self.graph.number_of_nodes())
+      exit()
 
   def fill_persons_features(node_attr, author_name):
-    features = self.get_person_features(author_name)
-    if features:
-      for key in self.persons_features_keys:
-        node_attr[key] = features[key]
-
+    pf = self.persons_features_named[author_name]
+    for key, value in pf.items():
+      node_attr[key] = pf[key]
 
 def extract_author_id_name(author):
   # success - author in data set (has id)
@@ -368,5 +382,5 @@ def extract_author_id_name(author):
     return author["ids"][0], utils.normalized_author_name(author["name"])
   # failure - author not in data set (doesn't have id)
   else:
-    print(author)
+    # debug(author)
     return (False, False)

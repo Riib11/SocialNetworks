@@ -6,4 +6,7 @@ def getPersonsFeatures():
     return utils.load_csv_file(u_data.persons_directory+"persons.csv")
 
 if __name__ == "__main__":
-    persons = getPersonsFeatures()
+    persons_features = getPersonsFeatures()
+    print(type(persons_features))
+    if type(persons_features) == list:
+      print(persons_features[0])
