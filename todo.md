@@ -4,8 +4,6 @@
 
 - to find conference names, match papers in SS to raw paper titles
 
-- change labels on authors network centrality to be just the value rather than "Log of" value sine its just log scale
-
 - calculate correlations between centralities in AuthorsNetwork (scipy.piersonR, numpy.collf)
 
 - find papers for high eigenvector group in AuthorsNetwork

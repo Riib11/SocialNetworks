@@ -24,6 +24,7 @@ class AuthorsNetwork:
       f["name"]: f for f in PF.getPersonsFeatures() }
     self.persons_features = {}      # author_id   => person_features
     self.missing_names = set()
+    self.used_names = set()
 
     self.attributes = {} # keep track of modifications to graph
 
@@ -79,27 +80,24 @@ class AuthorsNetwork:
   def fill_graph(self):
     # nodes
     for author_id in self.authors.keys():
-      self.graph.add_node(author_id,
-        attr_dict = {
-          "author-name": self.author_names[author_id],
-          "author-id": author_id
-        }
-      )
+      self.graph.add_node(author_id)
+      author_name = self.author_names[author_id]
+      node_attr = self.graph.node[author_id]
+      node_attr["author-id"]   = author_id
+      node_attr["author-name"] = self.author_names[author_id]
+      
+      if author_name in self.persons_features_named:
+        pf = self.persons_features_named[author_name]
+        for key, value in pf.items(): node_attr[key] = pf[key]
+        self.used_names.add(author_name)
+
     # edges
     for author_id, paper_ids in self.authors.items():
       for (a_id, paper_id) in \
         self.get_author_collaborators(author_id, paper_ids) \
       :
         self.graph.add_edge(author_id, a_id,
-          attr_dict = {
-            "paper-title": self.papers[paper_id]["title"]
-          }
-        )
-
-    for node, author_name in \
-      nx.get_node_attributes(self.graph, "author-name").items() \
-    :
-      self.fill_persons_features(self.graph.node[node], author_name)
+          attr_dict = {"paper-title": self.papers[paper_id]["title"]})
 
   def print_statistics(self):
     message("-------------------------------------------")
@@ -140,11 +138,13 @@ class AuthorsNetwork:
       DIR_DATA+"betweenness_centralities"+suffix)
 
   def plot_centralities(self):
-    debug("missing names:", self.missing_names)
+    # debug("missing names:", self.missing_names)
     debug("missing names count:", len(self.missing_names))
+    debug("used names count:", len(self.used_names))
 
     # PARAMETERS
     SHOW_FIG = False
+    SAVE_FIG = False
     version = 3.1
 
     plt.title("Authors Network: Centralities")
@@ -214,7 +214,7 @@ class AuthorsNetwork:
     # FIGURE
     if SHOW_FIG:
       plt.show()
-    else:
+    elif SAVE_FIG:
       fig = plt.gcf()
       fig.set_size_inches(11.0, 8.5)
       plt.tight_layout()
@@ -370,11 +370,6 @@ class AuthorsNetwork:
     if False:
       message("number of nodes:",self.graph.number_of_nodes())
       exit()
-
-  def fill_persons_features(node_attr, author_name):
-    pf = self.persons_features_named[author_name]
-    for key, value in pf.items():
-      node_attr[key] = pf[key]
 
 def extract_author_id_name(author):
   # success - author in data set (has id)
