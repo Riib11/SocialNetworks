@@ -57,8 +57,6 @@ class AuthorsNetwork:
           self.persons_features_named[author_name]
       else:
         self.missing_names.add(author_name)
-      
-        
 
   # add to author a paper they wrote
   def add_author_paper(self, author_id, paper_id):
@@ -120,24 +118,31 @@ class AuthorsNetwork:
     bridges = nx.bridges(self.graph)
     for node in isolates: self.graph.node[node]["isolate"] = True
 
+  def save_centrality_data(self, centrality_name, data, suffix):
+    dump_json(data, DIR_DATA+centrality_name+"_centralities"+suffix)
+
+  def load_centrality_data(self, centrality_name):
+    return load_json(DIR_DATA+centrality_name+"_centralities")
+
   def calculate_centralities(self):
     suffix = ""
     if "cc-rank" in self.attributes:
       suffix += "cc-rank="+str(self.attributes["cc-rank"])
 
     # dump calculated data
-    log("    - Calculating Nodes' Degree Centrality...")
-    dump_json(nx.degree_centrality(self.graph),
-      DIR_DATA+"degree_centralities"+suffix)
-    log("    - Calculating Nodes' Eigenvector Centrality...")
-    dump_json(nx.eigenvector_centrality(self.graph),
-      DIR_DATA+"eigenvector_centralities"+suffix)
-    log("    - Calculating Nodes' Closeness Centrality...")
-    dump_json(nx.closeness_centrality(self.graph),
-      DIR_DATA+"closeness_centralities"+suffix)
-    log("    - Calculating Nodes' Betweenness Centrality...")
-    dump_json(nx.betweenness_centrality(self.graph, normalized=False),
-      DIR_DATA+"betweenness_centralities"+suffix)
+    log("Calculating Nodes' Degree Centrality...", lvl=1)
+    save_centrality_data(nx.degree_centrality(self.graph),
+      "degree", suffix)
+    log("Calculating Nodes' Eigenvector Centrality...", lvl=1)
+    save_centrality_data(nx.eigenvector_centrality(self.graph),
+      "eigenvector", suffix)
+    log("Calculating Nodes' Closeness Centrality...", lvl=1)
+    save_centrality_data(nx.closeness_centrality(self.graph),
+      "closeness", suffix)
+    log("Calculating Nodes' Betweenness Centrality...", lvl=1)
+    save_centrality_data(
+      nx.betweenness_centrality(self.graph, normalized=False),
+      "betweenness", suffix)
 
   def plot_centralities(self):
     # debug("missing names:", self.missing_names)
@@ -316,6 +321,10 @@ class AuthorsNetwork:
       message("Correlating:", name1, "and", name2)
       message("      r =", r)
       message("p-value =", pv)
+
+  def print_high_centraltity_authors(self, centrality_name, n):
+    centrality_data = list(lost_json)
+
 
   def to_adjacency_matrix(self):
     # matrix of author-author collaborations

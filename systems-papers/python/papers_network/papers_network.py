@@ -46,12 +46,12 @@ class PapersNetwork:
     self.papers[paper_id] = author_ids
 
   def fill_graph(self):
-    venues = [
-      # from papers
-      "asplos","atc","ccgrid","ccs","cidr", "cloud","cluster","conext","euro-par","eurosys","fast","hcw","hipc","hotcloud","hoti","hotos","hotstorage","hpca","hpcc","hpdc","icac","icdm","icpe","icpp","igsc","iiswc","imc","ipdps","isc","isca","ispass","kdd","mascots","micro","middleware","mobicom","ndss","nsdi","oopsla","pact","pldi","podc","pods","ppopp","sc","sigcomm","sigir","sigmetrics","sigmod","sle","socc","sosp","sp","spaa","systor","vee",
-      # extra
-      "pacmpl","iacr","usenix","pomacs"
-    ]
+    venues = (
+      # target conferences
+      "asplos atc ccgrid ccs cidr cloud cluster conext euro-par eurosys fast hcw hipc hotcloud hoti hotos hotstorage hpca hpcc hpdc icac icdm icpe icpp igsc iiswc imc ipdps isc isca ispass kdd mascots micro middleware mobicom ndss nsdi oopsla pact pldi podc pods ppopp sc sigcomm sigir sigmetrics sigmod sle socc sosp sp spaa systor vee " + \
+      # extra conferences (not expected)
+      "pacmpl iacr usenix pomacs"
+    ).split()
 
     def get_venue_index(venue):
       for i in range(len(venues)):
