@@ -304,7 +304,7 @@ class AuthorsNetwork:
   def print_centralities_correlations(self):
     centralities_names = ["degree", "eigenvector", "betweenness", "closeness"]
     centralities_data = {
-      name: list(load_json(DIR_DATA+"degree_centralities").values())
+      name: list(load_json(DIR_DATA+name+"_centralities").values())
       for name in centralities_names
     }
     

@@ -1,8 +1,12 @@
 # Done
 
-## February 22 - February 28
+## February 29 - March 8
 
 - added person's data to AuthorsNetwork (from `persons/persons.csv`)
+
+- calculate correlations between centralities in AuthorsNetwork (scipy.piersonR, numpy.collf). In `authors_network/numbers/Centrality Correlations.numbers`)
+
+## February 22 - February 28
 
 - units for networkx centrality measurements:
   - __eigenvector__ is normalized by definition.

@@ -4,8 +4,6 @@
 
 - to find conference names, match papers in SS to raw paper titles
 
-- calculate correlations between centralities in AuthorsNetwork (scipy.piersonR, numpy.collf)
-
 - find papers for high eigenvector group in AuthorsNetwork
 
 - color pixels by connected component (look this up: stacked bar chart)
