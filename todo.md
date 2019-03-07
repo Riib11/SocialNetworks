@@ -3,8 +3,8 @@
 # !!!
 
 - Cleaning up data:
-  - to find conference names, match papers in SS to raw paper titles
-  - there are a few rogue "venue" values that are pointed out in `papers_network/papesr_network.py` in the definition of `venues` that I added but weren't found among the papers that I looked through (`/systems-papers/sys-papers/`)
+  - to find conference names, match papers in SS to raw paper titles this solves the previous problem:
+    - there are a few rogue "venue" values that are pointed out in `papers_network/papesr_network.py` in the definition of `venues` that I added but weren't found among the papers that I looked through (`/systems-papers/sys-papers/`)
 
 # !!
 
