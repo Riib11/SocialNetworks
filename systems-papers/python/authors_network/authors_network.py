@@ -118,11 +118,11 @@ class AuthorsNetwork:
     bridges = nx.bridges(self.graph)
     for node in isolates: self.graph.node[node]["isolate"] = True
 
-  def save_centrality_data(self, centrality_name, data, suffix):
+  def save_centrality_data(self, centrality_name, data, suffix=""):
     dump_json(data, DIR_DATA+centrality_name+"_centralities"+suffix)
 
-  def load_centrality_data(self, centrality_name):
-    return load_json(DIR_DATA+centrality_name+"_centralities")
+  def load_centrality_data(self, centrality_name, suffix=""):
+    return load_json(DIR_DATA+centrality_name+"_centralities"+suffix)
 
   def calculate_centralities(self):
     suffix = ""
@@ -197,26 +197,26 @@ class AuthorsNetwork:
       "Degree Centralities", "Degree", "Nodes",
       bins = 50, xmax = 30,
       data = map(lambda x: x * node_count,
-        load_json(DIR_DATA+"degree_centralities").values()))
+        load_centrality_data("degree").values()))
 
     plot_histogram(222,
       "Eigenvector Centralities",
       "Normalized Eigenvector Centrality","Node Share",
       bins = 100, xmax = 0.00003,
-      data = load_json(DIR_DATA+"eigenvector_centralities").values())
+      data = load_centrality_data("eigenvector").values())
 
     plot_histogram(223,
       "Closeness Centralities",
       "Normalized Closeness Centrality", "Node Share",
       bins = 50, xmax = 30,
       data = map(lambda x: x * node_count,
-        load_json(DIR_DATA+"closeness_centralities").values()))
+        load_centrality_data("closeness").values()))
 
     plot_histogram(224,
       "Betweenness Centralities",
       "Normalized Betweenness Centrality", "Node Share",
       bins = 50, xmax = 30,
-      data = load_json(DIR_DATA+"betweenness_centralities").values())
+      data = load_centrality_data("betweenness").values())
 
     # FIGURE
     if SHOW_FIG:
@@ -273,26 +273,33 @@ class AuthorsNetwork:
         facecolor = "blue")
 
     authors_count = self.graph.number_of_nodes()
+
+    #########################################################
+
     plot_histogram(221,
       "Degree Centralities", "Degree", "Nodes",
       bins = 50, xmax = 30,
-      data = map(lambda x: x * authors_count,
-        load_json(DIR_DATA+"degree_centralities"+suffix).values()))
+      data = map(lambda x: x * node_count,
+        load_centrality_data("degree", suffix).values()))
 
     plot_histogram(222,
-      "Eigenvector Centralities", "Eigenvector Centrality", "Nodes",
+      "Eigenvector Centralities",
+      "Eigenvector Centrality","Node",
       bins = 100, xmax = 0.00003,
-      data = load_json(DIR_DATA+"eigenvector_centralities"+suffix).values())
+      data = load_centrality_data("eigenvector", suffix).values())
 
     plot_histogram(223,
-      "Closeness Centralities", "Closeness Centrality", "Nodes",
+      "Closeness Centralities",
+      "Closeness Centrality", "Node",
       bins = 50, xmax = 30,
-      data = load_json(DIR_DATA+"closeness_centralities"+suffix).values())
+      data = map(lambda x: x * node_count,
+        load_centrality_data("closeness", suffix).values()))
 
     plot_histogram(224,
-      "Betweenness Centralities", "Betweenness Centrality", "Nodes",
+      "Betweenness Centralities",
+      "Betweenness Centrality", "Node",
       bins = 50, xmax = 30,
-      data = load_json(DIR_DATA+"betweenness_centralities"+suffix).values())
+      data = load_centrality_data("betweenness", suffix).values())
 
     # FIGURE
     if SHOW_FIG:
@@ -309,7 +316,7 @@ class AuthorsNetwork:
   def print_centralities_correlations(self):
     centralities_names = ["degree", "eigenvector", "betweenness", "closeness"]
     centralities_data = {
-      name: list(load_json(DIR_DATA+name+"_centralities").values())
+      name: list(load_centrality_data(name).values())
       for name in centralities_names
     }
     
@@ -323,7 +330,7 @@ class AuthorsNetwork:
       message("p-value =", pv)
 
   def print_high_centraltity_authors(self, centrality_name, n):
-    centrality_data = list(lost_json)
+    centrality_data = list(load_centrality_data(centrality_name))
 
 
   def to_adjacency_matrix(self):
@@ -371,7 +378,7 @@ class AuthorsNetwork:
       }
       centralities = centrality_functions[centrality](self.graph)
     else:
-      centralities = load_json(DIR_DATA + centrality+"_centralities"+suffix)
+      centralities = load_centrality_data(centrality, suffix)
     
     for node, c in centralities.items():
       self.graph.node[node][centrality+"-centrality"] = c
