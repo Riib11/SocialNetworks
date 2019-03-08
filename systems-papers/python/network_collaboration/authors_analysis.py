@@ -42,7 +42,7 @@ if False:
   message("Analyzing Network Statistics")
   G.print_statistics()
 
-if True:
+if False:
   message("Analyzing Centralities Correlations")
   G.print_centralities_correlations()
 
@@ -68,7 +68,7 @@ elif False:
     G.plot_component_centralities()
 
   if False:
-    message("Filling Ndes with All Centralities")
+    message("Filling Nodes with All Centralities")
     G.fill_all_centralities()
 
 ################################################################################
@@ -77,10 +77,15 @@ if False:
   message("Coloring Nodes by CC-Size")
   G.fill_ccsizes()
 
-if False:
+if True:
   centrality = "degree"
   message("Calculating Nodes' " + centrality + " Centrality")
   G.fill_centralities(centrality)
+
+  if True:
+    n = 10 # top `n` authors
+    message("Analyzing High Centrality Authors")
+    G.print_high_centraltity_authors(centrality, n)
 
 ################################################################################
 if False:

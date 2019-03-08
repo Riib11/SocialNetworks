@@ -15,6 +15,12 @@ DIR_DATA   = DIR_PARENT + "data/"
 DIR_GEPHI  = DIR_PARENT + "gephi/"
 DIR_FIGS   = DIR_PARENT + "figs/"
 
+def save_centrality_data(centrality_name, data, suffix=""):
+  dump_json(data, DIR_DATA+centrality_name+"_centralities"+suffix)
+
+def load_centrality_data(centrality_name, suffix=""):
+  return load_json(DIR_DATA+centrality_name+"_centralities"+suffix)
+
 class AuthorsNetwork:
   def __init__(self):
     self.authors = {}      # author_id => paper_id
@@ -117,12 +123,6 @@ class AuthorsNetwork:
 
     bridges = nx.bridges(self.graph)
     for node in isolates: self.graph.node[node]["isolate"] = True
-
-  def save_centrality_data(self, centrality_name, data, suffix=""):
-    dump_json(data, DIR_DATA+centrality_name+"_centralities"+suffix)
-
-  def load_centrality_data(self, centrality_name, suffix=""):
-    return load_json(DIR_DATA+centrality_name+"_centralities"+suffix)
 
   def calculate_centralities(self):
     suffix = ""
@@ -329,8 +329,26 @@ class AuthorsNetwork:
       message("      r =", r)
       message("p-value =", pv)
 
-  def print_high_centraltity_authors(self, centrality_name, n):
-    centrality_data = list(load_centrality_data(centrality_name))
+  def print_high_centraltity_authors(self, centrality_name, n=10):
+    centrality_key = centrality_name+"-centrality"
+    centralities_data = load_centrality_data(centrality_name)
+    centralities_list = list(centralities_data.keys())
+    centralities_ordered = sorted(centralities_list,
+      key = lambda x: x[1], reverse = True)
+    i = 0
+    for node in centralities_ordered:
+      if i >= n: break
+      attr = self.graph.node[node]
+      message("-"*20, lvl=1)
+      message("name:", attr["author-name"], lvl=1)
+      message(centrality_key+":", attr[centrality_key], lvl=1)
+      if " papers" in attr: 
+        message("papers:", attr[" papers"], lvl=1)
+      i += 1
+
+    # for node, centrality in centrality_data.items():
+    #   print(self.graph.node[node])
+
 
 
   def to_adjacency_matrix(self):

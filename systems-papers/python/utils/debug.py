@@ -6,9 +6,13 @@ DEBUG_SYMBOLS = {
   "warn"    : "!"
 }
 
+indent = "  "
+
 def make_debug_func(name):
-  return lambda *msgs: \
-    print("["+DEBUG_SYMBOLS[name]+"] " + " ".join(map(str,msgs)))
+  def debug_print(*msgs, lvl=0):
+    prefix = indent * lvl
+    print(prefix + "["+DEBUG_SYMBOLS[name]+"] " + " ".join(map(str,msgs)))
+  return debug_print
 
 log     = make_debug_func("log")
 error   = make_debug_func("error")
