@@ -4,7 +4,7 @@ systems-papers/semantic-scholar/
 
 __pycache__
 .pyc
-.DS_STORE
+.DS_Store
 
 data/dict_gB.json
 data/old/citedsdict.json
