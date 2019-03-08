@@ -1,5 +1,9 @@
 # To Do
 
+- measure correlations between centralities with indecies (like H-index, H-index 5y, and npubs, pubs in 2017, how many program committees participates)
+- make neat visual graphing for correlations (scatter matrix, correlation plots)
+- look up info on how centralities are used
+
 # !!!
 
 - Cleaning up data:
