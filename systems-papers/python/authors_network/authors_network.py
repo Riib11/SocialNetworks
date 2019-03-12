@@ -26,15 +26,17 @@ class AuthorsNetwork:
     self.authors = {}      # author_id => paper_id
     self.papers  = {}      # paper_id  => paper (dict)
     self.author_names = {} # author_id => string
-    self.graph = nx.Graph()
-
-    self.persons_features_named = { # author_name => person_features
-      f["name"]: f for f in PF.getPersonsFeatures() }
-    self.persons_features = {}      # author_id   => person_features
-    self.missing_names = set()
-    self.used_names = set()
+    
+    self.persons_features_named = \
+      { f["name"]: f for f in PF.getPersonsFeatures() }
+                               # author_name => person_features
+    self.persons_features = {} # author_id => person_features
+    self.missing_names    = set()
+    self.used_names       = set()
 
     self.attributes = {} # keep track of modifications to graph
+
+    self.graph = nx.Graph()
 
   def write(self):
     suffix = "".join(

@@ -31,9 +31,9 @@ papergroups_directory = paperdata_directory + "papers/"
 groupA_directory      = papergroups_directory + "A/"
 groupB_directory      = papergroups_directory + "B/"
 
-#
-#
-#
+################################################################################
+# ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### ###  #
+################################################################################
 
 def fileToString(path):
     try:
@@ -56,11 +56,24 @@ def getConferenceFilenames():
     if "allConferencePapers.json" in ls: ls.remove("allConferencePapers.json")
     return ls
 
-# get json file in data/conf
+def getConferenceNames():
+    ls = list(getJSONFilenames(conf_directory))
+    if "allConferencePapers.json" in ls: ls.remove("allConferencePapers.json")
+    ls = map(lambda s: s.replace(".json",""), ls)
+    return ls
+
+def getConference(conf_name):
+    return getJSONData(conf_directory+conf_name+".json")
+
+def getAllConferences():
+    for conf_name in getConferenceNames():
+        yield getConference(conf_name)
+
+# get json file in data/conf/
 def getPapers(conf_filename):
     return getJSONData(conf_directory+conf_filename)
 
-# get json file in data/authors
+# get json file in data/authors/
 def getAuthors(conf_filename):
     return getJSONData(authors_directory+conf_filename)
 
@@ -68,3 +81,7 @@ def getAuthors(conf_filename):
 # original conference data
 def getAllConferencePapers():
     return getJSONData(conf_directory+"allConferencePapers.json")
+
+if __name__ == "__main__":
+    # print(list(getConferenceNames()))
+    print(list(getConference("ASPLOS")["papers"])[0]["title"])
