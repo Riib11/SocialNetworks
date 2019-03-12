@@ -51,6 +51,10 @@ class PapersNetwork:
 
   def fill_graph(self):
     # nodes: papers
+
+    # attr: filling conferences:
+    self.attributes["color"] = "conf"
+
     for paper_id, paper in self.papers_data.items():
       self.graph.add_node(paper_id)
       title = paper["title"] if "title" in paper else "no title"
