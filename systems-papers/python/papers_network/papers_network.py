@@ -55,7 +55,7 @@ class PapersNetwork:
       self.graph.add_node(paper_id)
       title = paper["title"] if "title" in paper else "no title"
       self.graph.node[paper_id]["title"] = title
-      self.graph.node[paper_id] = self.paper_conferences[paper_id]
+      self.graph.node[paper_id]["conf"] = self.paper_conferences[paper_id]
 
     # edges: shared authors (collaborations)
     for paper_id, author_ids in self.papers.items(): # for each paper

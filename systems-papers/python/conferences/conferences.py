@@ -2,11 +2,12 @@ import utils.data as data
 import semantic_scholar.s2data as s2data
 from utils.json import *
 
+VERSION = "1.0"
+
 DIR_PARENT = "conferences/"
 DIR_DATA   = DIR_PARENT+"data/"
 
-VERSION = "1.0"
-
+FP_S2_CONFERENCES = DIR_DATA+"s2_conferences"+"_v="+VERSION+".json"
 
 def get_each_conference_papers():
   for conf_name, conf_dict in data.getAllConferences():
@@ -42,10 +43,10 @@ def get_s2_conferences():
 
 def dump_s2_conferences():
   s2_paper_confs = get_s2_conferences()
-  dump_json(s2_paper_confs, DIR_DATA+"s2_conferences"+"_v="+VERSION+".json")
+  dump_json(s2_paper_confs, FP_S2_CONFERENCES)
 
 def load_s2_conferences():
-  return load_json("s2_conferences"+"_v"+VERSION+".json")
+  return load_json(FP_S2_CONFERENCES)
 
 if __name__ == "__main__":
   dump_s2_conferences()
