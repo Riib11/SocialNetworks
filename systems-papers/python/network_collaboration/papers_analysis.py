@@ -49,7 +49,7 @@ if False:
 
 ################################################################################
 # Present Results
-if True:
+if False:
   print("[*] Preparing Results for Presentation")
   G.plot_centralities()
 
@@ -63,6 +63,6 @@ if False:
 
 ################################################################################
 # Write gexf
-if False:
+if True:
   print("[*] Writing Network File")
   G.write()

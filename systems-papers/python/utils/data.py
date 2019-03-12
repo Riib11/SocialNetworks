@@ -67,7 +67,7 @@ def getConference(conf_name):
 
 def getAllConferences():
     for conf_name in getConferenceNames():
-        yield getConference(conf_name)
+        yield conf_name, getConference(conf_name)
 
 # get json file in data/conf/
 def getPapers(conf_filename):
@@ -84,4 +84,4 @@ def getAllConferencePapers():
 
 if __name__ == "__main__":
     # print(list(getConferenceNames()))
-    print(list(getConference("ASPLOS")["papers"])[0]["title"])
+    print(list(getConference("ASPLOS")["papers"])[0])

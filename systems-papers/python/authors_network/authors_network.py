@@ -4,10 +4,9 @@ from scipy import stats
 import itertools as it
 import matplotlib.pyplot as plt
 from matplotlib.ticker import FormatStrFormatter
-import authors.persons_features as PF
+import authors.persons_features as pf_data
 from utils.debug import *
 import utils.shared_utils as utils
-
 from utils.json import *
 
 DIR_PARENT = "authors_network/"
@@ -26,11 +25,13 @@ class AuthorsNetwork:
     self.authors = {}      # author_id => paper_id
     self.papers  = {}      # paper_id  => paper (dict)
     self.author_names = {} # author_id => string
-    
+
+    # author_name => person_features
     self.persons_features_named = \
-      { f["name"]: f for f in PF.getPersonsFeatures() }
-                               # author_name => person_features
-    self.persons_features = {} # author_id => person_features
+      { f["name"]: f for f in pf_data.getPersonsFeatures() }
+    # author_id => person_features
+    self.persons_features = {}
+    
     self.missing_names    = set()
     self.used_names       = set()
 

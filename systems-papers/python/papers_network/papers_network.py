@@ -2,7 +2,7 @@ import numpy as np
 import networkx as nx
 import matplotlib.pyplot as plt
 from matplotlib.ticker import FormatStrFormatter
-
+import conferences.conferences as conf_data
 from utils.json import *
 
 DIR_PARENT = "papers_network/"
@@ -16,8 +16,12 @@ class PapersNetwork:
     self.papers      = {}   # paper_id  => [author_id]
     self.authors     = {}   # author_id => [paper_id]
     
-    self.graph = nx.Graph()
+    # paper_id => conference_name
+    self.paper_conferences = conf_data.load_s2_conferences()
+    
     self.attributes = {}
+
+    self.graph = nx.Graph()
 
   def write(self):
     suffix = "".join([ "_" + k + "=" + v for (k,v) in self.attributes.items() ])
@@ -46,41 +50,17 @@ class PapersNetwork:
     self.papers[paper_id] = author_ids
 
   def fill_graph(self):
-    venues = (
-      # target conferences
-      "asplos atc ccgrid ccs cidr cloud cluster conext euro-par eurosys fast hcw hipc hotcloud hoti hotos hotstorage hpca hpcc hpdc icac icdm icpe icpp igsc iiswc imc ipdps isc isca ispass kdd mascots micro middleware mobicom ndss nsdi oopsla pact pldi podc pods ppopp sc sigcomm sigir sigmetrics sigmod sle socc sosp sp spaa systor vee " + \
-      # extra conferences (not expected)
-      "pacmpl iacr usenix pomacs"
-    ).split()
-
-    def get_venue_index(venue):
-      for i in range(len(venues)):
-        if venues[i] in venue: return i
-      return -1
-
     # nodes: papers
     for paper_id, paper in self.papers_data.items():
       self.graph.add_node(paper_id)
       title = paper["title"] if "title" in paper else "no title"
       self.graph.node[paper_id]["title"] = title
-
-      venue = paper["venue"].lower() \
-        if ("venue" in paper) \
-        else ("missing venue")
-      venue_i = get_venue_index(venue)
-
-      if venue_i == -1: print(venue)
-
-      self.graph.node[paper_id]["venue-index"] = venue_i
-      self.graph.node[paper_id]["venue"] = venue
+      self.graph.node[paper_id] = self.paper_conferences[paper_id]
 
     # edges: shared authors (collaborations)
-    # for each paper p
-    for paper_id, author_ids in self.papers.items():
-      # for each author a of paper p
-      for author_id in author_ids:
-        # for each other paper p' by author a
-        for p_id in self.authors[author_id]:
+    for paper_id, author_ids in self.papers.items(): # for each paper
+      for author_id in author_ids:           # for each paper by author
+        for p_id in self.authors[author_id]: # for each other paper by author
           if paper_id != p_id:
             self.graph.add_edge(paper_id, p_id)
 
