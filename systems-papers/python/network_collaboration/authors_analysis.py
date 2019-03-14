@@ -42,13 +42,21 @@ if False:
   message("Analyzing Network Statistics")
   G.print_statistics()
 
-if False:
-  message("Analyzing Centralities Correlations")
-  G.print_centralities_correlations()
+################################################################################
 
 if False:
   message("Calculating All Network Centralities")
   G.calculate_centralities()
+
+################################################################################
+
+if False:
+  message("Analyzing Centralities Correlations")
+  G.print_centralities_correlations()
+
+if True:
+  message("Saving All Correlations to CSV")
+  G.save_all_correlations()
 
 ################################################################################
 if False:
@@ -77,12 +85,12 @@ if False:
   message("Coloring Nodes by CC-Size")
   G.fill_ccsizes()
 
-if True:
+if False:
   centrality = "degree"
   message("Calculating Nodes' " + centrality + " Centrality")
   G.fill_centralities(centrality)
 
-  if True:
+  if False:
     n = 10 # top `n` authors
     message("Analyzing High Centrality Authors")
     G.print_high_centraltity_authors(centrality, n)

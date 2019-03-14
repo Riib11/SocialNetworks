@@ -8,6 +8,7 @@ import authors.persons_features as pf_data
 from utils.debug import *
 import utils.shared_utils as utils
 from utils.json import *
+import authors_network.correlations as correlations
 
 DIR_PARENT = "authors_network/"
 DIR_DATA   = DIR_PARENT + "data/"
@@ -333,7 +334,7 @@ class AuthorsNetwork:
       message("      r =", r)
       message("p-value =", pv)
 
-  def save_correlations(self):
+  def save_all_correlations(self):
     data = {} # author_name => { attr_key : attr_val }
 
     def set_attr(author_name, attr_key, attr_val):
@@ -343,20 +344,32 @@ class AuthorsNetwork:
     # centralities data
     for cent_key in CENTRALITY_KEYS:
       centrality_dict = load_centrality_data(cent_key) # node_id => cent_val
-      for author_id, cent_val in centrality_dict:
+      for author_id, cent_val in centrality_dict.items():
         author_name = self.author_names[author_id]
+        cent_val = round(cent_val, 4)
         set_attr(author_name, cent_key, cent_val)
 
     # personsfeatures data
     personsfeatures_keys = \
       ["npubs", "hindex", "hindex5y", "i10index", "i10index5y"]
 
-    for author_name in data.keys():
-      for pf_key in personsfeatures_keys:
-        pf_val = self.persons_features_named(author_name)
-        set_attr(author_name, pf_key, pf_val)
+    # print(data.keys())
 
-    correlations.save_correlations_csv(data, DIR_DATA)
+    for author_name in data.keys():
+      
+      if author_name in self.persons_features_named:
+        author_features = self.persons_features_named[author_name]
+        
+        for pf_key in personsfeatures_keys:
+          
+          if pf_key in author_features:
+            pf_val = author_features[pf_key]
+            set_attr(author_name, pf_key, pf_val)
+
+    correlations.save_correlations_csv(
+      CENTRALITY_KEYS + personsfeatures_keys,
+      data,
+      DIR_DATA)
 
 
   def print_high_centraltity_authors(self, centrality_name, n=10):

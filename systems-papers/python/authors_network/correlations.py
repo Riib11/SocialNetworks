@@ -1,4 +1,6 @@
-VERSION = 1.0
+import csv
+
+VERSION = 1-0
 
 """
 save_correlations_csv:
@@ -9,8 +11,12 @@ keys : [ attr_key ]
 data : author_name => { attr_key : attr_val }
 """
 def save_correlations_csv(keys, data, DIR_DATA):
-  with open(DIR_DATA+"correlations"+"_v"+VERSION+".csv") as file:
-    writer = csv.writer(f)
+  with open(
+    DIR_DATA+"correlations_v{version}.csv"\
+    .format(version=VERSION),
+    "w+"
+  ) as file:
+    writer = csv.writer(file)
 
     # header row
     keys = ["author_name"] + keys
@@ -32,7 +38,7 @@ def save_correlations_csv(keys, data, DIR_DATA):
       row = \
         ( [ author_name ]
         + [ safe_get_attr_val(author_attrs, key) for key in keys ] )
-      write.writerow(row)
+      writer.writerow(row)
 
     # print missing count
     print("missing attribute entries: {0}".format(missing))
