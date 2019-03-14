@@ -349,6 +349,12 @@ class AuthorsNetwork:
         cent_val = round(cent_val, 4)
         set_attr(author_name, cent_key, cent_val)
 
+    correlations.save_correlations_csv(
+      CENTRALITY_KEYS,
+      data,
+      DIR_DATA)
+    return
+
     # personsfeatures data
     personsfeatures_keys = \
       ["npubs", "hindex", "hindex5y", "i10index", "i10index5y"]

@@ -1,6 +1,6 @@
 import csv
 
-VERSION = 1-0
+VERSION = "C"
 
 """
 save_correlations_csv:
@@ -19,8 +19,7 @@ def save_correlations_csv(keys, data, DIR_DATA):
     writer = csv.writer(file)
 
     # header row
-    keys = ["author_name"] + keys
-    writer.writerow(keys)
+    writer.writerow(["author_name"] + keys)
 
     missing = 0
     def safe_get_attr_val(author_attrs, key):
