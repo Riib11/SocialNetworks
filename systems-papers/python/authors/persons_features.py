@@ -7,6 +7,4 @@ def getPersonsFeatures():
 
 if __name__ == "__main__":
     persons_features = getPersonsFeatures()
-    print(type(persons_features))
-    if type(persons_features) == list:
-      print(persons_features[0])
+    print(persons_features[0])

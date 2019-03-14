@@ -14,6 +14,8 @@ DIR_DATA   = DIR_PARENT + "data/"
 DIR_GEPHI  = DIR_PARENT + "gephi/"
 DIR_FIGS   = DIR_PARENT + "figs/"
 
+CENTRALITY_KEYS = ["degree", "eigenvector", "betweenness", "closeness"]
+
 def save_centrality_data(centrality_name, data, suffix=""):
   dump_json(data, DIR_DATA+centrality_name+"_centralities"+suffix)
 
@@ -317,25 +319,50 @@ class AuthorsNetwork:
       ".png", dpi=100)
 
   def print_centralities_correlations(self):
-    centralities_names = ["degree", "eigenvector", "betweenness", "closeness"]
-    centralities_data = {
+    centrality_data = {
       name: list(load_centrality_data(name).values())
-      for name in centralities_names
+      for name in CENTRALITY_KEYS
     }
-    
-    for (name1, name2) in it.combinations(centralities_names, 2):
-      data1 = centralities_data[name1]
-      data2 = centralities_data[name2]
+
+    for (name1, name2) in it.combinations(CENTRALITY_KEYS, 2):
+      data1 = centrality_data[name1]
+      data2 = centrality_data[name2]
       r, pv = stats.stats.pearsonr(data1, data2)
       message("="*40)
       message("Correlating:", name1, "and", name2)
       message("      r =", r)
       message("p-value =", pv)
 
+  def save_correlations(self):
+    data = {} # author_name => { attr_key : attr_val }
+
+    def set_attr(author_name, attr_key, attr_val):
+      if not author_name in data: data[author_name] = {}
+      data[author_name][attr_key] = attr_val
+
+    # centralities data
+    for cent_key in CENTRALITY_KEYS:
+      centrality_dict = load_centrality_data(cent_key) # node_id => cent_val
+      for author_id, cent_val in centrality_dict:
+        author_name = self.author_names[author_id]
+        set_attr(author_name, cent_key, cent_val)
+
+    # personsfeatures data
+    personsfeatures_keys = \
+      ["npubs", "hindex", "hindex5y", "i10index", "i10index5y"]
+
+    for author_name in data.keys():
+      for pf_key in personsfeatures_keys:
+        pf_val = self.persons_features_named(author_name)
+        set_attr(author_name, pf_key, pf_val)
+
+    correlations.save_correlations_csv(data, DIR_DATA)
+
+
   def print_high_centraltity_authors(self, centrality_name, n=10):
     centrality_key = centrality_name+"-centrality"
-    centralities_data = load_centrality_data(centrality_name)
-    centralities_list = list(centralities_data.keys())
+    centrality_data = load_centrality_data(centrality_name)
+    centralities_list = list(centrality_data.keys())
     centralities_ordered = sorted(centralities_list,
       key = lambda x: x[1], reverse = True)
     i = 0
@@ -407,8 +434,8 @@ class AuthorsNetwork:
     self.attributes["centrality"] = centrality
 
   def fill_all_centralities(self, calculate=False):
-    centrality_names = ["degree", "eigenvector", "closeness", "betweenness"]
-    for centrality_name in centrality_names:
+    CENTRALITY_KEYS = ["degree", "eigenvector", "closeness", "betweenness"]
+    for centrality_name in CENTRALITY_KEYS:
       self.fill_centralities(centrality_name, calculate=calculate)
 
     self.attributes["centrality"] = "all"
