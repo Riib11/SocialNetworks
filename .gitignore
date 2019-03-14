@@ -3,8 +3,9 @@ systems-papers/sys-papers/
 systems-papers/semantic-scholar/
 
 __pycache__
-.pyc
+*/.pyc
 */.DS_Store
+*/.Rhistory
 
 data/dict_gB.json
 data/old/citedsdict.json

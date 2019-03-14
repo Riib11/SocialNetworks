@@ -1,0 +1,54 @@
+setwd("~/SocialNetworks/systems-papers/python/authors_network/")
+
+################################################################################
+# margins
+
+par(mar = c(5,5,5,5)) # doesn't seem to work...
+
+################################################################################
+# figure
+
+name = "Author Centralities Correlations Matrix"
+# name = "Author Features Correlations Matrix"
+version = "A"
+png(
+  filename = paste("figs/",name,".png", sep=""),
+  width = 1000,
+  height = 800
+)
+
+
+################################################################################
+# data
+
+correlations = read.csv(paste("data/correlations_v",version,".csv", sep=""))
+
+col_max = 6 # length(correlations)
+
+# colors = c("red", "green", "blue", "yellow", "black")
+
+################################################################################
+# plot
+
+pairs(
+  correlations[2 : col_max],
+	
+  main = name,
+
+  # log = "xy", # causes 32 warnings
+  na.action = na.omit,
+  
+  pch = 21,
+  bg = rainbow(col_max-1),
+  # bg = colors,
+
+  upper.panel = NULL
+)
+
+# legend(
+#   x = 0.5, y = 2,
+# #   pt.bg = colors,
+#   bty = "n"
+# )
+
+dev.off()

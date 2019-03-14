@@ -349,27 +349,26 @@ class AuthorsNetwork:
         cent_val = round(cent_val, 4)
         set_attr(author_name, cent_key, cent_val)
 
-    correlations.save_correlations_csv(
-      CENTRALITY_KEYS,
-      data,
-      DIR_DATA)
-    return
-
     # personsfeatures data
     personsfeatures_keys = \
-      ["npubs", "hindex", "hindex5y", "i10index", "i10index5y"]
+      [" npubs", " hindex", " hindex5y", " i10index", " i10index5y"]
 
     # print(data.keys())
 
     for author_name in data.keys():
-      
       if author_name in self.persons_features_named:
         author_features = self.persons_features_named[author_name]
+
+        # print(author_name, author_features)
+        # print(author_features.keys())
+        # print(author_name, [ author_features[pf_key] for pf_key in personsfeatures_keys if pf_key in author_features.keys() ])
         
         for pf_key in personsfeatures_keys:
-          
           if pf_key in author_features:
-            pf_val = author_features[pf_key]
+            try:
+              pf_val = int(author_features[pf_key].strip())
+            except:
+              pf_val = ""
             set_attr(author_name, pf_key, pf_val)
 
     correlations.save_correlations_csv(
