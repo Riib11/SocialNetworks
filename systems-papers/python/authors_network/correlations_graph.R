@@ -23,7 +23,7 @@ png(
 
 correlations = read.csv(paste("data/correlations_v",version,".csv", sep=""))
 
-col_max = 6 # length(correlations)
+col_max = length(correlations) # 6
 
 # colors = c("red", "green", "blue", "yellow", "black")
 
