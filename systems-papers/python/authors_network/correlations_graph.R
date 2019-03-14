@@ -8,8 +8,8 @@ par(mar = c(5,5,5,5)) # doesn't seem to work...
 ################################################################################
 # figure
 
-name = "Author Centralities Correlations Matrix"
-# name = "Author Features Correlations Matrix"
+# name = "Author Centralities Correlations Matrix"
+name = "Author Features Correlations Matrix"
 version = "A"
 png(
   filename = paste("figs/",name,".png", sep=""),
@@ -23,6 +23,7 @@ png(
 
 correlations = read.csv(paste("data/correlations_v",version,".csv", sep=""))
 
+# col_max = 6
 col_max = length(correlations) # 6
 
 # colors = c("red", "green", "blue", "yellow", "black")
