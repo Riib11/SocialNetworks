@@ -6,6 +6,7 @@ __pycache__
 */.pyc
 */.DS_Store
 */.Rhistory
+*/.Rapp.history
 
 data/dict_gB.json
 data/old/citedsdict.json

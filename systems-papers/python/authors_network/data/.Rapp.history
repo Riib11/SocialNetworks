@@ -1,0 +1,271 @@
+B = matrix( #
++   c(2, 4, 3, 1, 5, 7), #
++   nrow=3, #
++   ncol=2)
+z = matrix()
+z
+z = matrix(c(1,2,3,4,5,6,7,8,9),nrow=3,ncol=3)
+z
+persp(z)
+b <- seq(from=0, to=20,by=0.5)
+s <- seq(from=0, to=20,by=0.5)
+payoff <- expand.grid(b=b,s=s)
+payoff
+b <- seq(0,10)
+b
+a <- b
+a
+b
+c <- expand.grid(a=a,b=b)
+c
+b <- seq(0,1)
+a <- b
+b
+a
+expand.grid(a=a,b=b)
+c <- expand.grid(a=a,b=b)
+c$c <= c$a - c$b
+c
+c <- expand.grid(a=a,b=b)
+c
+c$c <- c$a - c$b
+c
+c$c
+c
+c$c
+c$c[c$c]
+c$c[c$c < -1]
+c$c[c$c < -1] <- -1
+c$c[c$c < -1]
+wireframe(c ~ b * a, c)
+library(lattice) #
+x <- seq(pi/4, 5 * pi, length.out = 100) #
+y <- seq(pi/4, 5 * pi, length.out = 100) #
+r <- as.vector(sqrt(outer(x^2, y^2, "+"))) #
+grid <- expand.grid(x=x, y=y) #
+grid$z <- cos(r^2) * exp(-r/(pi^3)) #
+levelplot(z~x*y, grid, cuts = 50, scales=list(log="e"), xlab="", #
+            ylab="", main="Weird Function", sub="with log scales", #
+            colorkey = FALSE, region = TRUE)
+r
+x <- seq(pi/4, 5 * pi, length.out = 10)
+x
+x <- seq(0,5,length.out=10)
+x
+x <- seq(0,5)
+x
+y < x
+y <- x
+r <- as.vector(sqrt(outer(x^2, y^2, "+")))
+grid <- expand.grid(x=x, y=y)
+levelplot(z~x*y, grid, cuts = 50, scales=list(log="e"), xlab="", #
+            ylab="", main="Weird Function", sub="with log scales", #
+            colorkey = FALSE, region = TRUE)
+x <- seq(0,10)
+x
+y <- seq(-10,10)
+x <- y
+grid <- expand.grid(x=x,y=y)
+persp(x,y,z)
+z
+x <- seq(-10, 10, length.out = 50)  #
+y <- x  #
+rotsinc <- function(x,y) {#
+    sinc <- function(x) { y <- sin(x)/x ; y[is.na(y)] <- 1; y }  #
+    10 * sinc( sqrt(x^2+y^2) )  #
+}#
+#
+z <- outer(x, y, rotsinc)  #
+persp(x, y, z)
+x <- seq(-10,10)
+y <- x
+zfunc <- function(x,y) {}
+times = c(0.08403897285461426, 0.14569091796875, 0.2160038948059082, 0.315993070602417, 0.4205949306488037, 0.5276379585266113, 0.6581130027770996, 0.835716962814331)
+gens = c(30, 40, 50, 60, 70, 80, 90, 100)
+plot(gens,times)
+times = c(0.08403897285461426, 0.14569091796875, 0.2160038948059082, 0.315993070602417, 0.4205949306488037, 0.5276379585266113, 0.6581130027770996, 0.835716962814331, 1.7600598335266113)
+gens = c(30, 40, 50, 60, 70, 80, 90, 100,150)
+plot(gens,times)
+lines(gens,times,col='firebrick1',lwd=2)
+plot(gens,times)
+lines(gens,times,col='firebrick1',lwd=2)
+c(1,2,3)
+x = c(1,2,3,4); y = c(1,2,3,4)
+x
+y
+x = c(1,2,3,4)
+y = c(1,4,8,16)
+plot(x,y)
+plot(y,x)
+plot(x,y,type="l",col="red")
+plot(y,x,type="l",col="green")
+lines(x,y)
+plot(x,y)
+lines(x,y)
+lines(x,y,col="red")
+require(ggplot2)
+data.frame(x,y)
+require(ggplot)
+x = c(10,11,12,13,14,15,16,17,18,19,20)
+x
+x = range(1,10)
+x
+help()
+x = c(1..10)
+x = c(1...10)
+x = c(1:100)
+x
+x = c(1,10)
+x = x * 10
+x
+x = c(1:10)
+x = x * 10
+x
+y = c(0.99,1.49,1.99,1.99,1.99,2.99,2.99,2.99,2.99,2.99)
+plot(x,y)
+lines(x,y)
+x = c(10,20,30,40,50,60,70,80,90,100,200,300,400,500,600,700,800)
+x = c(1:10)
+x = x *100
+y = c(14.9)
+x
+x = x * 10
+y = c(14.9, 18.62, 22.35, 26.08, 28.9)
+x = c(1000,1250,1500,1750,2000)
+plot(x,y)
+lines(xmy)
+lines(x,y)
+fit <- lm(y ~ x)
+summary(fit)
+plot(x,y)
+plot(fit)
+plot(x,y)
+f <- function(x) {}
+f <- function(x) { return 1.388 + (33.931*x) }
+f <- function(x) { return (1.388 + (33.931*x)) }
+f(10)
+plot(x,f(x))
+plot(x,f(x),y)
+plot(x,y)
+lines(x,f(x))
+plot(y,x)
+plot(x,y)
+lines(f(x),x)
+data = read.table("/Users/Henry/Documents/Drive/Crystal-Work/generic_ga/src/test.csv")
+data
+data = read.table("/Users/Henry/Documents/Drive/Crystal-Work/generic_ga/src/test.csv", header=false)
+data = read.table("/Users/Henry/Documents/Drive/Crystal-Work/generic_ga/src/test.csv", header = FALSE)
+data
+data[0]
+data
+plot data
+plot(data)
+data[1:10]
+data[1:10,]
+data[1:2,]
+data[1:1,]
+data = read.table("/Users/Henry/Documents/Drive/Crystal-Work/generic_ga/src/test.csv", header = FALSE)
+data = read.table("/Users/Henry/Documents/Drive/Crystal-Work/generic_ga/src/test.csv", header = FALSE, skip=1)
+data
+plot(data$NO)
+data$NO
+data[1:10]
+data[1:10,1:10]
+data[1:10,]
+data
+help(data)
+data()
+warning
+getwd()
+setwd("~/Downloads/tmp/")
+getwd()
+read.csv("mycsvfile.csv")
+x = read.csv("mycsvfile.csv")
+x
+data(x)
+cor()
+cor(x)
+x[,]
+x[,1:3]
+cor(x[,1:#])
+)
+cor(x[,1:3])
+x[1]
+x[2]
+x = read.csv("mycsvfile.csv")
+x
+cor(x)
+pairs(x)
+setwd("~/SocialNetworks/systems-papers/python")
+setwd("~/SocialNetworks/systems-papers/python/authors_network/data")
+read.csv("correlations_v1.csv")
+data = read.csv("correlations_v1.csv")
+data[0]
+data[1]
+data[2]
+data[3]
+data[4]
+data[,1]
+data[0:1]
+data[0:2]
+data[0:]
+data[0]
+data[1]
+data[2]
+data[,1:4]
+data[1:4]
+data[1:4]dat
+head(data)
+help(data0)
+help(data)
+data
+correlations = read.csv("correlations_v1.csv")
+cor(correlations)
+pairs(correlations)
+correlations = read.csv("correlations_vC.csv")
+correlations
+correlations = read.csv("correlations_vC.csv")
+correlations = read.csv("correlations_vC.csv")
+correlations
+pairs(correlations)
+pairs(correlations[,1]
+(())
+correlations[,1]
+correlations[1:2]
+correlations
+correlations
+correlations = read.csv("correlations_vC.csv")
+correlations
+correlations[2:3]
+correlations[1:3]
+correlations[1:4]
+correlations[1:5]
+correlations[1:6]
+correlations[2:5]
+pairs(correlations[2:5])
+correlations
+"hello"+"world"
+"hello"++"world"
+str
+str("hello")
+chr("hello")
+paste("hello", paste("world","!"))
+paste("hello", paste("world","!"), sep="")
+name = "henry"
+paste("figs/",name,".png", sep="")
+help(pairs)
+x = c(1,2,3)
+x.lenght
+x.length
+len(x)
+length(x)
+x[1]
+x[2]
+correlations = read.csv("correlations_vA.csv")
+length(correlations)
+correlations[6]
+correlations[7]
+correlations[8]
+correlations[9]
+correlations[10]
+correlations

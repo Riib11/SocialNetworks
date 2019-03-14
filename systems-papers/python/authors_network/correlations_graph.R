@@ -39,7 +39,7 @@ pairs(
   na.action = na.omit,
   
   pch = 21,
-  bg = rainbow(col_max-1),
+  # bg = rainbow(col_max-1),
   # bg = colors,
 
   upper.panel = NULL
