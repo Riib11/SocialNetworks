@@ -13,8 +13,7 @@ name = "Author Features Correlations Matrix"
 version = "A"
 png(
   filename = paste("figs/",name,".png", sep=""),
-  width = 1000,
-  height = 800
+  width = 2000, height = 2000
 )
 
 
