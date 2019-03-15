@@ -6,11 +6,20 @@
   - needed to match paper titles from s2 to original paper titles to get disambiguated conference names
 
 - measure correlations between various author features:
-  - hindex
-  - hindex10y
-
-- measure correlations between centralities with indecies (like H-index, H-index 5y, and npubs, pubs in 2017, how many program committees participates)
-- make neat visual graphing for correlations (scatter matrix, correlation plots)
+    - " npubs"
+    - " hindex"
+    - " hindex5y"
+    - " i10index"
+    - " i10index5y"
+    - " citedby"
+    - " as_pc_chair"
+    - " as_pc"
+    - " as_session_chair"
+    - " as_panelist"
+    - " as_keynote_speaker"
+    - " as_author" ]
+- these correlations are graphed via `pairs` from R in `authors_network/figs/Author Features Correlations Matrix.png`; using the script `correlations_graph.R`
+- these correlations are calculated via `cor`, `var`, and `cov` in `authors_network/numbers/Author Features Correlation Calculations.csv` extensively and a subtable in `authors_networks/numbers/Author Features Correlation Calculations.numbers`; using the script `correlations_calculations.R`
 
 ## February 29 - March 8
 
