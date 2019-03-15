@@ -3,7 +3,7 @@ setwd("~/SocialNetworks/systems-papers/python/authors_network/")
 ################################################################################
 # margins
 
-par(mar = c(5,5,5,5)) # doesn't seem to work...
+# par(mar = c(5,5,5,5)) # doesn't seem to work...
 
 ################################################################################
 # figure
@@ -13,7 +13,7 @@ name = "Author Features Correlations Matrix"
 version = "A"
 png(
   filename = paste("figs/",name,".png", sep=""),
-  width = 2000, height = 2000
+  width = 2000, height = 2000, res = 150, units = "px"
 )
 
 
@@ -43,8 +43,7 @@ pairs(
   # bg = colors,
 
   # upper.panel = NULL
-  lower.panel = NULL,
-  res = 800
+  lower.panel = NULL
 )
 
 # legend(
