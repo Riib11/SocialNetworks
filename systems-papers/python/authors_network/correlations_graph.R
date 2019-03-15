@@ -22,16 +22,24 @@ png(
 
 correlations = read.csv(paste("data/correlations_v",version,".csv", sep=""))
 
-# col_max = 6
-col_max = length(correlations) # 6
+# labels
 
-# colors = c("red", "green", "blue", "yellow", "black")
+# names(correlations)
+
+to_label = function(name) {
+  return(paste(
+    name,
+    paste("\n(",length(correlations[[name]])," points)", sep="")
+  ))
+}
 
 ################################################################################
 # plot
 
+col_max = length(correlations)
+
 pairs(
-  correlations[2 : col_max],
+  correlations[2:col_max],
 	
   main = name,
 
@@ -43,7 +51,8 @@ pairs(
   # bg = colors,
 
   # upper.panel = NULL
-  lower.panel = NULL
+  lower.panel = NULL,
+  labels = mapply(to_label, names(correlations[2:col_max]))
 )
 
 # legend(
