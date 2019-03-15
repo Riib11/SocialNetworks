@@ -42,7 +42,9 @@ pairs(
   # bg = rainbow(col_max-1),
   # bg = colors,
 
-  upper.panel = NULL
+  # upper.panel = NULL
+  lower.panel = NULL,
+  res = 800
 )
 
 # legend(

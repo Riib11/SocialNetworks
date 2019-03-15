@@ -343,7 +343,8 @@ class AuthorsNetwork:
 
     # centralities data
     for cent_key in CENTRALITY_KEYS:
-      centrality_dict = load_centrality_data(cent_key) # node_id => cent_val
+      # centrality_dict : node_id => cent_val
+      centrality_dict = load_centrality_data(cent_key)
       for author_id, cent_val in centrality_dict.items():
         author_name = self.author_names[author_id]
         cent_val = round(cent_val, 4)
@@ -351,17 +352,34 @@ class AuthorsNetwork:
 
     # personsfeatures data
     personsfeatures_keys = \
-      [" npubs", " hindex", " hindex5y", " i10index", " i10index5y"]
+      [ " npubs"
+      , " hindex"
+      , " hindex5y"
+      , " i10index"
+      , " i10index5y"
+      , " citedby"
+      , " as_pc_chair"
+      , " as_pc"
+      , " as_session_chair"
+      , " as_panelist"
+      , " as_keynote_speaker"
+      , " as_author" ]
+    
+    # remove annoying 'space' prefixes
+    personsfeatures_keys_stripped = \
+      map(lambda s: s.strip(), personsfeatures_keys)
 
     # print(data.keys())
 
     for author_name in data.keys():
       if author_name in self.persons_features_named:
         author_features = self.persons_features_named[author_name]
-
-        # print(author_name, author_features)
-        # print(author_features.keys())
-        # print(author_name, [ author_features[pf_key] for pf_key in personsfeatures_keys if pf_key in author_features.keys() ])
+        # print(author_features.items())
+        # exit()
+        # print(
+        #   [ author_features[k]
+        #     for k in [" as_pc_chair", " as_pc", " as_session_chair", " as_panelist", " as_keynote_speaker", " as_author"]
+        #     if k in author_features ])
         
         for pf_key in personsfeatures_keys:
           if pf_key in author_features:
