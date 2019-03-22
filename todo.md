@@ -2,8 +2,6 @@
 
 ## !!!
 
-- export adjacency matrix for clustering (for PapersNetwork)
-
 - reproduce graph of conference citations (with new conference names)
 
 ## !!

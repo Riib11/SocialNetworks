@@ -15,6 +15,7 @@
 
 - copy over semantic scholar id data to Eitan; mapping paper_key => s2id (PODC_10_001)
 
+- export adjacency matrix for clustering (for PapersNetwork)
 
 ## March 9 - March 15
 
