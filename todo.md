@@ -2,7 +2,6 @@
 
 ## !!!
 
-- `Winsorize` function in r (removes outliers) (use `prob` interval)
 - spend some time looking at correlations and pairs matrix and see what the relationship between different ones are somehow
 - hypothesis: there is no relationship between how collaborative you are and your "influence score" (e.g. hindex, i10index)
 

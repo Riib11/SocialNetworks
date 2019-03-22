@@ -1,5 +1,10 @@
 # Done
 
+## March 16 - March 22
+
+- `Winsorize` function in r (removes outliers) (use `prob` interval)
+
+
 ## March 9 - March 15
 
 - colored papers graph by conferences

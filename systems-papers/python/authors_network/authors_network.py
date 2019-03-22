@@ -100,8 +100,11 @@ class AuthorsNetwork:
       
       if author_name in self.persons_features_named:
         pf = self.persons_features_named[author_name]
-        for key, value in pf.items(): node_attr[key] = pf[key]
+        debug(pf)
+        for key, value in pf.items():
+          node_attr[key] = str(value)
         self.used_names.add(author_name)
+    exit()
 
     # edges
     for author_id, paper_ids in self.authors.items():
@@ -352,18 +355,18 @@ class AuthorsNetwork:
 
     # personsfeatures data
     personsfeatures_keys = \
-      [ " npubs"
-      , " hindex"
-      , " hindex5y"
-      , " i10index"
-      , " i10index5y"
-      , " citedby"
-      , " as_pc_chair"
-      , " as_pc"
-      , " as_session_chair"
-      , " as_panelist"
-      , " as_keynote_speaker"
-      , " as_author" ]
+      [ "npubs"
+      , "hindex"
+      , "hindex5y"
+      , "i10index"
+      , "i10index5y"
+      , "citedby"
+      , "as_pc_chair"
+      , "as_pc"
+      , "as_session_chair"
+      , "as_panelist"
+      , "as_keynote_speaker"
+      , "as_author" ]
     
     # remove annoying 'space' prefixes
     personsfeatures_keys_stripped = \

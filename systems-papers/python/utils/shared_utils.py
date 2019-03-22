@@ -90,7 +90,10 @@ def load_csv_file(fn, force=True):
     data = []
     try:
         with open(fn, mode="r", encoding='utf-8') as f:
-            reader = csv.DictReader(f)
+            reader = csv.DictReader(f,
+                quotechar='"',
+                quoting=csv.QUOTE_MINIMAL,
+                skipinitialspace=True)
             data = list(reader)
     except OSError:
         print("Couldn't read file ", fn);
