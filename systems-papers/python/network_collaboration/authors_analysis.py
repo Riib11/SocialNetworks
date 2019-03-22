@@ -54,7 +54,7 @@ if False:
   message("Analyzing Centralities Correlations")
   G.print_centralities_correlations()
 
-if True:
+if False:
   message("Saving All Correlations to CSV")
   G.save_all_correlations()
 
@@ -96,6 +96,6 @@ if False:
     G.print_high_centraltity_authors(centrality, n)
 
 ################################################################################
-if False:
+if True:
   message("Writing Network File")
   G.write()
