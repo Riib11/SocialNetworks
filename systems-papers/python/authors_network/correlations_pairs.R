@@ -11,7 +11,7 @@ setwd("~/SocialNetworks/systems-papers/python/authors_network/")
 name <- "Author-Features-Correlations-Matrix"
 version <- "A"
 
-winsorization_fraction <- 0.15
+winsorization_fraction <- 0.0
 
 attributes <- paste(
   paste("wf",winsorization_fraction,sep="="),
@@ -63,19 +63,23 @@ values <- data_table[2:length(data_table)]
 # }
 # test()
 
-winsorize <- function (x) {
-  frac <- winsorization_fraction
+winsorize <- function (x, frac) {
   lim <- quantile(x, probs=c(frac, 1-frac), na.rm = TRUE)
-  x <- x[ is.na(x) || ((lim[1] <= x) & (x <= lim[2])) ]
+  x[ is.na(x) | x < lim[1] | x > lim[2] ] <- NA 
   x
 }
 
-values_winsorized <- values
+# dfw <- apply(df, 1, function(col) winsorize(col, frac))
+# cor(dfw)
+
+Z <- values
 
 for (i in c(1:9)) {
-  x <- values_winsorized[i][[1]]
-  values_winsorized[i] <- winsorize(x)
+  x <- Z[i][[1]]
+  Z[i] <- winsorize(x, winsorization_fraction)
 }
+
+plot(Z[])
 
 # values_winsorized[1:9] <- mapply(winsorize, values[1:9])
 
@@ -83,7 +87,7 @@ for (i in c(1:9)) {
 # plot
 
 pairs(
-  values_winsorized,
+  Z,
 	
   main = name,
 

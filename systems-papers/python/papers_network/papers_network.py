@@ -118,6 +118,11 @@ class PapersNetwork:
     with open(DIR_DATA+"adjacency_matrix.npz", "wb+") as file:
       sparse.save_npz(file, adjmat)
 
+  def save_adjacency_matrix_csv(self):
+    adjmat = self.get_adjacency_matrix()
+    with open(DIR_DATA+"adjacency_matrix.csv", "w+") as file:
+      np.savetxt(file, adjmat, delimiter=",")
+
 def extract_author_id(author):
   # success - author in data set (has id)
   if "ids" in author and len(author["ids"]) > 0: return author["ids"][0]

@@ -2,9 +2,8 @@
 
 ## !!!
 
-- reproduce graph of conference citations (with new conference names)
-
-## !!
+- email Eitan the papers=>keys mapping
+- email Eitan the csv for papers and authors networks adjacency matrices
 
 - look up info on how centralities are used (in data science)
 
@@ -12,6 +11,13 @@
   - what do centrality measures say about authors (noting don't correlate strongly with index values)
   - how related systems conferences are (systemy-like)
   - read paper from Eitan
+
+- reproduce graph of conference citations (with new conference names)
+
+- redo that pairs matrix with new personsdata
+
+## !!
+
 
 - find authors for high eigenvector group in AuthorsNetwork
 

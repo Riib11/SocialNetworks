@@ -39,36 +39,4 @@ G = PapersNetwork()
 G.add_papers(papers)
 G.fill_graph()
 
-G.save_adjacency_matrix_csv()
-quit()
-
-
-################################################################################
-# Analysis
-if False:
-  print("[*] Analyzing Network Statistics")
-  G.print_statistics()
-
-if False:
-  print("[*] Calculating Network Centralities")
-  G.calculate_centralities()
-
-################################################################################
-# Present Results
-if False:
-  print("[*] Preparing Results for Presentation")
-  G.plot_centralities()
-
-################################################################################
-# Attributes
-if False:
-  centrality_name = "betweenness"
-  print("[*] Coloring nodes by "+centrality_name+" centrality")
-  G.fill_node_centralities(centrality_name)
-
-
-################################################################################
-# Write gexf
-if True:
-  print("[*] Writing Network File")
-  G.write()
+# G.save_adjacency_matrix_csv()
