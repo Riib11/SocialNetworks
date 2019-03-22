@@ -2,7 +2,6 @@
 
 ## !!!
 
-- copy over semantic scholar id data to Eitan; mapping paper_key => s2id (PODC_10_001)
 - export adjacency matrix for clustering (for PapersNetwork)
 
 - reproduce graph of conference citations (with new conference names)

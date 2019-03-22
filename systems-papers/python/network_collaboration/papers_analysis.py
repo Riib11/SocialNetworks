@@ -16,6 +16,7 @@ import utils.conf_utils as conf_utils
 import utils.shared_utils as utils
 import utils.combinatorics as u_combos
 from tqdm import tqdm
+import networkx as nx
 
 # modules
 import utils.data as u_data
@@ -37,6 +38,10 @@ print("[*] Creating Papers Network")
 G = PapersNetwork()
 G.add_papers(papers)
 G.fill_graph()
+
+G.save_adjacency_matrix()
+quit()
+
 
 ################################################################################
 # Analysis

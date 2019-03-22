@@ -13,7 +13,7 @@
 - spend some time looking at correlations and pairs matrix and see what the relationship between different ones are somehow
 - hypothesis: there is no relationship between how collaborative you are and your "influence score" (e.g. hindex, i10index)
 
-
+- copy over semantic scholar id data to Eitan; mapping paper_key => s2id (PODC_10_001)
 
 
 ## March 9 - March 15

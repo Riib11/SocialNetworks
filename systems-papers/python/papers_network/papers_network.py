@@ -4,6 +4,7 @@ import matplotlib.pyplot as plt
 from matplotlib.ticker import FormatStrFormatter
 import conferences.conferences as conf_data
 from utils.json import *
+from scipy import sparse
 
 DIR_PARENT = "papers_network/"
 DIR_DATA   = DIR_PARENT + "data/"
@@ -109,8 +110,13 @@ class PapersNetwork:
 
     self.attributes["cc-rank"] = cc_rank
 
-      
+  def get_adjacency_matrix(self):
+    return nx.adjacency_matrix(self.graph)
 
+  def save_adjacency_matrix(self):
+    adjmat = self.get_adjacency_matrix()
+    with open(DIR_DATA+"adjacency_matrix.npz", "wb+") as file:
+      sparse.save_npz(file, adjmat)
 
 def extract_author_id(author):
   # success - author in data set (has id)
