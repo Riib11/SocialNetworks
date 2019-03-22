@@ -100,11 +100,9 @@ class AuthorsNetwork:
       
       if author_name in self.persons_features_named:
         pf = self.persons_features_named[author_name]
-        debug(pf)
         for key, value in pf.items():
           node_attr[key] = str(value)
         self.used_names.add(author_name)
-    exit()
 
     # edges
     for author_id, paper_ids in self.authors.items():

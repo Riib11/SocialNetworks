@@ -28,6 +28,7 @@ from papers_network.papers_network import PapersNetwork
 print("[*] Loading Data")
 
 papers = s2data.get_dict_gA()
+print()
 
 ################################################################################
 # Initialization

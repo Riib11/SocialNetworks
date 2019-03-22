@@ -2,21 +2,14 @@
 
 ## !!!
 
-- spend some time looking at correlations and pairs matrix and see what the relationship between different ones are somehow
-- hypothesis: there is no relationship between how collaborative you are and your "influence score" (e.g. hindex, i10index)
-
-- color author network by gender, country, other personsfeatures
+- copy over semantic scholar id data to Eitan; mapping paper_key => s2id (PODC_10_001)
+- export adjacency matrix for clustering (for PapersNetwork)
 
 - reproduce graph of conference citations (with new conference names)
 
-- copy over semantic scholar id data to Eitan; mapping paper_key => s2id (PODC_10_001)
-
-- export adjacency matrix for clustering (for PapersNetwork)
+## !!
 
 - look up info on how centralities are used (in data science)
-
-
-## !!
 
 - say something summarizing about
   - what do centrality measures say about authors (noting don't correlate strongly with index values)
