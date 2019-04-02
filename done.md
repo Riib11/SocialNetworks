@@ -1,5 +1,12 @@
 # Done
 
+## April 1 - April 5
+
+- email Eitan the papers=>keys mapping
+
+- redo that pairs matrix with properly parsed personsdata
+
+
 ## March 16 - March 22
 
 - `Winsorize` function in r (removes outliers) (use `prob` interval)

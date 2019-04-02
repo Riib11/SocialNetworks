@@ -8,18 +8,22 @@ setwd("~/SocialNetworks/systems-papers/python/authors_network/")
 ################################################################################
 # figure
 
+version <- "A1"
 name <- "Author-Features-Correlations-Matrix"
-version <- "A"
 
 winsorization_fraction <- 0.0
 
 attributes <- paste(
-  paste("wf",winsorization_fraction,sep="="),
-  sep="-")
+  paste("wf", winsorization_fraction, sep="="),
+  paste("v", version, sep="="),
+sep="-")
 
 png(
   filename = paste("figs/",name,"_",attributes,".png", sep=""),
-  width    = 2000, height = 2000, res = 150, units = "px"
+  width    = 2000,
+  height   = 2000,
+  res      = 150,
+  units    = "px"
 )
 
 

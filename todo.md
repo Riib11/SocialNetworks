@@ -2,8 +2,8 @@
 
 ## !!!
 
-- email Eitan the papers=>keys mapping
 - email Eitan the csv for papers and authors networks adjacency matrices
+  - need to convert `.nbz` to `.csv`
 
 - look up info on how centralities are used (in data science)
 
@@ -14,10 +14,7 @@
 
 - reproduce graph of conference citations (with new conference names)
 
-- redo that pairs matrix with new personsdata
-
 ## !!
-
 
 - find authors for high eigenvector group in AuthorsNetwork
 

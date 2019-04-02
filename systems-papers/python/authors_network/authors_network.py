@@ -15,7 +15,25 @@ DIR_DATA   = DIR_PARENT + "data/"
 DIR_GEPHI  = DIR_PARENT + "gephi/"
 DIR_FIGS   = DIR_PARENT + "figs/"
 
-CENTRALITY_KEYS = ["degree", "eigenvector", "betweenness", "closeness"]
+CENTRALITY_KEYS = \
+  [ "degree"
+  , "eigenvector"
+  , "betweenness"
+  , "closeness" ]
+
+PERSONSFEATURES_KEYS = \
+      [ "npubs"
+      , "hindex"
+      , "hindex5y"
+      , "i10index"
+      , "i10index5y"
+      , "citedby"
+      , "as_pc_chair"
+      , "as_pc"
+      , "as_session_chair"
+      , "as_panelist"
+      , "as_keynote_speaker"
+      , "as_author" ]
 
 def save_centrality_data(centrality_name, data, suffix=""):
   dump_json(data, DIR_DATA+centrality_name+"_centralities"+suffix)
@@ -351,25 +369,6 @@ class AuthorsNetwork:
         cent_val = round(cent_val, 4)
         set_attr(author_name, cent_key, cent_val)
 
-    # personsfeatures data
-    personsfeatures_keys = \
-      [ "npubs"
-      , "hindex"
-      , "hindex5y"
-      , "i10index"
-      , "i10index5y"
-      , "citedby"
-      , "as_pc_chair"
-      , "as_pc"
-      , "as_session_chair"
-      , "as_panelist"
-      , "as_keynote_speaker"
-      , "as_author" ]
-    
-    # remove annoying 'space' prefixes
-    personsfeatures_keys_stripped = \
-      map(lambda s: s.strip(), personsfeatures_keys)
-
     # print(data.keys())
 
     for author_name in data.keys():
@@ -382,7 +381,7 @@ class AuthorsNetwork:
         #     for k in [" as_pc_chair", " as_pc", " as_session_chair", " as_panelist", " as_keynote_speaker", " as_author"]
         #     if k in author_features ])
         
-        for pf_key in personsfeatures_keys:
+        for pf_key in PERSONSFEATURES_KEYS:
           if pf_key in author_features:
             try:
               pf_val = int(author_features[pf_key].strip())
@@ -391,7 +390,7 @@ class AuthorsNetwork:
             set_attr(author_name, pf_key, pf_val)
 
     correlations.save_correlations_csv(
-      CENTRALITY_KEYS + personsfeatures_keys,
+      CENTRALITY_KEYS + PERSONSFEATURES_KEYS,
       data,
       DIR_DATA)
 
