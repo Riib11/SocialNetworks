@@ -4,8 +4,7 @@
 
 - reproduce graph of conference citations (with new conference names)
 
-- email Eitan the csv for papers and authors networks adjacency matrices
-  - need to convert `.nbz` to `.csv`
+- make notes on authors pairs matrix
 
 - look up info on how centralities are used (in data science)
 
@@ -13,7 +12,6 @@
   - what do centrality measures say about authors (noting don't correlate strongly with index values)
   - how related systems conferences are (systemy-like)
   - read paper from Eitan
-
 
 ## !!
 

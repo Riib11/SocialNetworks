@@ -2,9 +2,11 @@
 
 ## April 1 - April 5
 
-- email Eitan the papers=>keys mapping
+- emailed Eitan the csv for papers and authors networks adjacency matrices
 
-- redo that pairs matrix with properly parsed personsdata
+- emailed Eitan the papers=>keys mapping
+
+- redid that pairs matrix with properly parsed personsdata
 
 - created adjacency matrices for AuthorsNetork and PapersNetwork
   - they are indexed by the semantic scholar ids for both authors and papers

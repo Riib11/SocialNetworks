@@ -49,8 +49,7 @@ class AuthorsNetwork:
     self.author_names = {} # author_id => string
 
     # author_name => person_features
-    self.persons_features_named = \
-      { f["name"]: f for f in pf_data.getPersonsFeatures() }
+    self.persons_features_named = { f["name"]: f for f in pf_data.getPersonsFeatures() }
     # author_id => person_features
     self.persons_features = {}
     
