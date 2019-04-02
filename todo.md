@@ -2,6 +2,8 @@
 
 ## !!!
 
+- reproduce graph of conference citations (with new conference names)
+
 - email Eitan the csv for papers and authors networks adjacency matrices
   - need to convert `.nbz` to `.csv`
 
@@ -12,10 +14,10 @@
   - how related systems conferences are (systemy-like)
   - read paper from Eitan
 
-- reproduce graph of conference citations (with new conference names)
 
 ## !!
 
+- create mapping between semantic scholar author ids and normalized author names (same way as the one I made for papers)
 - find authors for high eigenvector group in AuthorsNetwork
 
 ## !

@@ -8,6 +8,7 @@ import authors.persons_features as pf_data
 from utils.debug import *
 import utils.shared_utils as utils
 from utils.json import *
+import csv
 import authors_network.correlations as correlations
 
 DIR_PARENT = "authors_network/"

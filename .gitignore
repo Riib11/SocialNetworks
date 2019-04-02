@@ -1,12 +1,14 @@
 systems-papers/authors/
 systems-papers/sys-papers/
 systems-papers/semantic-scholar/
+systems-papers/python/authors_network/data/adjacency_matrix.csv
+systems-papers/python/papers_network/data/adjacency_matrix.csv
 
 __pycache__
-*/.pyc
-*/.DS_Store
-*/.Rhistory
-*/.Rapp.history
+.pyc
+.DS_Store
+.Rhistory
+.Rapp.history
 
 data/dict_gB.json
 data/old/citedsdict.json

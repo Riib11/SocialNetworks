@@ -6,6 +6,9 @@
 
 - redo that pairs matrix with properly parsed personsdata
 
+- created adjacency matrices for AuthorsNetork and PapersNetwork
+  - they are indexed by the semantic scholar ids for both authors and papers
+
 
 ## March 16 - March 22
 
