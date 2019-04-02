@@ -5,6 +5,7 @@ from matplotlib.ticker import FormatStrFormatter
 import conferences.conferences as conf_data
 from utils.json import *
 from scipy import sparse
+import csv
 
 DIR_PARENT = "papers_network/"
 DIR_DATA   = DIR_PARENT + "data/"
@@ -113,15 +114,22 @@ class PapersNetwork:
   def get_adjacency_matrix(self):
     return nx.adjacency_matrix(self.graph)
 
-  def save_adjacency_matrix(self):
+  def save_adjacency_matrix_npz(self):
     adjmat = self.get_adjacency_matrix()
-    with open(DIR_DATA+"adjacency_matrix.npz", "wb+") as file:
-      sparse.save_npz(file, adjmat)
+    with open(DIR_DATA+"adjacency_matrix.npz", "wb+") as file: sparse.save_npz(file, adjmat)
 
   def save_adjacency_matrix_csv(self):
     adjmat = self.get_adjacency_matrix()
+    adjmat_list = adjmat.todense().tolist()
+
     with open(DIR_DATA+"adjacency_matrix.csv", "w+") as file:
-      np.savetxt(file, adjmat, delimiter=",")
+      writer = csv.writer(file)
+      node_ids = list(self.graph.nodes())
+      writer.writerow([""] + node_ids)
+      for node_i in range(len(node_ids)):
+        node_id = node_ids[node_i]
+        adjmat_row = list(map(str,adjmat_list[node_i]))
+        writer.writerow([node_id] + adjmat_row)
 
 def extract_author_id(author):
   # success - author in data set (has id)

@@ -415,28 +415,25 @@ class AuthorsNetwork:
     # for node, centrality in centrality_data.items():
     #   print(self.graph.node[node])
 
+  def get_adjacency_matrix(self):
+    return nx.adjacency_matrix(self.graph)
 
+  def save_adjacency_matrix_npz(self):
+    adjmat = self.get_adjacency_matrix()
+    with open(DIR_DATA+"adjacency_matrix.npz", "wb+") as file: sparse.save_npz(file, adjmat)
 
-  def to_adjacency_matrix(self):
-    # matrix of author-author collaborations
-    matrix = [[ 0
-      for _ in range(len(self.authors)) ]
-      for _ in range(len(self.authors))  ]
-    # calculate author indices
-    authors_is = {}
-    author_i = 0
-    for author_id in self.authors.keys():
-      authors_is[author_id] = author_i
-      author_i += 1
-    # fill author-author edges
-    for author_id in self.authors.keys():
-      for a_id in self.get_author_collaborators(author_id):
-        matrix[ authors_is[author_id] ][ authors_is[a_id] ] = 1
-    return np.matrix(matrix)
+  def save_adjacency_matrix_csv(self):
+    adjmat = self.get_adjacency_matrix()
+    adjmat_list = adjmat.todense().tolist()
 
-  # transpose of adjacency matrix
-  def to_transformed_adjacency_matrix(self):
-    return self.to_adjacency_matrix().T
+    with open(DIR_DATA+"adjacency_matrix.csv", "w+") as file:
+      writer = csv.writer(file)
+      node_ids = list(self.graph.nodes())
+      writer.writerow([""] + node_ids)
+      for node_i in range(len(node_ids)):
+        node_id = node_ids[node_i]
+        adjmat_row = list(map(str,adjmat_list[node_i]))
+        writer.writerow([node_id] + adjmat_row)
 
   # nodes are given a value cc-size indicating the size (in nodes) of the
   # connected component they are a part of

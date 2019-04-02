@@ -102,7 +102,6 @@ def load_csv_file(fn, force=True):
 
     return data
 
-
 ##############################################################################
 # load_json_file(): Try to read a JSON file and return its contents.
 # If it's not there, either throw an error or ignore (depending on 'force').

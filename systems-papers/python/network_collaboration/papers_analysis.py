@@ -15,6 +15,7 @@ import numpy as np
 import utils.conf_utils as conf_utils
 import utils.shared_utils as utils
 import utils.combinatorics as u_combos
+import utils.debug as debug
 from tqdm import tqdm
 import networkx as nx
 
@@ -26,49 +27,51 @@ from papers_network.papers_network import PapersNetwork
 
 ################################################################################
 # Load Data
-print("[*] Loading Data")
+debug.message("Loading Data")
 
 papers = s2data.get_dict_gA()
 print()
 
 ################################################################################
 # Initialization
-print("[*] Creating Papers Network")
+debug.message("Creating Papers Network")
 
 G = PapersNetwork()
 G.add_papers(papers)
 G.fill_graph()
 
-G.save_adjacency_matrix_csv()
-quit()
+if True:
+  debug.message("Analyzing Network Statistics")
+  G.save_adjacency_matrix_csv()
+  quit()
 
 
 ################################################################################
 # Analysis
 if False:
-  print("[*] Analyzing Network Statistics")
+  debug.message("Analyzing Network Statistics")
   G.print_statistics()
 
 if False:
-  print("[*] Calculating Network Centralities")
+  debug.message("Calculating Network Centralities")
   G.calculate_centralities()
 
 ################################################################################
 # Present Results
 if False:
-  print("[*] Preparing Results for Presentation")
+  debug.message("Preparing Results for Presentation")
   G.plot_centralities()
 
 ################################################################################
 # Attributes
 if False:
   centrality_name = "betweenness"
-  print("[*] Coloring nodes by "+centrality_name+" centrality")
+  debug.message("Coloring nodes by "+centrality_name+" centrality")
   G.fill_node_centralities(centrality_name)
 
 
 ################################################################################
 # Write gexf
-if True:
-  print("[*] Writing Network File")
+if False:
+  debug.message("Writing Network File")
   G.write()
