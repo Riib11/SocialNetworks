@@ -37,8 +37,12 @@ G = AuthorsNetwork()
 for paper_id, paper in papers.items(): G.add_paper(paper)
 G.fill_graph()
 
-if True:
+if False:
   G.save_adjacency_matrix_csv()
+  quit()
+
+if True:
+  G.save_author_id_to_author_name_email_csv()
   quit()
 
 ################################################################################

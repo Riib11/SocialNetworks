@@ -2,8 +2,12 @@
 
 ## April 1 - April 5
 
-- emailed Eitan the csv for papers and authors networks adjacency matrices
+- discovered problem with idea to make conferences citation network more accurate with semantic scholar conference data:
+  - the new data only tells us about paper=>conference in group A, but what the graph relies on is just as much the paper=>conference if group B.
+  - the new data is that we have the semantic scholar id for each paper as well as its conference. But the semantic scholar data for conferences is not usable (not standardized). so since we don't have the conference data for papers in group B, there is no new data about group B's conferences and thus the group A -> group B conference citation network
 
+- email Eitan the csv for author_id => (author_name, author_email mapping)
+- emailed Eitan the csv for papers and authors networks adjacency matrices
 - emailed Eitan the papers=>keys mapping
 
 - redid that pairs matrix with properly parsed personsdata

@@ -9,6 +9,7 @@ from utils.debug import *
 import utils.shared_utils as utils
 from utils.json import *
 import csv
+from tqdm import tqdm
 import authors_network.correlations as correlations
 
 DIR_PARENT = "authors_network/"
@@ -485,6 +486,28 @@ class AuthorsNetwork:
     if False:
       message("number of nodes:",self.graph.number_of_nodes())
       exit()
+
+  def get_author_id_to_author_name_email_dict(self):
+    # self.author_names     : author_id => author_name
+    # self.persons_features : author_id => person_features
+    # author_name_email : author_id => (author_name, author_email)
+    author_name_email = {}
+
+    missing = []
+    for author_id, person_features in self.persons_features.items():
+      author_name = self.author_names[author_id]
+      author_email = person_features["gs_email"] if "gs_email" in person_features else ""
+      author_name_email[author_id] = (author_name, author_email)
+
+    return author_name_email
+
+  def save_author_id_to_author_name_email_csv(self):
+    author_name_email = self.get_author_id_to_author_name_email_dict()
+    with open(DIR_DATA+"author_id_to_author_name_email.csv", "w+") as file:
+      writer = csv.writer(file)
+      writer.writerow(["author_id", "author_name", "author_email"])
+      for author_id, (author_name, author_email) in tqdm(author_name_email.items()):
+        writer.writerow([author_id, author_name, author_email])
 
 def extract_author_id_name(author):
   # success - author in data set (has id)
