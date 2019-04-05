@@ -2,6 +2,8 @@
 
 ## April 1 - April 5
 
+- created proper and more validly-Winsorized pairs graph for authors features. only Winsorize first 9 (finely-grained) features, and found that Winsorize-fraction=0.02 is about good
+
 - read: _On the Compliance of Women Engineers with a Gendered Scientific System_
   - information on social networks by gender in different disciplines
   - shows use of several centrality and feature measures in networks:

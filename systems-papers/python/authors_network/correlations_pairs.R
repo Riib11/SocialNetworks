@@ -11,9 +11,12 @@ setwd("~/SocialNetworks/systems-papers/python/authors_network/")
 version <- "A1"
 name <- "Author-Features-Correlations-Matrix"
 
-winsorization_fraction <- 0.1
-winsorization_features <- c(1:4)
-winsorization_features_str <- paste(winsorization_features[1], winsorization_features[length(winsorization_features)], sep="-")
+winsorization_fraction <- 0.02
+winsorization_features <- c(1:9)
+winsorization_features_str <- paste(
+  winsorization_features[1],
+  winsorization_features[length(winsorization_features)],
+sep="to")
 
 attributes <- paste(
   paste("wfrac", winsorization_fraction, sep="="),
