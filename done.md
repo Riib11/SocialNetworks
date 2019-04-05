@@ -2,6 +2,54 @@
 
 ## April 1 - April 5
 
+- read: _On the Compliance of Women Engineers with a Gendered Scientific System_
+  - information on social networks by gender in different disciplines
+  - shows use of several centrality and feature measures in networks:
+    - degree centrality
+    - citations count
+    - number of authors per paper
+  - shows examples of co-authorship network visualizations:
+    - style: _hairballs_
+    - clustered by proximity of research subject or geographic proximity
+  - classifying types of collaborations
+  - references:
+    - [37] Newman ME. The structure of scientific collaboration networks
+      - collaborations across disciplines
+    - [43,45,46] Whittington KCB. Gender and Scientific Dissemination in Public and Private Science: A Multivariate and Network Approach. 2006
+    & Sugimoto CR, Ni C, West JD, Larivière V. Innovative women: an analysis of global gender disparities in patenting
+    & Whittington KB, Smith-Doerr L. Gender and commercial science: Women’s patenting in the life sci- ences. J Technol Transf. 2005
+      - gender disparity affected by where work is conducted
+    - [14,50] Etzkowitz H, Kemelgor C, Uzzi B. Athena unbound: The advancement of women in science and tech- nology
+    & Sagebiel F. New Initiatives in Science and Technology and Mathematics Education at the Formal Level: Masculinity cultures in engineering departments in institutions of higher education and perspec- tives for social change
+      - engineering linked with masculinity
+    - [52] Evetts J. Managing the technology but not the organization: Women and career in engineering. Women Manag Rev. 1998
+      - women required to put extra effort into work for same respect
+    - [22] Leahey E. Gender differences in productivity research specialization as a missing link. Gend Soc. 2006
+      - women specialize less than men in research, perhaps resulting in less citations and influence
+
+- read: _Scientific Collaboration_
+  - subsection: Social Networks and Personal Factors
+    - cross-disciplinary collaboration
+    - personal connections lead to collaborations:
+      - co-authorship network shortest path distance
+      - geographic closeness
+      - cultural closeness
+      - types of research institution (industry/university)
+    - subsection: Emergent Challenges
+      - factors relevant for sustained funding
+        - geographic proximity of collaborators
+        - number of people in a given institution that are involved a given collaboration
+        - size of collaboration (number of co-authors)
+  - references:
+    - Newman 2001 - The Structure of Scientific Collaborations
+      - about which authors are likely to collaborate
+    - Newman 2004 - Co-authorship networks and patterns of scientific collaboration
+      - about collaboration facilitated across disciplines
+    - Maglaughin, Sonnerwald 2005 - Factors that impact interdisciplinary natural science research collaboration in academia
+      - how enjoyable successful collaborations can be
+    - Lian, Guo, David 2002 - Collaborative patterns and age structures in Chinese publications
+      - less mid-career scientists right now because of effects of Chinese Cultural Revolution
+
 - discovered problem with idea to make conferences citation network more accurate with semantic scholar conference data:
   - the new data only tells us about paper=>conference in group A, but what the graph relies on is just as much the paper=>conference if group B.
   - the new data is that we have the semantic scholar id for each paper as well as its conference. But the semantic scholar data for conferences is not usable (not standardized). so since we don't have the conference data for papers in group B, there is no new data about group B's conferences and thus the group A -> group B conference citation network

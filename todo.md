@@ -2,10 +2,7 @@
 
 ## !!!
 
-- make notes on authors pairs matrix
-- read: _On the Compliance of Women Engineers with a Gendered Scientific System_
-- read: _Scientific Collaboration_
-
+- make notes on authors pairs matrix (raise Winsorize function)
 <!-- revise: reproduce graph of conference citations (with new conference names) -->
 - create conferences collaborations network
 - created mapping between semantic scholar author ids and normalized author names (same way as the one I made for papers)
