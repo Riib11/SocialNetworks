@@ -37,11 +37,15 @@ G = AuthorsNetwork()
 for paper_id, paper in papers.items(): G.add_paper(paper)
 G.fill_graph()
 
+if True:
+  print("correlation: ", G.correlate_closeness_npubs())
+  quit()
+
 if False:
   G.save_adjacency_matrix_csv()
   quit()
 
-if True:
+if False:
   G.save_author_id_to_author_name_email_csv()
   quit()
 

@@ -1,5 +1,7 @@
 setwd("~/SocialNetworks/systems-papers/python/authors_network/")
 
+library(psych)
+
 ################################################################################
 # margins
 
@@ -89,26 +91,34 @@ for (i in winsorization_features) {
   Z[i] <- winsorize(x, winsorization_fraction)
 }
 
-plot(Z[])
+# plot(Z[])
 
 # values_winsorized[1:9] <- mapply(winsorize, values[1:9])
 
 ################################################################################
 # plot
 
-pairs(
+psych::pairs.panels(
   Z,
-	
-  main = name,
-
-  # log = "xy", # causes 32 warnings
-  na.action = na.omit,
-  
-  pch = 21,
-
-  # upper.panel = NULL
-  lower.panel = NULL,
-  labels = mapply(to_label, names(data_table[2:length(data_table)]))
+  method  = "pearson",
+  density = TRUE,
+  lm      = F
 )
+
+
+# pairs(
+#   Z,
+	
+#   main = name,
+
+#   # log = "xy", # causes 32 warnings
+#   na.action = na.omit,
+  
+#   pch = 21,
+
+#   # upper.panel = NULL
+#   lower.panel = NULL,
+#   labels = mapply(to_label, names(data_table[2:length(data_table)]))
+# )
 
 dev.off()

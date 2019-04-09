@@ -61,6 +61,12 @@ class AuthorsNetwork:
 
     self.graph = nx.Graph()
 
+  def correlate_closeness_npubs(self):
+    closenesses = nx.closeness_centrality(self.graph)
+    c = [ closenesses[aid] for aid in closenesses.keys() if "npubs" in self.persons_features[aid] ]
+    p = [ self.persons_features[aid]["npubs"] for aid in closenesses.keys() if "npubs" in self.persons_features[aid] ]
+    return np.corrcoef(c, p)
+
   def write(self):
     suffix = "".join(
       [ "_" + k + "=" + str(v)
