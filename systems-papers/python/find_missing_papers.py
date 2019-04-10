@@ -19,9 +19,9 @@ def is_known(paper_title):
 
 missing_titles = ["hello"]
 
-#for paper in tqdm(papers):
-#  title = paper["title"]
-#  if not is_known(title): missing_titles.append(title)
+for paper in tqdm(papers):
+  title = paper["title"]
+  if not is_known(title): missing_titles.append(title)
 
 print("="*80)
 print("\n".join(missing_titles))
