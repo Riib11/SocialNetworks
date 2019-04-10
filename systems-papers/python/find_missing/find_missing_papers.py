@@ -5,6 +5,9 @@ from tqdm import tqdm
 
 VERSION = 2
 
+source_fn = "finding_missing/find_missing_papers_result.txt"
+target_fn = "finding_missing/find_missing_papers_result_{0}.txt".format(VERSION)
+
 known        = s2_data.get_dict_gA()
 known_titles = [ p["title"] for p in known.values() ]
 title_to_id  = { p["title"] : p_id for p_id, p in known.items() }
@@ -14,7 +17,7 @@ title_to_id  = { p["title"] : p_id for p_id, p in known.items() }
 # papers       = sum([ conf_papers for conf_name, conf_papers in conferences ], [])
 # paper_titles = [ p["title"] for p in papers ]
 
-with open("find_missing_papers_result.txt") as file:
+with open(source_fn) as file:
   paper_titles = [ line.strip() for line in file ]
 
 match_threshold = 5
@@ -38,6 +41,5 @@ print("\n".join(missing_titles))
 print("="*80)
 print("total:", len(missing_titles))
 
-result_fn = "find_missing_papers_result_{0}.txt".format(VERSION)
-print("missing paper titles written to:", result_fn)
-with open(result_fn, "w+") as file: file.write("\n".join(missing_titles) + "\n")
+print("missing paper titles written to:", target_fn)
+with open(target_fn, "w+") as file: file.write("\n".join(missing_titles) + "\n")
