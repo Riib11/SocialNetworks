@@ -2,14 +2,17 @@
 
 ## !!!
 
+
+!!!
+- run `find_missing_papers.py` to find all of the sub-5-edit-distance papers from the 947 that are not exact title matches
+  - these resulting titles you need to look up in semantic scholar and manually download
+
 - look at authors centralities and write explanation of how they relate and what the significances are, wrapping up!
 
 - look up info on how centralities are used (in data science)
 - say something summarizing about
   - what do centrality measures say about authors (noting don't correlate strongly with index values)
   - how related systems conferences are (systems-like)
-
-- go onto fries and see if `/home/blancheh/semsch/processed/missing_gA.json` has the semantic scholar data for the missing papers. if it does, then add that to my local `gA.json`. if not, then run `system-papers/missing/grep_missing_gA.json` (as its looks on local) and it fill fill `/home/blancheh/semsch/processed/missing_gA.json`
 
 - make notes on authors pairs matrix (raise Winsorize function)
 <!-- revise: reproduce graph of conference citations (with new conference names) -->
