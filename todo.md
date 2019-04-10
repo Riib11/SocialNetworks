@@ -2,6 +2,9 @@
 
 ## !!!
 
+!!!
+- go through `found_urls.txt` and get their semantic scholar paper objects from database
+
 
 !!!
 - run `find_missing_papers.py` to find all of the sub-5-edit-distance papers from the 947 that are not exact title matches

@@ -1,5 +1,4 @@
-https://www.semanticscholar.org/search?q=ARM%20Wrestling%20with%20Big%20Data%3A%20A%20Study%20of%20Commodity%20ARM%20Server%20for%20Big%20Data%20Workloads&sort=relevance
-!
+https://www.semanticscholar.org/paper/ARM-Wrestling-with-Big-Data%3A-A-Study-of-ARM64-and-Kalyanasundaram-Simmhan/3569a92631b764755201cec205058e7ce95e4702
 https://www.semanticscholar.org/paper/A-configurable-rule-based-classful-token-bucket-for-Qian-Li/214f4f4f555b608e59314168b08ed9daa4087200
 https://www.semanticscholar.org/paper/Securing-HPC%3A-development-of-a-low-cost%2C-open-Proctor-Storm/c040b6b4c5dffb90491da263d42fc649fd4fc895
 https://www.semanticscholar.org/paper/An-efficient-MPI%2FopenMP-parallelization-of-the-for-Mironov-Alexeev/432ce5211bd0cf40a3cfe8ffb1d243da6b206f39
