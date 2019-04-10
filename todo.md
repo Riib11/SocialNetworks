@@ -9,7 +9,7 @@
   - what do centrality measures say about authors (noting don't correlate strongly with index values)
   - how related systems conferences are (systems-like)
 
-- how to find missing papers from dict_gA???????????
+- go onto fries and see if `/home/blancheh/semsch/processed/missing_gA.json` has the semantic scholar data for the missing papers. if it does, then add that to my local `gA.json`. if not, then run `system-papers/missing/grep_missing_gA.json` (as its looks on local) and it fill fill `/home/blancheh/semsch/processed/missing_gA.json`
 
 - make notes on authors pairs matrix (raise Winsorize function)
 <!-- revise: reproduce graph of conference citations (with new conference names) -->
