@@ -17,16 +17,17 @@ def is_known(paper_title):
   if paper_title in known_titles: return True
   return any ([ is_match(paper_title, known_title) for known_title in known_titles ])
 
-missing_titles = []
+missing_titles = ["hello"]
 
-for paper in tqdm(papers):
-  title = paper["title"]
-  if not is_known(title): missing_titles.append(title)
+#for paper in tqdm(papers):
+#  title = paper["title"]
+#  if not is_known(title): missing_titles.append(title)
 
+print("="*80)
 print("\n".join(missing_titles))
-print("="*50)
+print("="*80)
 print("total:", len(missing_titles))
 
 result_fn = "find_missing_papers_result.txt"
 print("missing paper titles written to:", result_fn)
-with open(result_fn, "w+") as file: file.write("\n".join(missing_titles))
+with open(result_fn, "w+") as file: file.write("\n".join(missing_titles) + "\n")
