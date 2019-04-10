@@ -15,7 +15,7 @@ title_to_id  = { p["title"] : p_id for p_id, p in known.items() }
 # paper_titles = [ p["title"] for p in papers ]
 
 with open("find_missing_papers_result.txt") as file:
-  papers_titles = [ line.strip() for line in file ]
+  paper_titles = [ line.strip() for line in file ]
 
 match_threshold = 5
 def is_match(s1, s2):
@@ -28,11 +28,10 @@ def is_known(paper_title):
       is_match(paper_title, known_title)
       for known_title in known_titles ])
 
-missing_titles = []
-
-for paper in tqdm(papers):
-  title = paper["title"]
-  if not is_known(title): missing_titles.append(title)
+missing_titles = \
+  [ paper_title
+    for paper_title in tqdm(paper_titles)
+    if not is_known(paper_title) ]
 
 print("="*80)
 print("\n".join(missing_titles))

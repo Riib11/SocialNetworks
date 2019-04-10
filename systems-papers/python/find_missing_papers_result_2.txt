@@ -1,12 +1,3 @@
-Traceback (most recent call last):
-  File "/usr/lib/python3.5/runpy.py", line 184, in _run_module_as_main
-    "__main__", mod_spec)
-  File "/usr/lib/python3.5/runpy.py", line 85, in _run_code
-    exec(code, run_globals)
-  File "/home/blancheh/SocialNetworks/systems-papers/python/find_missing_papers.py", line 33, in <module>
-    for paper_title in tqdm(paper_titles)
-NameError: name 'paper_titles' is not defined
-  0%|          | 0/409 [00:00<?, ?it/s] 33%|███▎      | 133/409 [00:00<00:00, 1329.28it/s] 64%|██████▍   | 261/409 [00:00<00:00, 1301.53it/s] 96%|█████████▋| 394/409 [00:00<00:00, 1308.01it/s]100%|██████████| 409/409 [00:00<00:00, 1309.72it/s]================================================================================
 ARM Wrestling with Big Data: A Study of Commodity ARM Server for Big Data Workloads
 Reducing network congestion and global communication bottlenecks during aggregation on Torus and Dragonfly topologies for writing hierarchical data
 A Configurable Rule-Based Classful Token Bucket Filter Network Request Scheduler for the Lustre File System
@@ -145,7 +136,3 @@ An NlogN Parallel Fast Direct Solver for Kernel Metrices
 Model-Driven Sparse CP Decomposition for High-Order Tensors
 Rivulet: Fault-Tolerant Platform for Smart-Home Applications
 Swayam: Distributed Autoscaling to Meet SLAs of Machine Learning Inference Services with Resource Efficiency
-
-================================================================================
-total: 138
-missing paper titles written to: find_missing_papers_result_2.txt
