@@ -1,4 +1,3 @@
-hello
 Characterization of data movement requirements for sparse matrix computations on GPUs
 ARM Wrestling with Big Data: A Study of Commodity ARM Server for Big Data Workloads
 Reducing network congestion and global communication bottlenecks during aggregation on Torus and Dragonfly topologies for writing hierarchical data
