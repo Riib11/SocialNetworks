@@ -1,0 +1,271 @@
+Characterization of data movement requirements for sparse matrix computations on GPUs
+Deep Learning at 15PF: Supervised and Semi-Supervised Classification for Scientific Data
+Egeria: A Framework for Automatic Synthesis of HPC Advising Tools through Multi-Layered Natural Language Processing
+LocoFS: A Loosely-Coupled Metadata Service for Distributed File Systems
+DataRaceBench: A Benchmark Suite for Systematic Evaluation of Data Race Detection Tools
+TagIt: An Integrated Indexing and Search Service for File Systems
+Understanding Error Propagation in Deep Learning Neural Network (DNN) Accelerators and Applications
+Optimizing the Query Performance of Block Index Through Data Analysis and I/O Modeling
+A Framework for Scalable Biophysics-Based Image Analysis
+Efficient Process Mapping in Geo-Distributed Cloud Data Centers
+Sympiler: Transforming Sparse Matrix Codes by Decoupling Symbolic Analysis
+Control Replication: Compiling Implicit Parallelism to Efficient SPMD with Logical Regions
+Topology-Aware GPU Scheduling for Learning Workloads in Cloud Environments
+Extreme Scale Multi-Physics Simulations of the Tsunamigenic 2004 Sumatra Megathrust Earthquake
+Optimizing Geometric Multigrid Method Computation Using a DSL Approach
+Understanding Object-Level Memory Access Patterns Across the Spectrum
+Exploring and Analyzing the Real Impact of Modern On-Package Memory on HPC Scientific Kernels
+REFINE: Realistic Fault Injection via Compiler-Based Instrumentation for Accuracy, Portability and Speed
+Correcting Soft Errors Online in Fast Fourier Transform
+Large-Scale Adaptive Mesh Simulations Through Non-Volatile Byte-Addressable Memory
+Toward Standardized Near-Data Processing with Unrestricted Data Placement for GPUs
+Performance Modeling under Resource Constraints Using Deep Transfer Learning
+Charliecloud: Unprivileged Containers for User-Defined Software Stacks in HPC
+Obtaining Dynamic Scheduling Policies with Simulation and Machine Learning
+Embracing a New Era of Highly Efficient and Productive Quantum Monte Carlo Simulations
+Failures in Large Scale Systems: Long-Term Measurement, Analysis, and Implications
+Towards Fine-Grained Dynamic Tuning of HPC Applications on Modern Multi-Core Architectures
+CAPES: Unsupervised Storage Performance Tuning Using Neural Network-Based Deep Reinforcement Learning
+GUIDE: A Scalable Information Directory Service to Collect, Federate, and Analyze Logs for Operational Insights into a Leadership HPC Facility
+Efficient and Scalable Calculation of Complex Band Structure Using Sakurai-Sugiura Method
+Scientific User Behavior and Data-Sharing Trends in a Petascale File System
+Predicting the Performance Impact of Different Fat-Tree Configurations
+Scaling Betweenness Centrality Using Communication-Efficient Sparse Matrix Multiplication
+A Comparative Study of SDN and Adaptive Routing on Dragonfly Networks
+Distributed Southwell: An Iterative Method with Low Communication Costs
+PapyrusKV: A High-Performance Parallel Key-Value Store for Distributed NVM Architectures
+Leveraging Near Data Processing for High-Performance Checkpoint/Restart
+ParaStack: Efficient Hang Detection for MPI Programs at Large Scale
+Scalable Reduction Collectives with Data Partitioning-Based Multi-Leader Design
+Prefetching for Cloud Workloads: An Analysis Based on Address Patterns
+Toolbox for Exploration of Energy-Efficient Event Processors for Human-Computer Interaction
+HW/SW Co-designed Processors: Challenges, Design Choices and a Simulation Infrastructure for Evaluation
+StressRight: Finding the Right Stress for Accurate In-development System Evaluation
+SimBench: A Portable Benchmarking Methodology for Full-System Simulators
+Evaluating and Mitigating Bandwidth Bottlenecks Across the Memory Hierarchy in GPUs
+SASSIFI: An Architecture-level Fault Injection Tool for GPU Application Resilience Evaluation
+Exploring GPU Performance, Power and Energy-Efficiency Bounds with Cache-Aware Roofline Modeling
+Sharing the Instruction Cache Among Lean Cores on an Asymmetric CMP for HPC Applications
+Performance Competitiveness of a Statically Compiled Language for Server-Side Web Applications
+Analyzing the Scalability of Managed Language Applications with Speedup Stacks
+PMAL: Enabling Lightweight Adaptation of Legacy File Systems on Persistent Memory Systems
+Fast IPC Estimation for Performance Projections Using Proxy Suites and Decision Trees
+Accurate Address Streams for LLC and Beyond (SLAB): A Methodology to Enable System Exploration
+Clone Morphing: Creating New Workload Behavior from Existing Applications
+Crossing the Architectural Barrier: Evaluating Representative Regions of Parallel HPC Applications
+In-Datacenter Performance Analysis of a Tensor Processing Unit
+SCALEDEEP: A Scalable Compute Architecture for Learning and Evaluating Deep Networks
+Bespoke Processors for Applications with Ultra-low Area and Power Constraints
+XPro: A Cross-End Processing Architecture for Data Analytics in Wearables
+Regaining Lost Cycles with HotCalls: A Fast Interface for SGX Secure Enclaves
+InvisiMem: Smart Memory Defenses for Memory Bus Side Channel
+ObfusMem: A Low-Overhead Access Obfuscation for Trusted Memories
+PowerChief: Intelligent Power Allocation for Multi-Stage Applications to Improve Responsiveness on Power Constrained CMP
+CHARSTAR: Clock Hierarchy Aware Resource Scaling in Tiled ARchitectures
+Hiding the Long Latency of Persist Barriers Using Speculative Execution
+MTraceCheck: Validating Non-Deterministic Behavior of Memory Consistency Models in Post-Silicon Validation
+Redundant Memory Array Architecture for Efficient Selective Protection
+MeRLiN: Exploiting Dynamic Instruction Behavior for Fast and Accurate Microarchitecture Level Reliability Assessment
+The Reach Profiler (REAPER): Enabling the Mitigation of DRAM Retention Failures via Profiling at Aggressive Conditions
+Access Pattern-Aware Cache Management for Improving Data Utilization in GPU
+Secure Hierarchy-Aware Cache Replacement Policy (SHARP): Defending Against Cache-Based Side Channel Attacks
+Lemonade from Lemons: Harnessing Device Wearout to Create Limited-Use Security Architectures
+LogCA: A High-Level Performance Model for Hardware Accelerators
+A Programmable Hardware Accelerator for Simulating Dynamical Systems
+Hybrid TLB Coalescing: Improving TLB Translation Coverage under Diverse Fragmented Memory Allocations
+Rethinking TLB Designs in Virtualized Environments: A Very Large Part-of-Memory TLB
+ShortCut: Architectural Support for Fast Object Access in Scripting Languages
+Understanding and Optimizing Asynchronous Low-Precision Stochastic Gradient Descent
+Fractal: An Execution Model for Fine-Grain Nested Speculative Parallelism
+There and Back Again: Optimizing the Interconnect in Networks of Memory Cubes
+EbDa: A New Theory on Design and Verification of Deadlock-free Interconnection Networks
+Design and evaluation of an RDMA-aware data shuffling operator for parallel database systems
+FSP: Towards Flexible Synchronous Parallel Framework for Expectation-Maximization based Algorithms on Cloud
+Search Lookaside Buffer: Efficient Caching for Index Data Structures
+Architectural Implications on the Performance and Cost of Graph Analytics Systems
+APUS: Fast and Scalable PAXOS on RDMA
+No Data Left Behind: Real-Time Insights from a Complex Data Ecosystem
+CapNet: Security and Least Authority in a Capability-Enabled Cloud
+HyperNF: Building a High Performance, High Utilization and Fair NFV Platform
+Workload Analysis and Caching Strategies for Search Advertising Systems
+Towards Automatic Parameter Tuning of Stream Processing Systems
+STYX: A Trusted and Accelerated Hierarchical SSL Key Management and Distribution System for Cloud Based CDN Application
+A Robust Partitioning Scheme for Ad-Hoc Query Workloads
+DLSH: A Distribution-aware LSH Scheme for Approximate Nearest Neighbor Query in Cloud Computing
+A Policy-Based System for Dynamic Scaling of Virtual Machine Memory Reservations
+PBSE: A Robust Path-Based Speculative Execution for Degraded-Network Tail Tolerance in Data-Parallel Frameworks
+Polygravity: Traffic Usage Accountability via Coarse-grained Measurements in Multi-tenant Data Centers
+A Machine Learning Approach to Live Migration Modeling
+Latency Reduction and Load Balancing in Coded Storage Systems
+On-demand Virtualization for Live Migration in Bare Metal Cloud
+An Experimental Comparison of Complex Object Implementations for Big Data Systems
+Selecting the Best VM across Multiple Public Clouds: A Data-Driven Performance Modeling Approach
+Secure Data Types: A Simple Abstraction for Confidentiality-Preserving Data Analytics
+HotSpot: Automated Server Hopping in Cloud Spot Markets
+A Scalable Distributed Spatial Index for the Internet-of-Things
+ALOHA-KV: High Performance Read-only and Write-only Distributed Transactions
+Analysis of TPC-DS: the First Standard Benchmark for SQL-Based Big Data Systems
+Optimized On-Demand Data Streaming from Sensor Nodes
+A communication-avoiding parallel algorithm for the symmetric eigenvalue problem
+Selective Checkpointing for Minimizing Recovery Energy and Efforts of Smartphone Apps
+Context-Driven Power Management in Cache-Enabled Base Stations using a Bayesian Neural Network
+eDelta: Pinpointing Energy Deviations in Smartphone Apps via Comparative Trace Analysis
+Sustainable Fault Management and Error Correction for Next-Generation Main Memories
+Evaluating the Impact of Data Layout and Placement on the Energy Efficiency of Heterogeneous Applications
+Energy-Efficient Primary/Backup Scheduling Techniques for Heterogeneous Multicore Systems
+A Detailed Analysis of OpenMP Runtime Configurations for Power Constrained Systems
+Implementing Data Center Network Energy Management Capabilities in NS3
+Energy Efficiency in Colocation Data Centers: A Joint Incentive Mechanism Approach
+Performance Evaluation of Diverse Techniques for Performance, Energy, and Temperature Efficient Task Allocation
+PowerAnalyzer: An Energy-Aware Power Monitor System Aiming at Energy-Saving
+Thermal-aware Joint CPU and Memory Scheduling for Hard Real-Time Tasks on Multicore 3D Platforms
+SAFER: An IoT-Based Perpetual Safe Community Awareness and Alerting Network
+What do Shannon-type inequalities, submodular width, and disjunctive datalog have to do with one another?
+ffwd: delegation is (much) faster than you think
+Scalable fine-grained metric-based remeshing algorithm for manycore/NUMA architectures
+Shutdown policies with power capping for large scale computing systems
+To distribute or not to distribute: the question of load balancing for performance or energy
+SEMem: deployment of MPI-based in-memory storage for Hadoop on supercomputers
+Leveraging cloud heterogeneity for cost-efficient execution of parallel applications
+Optimizing egalitarian performance in the side-effects model of colocation for data center resource management
+Generic algorithms for scheduling applications on hybrid multi-core machines
+Learning certifiably optimal rule lists for categorical data
+Composing Differential Privacy and Secure Computation: A case study on scaling private record linkage
+Back to the drawing board: Revisiting the design of optimal location privacy-preserving mechanisms
+CloudSight: A tenant-oriented transparency framework for cross-layer cloud troubleshooting
+APHiD: Hierarchical task placement to enable a tapered fat tree topology for lower power and cost in HPC networks
+A new on-line method for scheduling independent tasks
+Multi-dimensional admission control and capacity planning for IaaS clouds with multiple service classes
+Modeling correlation between QoS attributes for trust computation in cloud computing environments
+LOGAIDER: A tool for mining potential correlations of HPC log events
+Predicting cloud performance for HPC applications: a user-oriented approach
+A Simple Soundness Proof for Dependent Object Types
+A Solver-Aided Language for Test Input Generation
+An Auditing Language for Preventing Correlated Failures in the Cloud
+Automatically Generating Features for Learning Program Analysis Heuristics for C-Like Languages
+Deadlock Avoidance in Parallel Programs with Futures: Why Parallel Tasks Should Not Wait for Strangers
+Efficient Logging in Non-Volatile Memory by Exploiting Coherency Protocols
+Exploiting Implicit Beliefs to Resolve Sparse Usage Problem in Usage-Based Specification Mining
+Familia: Unifying Interfaces, Type Classes, and Family Polymorphism
+Heaps Don't Lie: Countering Unsoundness with Heap Snapshots
+How Type Errors Were Fixed and What Students Did?
+IDEal: Efficient and Precise Alias-Aware Dataflow Analysis
+Learning to Blame: Localizing Novice Type Errors with Data-Driven Diagnosis
+Model Checking Copy Phases of Concurrent Copying Garbage Collection with Various Memory Models
+Natural Synthesis of Provably-Correct Data-Structure Manipulations
+Orca: GC and Type System Co-Design for Actor Languages
+Skip Blocks: Reusing Execution History to Accelerate Web Scripts
+Sound Gradual Typing Is Nominally Alive and Well
+Synthesis of Data Completion Scripts using Finite Tree Automata
+Synthesizing Configuration File Specifications with Association Rule Learning
+The VM Already Knew That: Leveraging Compile-Time Knowledge to Optimize Gradual Typing
+TiML: A Functional Language for Practical Complexity Analysis with Invariants
+TreeFuser: A Framework for Analyzing and Fusing General Recursive Tree Traversals
+Who Guards the Guards? Formal Validation of the ARM v8-M Architecture Specification
+Pinpointing Delay and Forwarding Anomalies Using Large-Scale Traceroute Measurements
+Detection, Classification, and Analysis of Inter-Domain Traffic with Spoofed Source IP Addresses
+Millions of Targets Under Attack: a Macroscopic Characterization of the DoS Ecosystem
+Your State is Not Mine: A Closer Look at Evading Stateful Internet Censorship
+The Ad Wars: Retrospective Measurement and Analysis of Anti-Adblock Filter Lists
+Dissecting VOD Services for Cellular: Performance, Root Causes and Best Practices
+A High-Performance Algorithm for Identifying Frequent Items in Data Streams
+Taking a Long Look at QUIC: An Approach for Rigorous Evaluation of Rapidly Evolving Transport Protocols
+Measuring and Mitigating OAuth Access Token Abuse by Collusion Networks
+Complexity vs. Performance: Empirical Analysis of Machine Learning as a Service
+The Web Centipede: Understanding How Web Communities Influence Each Other Through the Lens of Mainstream and Alternative News Sources
+Fifteen Minutes of Unwanted Fame: Detecting and Characterizing Doxing
+Online learning of acyclic conditional preference networks from noisy data
+Language-directed hardware design for network performance monitoring
+Banshee: Bandwidth-Efficient DRAM Caching Via Software/Hardware Cooperation
+UDP: A Programmable Accelerator for Extract-Transform-Load Workloads and More
+UNFOLD: A Memory-Efficient Speech Recognizer Using On-The-Fly WFST Composition
+Detecting and Mitigating Data-Dependent DRAM Failures by Exploiting Current Memory Content
+Proteus: A Flexible and Fast Software Supported Hardware Logging approach for NVM
+Efficient Support of Position Independence on Non-Volatile Memory
+Mosaic: A GPU Memory Manager with Application-Transparent Support for Multiple Page Sizes
+SCRATCH: An End-to-end Application-aware Soft-GPGPU Architecture and Trimming Tool
+Memory Cocktail Therapy: A General Learning-Based Framework to Optimize Dynamic Tradeoffs in NVMs
+A Many-core Architecture for In-Memory Data Processing
+Ambit: In-Memory Accelerator for Bulk Bitwise Operations Using Commodity DRAM Technology
+PageForge: A Near-Memory Content-Aware Page-Merging Architecture
+Using Branch Predictors to Predict Brain Activity in Brain-Machine Implants
+Load Value Prediction via Path-based Address Prediction: Avoiding Mispredictions due to Conflicting Stores
+CirCNN: Accelerating and Compressing Deep Neural Networks Using Block-Circulant Weight Matrices
+Race-To-Sleep + Content Caching + Display Caching: A Recipe for Energy-efficient Video Streaming on Handhelds
+Architecting Hierarchical Coherence Protocols for Push-button Parametric Verification
+BVF: Enabling Significant On-Chip Power Savings via Bit-Value-Favor for Throughput Processors
+PARSNIP: Performant Architecture for Race Safety with No Impact on Precision
+Xylem: Enhancing Vertical Thermal Conduction in 3D Processor-Memory Stacks
+SchedTask: A Hardware-Assisted Task Scheduler
+GPUpd: A Fast and Scalable Multi-GPU Architecture Using Cooperative Projection and Distribution
+VersaPipe: A Versatile Programming Framework for Pipelined Computing on GPU
+TMI: Thread Memory Isolation for False Sharing Repair
+WIREFRAME: Supporting Data-dependent Parallelism through Dependency Graph Execution in GPUs
+Hybrid Analog-Digital Solution of Nonlinear Partial Differential Equations
+Improving the Effectiveness of Searching for Isomorphic Chains in Superword Level Parallelism
+Taming the Instruction Bandwidth of Quantum Computers via Hardware-Managed Error Correction
+Optimized Surface Code Communication in Superconducting Quantum Computers
+Mirage Cores: The Illusion of Many Out-of-order Cores Using In-order Hardware
+Using Intra-Core Loop-Task Accelerators to Improve the Productivity and Performance of Task-Based Parallel Programs
+DeftNN: Addressing Bottlenecks for DNN Execution on GPUs via Synapse Vector Elimination and Near-compute Data Fission
+An efficient, distributed stochastic gradient descent algorithm for deep-learning applications
+Exploiting GPUs for fast force-directed visualization of large-scale networks
+Performance Characterization, Prediction, and Optimization for Heterogeneous Systems with Multi-Level Memory Interference
+A Graphics Tracing Framework for Exploring CPU+GPU Memory Systems
+Understanding System Characteristics of Online Erasure Coding on Scalable, Distributed and Large-Scale SSD Array Systems
+TraceTracker: Hardware/Software Co-Evaluation for Large-Scale I/O Workload Reconstruction
+Determining Work Partitioning on Closely Coupled Heterogeneous Computing Systems Using Statistical Design of Experiments
+A Framework for Fast and Fair Evaluation of Automata Processing Hardware
+Understanding the Thermal Challenges of High-Performance Mobile Devices with a Detailed Platform Temperature Model
+Workload Characterization of Interactive Cloud Services on Big and Small Server Platforms
+Congestion-Aware Memory Management on NUMA Platforms: A VMware ESXi Case Study
+Exploring the Impact of Memory Block Permutation on Performance of a Crossbar ReRAM Main Memory
+Characterizing Diverse Handheld Apps for Customized Hardware Acceleration
+Understanding the Performance-Accuracy Tradeoffs of Floating-Point Arithmetic on GPUs
+FLiT: Cross-Platform Floating-Point Result-Consistency Tester and Workload
+HeteroSync: A Benchmark Suite for Fine-Grained Synchronization on Tightly Coupled GPUs
+Characterizing The Impact of Soft Errors Across Microarchitectural Structures and Implications for Predictability
+Modeling of applications and hardware to explore task mapping and scheduling strategies on a heterogeneous micro-server system
+Erasure Coding for Small Objects in In-Memory KV Storage
+Freewrite: Creating (Almost) Zero-Cost Writes to SSD in Applications
+Simulation-Based Tracing and Profiling for System Software Development
+Understanding Storage Traffic Characteristics on Enterprise Virtual Desktop Infrastructure
+NVMe-over-Fabrics Performance Characterization and the Path to Low-Overhead Flash Disaggregation
+Dexter: Faster Troubleshooting of Misconfiguration Cases Using System Logs
+TripS: Automated Multi-tiered Data Placement in a Geo-distributed Cloud Environment
+AutoBahn: Accelerating Concurrent, Durable File I/O via a Non-Volatile Buffer
+JUSTICE: A Deadline-aware, Fair-share Resource Allocator for Implementing Multi-analytics
+DH-Falcon: A language for large-scale graph processing on Distributed Heterogeneous systems
+Fast failure erasure encoding using just in time compilation for CPUs, GPUs, and FPGAs
+Exploring on-node parallelism with neutral, a Monte Carlo neutral particle transport mini-app
+Extending Skel to support the development and optimization of next generation I/O systems
+Decomposition Instead of Self-Composition for Proving the Absence of Timing Channels
+ALIVE-INFER: Data-Driven Precondition Inference for Peephole Optimizations in LLVM
+Achieving High Coverage for Floating-point Code via Unconstrained Programming
+BigFoot: Static Check Placement for Dynamic Race Detection
+Component-based Synthesis of Table Consolidation and Transformation Tasks from Examples
+Efficient and Precise Points-to Analysis: Modeling the Heap by Merging Equivalent Automata
+Futhark: Purely Functional GPU-programming with Nested Parallelism and In-place Array Updates
+Generalizations of the Theory and Deployment of Triangular Inequality for Compiler-Based Strength Reduction
+Low-Synchronization, Mostly Lock-Free, Elastic Scheduling for Streaming Runtimes
+Practical Partial Evaluation for High-Performance Dynamic Language Runtimes
+Proactive and Adaptive Energy-Aware Programming with Mixed Typechecking
+Responsive Parallel Computation: Bridging Competitive and Cooperative Threading
+StreamQRE: Modular Specification and Efficient Evaluation of Quantitative Queries over Streaming Data
+Synthesizing Highly Expressive SQL Queries from Input-Output Examples
+Systematic Black-Box Analysis of Collaborative Web Applications
+Handling environments in a nested relational algebra with combinators and an implementation in a verified query compiler
+Comparison of the Expressiveness and Performance of Template-based Code Generation Tools
+A Symbol-based Extension of Parsing Expression Grammars and Context-Sensitive Packrat Parsing
+A Requirements Engineering Approach for Usability-Driven DSL Development
+Optimization and parallelization of B-spline based orbital evaluations in QMC on multi/many-core shared memory processors
+MOCHA: Morphable locality and compression aware architecture for convolutional neural networks
+A work-efficient parallel sparse matrix-sparse vector multiplication algorithm
+A robust parallel preconditioner for indefinite systems using hierarchical matrices and randomized sampling
+Scheduler Activations for Interference-Resilient SMP Virtual Machine Scheduling
+Efficient Covering for Top-k Filtering in Content-Based Publish/Subscribe Systems
+Sieve: Actionable Insights from Monitored Metrics in Distributed Systems
+SPECTRE: Supporting Consumption Policies in Window-Based Parallel Complex Event Processing
+Improving Spark Application Throughput Via Memory Aware Task Co-location: A Mixture of Experts Approach
+POLM2: Automatic Profiling for Object Lifetime-Aware Memory Management for HotSpot Big Data Applications
+X-Search: Revisiting Private Web Search using Intel SGX

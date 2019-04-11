@@ -131,6 +131,26 @@ class PapersNetwork:
         adjmat_row = list(map(str,adjmat_list[node_i]))
         writer.writerow([node_id] + adjmat_row)
 
+  def get_paper_id_to_paper_title_dict(self):
+    # self.papers_data             :: paper_id => paper
+    # paper_id_to_paper_title_dict :: paper_id => paper_title
+    paper_id_to_paper_title_dict = { p_id : p["title"] for p_id, p in self.papers_data.items() }
+    return paper_id_to_paper_title_dict
+
+  def save_paper_id_to_paper_title_csv(self):
+    paper_id_to_paper_title_dict = self.get_paper_id_to_paper_title_dict()
+    with open(DIR_DATA+"paper_id_to_paper_title.csv", "w+") as file:
+      writer = csv.writer(file)
+      writer.writerow(["paper_id", ])
+
+  def save_author_id_to_author_name_email_csv(self):
+    author_name_email = self.get_author_id_to_author_name_email_dict()
+    with open(DIR_DATA+"author_id_to_author_name_email.csv", "w+") as file:
+      writer = csv.writer(file)
+      writer.writerow(["author_id", "author_name", "author_email"])
+      for author_id, (author_name, author_email) in tqdm(author_name_email.items()):
+        writer.writerow([author_id, author_name, author_email])
+
 def extract_author_id(author):
   # success - author in data set (has id)
   if "ids" in author and len(author["ids"]) > 0: return author["ids"][0]

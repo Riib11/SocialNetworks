@@ -63,21 +63,21 @@ def get_s2_keys():
   def match_paper_title_with_key(paper_title):
     for conf_name, conf_papers in all_conf_papers:
       for paper in conf_papers:
-        # print(conf_name,":",paper["title"])
         if paper_title.lower() == paper["title"].lower():
           return paper["key"]
 
-  s2_paper_keys = {} # paper_id => key
-  # iterate through all s2 papers
-  # papers = { k:v for k,v in list(papers.items())[1:10] }
+  # s2_paper_keys :: paper_id => key
+  s2_paper_keys = {}
+  
+  # build s2_paper_keys by iterating through all s2 papers
   for paper_id, paper in papers.items():
     key = match_paper_title_with_key(paper["title"])
     if key:
       s2_paper_keys[paper_id] = key
       # print("[*]", paper["title"])
     else:
-      pass
       # print("[!!!]", paper["title"])
+      pass
   
   return s2_paper_keys
 
