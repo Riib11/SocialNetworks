@@ -4,10 +4,10 @@ import semantic_scholar.s2data as s2_data
 import json
 from tqdm import tqdm
 
-known        = s2_data.get_dict_gA()
-id_to_paper  = { (p["id"] if "id" in p else p["paperId"])  }
-known_titles = [ p["title"] for p in known.values() ]
-title_to_id  = { p["title"] : p_id for p_id, p in known.items() }
+id_to_paper  = s2_data.get_dict_gA()
+id_to_title = {}
+for p_id, p in id_to_paper.items():
+  id_to_title[p_id] = p["title"]
 
 PARENT_DIR         = "find_missing/"
 BAD_TITLE_TO_ID_FN = PARENT_DIR + "bad_title_to_id.json"
@@ -26,7 +26,8 @@ partial_to_good = load_json(PARTIAL_TO_GOOD_FN)
 # get good titles for bad titles
 bad_title_to_good_title = \
   { bad_title : id_to_paper[p_id]["title"]
-    for bad_title, p_id in bad_title_to_id.items() }
+    for bad_title, p_id in bad_title_to_id.items()
+    if p_id in id_to_paper }
 
 # merge with partial => good
 for partial_title, good_title in partial_to_good.items():
