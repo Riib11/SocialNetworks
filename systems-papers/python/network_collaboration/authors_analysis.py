@@ -37,7 +37,7 @@ G = AuthorsNetwork()
 for paper_id, paper in papers.items(): G.add_paper(paper)
 G.fill_graph()
 
-if True:
+if False:
   print("correlation: ", G.correlate_closeness_npubs())
   quit()
 
@@ -45,7 +45,7 @@ if False:
   G.save_adjacency_matrix_csv()
   quit()
 
-if False:
+if True:
   G.save_author_id_to_author_name_email_csv()
   quit()
 
@@ -56,7 +56,7 @@ if False:
 
 ################################################################################
 
-if False:
+if True:
   message("Calculating All Network Centralities")
   G.calculate_centralities()
 
