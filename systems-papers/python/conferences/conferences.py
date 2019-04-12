@@ -1,6 +1,8 @@
 import utils.data as data
 import semantic_scholar.s2data as s2data
+import find_missing.dicts as missing_dicts
 import csv
+from tqdm import tqdm
 from utils.json import *
 
 VERSION = "1.0"
@@ -9,8 +11,8 @@ DIR_PARENT = "conferences/"
 DIR_DATA   = DIR_PARENT+"data/"
 
 FP_S2_CONFERENCES = DIR_DATA+"s2_conferences"+"_v="+VERSION+".json"
-FP_S2_KEYS = DIR_DATA+"s2_keys.json"
-FP_S2_KEYS_CSV = DIR_DATA+"s2_keys.csv"
+FP_S2_KEYS = DIR_DATA+"s2id_key.json"
+FP_S2_KEYS_CSV = DIR_DATA+"s2id_key.csv"
 FP_KEYS_S2_CSV = DIR_DATA+"keys_s2.csv"
 
 def get_each_conference_papers():
@@ -55,7 +57,80 @@ def load_s2_conferences():
 ################################################################################
 ################################################################################
 
-def get_s2_keys():
+def get_s2id_to_key():
+  """
+  HAVE
+    raw_papers  :: [ raw_paper = (title, key) ]
+    s2id_to_paper :: s2id => paper
+    bad_to_good :: bad_title => good_title
+  """
+
+  conf_papers = list(get_each_conference_papers())
+  raw_papers  = sum([ps for (conf_name, ps) in conf_papers], [])
+
+  s2id_to_paper = s2data.get_dict_gA()
+  bad_to_good = missing_dicts.get_bad_to_good()
+
+  """
+  USE
+    good_to_s2id  :: good_title => s2id
+    title_to_key :: title => key
+  """
+
+  good_to_s2id = { p["title"] : s2id for s2id, p in s2id_to_paper.items() }
+
+  title_to_id = {}
+  # fill good titles
+  for good, s2id in good_to_s2id.items():
+    good = good.lower()
+    title_to_id[good] = s2id
+  # fill bad titles
+  for bad, good in bad_to_good.items():
+    bad = bad.lower()
+    good = good.lower()
+    title_to_id[bad] = title_to_id[good]
+    # del title_to_id[good]
+
+  # title_to_key :: title => key
+  title_to_key = { rp["title"].lower() : rp["key"] for rp in raw_papers }
+
+  """
+  GOAL
+    s2id_to_key :: s2id => paper_key
+  """
+
+  # s2id_to_key :: s2id => paper_key
+  s2id_to_key = {}
+  missing = 0
+  for title, key in tqdm(title_to_key.items()):
+    title = title.lower()
+    if not title in title_to_id:
+      missing += 1
+      continue
+    s2id = title_to_id[title]
+    s2id_to_key[s2id] = key
+  print("missing:", missing)
+
+  return s2id_to_key
+
+def dump_s2id_to_key():
+  s2id_to_key = get_s2id_to_key()
+  dump_json(s2id_to_key, FP_S2_KEYS)
+
+def load_s2id_to_key():
+  return load_json(FP_S2_KEYS)
+
+if __name__ == "__main__":
+  dump_s2id_to_key()
+
+
+
+
+################################################################################
+################################################################################
+
+"""
+def get_s2id_key():
   # all_conf_papers : [(conf_name, conf_papers)]
   all_conf_papers = list(get_each_conference_papers())
   papers = s2data.get_dict_gA()
@@ -81,27 +156,27 @@ def get_s2_keys():
   
   return s2_paper_keys
 
-def dump_s2_keys():
-  s2_keys = get_s2_keys()
-  dump_json(s2_keys, FP_S2_KEYS)
+def dump_s2id_key():
+  s2id_key = get_s2id_key()
+  dump_json(s2id_key, FP_S2_KEYS)
 
-def load_s2_keys():
+def load_s2id_key():
   return load_json(FP_S2_KEYS)
 
-def dump_s2_keys_csv():
-  s2_keys = load_s2_keys()
+def dump_s2id_key_csv():
+  s2id_key = load_s2id_key()
   with open(FP_S2_KEYS_CSV, "w+") as file:
     w = csv.writer(file)
     w.writerow(["paper_id", "paper_key"])
-    for id, key in s2_keys.items():
+    for id, key in s2id_key.items():
       w.writerow([id, key])
 
 def dump_keys_s2_csv():
-  s2_keys = load_s2_keys()
+  s2id_key = load_s2id_key()
   with open(FP_KEYS_S2_CSV, "w+") as file:
     w = csv.writer(file)
     w.writerow(["paper_key", "paper_id"])
-    for id, key in s2_keys.items():
+    for id, key in s2id_key.items():
       w.writerow([key, id])
 
 ################################################################################
@@ -109,6 +184,8 @@ def dump_keys_s2_csv():
 
 if __name__ == "__main__":
   # dump_s2_conferences()
-  # dump_s2_keys()
-  dump_s2_keys_csv()
+  # dump_s2id_key()
+  dump_s2id_key_csv()
   dump_keys_s2_csv()
+
+"""
