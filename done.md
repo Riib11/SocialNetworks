@@ -1,5 +1,9 @@
 # Done
 
+## April 13 - April 19
+
+- debug finding keys for paper, then papers that don't have keys / map to same keys should be thrown out of gA
+
 ## April 6 - April 12
 
 - recreated mappings as fully as possible

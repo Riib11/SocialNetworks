@@ -2,7 +2,7 @@
 
 ## !!!
 
-- debug finding keys for paper, then papers that don't have keys / map to same keys should be thrown out of gA
+- recreate authors features matrix for final and make final analysis
 
 - look at authors centralities and write explanation of how they relate and what the significances are, wrapping up!
 
