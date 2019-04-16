@@ -1,1 +1,649 @@
-{"arxivId":"1803.11151","authors":[{"authorId":"30307951","name":"Crefeda Faviola Rodrigues","url":"https://www.semanticscholar.org/author/30307951"},{"authorId":"39609950","name":"Graham D. Riley","url":"https://www.semanticscholar.org/author/39609950"},{"authorId":"1706226","name":"Mikel Luj\u00e1n","url":"https://www.semanticscholar.org/author/1706226"}],"citationVelocity":0,"citations":[{"arxivId":null,"authors":[{"authorId":"30307951","name":"Crefeda Faviola Rodrigues","url":"https://www.semanticscholar.org/author/30307951"},{"authorId":"39609950","name":"Graham D. Riley","url":"https://www.semanticscholar.org/author/39609950"},{"authorId":"1706226","name":"Mikel Luj\u00e1n","url":"https://www.semanticscholar.org/author/1706226"}],"doi":null,"isInfluential":false,"paperId":"cca7a56ae73ab0428e9859146f222a750a390c7d","title":"SyNERGY: An energy measurement and prediction framework for Convolutional Neural Networks on Jetson TX1","url":"https://www.semanticscholar.org/paper/cca7a56ae73ab0428e9859146f222a750a390c7d","venue":"","year":2018}],"doi":"10.1109/IISWC.2017.8167764","influentialCitationCount":0,"paperId":"38a7e8ef5b18bd4601bfbeedc0e8dcfe07d28620","references":[{"arxivId":null,"authors":[{"authorId":"2772904","name":"Nicholas D. Lane","url":"https://www.semanticscholar.org/author/2772904"},{"authorId":"1979517","name":"Sourav Bhattacharya","url":"https://www.semanticscholar.org/author/1979517"},{"authorId":"1737522","name":"Petko Georgiev","url":"https://www.semanticscholar.org/author/1737522"},{"authorId":"1779159","name":"Claudio Forlivesi","url":"https://www.semanticscholar.org/author/1779159"},{"authorId":"1776175","name":"Fahim Kawsar","url":"https://www.semanticscholar.org/author/1776175"}],"doi":"10.1145/2820975.2820980","isInfluential":false,"paperId":"5d6fca1c2dc1bb30b2bfcc131ec6e35a16374df8","title":"An Early Resource Characterization of Deep Learning on Wearables, Smartphones and Internet-of-Things Devices","url":"https://www.semanticscholar.org/paper/5d6fca1c2dc1bb30b2bfcc131ec6e35a16374df8","venue":"IoT-App@SenSys","year":2015},{"arxivId":"1608.06581","authors":[{"authorId":"3313828","name":"Robert Adolf","url":"https://www.semanticscholar.org/author/3313828"},{"authorId":"37408074","name":"Saketh Rama","url":"https://www.semanticscholar.org/author/37408074"},{"authorId":"2732658","name":"Brandon Reagen","url":"https://www.semanticscholar.org/author/2732658"},{"authorId":"2255803","name":"Gu-Yeon Wei","url":"https://www.semanticscholar.org/author/2255803"},{"authorId":"1896817","name":"David M. Brooks","url":"https://www.semanticscholar.org/author/1896817"}],"doi":"10.1109/IISWC.2016.7581275","isInfluential":false,"paperId":"9bde366e1897ad3b370b3bc473b0de456c75f078","title":"Fathom: reference workloads for modern deep learning methods","url":"https://www.semanticscholar.org/paper/9bde366e1897ad3b370b3bc473b0de456c75f078","venue":"2016 IEEE International Symposium on Workload Characterization (IISWC)","year":2016},{"arxivId":"1704.04861","authors":[{"authorId":"7256134","name":"Andrew G. Howard","url":"https://www.semanticscholar.org/author/7256134"},{"authorId":"2717876","name":"Menglong Zhu","url":"https://www.semanticscholar.org/author/2717876"},{"authorId":"50462039","name":"Bo Chen","url":"https://www.semanticscholar.org/author/50462039"},{"authorId":"2741985","name":"Dmitry Kalenichenko","url":"https://www.semanticscholar.org/author/2741985"},{"authorId":"47825047","name":"Weijun Wang","url":"https://www.semanticscholar.org/author/47825047"},{"authorId":"47447630","name":"Tobias Weyand","url":"https://www.semanticscholar.org/author/47447630"},{"authorId":"2612392","name":"Marco Andreetto","url":"https://www.semanticscholar.org/author/2612392"},{"authorId":"2595180","name":"Hartwig Adam","url":"https://www.semanticscholar.org/author/2595180"}],"doi":null,"isInfluential":false,"paperId":"a1543975098f8ec14f4402f761eefb473100beee","title":"MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications","url":"https://www.semanticscholar.org/paper/a1543975098f8ec14f4402f761eefb473100beee","venue":"ArXiv","year":2017},{"arxivId":"1410.0759","authors":[{"authorId":"3003738","name":"Sharan Chetlur","url":"https://www.semanticscholar.org/author/3003738"},{"authorId":"2266717","name":"Cliff Woolley","url":"https://www.semanticscholar.org/author/2266717"},{"authorId":"2101730","name":"Philippe Vandermersch","url":"https://www.semanticscholar.org/author/2101730"},{"authorId":"50065230","name":"Jonathan Cohen","url":"https://www.semanticscholar.org/author/50065230"},{"authorId":"2265314","name":"John Tran","url":"https://www.semanticscholar.org/author/2265314"},{"authorId":"2301680","name":"Bryan Catanzaro","url":"https://www.semanticscholar.org/author/2301680"},{"authorId":"1782282","name":"Evan Shelhamer","url":"https://www.semanticscholar.org/author/1782282"}],"doi":null,"isInfluential":false,"paperId":"81b7dcaef4a53daab41658a4d1e97972d04b3384","title":"cuDNN: Efficient Primitives for Deep Learning","url":"https://www.semanticscholar.org/paper/81b7dcaef4a53daab41658a4d1e97972d04b3384","venue":"ArXiv","year":2014},{"arxivId":"1412.7024","authors":[{"authorId":"2388466","name":"Matthieu Courbariaux","url":"https://www.semanticscholar.org/author/2388466"},{"authorId":"1751762","name":"Yoshua Bengio","url":"https://www.semanticscholar.org/author/1751762"},{"authorId":"46545101","name":"Jean-Pierre David","url":"https://www.semanticscholar.org/author/46545101"}],"doi":null,"isInfluential":false,"paperId":"1b82d54e9a3b06c603d7987ba3ecf437425f6330","title":"Training deep neural networks with low precision multiplications","url":"https://www.semanticscholar.org/paper/1b82d54e9a3b06c603d7987ba3ecf437425f6330","venue":"","year":2014},{"arxivId":"1408.5093","authors":[{"authorId":"39978391","name":"Yangqing Jia","url":"https://www.semanticscholar.org/author/39978391"},{"authorId":"1782282","name":"Evan Shelhamer","url":"https://www.semanticscholar.org/author/1782282"},{"authorId":"7408951","name":"Jeff Donahue","url":"https://www.semanticscholar.org/author/7408951"},{"authorId":"3049736","name":"Sergey Karayev","url":"https://www.semanticscholar.org/author/3049736"},{"authorId":"34703740","name":"Jonathan Long","url":"https://www.semanticscholar.org/author/34703740"},{"authorId":"2983898","name":"Ross B. Girshick","url":"https://www.semanticscholar.org/author/2983898"},{"authorId":"1687120","name":"Sergio Guadarrama","url":"https://www.semanticscholar.org/author/1687120"},{"authorId":"1753210","name":"Trevor Darrell","url":"https://www.semanticscholar.org/author/1753210"}],"doi":"10.1145/2647868.2654889","isInfluential":false,"paperId":"722fcc35def20cfcca3ada76c8dd7a585d6de386","title":"Caffe: Convolutional Architecture for Fast Feature Embedding","url":"https://www.semanticscholar.org/paper/722fcc35def20cfcca3ada76c8dd7a585d6de386","venue":"ACM Multimedia","year":2014},{"arxivId":null,"authors":[{"authorId":"31705733","name":"Eva Garc\u00eda Mart\u00edn","url":"https://www.semanticscholar.org/author/31705733"},{"authorId":"2905746","name":"Niklas Lavesson","url":"https://www.semanticscholar.org/author/2905746"},{"authorId":"2576615","name":"H\u00e5kan Grahn","url":"https://www.semanticscholar.org/author/2576615"}],"doi":"10.1007/978-3-319-57186-7_21","isInfluential":false,"paperId":"c3bd0b86c74a4464173073b1f36fd12d2637c7a8","title":"Identification of Energy Hotspots: A Case Study of the Very Fast Decision Tree","url":"https://www.semanticscholar.org/paper/c3bd0b86c74a4464173073b1f36fd12d2637c7a8","venue":"GPC","year":2017},{"arxivId":"1510.00149","authors":[{"authorId":"5590869","name":"Song Han","url":"https://www.semanticscholar.org/author/5590869"},{"authorId":"3123774","name":"Huizi Mao","url":"https://www.semanticscholar.org/author/3123774"},{"authorId":"1696619","name":"William J. Dally","url":"https://www.semanticscholar.org/author/1696619"}],"doi":null,"isInfluential":false,"paperId":"3d2126066c6244e05ec4d2631262252f4369d9c1","title":"Deep Compression: Compressing Deep Neural Network with Pruning, Trained Quantization and Huffman Coding","url":"https://www.semanticscholar.org/paper/3d2126066c6244e05ec4d2631262252f4369d9c1","venue":"ICLR","year":2016},{"arxivId":"1703.09039","authors":[{"authorId":"1691305","name":"Vivienne Sze","url":"https://www.semanticscholar.org/author/1691305"},{"authorId":"49069271","name":"Yu-Hsin Chen","url":"https://www.semanticscholar.org/author/49069271"},{"authorId":"1950815","name":"Tien-Ju Yang","url":"https://www.semanticscholar.org/author/1950815"},{"authorId":"1775477","name":"Joel S. Emer","url":"https://www.semanticscholar.org/author/1775477"}],"doi":"10.1109/JPROC.2017.2761740","isInfluential":false,"paperId":"513d9d0fdc9efa0f042ed1a3c8eab1fbb564f67b","title":"Efficient Processing of Deep Neural Networks: A Tutorial and Survey","url":"https://www.semanticscholar.org/paper/513d9d0fdc9efa0f042ed1a3c8eab1fbb564f67b","venue":"Proceedings of the IEEE","year":2017},{"arxivId":"1409.4842","authors":[{"authorId":"2574060","name":"Christian Szegedy","url":"https://www.semanticscholar.org/author/2574060"},{"authorId":"46641688","name":"Wei Liu","url":"https://www.semanticscholar.org/author/46641688"},{"authorId":"39978391","name":"Yangqing Jia","url":"https://www.semanticscholar.org/author/39978391"},{"authorId":"3142556","name":"Pierre Sermanet","url":"https://www.semanticscholar.org/author/3142556"},{"authorId":"3361042","name":"Scott E. Reed","url":"https://www.semanticscholar.org/author/3361042"},{"authorId":"1838674","name":"Dragomir Anguelov","url":"https://www.semanticscholar.org/author/1838674"},{"authorId":"1761978","name":"Dumitru Erhan","url":"https://www.semanticscholar.org/author/1761978"},{"authorId":"2657155","name":"Vincent Vanhoucke","url":"https://www.semanticscholar.org/author/2657155"},{"authorId":"39863668","name":"Andrew Rabinovich","url":"https://www.semanticscholar.org/author/39863668"}],"doi":"10.1109/CVPR.2015.7298594","isInfluential":false,"paperId":"14318685b5959b51d0f1e3db34643eb2855dc6d9","title":"Going deeper with convolutions","url":"https://www.semanticscholar.org/paper/14318685b5959b51d0f1e3db34643eb2855dc6d9","venue":"2015 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)","year":2015},{"arxivId":null,"authors":[{"authorId":"2772904","name":"Nicholas D. Lane","url":"https://www.semanticscholar.org/author/2772904"},{"authorId":"1979517","name":"Sourav Bhattacharya","url":"https://www.semanticscholar.org/author/1979517"},{"authorId":"1737522","name":"Petko Georgiev","url":"https://www.semanticscholar.org/author/1737522"},{"authorId":"1779159","name":"Claudio Forlivesi","url":"https://www.semanticscholar.org/author/1779159"},{"authorId":"47661912","name":"Lei Jiao","url":"https://www.semanticscholar.org/author/47661912"},{"authorId":"1994899","name":"Lorena Qendro","url":"https://www.semanticscholar.org/author/1994899"},{"authorId":"1776175","name":"Fahim Kawsar","url":"https://www.semanticscholar.org/author/1776175"}],"doi":"10.1109/IPSN.2016.7460664","isInfluential":false,"paperId":"1c454ae4e1bbc600791f3a4796fdb6b1ee2ca016","title":"DeepX: A Software Accelerator for Low-Power Deep Learning Inference on Mobile Devices","url":"https://www.semanticscholar.org/paper/1c454ae4e1bbc600791f3a4796fdb6b1ee2ca016","venue":"2016 15th ACM/IEEE International Conference on Information Processing in Sensor Networks (IPSN)","year":2016},{"arxivId":null,"authors":[{"authorId":"8342699","name":"Jia Deng","url":"https://www.semanticscholar.org/author/8342699"}],"doi":null,"isInfluential":false,"paperId":"ae1c92ae7e836eb3d964b998ac5f8699e5c90cfc","title":"Large Scale Visual Recognition","url":"https://www.semanticscholar.org/paper/ae1c92ae7e836eb3d964b998ac5f8699e5c90cfc","venue":"","year":2012},{"arxivId":"1602.07360","authors":[{"authorId":"3346186","name":"Forrest N. Iandola","url":"https://www.semanticscholar.org/author/3346186"},{"authorId":"2318023","name":"Matthew W. Moskewicz","url":"https://www.semanticscholar.org/author/2318023"},{"authorId":"2059241","name":"Khalid Ashraf","url":"https://www.semanticscholar.org/author/2059241"},{"authorId":"5590869","name":"Song Han","url":"https://www.semanticscholar.org/author/5590869"},{"authorId":"1696619","name":"William J. Dally","url":"https://www.semanticscholar.org/author/1696619"},{"authorId":"1732330","name":"Kurt Keutzer","url":"https://www.semanticscholar.org/author/1732330"}],"doi":null,"isInfluential":false,"paperId":"0919b3ab82ff8a052490389f217c480c273f2b92","title":"SqueezeNet: AlexNet-level accuracy with 50x fewer parameters and <1MB model size","url":"https://www.semanticscholar.org/paper/0919b3ab82ff8a052490389f217c480c273f2b92","venue":"ArXiv","year":2017},{"arxivId":null,"authors":[{"authorId":"1691305","name":"Vivienne Sze","url":"https://www.semanticscholar.org/author/1691305"},{"authorId":"1950815","name":"Tien-Ju Yang","url":"https://www.semanticscholar.org/author/1950815"},{"authorId":"50579876","name":"Yu-Hsin Chen","url":"https://www.semanticscholar.org/author/50579876"}],"doi":null,"isInfluential":false,"paperId":"c7c8460b4ef28f81c59ca0adc0957bcfcebce8c8","title":"Designing Energy-Efficient Convolutional Neural Networks using Energy-Aware Pruning","url":"https://www.semanticscholar.org/paper/c7c8460b4ef28f81c59ca0adc0957bcfcebce8c8","venue":"","year":2017}],"title":"Fine-grained energy profiling for deep convolutional neural networks on the Jetson TX1","topics":[{"topic":"Artificial neural network","topicId":"6213","url":"https://www.semanticscholar.org/topic/6213"},{"topic":"Deep learning","topicId":"2762","url":"https://www.semanticscholar.org/topic/2762"},{"topic":"Tegra","topicId":"370873","url":"https://www.semanticscholar.org/topic/370873"},{"topic":"Convolutional neural network","topicId":"29860","url":"https://www.semanticscholar.org/topic/29860"},{"topic":"Data compression","topicId":"41454","url":"https://www.semanticscholar.org/topic/41454"},{"topic":"Server (computing)","topicId":"6042","url":"https://www.semanticscholar.org/topic/6042"},{"topic":"Mobile device","topicId":"2615","url":"https://www.semanticscholar.org/topic/2615"},{"topic":"Graphics processing unit","topicId":"8807","url":"https://www.semanticscholar.org/topic/8807"},{"topic":"Computer vision","topicId":"5332","url":"https://www.semanticscholar.org/topic/5332"},{"topic":"Power semiconductor device","topicId":"549435","url":"https://www.semanticscholar.org/topic/549435"},{"topic":"Adobe Streamline","topicId":"2838469","url":"https://www.semanticscholar.org/topic/2838469"},{"topic":"Maxwell (microarchitecture)","topicId":"7309","url":"https://www.semanticscholar.org/topic/7309"}],"url":"https://www.semanticscholar.org/paper/38a7e8ef5b18bd4601bfbeedc0e8dcfe07d28620","venue":"2017 IEEE International Symposium on Workload Characterization (IISWC)","year":2017}
+{
+  "arxivId": "1803.11151",
+  "authors": [
+    {
+      "authorId": "30307951",
+      "name": "Crefeda Faviola Rodrigues",
+      "url": "https://www.semanticscholar.org/author/30307951"
+    },
+    {
+      "authorId": "39609950",
+      "name": "Graham D. Riley",
+      "url": "https://www.semanticscholar.org/author/39609950"
+    },
+    {
+      "authorId": "1706226",
+      "name": "Mikel Luj\\u00e1n",
+      "url": "https://www.semanticscholar.org/author/1706226"
+    }
+  ],
+  "citationVelocity": 0,
+  "citations": [
+    {
+      "arxivId": null,
+      "authors": [
+        {
+          "authorId": "30307951",
+          "name": "Crefeda Faviola Rodrigues",
+          "url": "https://www.semanticscholar.org/author/30307951"
+        },
+        {
+          "authorId": "39609950",
+          "name": "Graham D. Riley",
+          "url": "https://www.semanticscholar.org/author/39609950"
+        },
+        {
+          "authorId": "1706226",
+          "name": "Mikel Luj\\u00e1n",
+          "url": "https://www.semanticscholar.org/author/1706226"
+        }
+      ],
+      "doi": null,
+      "isInfluential": false,
+      "paperId": "cca7a56ae73ab0428e9859146f222a750a390c7d",
+      "title": "SyNERGY: An energy measurement and prediction framework for Convolutional Neural Networks on Jetson TX1",
+      "url": "https://www.semanticscholar.org/paper/cca7a56ae73ab0428e9859146f222a750a390c7d",
+      "venue": "",
+      "year": 2018
+    }
+  ],
+  "doi": "10.1109/IISWC.2017.8167764",
+  "influentialCitationCount": 0,
+  "paperId": "38a7e8ef5b18bd4601bfbeedc0e8dcfe07d28620",
+  "references": [
+    {
+      "arxivId": null,
+      "authors": [
+        {
+          "authorId": "2772904",
+          "name": "Nicholas D. Lane",
+          "url": "https://www.semanticscholar.org/author/2772904"
+        },
+        {
+          "authorId": "1979517",
+          "name": "Sourav Bhattacharya",
+          "url": "https://www.semanticscholar.org/author/1979517"
+        },
+        {
+          "authorId": "1737522",
+          "name": "Petko Georgiev",
+          "url": "https://www.semanticscholar.org/author/1737522"
+        },
+        {
+          "authorId": "1779159",
+          "name": "Claudio Forlivesi",
+          "url": "https://www.semanticscholar.org/author/1779159"
+        },
+        {
+          "authorId": "1776175",
+          "name": "Fahim Kawsar",
+          "url": "https://www.semanticscholar.org/author/1776175"
+        }
+      ],
+      "doi": "10.1145/2820975.2820980",
+      "isInfluential": false,
+      "paperId": "5d6fca1c2dc1bb30b2bfcc131ec6e35a16374df8",
+      "title": "An Early Resource Characterization of Deep Learning on Wearables, Smartphones and Internet-of-Things Devices",
+      "url": "https://www.semanticscholar.org/paper/5d6fca1c2dc1bb30b2bfcc131ec6e35a16374df8",
+      "venue": "IoT-App@SenSys",
+      "year": 2015
+    },
+    {
+      "arxivId": "1608.06581",
+      "authors": [
+        {
+          "authorId": "3313828",
+          "name": "Robert Adolf",
+          "url": "https://www.semanticscholar.org/author/3313828"
+        },
+        {
+          "authorId": "37408074",
+          "name": "Saketh Rama",
+          "url": "https://www.semanticscholar.org/author/37408074"
+        },
+        {
+          "authorId": "2732658",
+          "name": "Brandon Reagen",
+          "url": "https://www.semanticscholar.org/author/2732658"
+        },
+        {
+          "authorId": "2255803",
+          "name": "Gu-Yeon Wei",
+          "url": "https://www.semanticscholar.org/author/2255803"
+        },
+        {
+          "authorId": "1896817",
+          "name": "David M. Brooks",
+          "url": "https://www.semanticscholar.org/author/1896817"
+        }
+      ],
+      "doi": "10.1109/IISWC.2016.7581275",
+      "isInfluential": false,
+      "paperId": "9bde366e1897ad3b370b3bc473b0de456c75f078",
+      "title": "Fathom: reference workloads for modern deep learning methods",
+      "url": "https://www.semanticscholar.org/paper/9bde366e1897ad3b370b3bc473b0de456c75f078",
+      "venue": "2016 IEEE International Symposium on Workload Characterization (IISWC)",
+      "year": 2016
+    },
+    {
+      "arxivId": "1704.04861",
+      "authors": [
+        {
+          "authorId": "7256134",
+          "name": "Andrew G. Howard",
+          "url": "https://www.semanticscholar.org/author/7256134"
+        },
+        {
+          "authorId": "2717876",
+          "name": "Menglong Zhu",
+          "url": "https://www.semanticscholar.org/author/2717876"
+        },
+        {
+          "authorId": "50462039",
+          "name": "Bo Chen",
+          "url": "https://www.semanticscholar.org/author/50462039"
+        },
+        {
+          "authorId": "2741985",
+          "name": "Dmitry Kalenichenko",
+          "url": "https://www.semanticscholar.org/author/2741985"
+        },
+        {
+          "authorId": "47825047",
+          "name": "Weijun Wang",
+          "url": "https://www.semanticscholar.org/author/47825047"
+        },
+        {
+          "authorId": "47447630",
+          "name": "Tobias Weyand",
+          "url": "https://www.semanticscholar.org/author/47447630"
+        },
+        {
+          "authorId": "2612392",
+          "name": "Marco Andreetto",
+          "url": "https://www.semanticscholar.org/author/2612392"
+        },
+        {
+          "authorId": "2595180",
+          "name": "Hartwig Adam",
+          "url": "https://www.semanticscholar.org/author/2595180"
+        }
+      ],
+      "doi": null,
+      "isInfluential": false,
+      "paperId": "a1543975098f8ec14f4402f761eefb473100beee",
+      "title": "MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications",
+      "url": "https://www.semanticscholar.org/paper/a1543975098f8ec14f4402f761eefb473100beee",
+      "venue": "ArXiv",
+      "year": 2017
+    },
+    {
+      "arxivId": "1410.0759",
+      "authors": [
+        {
+          "authorId": "3003738",
+          "name": "Sharan Chetlur",
+          "url": "https://www.semanticscholar.org/author/3003738"
+        },
+        {
+          "authorId": "2266717",
+          "name": "Cliff Woolley",
+          "url": "https://www.semanticscholar.org/author/2266717"
+        },
+        {
+          "authorId": "2101730",
+          "name": "Philippe Vandermersch",
+          "url": "https://www.semanticscholar.org/author/2101730"
+        },
+        {
+          "authorId": "50065230",
+          "name": "Jonathan Cohen",
+          "url": "https://www.semanticscholar.org/author/50065230"
+        },
+        {
+          "authorId": "2265314",
+          "name": "John Tran",
+          "url": "https://www.semanticscholar.org/author/2265314"
+        },
+        {
+          "authorId": "2301680",
+          "name": "Bryan Catanzaro",
+          "url": "https://www.semanticscholar.org/author/2301680"
+        },
+        {
+          "authorId": "1782282",
+          "name": "Evan Shelhamer",
+          "url": "https://www.semanticscholar.org/author/1782282"
+        }
+      ],
+      "doi": null,
+      "isInfluential": false,
+      "paperId": "81b7dcaef4a53daab41658a4d1e97972d04b3384",
+      "title": "cuDNN: Efficient Primitives for Deep Learning",
+      "url": "https://www.semanticscholar.org/paper/81b7dcaef4a53daab41658a4d1e97972d04b3384",
+      "venue": "ArXiv",
+      "year": 2014
+    },
+    {
+      "arxivId": "1412.7024",
+      "authors": [
+        {
+          "authorId": "2388466",
+          "name": "Matthieu Courbariaux",
+          "url": "https://www.semanticscholar.org/author/2388466"
+        },
+        {
+          "authorId": "1751762",
+          "name": "Yoshua Bengio",
+          "url": "https://www.semanticscholar.org/author/1751762"
+        },
+        {
+          "authorId": "46545101",
+          "name": "Jean-Pierre David",
+          "url": "https://www.semanticscholar.org/author/46545101"
+        }
+      ],
+      "doi": null,
+      "isInfluential": false,
+      "paperId": "1b82d54e9a3b06c603d7987ba3ecf437425f6330",
+      "title": "Training deep neural networks with low precision multiplications",
+      "url": "https://www.semanticscholar.org/paper/1b82d54e9a3b06c603d7987ba3ecf437425f6330",
+      "venue": "",
+      "year": 2014
+    },
+    {
+      "arxivId": "1408.5093",
+      "authors": [
+        {
+          "authorId": "39978391",
+          "name": "Yangqing Jia",
+          "url": "https://www.semanticscholar.org/author/39978391"
+        },
+        {
+          "authorId": "1782282",
+          "name": "Evan Shelhamer",
+          "url": "https://www.semanticscholar.org/author/1782282"
+        },
+        {
+          "authorId": "7408951",
+          "name": "Jeff Donahue",
+          "url": "https://www.semanticscholar.org/author/7408951"
+        },
+        {
+          "authorId": "3049736",
+          "name": "Sergey Karayev",
+          "url": "https://www.semanticscholar.org/author/3049736"
+        },
+        {
+          "authorId": "34703740",
+          "name": "Jonathan Long",
+          "url": "https://www.semanticscholar.org/author/34703740"
+        },
+        {
+          "authorId": "2983898",
+          "name": "Ross B. Girshick",
+          "url": "https://www.semanticscholar.org/author/2983898"
+        },
+        {
+          "authorId": "1687120",
+          "name": "Sergio Guadarrama",
+          "url": "https://www.semanticscholar.org/author/1687120"
+        },
+        {
+          "authorId": "1753210",
+          "name": "Trevor Darrell",
+          "url": "https://www.semanticscholar.org/author/1753210"
+        }
+      ],
+      "doi": "10.1145/2647868.2654889",
+      "isInfluential": false,
+      "paperId": "722fcc35def20cfcca3ada76c8dd7a585d6de386",
+      "title": "Caffe: Convolutional Architecture for Fast Feature Embedding",
+      "url": "https://www.semanticscholar.org/paper/722fcc35def20cfcca3ada76c8dd7a585d6de386",
+      "venue": "ACM Multimedia",
+      "year": 2014
+    },
+    {
+      "arxivId": null,
+      "authors": [
+        {
+          "authorId": "31705733",
+          "name": "Eva Garc\\u00eda Mart\\u00edn",
+          "url": "https://www.semanticscholar.org/author/31705733"
+        },
+        {
+          "authorId": "2905746",
+          "name": "Niklas Lavesson",
+          "url": "https://www.semanticscholar.org/author/2905746"
+        },
+        {
+          "authorId": "2576615",
+          "name": "H\\u00e5kan Grahn",
+          "url": "https://www.semanticscholar.org/author/2576615"
+        }
+      ],
+      "doi": "10.1007/978-3-319-57186-7_21",
+      "isInfluential": false,
+      "paperId": "c3bd0b86c74a4464173073b1f36fd12d2637c7a8",
+      "title": "Identification of Energy Hotspots: A Case Study of the Very Fast Decision Tree",
+      "url": "https://www.semanticscholar.org/paper/c3bd0b86c74a4464173073b1f36fd12d2637c7a8",
+      "venue": "GPC",
+      "year": 2017
+    },
+    {
+      "arxivId": "1510.00149",
+      "authors": [
+        {
+          "authorId": "5590869",
+          "name": "Song Han",
+          "url": "https://www.semanticscholar.org/author/5590869"
+        },
+        {
+          "authorId": "3123774",
+          "name": "Huizi Mao",
+          "url": "https://www.semanticscholar.org/author/3123774"
+        },
+        {
+          "authorId": "1696619",
+          "name": "William J. Dally",
+          "url": "https://www.semanticscholar.org/author/1696619"
+        }
+      ],
+      "doi": null,
+      "isInfluential": false,
+      "paperId": "3d2126066c6244e05ec4d2631262252f4369d9c1",
+      "title": "Deep Compression: Compressing Deep Neural Network with Pruning, Trained Quantization and Huffman Coding",
+      "url": "https://www.semanticscholar.org/paper/3d2126066c6244e05ec4d2631262252f4369d9c1",
+      "venue": "ICLR",
+      "year": 2016
+    },
+    {
+      "arxivId": "1703.09039",
+      "authors": [
+        {
+          "authorId": "1691305",
+          "name": "Vivienne Sze",
+          "url": "https://www.semanticscholar.org/author/1691305"
+        },
+        {
+          "authorId": "49069271",
+          "name": "Yu-Hsin Chen",
+          "url": "https://www.semanticscholar.org/author/49069271"
+        },
+        {
+          "authorId": "1950815",
+          "name": "Tien-Ju Yang",
+          "url": "https://www.semanticscholar.org/author/1950815"
+        },
+        {
+          "authorId": "1775477",
+          "name": "Joel S. Emer",
+          "url": "https://www.semanticscholar.org/author/1775477"
+        }
+      ],
+      "doi": "10.1109/JPROC.2017.2761740",
+      "isInfluential": false,
+      "paperId": "513d9d0fdc9efa0f042ed1a3c8eab1fbb564f67b",
+      "title": "Efficient Processing of Deep Neural Networks: A Tutorial and Survey",
+      "url": "https://www.semanticscholar.org/paper/513d9d0fdc9efa0f042ed1a3c8eab1fbb564f67b",
+      "venue": "Proceedings of the IEEE",
+      "year": 2017
+    },
+    {
+      "arxivId": "1409.4842",
+      "authors": [
+        {
+          "authorId": "2574060",
+          "name": "Christian Szegedy",
+          "url": "https://www.semanticscholar.org/author/2574060"
+        },
+        {
+          "authorId": "46641688",
+          "name": "Wei Liu",
+          "url": "https://www.semanticscholar.org/author/46641688"
+        },
+        {
+          "authorId": "39978391",
+          "name": "Yangqing Jia",
+          "url": "https://www.semanticscholar.org/author/39978391"
+        },
+        {
+          "authorId": "3142556",
+          "name": "Pierre Sermanet",
+          "url": "https://www.semanticscholar.org/author/3142556"
+        },
+        {
+          "authorId": "3361042",
+          "name": "Scott E. Reed",
+          "url": "https://www.semanticscholar.org/author/3361042"
+        },
+        {
+          "authorId": "1838674",
+          "name": "Dragomir Anguelov",
+          "url": "https://www.semanticscholar.org/author/1838674"
+        },
+        {
+          "authorId": "1761978",
+          "name": "Dumitru Erhan",
+          "url": "https://www.semanticscholar.org/author/1761978"
+        },
+        {
+          "authorId": "2657155",
+          "name": "Vincent Vanhoucke",
+          "url": "https://www.semanticscholar.org/author/2657155"
+        },
+        {
+          "authorId": "39863668",
+          "name": "Andrew Rabinovich",
+          "url": "https://www.semanticscholar.org/author/39863668"
+        }
+      ],
+      "doi": "10.1109/CVPR.2015.7298594",
+      "isInfluential": false,
+      "paperId": "14318685b5959b51d0f1e3db34643eb2855dc6d9",
+      "title": "Going deeper with convolutions",
+      "url": "https://www.semanticscholar.org/paper/14318685b5959b51d0f1e3db34643eb2855dc6d9",
+      "venue": "2015 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "year": 2015
+    },
+    {
+      "arxivId": null,
+      "authors": [
+        {
+          "authorId": "2772904",
+          "name": "Nicholas D. Lane",
+          "url": "https://www.semanticscholar.org/author/2772904"
+        },
+        {
+          "authorId": "1979517",
+          "name": "Sourav Bhattacharya",
+          "url": "https://www.semanticscholar.org/author/1979517"
+        },
+        {
+          "authorId": "1737522",
+          "name": "Petko Georgiev",
+          "url": "https://www.semanticscholar.org/author/1737522"
+        },
+        {
+          "authorId": "1779159",
+          "name": "Claudio Forlivesi",
+          "url": "https://www.semanticscholar.org/author/1779159"
+        },
+        {
+          "authorId": "47661912",
+          "name": "Lei Jiao",
+          "url": "https://www.semanticscholar.org/author/47661912"
+        },
+        {
+          "authorId": "1994899",
+          "name": "Lorena Qendro",
+          "url": "https://www.semanticscholar.org/author/1994899"
+        },
+        {
+          "authorId": "1776175",
+          "name": "Fahim Kawsar",
+          "url": "https://www.semanticscholar.org/author/1776175"
+        }
+      ],
+      "doi": "10.1109/IPSN.2016.7460664",
+      "isInfluential": false,
+      "paperId": "1c454ae4e1bbc600791f3a4796fdb6b1ee2ca016",
+      "title": "DeepX: A Software Accelerator for Low-Power Deep Learning Inference on Mobile Devices",
+      "url": "https://www.semanticscholar.org/paper/1c454ae4e1bbc600791f3a4796fdb6b1ee2ca016",
+      "venue": "2016 15th ACM/IEEE International Conference on Information Processing in Sensor Networks (IPSN)",
+      "year": 2016
+    },
+    {
+      "arxivId": null,
+      "authors": [
+        {
+          "authorId": "8342699",
+          "name": "Jia Deng",
+          "url": "https://www.semanticscholar.org/author/8342699"
+        }
+      ],
+      "doi": null,
+      "isInfluential": false,
+      "paperId": "ae1c92ae7e836eb3d964b998ac5f8699e5c90cfc",
+      "title": "Large Scale Visual Recognition",
+      "url": "https://www.semanticscholar.org/paper/ae1c92ae7e836eb3d964b998ac5f8699e5c90cfc",
+      "venue": "",
+      "year": 2012
+    },
+    {
+      "arxivId": "1602.07360",
+      "authors": [
+        {
+          "authorId": "3346186",
+          "name": "Forrest N. Iandola",
+          "url": "https://www.semanticscholar.org/author/3346186"
+        },
+        {
+          "authorId": "2318023",
+          "name": "Matthew W. Moskewicz",
+          "url": "https://www.semanticscholar.org/author/2318023"
+        },
+        {
+          "authorId": "2059241",
+          "name": "Khalid Ashraf",
+          "url": "https://www.semanticscholar.org/author/2059241"
+        },
+        {
+          "authorId": "5590869",
+          "name": "Song Han",
+          "url": "https://www.semanticscholar.org/author/5590869"
+        },
+        {
+          "authorId": "1696619",
+          "name": "William J. Dally",
+          "url": "https://www.semanticscholar.org/author/1696619"
+        },
+        {
+          "authorId": "1732330",
+          "name": "Kurt Keutzer",
+          "url": "https://www.semanticscholar.org/author/1732330"
+        }
+      ],
+      "doi": null,
+      "isInfluential": false,
+      "paperId": "0919b3ab82ff8a052490389f217c480c273f2b92",
+      "title": "SqueezeNet: AlexNet-level accuracy with 50x fewer parameters and <1MB model size",
+      "url": "https://www.semanticscholar.org/paper/0919b3ab82ff8a052490389f217c480c273f2b92",
+      "venue": "ArXiv",
+      "year": 2017
+    },
+    {
+      "arxivId": null,
+      "authors": [
+        {
+          "authorId": "1691305",
+          "name": "Vivienne Sze",
+          "url": "https://www.semanticscholar.org/author/1691305"
+        },
+        {
+          "authorId": "1950815",
+          "name": "Tien-Ju Yang",
+          "url": "https://www.semanticscholar.org/author/1950815"
+        },
+        {
+          "authorId": "50579876",
+          "name": "Yu-Hsin Chen",
+          "url": "https://www.semanticscholar.org/author/50579876"
+        }
+      ],
+      "doi": null,
+      "isInfluential": false,
+      "paperId": "c7c8460b4ef28f81c59ca0adc0957bcfcebce8c8",
+      "title": "Designing Energy-Efficient Convolutional Neural Networks using Energy-Aware Pruning",
+      "url": "https://www.semanticscholar.org/paper/c7c8460b4ef28f81c59ca0adc0957bcfcebce8c8",
+      "venue": "",
+      "year": 2017
+    }
+  ],
+  "title": "Fine-grained energy profiling for deep convolutional neural networks on the Jetson TX1",
+  "topics": [
+    {
+      "topic": "Artificial neural network",
+      "topicId": "6213",
+      "url": "https://www.semanticscholar.org/topic/6213"
+    },
+    {
+      "topic": "Deep learning",
+      "topicId": "2762",
+      "url": "https://www.semanticscholar.org/topic/2762"
+    },
+    {
+      "topic": "Tegra",
+      "topicId": "370873",
+      "url": "https://www.semanticscholar.org/topic/370873"
+    },
+    {
+      "topic": "Convolutional neural network",
+      "topicId": "29860",
+      "url": "https://www.semanticscholar.org/topic/29860"
+    },
+    {
+      "topic": "Data compression",
+      "topicId": "41454",
+      "url": "https://www.semanticscholar.org/topic/41454"
+    },
+    {
+      "topic": "Server (computing)",
+      "topicId": "6042",
+      "url": "https://www.semanticscholar.org/topic/6042"
+    },
+    {
+      "topic": "Mobile device",
+      "topicId": "2615",
+      "url": "https://www.semanticscholar.org/topic/2615"
+    },
+    {
+      "topic": "Graphics processing unit",
+      "topicId": "8807",
+      "url": "https://www.semanticscholar.org/topic/8807"
+    },
+    {
+      "topic": "Computer vision",
+      "topicId": "5332",
+      "url": "https://www.semanticscholar.org/topic/5332"
+    },
+    {
+      "topic": "Power semiconductor device",
+      "topicId": "549435",
+      "url": "https://www.semanticscholar.org/topic/549435"
+    },
+    {
+      "topic": "Adobe Streamline",
+      "topicId": "2838469",
+      "url": "https://www.semanticscholar.org/topic/2838469"
+    },
+    {
+      "topic": "Maxwell (microarchitecture)",
+      "topicId": "7309",
+      "url": "https://www.semanticscholar.org/topic/7309"
+    }
+  ],
+  "url": "https://www.semanticscholar.org/paper/38a7e8ef5b18bd4601bfbeedc0e8dcfe07d28620",
+  "venue": "2017 IEEE International Symposium on Workload Characterization (IISWC)",
+  "year": 2017
+}

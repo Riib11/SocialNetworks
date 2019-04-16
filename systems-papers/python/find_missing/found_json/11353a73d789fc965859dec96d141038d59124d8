@@ -1,1 +1,1512 @@
-{"arxivId":null,"authors":[{"authorId":"3241376","name":"Peter Pessl","url":"https://www.semanticscholar.org/author/3241376"},{"authorId":"3364677","name":"Leon Groot Bruinderink","url":"https://www.semanticscholar.org/author/3364677"},{"authorId":"49968838","name":"Yuval Yarom","url":"https://www.semanticscholar.org/author/49968838"}],"citationVelocity":9,"citations":[{"arxivId":null,"authors":[{"authorId":"37981282","name":"Divesh Aggarwal","url":"https://www.semanticscholar.org/author/37981282"},{"authorId":"2989185","name":"G. K. Brennen","url":"https://www.semanticscholar.org/author/2989185"},{"authorId":"16922137","name":"Troy","url":"https://www.semanticscholar.org/author/16922137"},{"authorId":"49037736","name":"D. T. Lee","url":"https://www.semanticscholar.org/author/49037736"},{"authorId":"1724934","name":"Miklos Santha","url":"https://www.semanticscholar.org/author/1724934"},{"authorId":"2147926","name":"Marco Tomamichel","url":"https://www.semanticscholar.org/author/2147926"}],"doi":null,"isInfluential":false,"paperId":"8e7d0e7cf1e95795b82d001a0e7f393159296114","title":"Quantum attacks on Bitcoin , and how to protect against them","url":"https://www.semanticscholar.org/paper/8e7d0e7cf1e95795b82d001a0e7f393159296114","venue":"","year":2017},{"arxivId":null,"authors":[{"authorId":"47176403","name":"Ayesha Khalid","url":"https://www.semanticscholar.org/author/47176403"},{"authorId":"1902820","name":"Tobias Oder","url":"https://www.semanticscholar.org/author/1902820"},{"authorId":"2988192","name":"Felipe Valencia","url":"https://www.semanticscholar.org/author/2988192"},{"authorId":"25369418","name":"M\u00e1ire O'Neill","url":"https://www.semanticscholar.org/author/25369418"},{"authorId":"2955750","name":"Tim G\u00fcneysu","url":"https://www.semanticscholar.org/author/2955750"},{"authorId":"3114610","name":"Francesco Regazzoni","url":"https://www.semanticscholar.org/author/3114610"}],"doi":"10.1145/3194554.3194616","isInfluential":false,"paperId":"fdce6af037d0e74f4484957e678d7be6f9838c5b","title":"Physical Protection of Lattice-Based Cryptography: Challenges and Solutions","url":"https://www.semanticscholar.org/paper/fdce6af037d0e74f4484957e678d7be6f9838c5b","venue":"ACM Great Lakes Symposium on VLSI","year":2018},{"arxivId":null,"authors":[{"authorId":"36693563","name":"Arjun Chopra","url":"https://www.semanticscholar.org/author/36693563"}],"doi":null,"isInfluential":false,"paperId":"3e019c349161bb6a258f97c59b992b7c7cb796a4","title":"GLYPH: A New Insantiation of the GLP Digital Signature Scheme","url":"https://www.semanticscholar.org/paper/3e019c349161bb6a258f97c59b992b7c7cb796a4","venue":"IACR Cryptology ePrint Archive","year":2017},{"arxivId":null,"authors":[{"authorId":"2149484","name":"Martha Johanna Sep\u00falveda","url":"https://www.semanticscholar.org/author/2149484"},{"authorId":"2563139","name":"Andreas Zankl","url":"https://www.semanticscholar.org/author/2563139"},{"authorId":"2332824","name":"Oliver Mischke","url":"https://www.semanticscholar.org/author/2332824"}],"doi":"10.1109/SOCC.2017.8226020","isInfluential":false,"paperId":"d9c4775506e7db89663586663e9f0786203c5aee","title":"Cache attacks and countermeasures for NTRUEncrypt on MPSoCs: Post-quantum resistance for the IoT","url":"https://www.semanticscholar.org/paper/d9c4775506e7db89663586663e9f0786203c5aee","venue":"2017 30th IEEE International System-on-Chip Conference (SOCC)","year":2017},{"arxivId":null,"authors":[{"authorId":"38873620","name":"Prasanna Ravi","url":"https://www.semanticscholar.org/author/38873620"},{"authorId":"1704922","name":"Mahabir Prasad Jhanwar","url":"https://www.semanticscholar.org/author/1704922"},{"authorId":"6725864","name":"James Howe","url":"https://www.semanticscholar.org/author/6725864"},{"authorId":"1774792","name":"Anupam Chattopadhyay","url":"https://www.semanticscholar.org/author/1774792"},{"authorId":"40428273","name":"Shivam Bhasin","url":"https://www.semanticscholar.org/author/40428273"}],"doi":null,"isInfluential":false,"paperId":"17cf234eb0c9b8781d936d79aaf6035a79c1bee1","title":"Side-channel Assisted Existential Forgery Attack on Dilithium - A NIST PQC candidate","url":"https://www.semanticscholar.org/paper/17cf234eb0c9b8781d936d79aaf6035a79c1bee1","venue":"IACR Cryptology ePrint Archive","year":2018},{"arxivId":null,"authors":[{"authorId":"2133038","name":"Thomas Espitau","url":"https://www.semanticscholar.org/author/2133038"},{"authorId":"1740168","name":"Pierre-Alain Fouque","url":"https://www.semanticscholar.org/author/1740168"},{"authorId":"79424034","name":"Beno&#x00EE;t G&#x00E9;rard","url":"https://www.semanticscholar.org/author/79424034"},{"authorId":"1678628","name":"Mehdi Tibouchi","url":"https://www.semanticscholar.org/author/1678628"}],"doi":"10.1109/TC.2018.2833119","isInfluential":false,"paperId":"967f2c94e622f19760096a1788ed10851308f123","title":"Loop-Abort Faults on Lattice-Based Signature Schemes and Key Exchange Protocols","url":"https://www.semanticscholar.org/paper/967f2c94e622f19760096a1788ed10851308f123","venue":"IEEE Transactions on Computers","year":2018},{"arxivId":null,"authors":[{"authorId":"1737231","name":"Gilles Barthe","url":"https://www.semanticscholar.org/author/1737231"},{"authorId":"1751064","name":"Sonia Bela\u00efd","url":"https://www.semanticscholar.org/author/1751064"},{"authorId":"2133038","name":"Thomas Espitau","url":"https://www.semanticscholar.org/author/2133038"},{"authorId":"1740168","name":"Pierre-Alain Fouque","url":"https://www.semanticscholar.org/author/1740168"},{"authorId":"1959667","name":"Benjamin Gr\u00e9goire","url":"https://www.semanticscholar.org/author/1959667"},{"authorId":"40913101","name":"M\u00e9lissa Rossi","url":"https://www.semanticscholar.org/author/40913101"},{"authorId":"1678628","name":"Mehdi Tibouchi","url":"https://www.semanticscholar.org/author/1678628"}],"doi":"10.1007/978-3-319-78375-8_12","isInfluential":false,"paperId":"a55ea8bf100bfc388bb77921e06490aa93b01440","title":"Masking the GLP Lattice-Based Signature Scheme at Any Order","url":"https://www.semanticscholar.org/paper/a55ea8bf100bfc388bb77921e06490aa93b01440","venue":"IACR Cryptology ePrint Archive","year":2018},{"arxivId":null,"authors":[{"authorId":"1846928","name":"Jonathan Bootle","url":"https://www.semanticscholar.org/author/1846928"},{"authorId":"3455334","name":"Claire Delaplace","url":"https://www.semanticscholar.org/author/3455334"},{"authorId":"2133038","name":"Thomas Espitau","url":"https://www.semanticscholar.org/author/2133038"},{"authorId":"1740168","name":"Pierre-Alain Fouque","url":"https://www.semanticscholar.org/author/1740168"},{"authorId":"1678628","name":"Mehdi Tibouchi","url":"https://www.semanticscholar.org/author/1678628"}],"doi":"10.1007/978-3-030-03326-2_17","isInfluential":false,"paperId":"f0d93f1e139baabb6850d8ac010347a63e600bda","title":"LWE Without Modular Reduction and Improved Side-Channel Attacks Against BLISS","url":"https://www.semanticscholar.org/paper/f0d93f1e139baabb6850d8ac010347a63e600bda","venue":"ASIACRYPT","year":2018},{"arxivId":null,"authors":[{"authorId":"1786029","name":"L\u00e9o Ducas","url":"https://www.semanticscholar.org/author/1786029"},{"authorId":"1713646","name":"Eike Kiltz","url":"https://www.semanticscholar.org/author/1713646"},{"authorId":"1792616","name":"Tancr\u00e8de Lepoint","url":"https://www.semanticscholar.org/author/1792616"},{"authorId":"2538633","name":"Vadim Lyubashevsky","url":"https://www.semanticscholar.org/author/2538633"},{"authorId":"1722449","name":"Peter Schwabe","url":"https://www.semanticscholar.org/author/1722449"},{"authorId":"33308902","name":"Gregor Seiler","url":"https://www.semanticscholar.org/author/33308902"},{"authorId":"1803138","name":"Damien Stehl\u00e9","url":"https://www.semanticscholar.org/author/1803138"}],"doi":"10.13154/tches.v2018.i1.238-268","isInfluential":false,"paperId":"6ff92b3c3af69b8fccc2ae9fd140c5c0fdec9196","title":"CRYSTALS-Dilithium: A Lattice-Based Digital Signature Scheme","url":"https://www.semanticscholar.org/paper/6ff92b3c3af69b8fccc2ae9fd140c5c0fdec9196","venue":"IACR Trans. Cryptogr. Hardw. Embed. Syst.","year":2018},{"arxivId":null,"authors":[{"authorId":"38873620","name":"Prasanna Ravi","url":"https://www.semanticscholar.org/author/38873620"},{"authorId":"40428273","name":"Shivam Bhasin","url":"https://www.semanticscholar.org/author/40428273"},{"authorId":"1774792","name":"Anupam Chattopadhyay","url":"https://www.semanticscholar.org/author/1774792"}],"doi":null,"isInfluential":false,"paperId":"9d46f94ccfbb638d10ddbc3c650a5f37b3330665","title":"Number \"Not\" Used Once - Key Recovery Fault Attacks on LWE Based Lattice Cryptographic Schemes","url":"https://www.semanticscholar.org/paper/9d46f94ccfbb638d10ddbc3c650a5f37b3330665","venue":"IACR Cryptology ePrint Archive","year":2018},{"arxivId":null,"authors":[{"authorId":"3364677","name":"Leon Groot Bruinderink","url":"https://www.semanticscholar.org/author/3364677"},{"authorId":"3241376","name":"Peter Pessl","url":"https://www.semanticscholar.org/author/3241376"}],"doi":"10.13154/tches.v2018.i3.21-43","isInfluential":false,"paperId":"86c9044627ad4c9b53e9d3de80d778a82fe26cbc","title":"Differential Fault Attacks on Deterministic Lattice Signatures","url":"https://www.semanticscholar.org/paper/86c9044627ad4c9b53e9d3de80d778a82fe26cbc","venue":"IACR Trans. Cryptogr. Hardw. Embed. Syst.","year":2018},{"arxivId":null,"authors":[{"authorId":"2860224","name":"Rouzbeh Behnia","url":"https://www.semanticscholar.org/author/2860224"},{"authorId":"19267672","name":"Muslum Ozgur Ozmen","url":"https://www.semanticscholar.org/author/19267672"},{"authorId":"40645384","name":"Attila A. Yavuz","url":"https://www.semanticscholar.org/author/40645384"},{"authorId":"2524585","name":"Mike Rosulek","url":"https://www.semanticscholar.org/author/2524585"}],"doi":"10.1145/3243734.3243819","isInfluential":false,"paperId":"26be83bfb4e2282f2ca28434790bdc1d16134fa0","title":"TACHYON: Fast Signatures from Compact Knapsack","url":"https://www.semanticscholar.org/paper/26be83bfb4e2282f2ca28434790bdc1d16134fa0","venue":"ACM Conference on Computer and Communications Security","year":2018}],"doi":"10.1145/3133956.3134023","influentialCitationCount":0,"paperId":"11353a73d789fc965859dec96d141038d59124d8","references":[{"arxivId":null,"authors":[{"authorId":"3241376","name":"Peter Pessl","url":"https://www.semanticscholar.org/author/3241376"},{"authorId":"1743786","name":"Stefan Mangard","url":"https://www.semanticscholar.org/author/1743786"}],"doi":"10.1007/978-3-319-29485-8_15","isInfluential":false,"paperId":"2ce210df0f284d5d35beadd55e5aaa0b8e41af48","title":"Enhancing Side-Channel Analysis of Binary-Field Multiplication with Bit Reliability","url":"https://www.semanticscholar.org/paper/2ce210df0f284d5d35beadd55e5aaa0b8e41af48","venue":"CT-RSA","year":2016},{"arxivId":null,"authors":[{"authorId":"3118445","name":"Markku-Juhani O. Saarinen","url":"https://www.semanticscholar.org/author/3118445"}],"doi":"10.1007/s13389-017-0149-6","isInfluential":false,"paperId":"0c677be877b858ee5de54bf9f9d2727b54a550cd","title":"Arithmetic coding and blinding countermeasures for lattice signatures","url":"https://www.semanticscholar.org/paper/0c677be877b858ee5de54bf9f9d2727b54a550cd","venue":"Journal of Cryptographic Engineering","year":2017},{"arxivId":null,"authors":[{"authorId":"1793589","name":"Krzysztof Pietrzak","url":"https://www.semanticscholar.org/author/1793589"}],"doi":"10.1007/978-3-642-27660-6_9","isInfluential":false,"paperId":"e90a94bbc5eecd75a4b6b6e9e165d2735f9a91b5","title":"Cryptography from Learning Parity with Noise","url":"https://www.semanticscholar.org/paper/e90a94bbc5eecd75a4b6b6e9e165d2735f9a91b5","venue":"SOFSEM","year":2012},{"arxivId":null,"authors":[{"authorId":"47380723","name":"Qian Ge","url":"https://www.semanticscholar.org/author/47380723"},{"authorId":"49968838","name":"Yuval Yarom","url":"https://www.semanticscholar.org/author/49968838"},{"authorId":"1741872","name":"David Cock","url":"https://www.semanticscholar.org/author/1741872"},{"authorId":"1743811","name":"Gernot Heiser","url":"https://www.semanticscholar.org/author/1743811"}],"doi":"10.1007/s13389-016-0141-6","isInfluential":false,"paperId":"7fa78624a4b222f81b9c94400b59b49eb9314d96","title":"A survey of microarchitectural timing attacks and countermeasures on contemporary hardware","url":"https://www.semanticscholar.org/paper/7fa78624a4b222f81b9c94400b59b49eb9314d96","venue":"Journal of Cryptographic Engineering","year":2016},{"arxivId":null,"authors":[{"authorId":"2175374","name":"Daniel J. Bernstein","url":"https://www.semanticscholar.org/author/2175374"},{"authorId":"1719316","name":"Tanja Lange","url":"https://www.semanticscholar.org/author/1719316"},{"authorId":"40298169","name":"Christiane Peters","url":"https://www.semanticscholar.org/author/40298169"}],"doi":"10.1007/978-3-540-88403-3_3","isInfluential":false,"paperId":"6ff3ba7754dbd376f431ac847d1452ae23c79a72","title":"Attacking and Defending the McEliece Cryptosystem","url":"https://www.semanticscholar.org/paper/6ff3ba7754dbd376f431ac847d1452ae23c79a72","venue":"PQCrypto","year":2008},{"arxivId":"1502.07373","authors":[{"authorId":"3214290","name":"Yossef Oren","url":"https://www.semanticscholar.org/author/3214290"},{"authorId":"1806308","name":"Vasileios P. Kemerlis","url":"https://www.semanticscholar.org/author/1806308"},{"authorId":"1738240","name":"Simha Sethumadhavan","url":"https://www.semanticscholar.org/author/1738240"},{"authorId":"1720824","name":"Angelos Dennis Keromytis","url":"https://www.semanticscholar.org/author/1720824"}],"doi":"10.1145/2810103.2813708","isInfluential":false,"paperId":"73e3dd2b8fba372316b780fdb81bcb7686c15bae","title":"The Spy in the Sandbox: Practical Cache Attacks in JavaScript and their Implications","url":"https://www.semanticscholar.org/paper/73e3dd2b8fba372316b780fdb81bcb7686c15bae","venue":"ACM Conference on Computer and Communications Security","year":2015},{"arxivId":null,"authors":[{"authorId":"2835874","name":"Gorka Irazoqui Apecechea","url":"https://www.semanticscholar.org/author/2835874"},{"authorId":"39173754","name":"Mehmet Sinan Inci","url":"https://www.semanticscholar.org/author/39173754"},{"authorId":"1759115","name":"Thomas Eisenbarth","url":"https://www.semanticscholar.org/author/1759115"},{"authorId":"1714383","name":"Berk Sunar","url":"https://www.semanticscholar.org/author/1714383"}],"doi":"10.1007/978-3-319-11379-1_15","isInfluential":false,"paperId":"135d6f50f43dc278d20026352f0051ac368ce315","title":"Wait a Minute! A fast, Cross-VM Attack on AES","url":"https://www.semanticscholar.org/paper/135d6f50f43dc278d20026352f0051ac368ce315","venue":"RAID","year":2014},{"arxivId":null,"authors":[{"authorId":"3316619","name":"Yuanmi Chen","url":"https://www.semanticscholar.org/author/3316619"},{"authorId":"2623263","name":"Phong Q. Nguyen","url":"https://www.semanticscholar.org/author/2623263"}],"doi":"10.1007/978-3-642-25385-0_1","isInfluential":false,"paperId":"8ade32c4833474ffde68b8b0c0d162ffdae1b9e3","title":"BKZ 2.0: Better Lattice Security Estimates","url":"https://www.semanticscholar.org/paper/8ade32c4833474ffde68b8b0c0d162ffdae1b9e3","venue":"ASIACRYPT","year":2011},{"arxivId":null,"authors":[{"authorId":"1704716","name":"Yukiyasu Tsunoo","url":"https://www.semanticscholar.org/author/1704716"}],"doi":null,"isInfluential":false,"paperId":"50972a401df35a2ce6a7eb0dc7a7c401a94a75bc","title":"Cryptanalysis of Block Ciphers Implemented on Computers with Cache","url":"https://www.semanticscholar.org/paper/50972a401df35a2ce6a7eb0dc7a7c401a94a75bc","venue":"","year":2002},{"arxivId":null,"authors":[{"authorId":"1679539","name":"Arjen K. Lenstra","url":"https://www.semanticscholar.org/author/1679539"},{"authorId":"2071886","name":"Hendrik W. Lenstra","url":"https://www.semanticscholar.org/author/2071886"},{"authorId":null,"name":"L. Lovfi","url":null}],"doi":null,"isInfluential":true,"paperId":"2fa8b58bb107f8cdfdec4e4365befb2dcccab018","title":"Factoring Polynomials with Rational Coefficients","url":"https://www.semanticscholar.org/paper/2fa8b58bb107f8cdfdec4e4365befb2dcccab018","venue":"","year":1982},{"arxivId":null,"authors":[{"authorId":"3413188","name":"Cesar Pereida Garc\u00eda","url":"https://www.semanticscholar.org/author/3413188"},{"authorId":"2863384","name":"Billy Bob Brumley","url":"https://www.semanticscholar.org/author/2863384"},{"authorId":"49968838","name":"Yuval Yarom","url":"https://www.semanticscholar.org/author/49968838"}],"doi":"10.1145/2976749.2978420","isInfluential":false,"paperId":"58d0a735c548701711f4352d2d10992f4f1c327e","title":"\"Make Sure DSA Signing Exponentiations Really are Constant-Time\"","url":"https://www.semanticscholar.org/paper/58d0a735c548701711f4352d2d10992f4f1c327e","venue":"ACM Conference on Computer and Communications Security","year":2016},{"arxivId":null,"authors":[{"authorId":"3146593","name":"Dag Arne Osvik","url":"https://www.semanticscholar.org/author/3146593"},{"authorId":"1706216","name":"Adi Shamir","url":"https://www.semanticscholar.org/author/1706216"},{"authorId":"2337345","name":"Eran Tromer","url":"https://www.semanticscholar.org/author/2337345"}],"doi":null,"isInfluential":false,"paperId":"afd02ebc331bf2ff9fdb2785fec5a27bb6c69cad","title":"Cache attacks and countermeasures : The case of AES","url":"https://www.semanticscholar.org/paper/afd02ebc331bf2ff9fdb2785fec5a27bb6c69cad","venue":"","year":2006},{"arxivId":null,"authors":[{"authorId":"1786029","name":"L\u00e9o Ducas","url":"https://www.semanticscholar.org/author/1786029"},{"authorId":"35501788","name":"Alain Durmus","url":"https://www.semanticscholar.org/author/35501788"},{"authorId":"1792616","name":"Tancr\u00e8de Lepoint","url":"https://www.semanticscholar.org/author/1792616"},{"authorId":"2538633","name":"Vadim Lyubashevsky","url":"https://www.semanticscholar.org/author/2538633"}],"doi":"10.1007/978-3-642-40041-4_3","isInfluential":true,"paperId":"16d916b69aa99a32d999068a376a5b4e96bfbd07","title":"Lattice Signatures and Bimodal Gaussians","url":"https://www.semanticscholar.org/paper/16d916b69aa99a32d999068a376a5b4e96bfbd07","venue":"CRYPTO","year":2013},{"arxivId":null,"authors":[{"authorId":"1690967","name":"Avrim Blum","url":"https://www.semanticscholar.org/author/1690967"},{"authorId":"2186481","name":"Adam Tauman Kalai","url":"https://www.semanticscholar.org/author/2186481"},{"authorId":"38798098","name":"Hal Wasserman","url":"https://www.semanticscholar.org/author/38798098"}],"doi":"10.1145/335305.335355","isInfluential":false,"paperId":"0f752f131b0f5acdb9be4557574cf539ddd999bf","title":"Noise-tolerant learning, the parity problem, and the statistical query model","url":"https://www.semanticscholar.org/paper/0f752f131b0f5acdb9be4557574cf539ddd999bf","venue":"STOC","year":2000},{"arxivId":null,"authors":[{"authorId":"2018023","name":"Richard Lindner","url":"https://www.semanticscholar.org/author/2018023"},{"authorId":"1706585","name":"Chris Peikert","url":"https://www.semanticscholar.org/author/1706585"}],"doi":"10.1007/978-3-642-19074-2_21","isInfluential":false,"paperId":"407d206f741e98b97a257ff6af9eda8fa9f843d2","title":"Better Key Sizes (and Attacks) for LWE-Based Encryption","url":"https://www.semanticscholar.org/paper/407d206f741e98b97a257ff6af9eda8fa9f843d2","venue":"IACR Cryptology ePrint Archive","year":2010},{"arxivId":null,"authors":[{"authorId":"3413188","name":"Cesar Pereida Garc\u00eda","url":"https://www.semanticscholar.org/author/3413188"},{"authorId":"2863384","name":"Billy Bob Brumley","url":"https://www.semanticscholar.org/author/2863384"}],"doi":null,"isInfluential":false,"paperId":"0e9b9e095fed2df3762ee5bf00ec4f15001a3a7c","title":"Constant-Time Callees with Variable-Time Callers","url":"https://www.semanticscholar.org/paper/0e9b9e095fed2df3762ee5bf00ec4f15001a3a7c","venue":"IACR Cryptology ePrint Archive","year":2016},{"arxivId":null,"authors":[{"authorId":"3241376","name":"Peter Pessl","url":"https://www.semanticscholar.org/author/3241376"}],"doi":"10.1007/978-3-319-49890-4_9","isInfluential":true,"paperId":"219e42a75820e128da43f8c5d1a56f92e6374ec5","title":"Analyzing the Shuffling Side-Channel Countermeasure for Lattice-Based Signatures","url":"https://www.semanticscholar.org/paper/219e42a75820e128da43f8c5d1a56f92e6374ec5","venue":"IACR Cryptology ePrint Archive","year":2016},{"arxivId":null,"authors":[{"authorId":"3364677","name":"Leon Groot Bruinderink","url":"https://www.semanticscholar.org/author/3364677"},{"authorId":"2065868","name":"Andreas H\u00fclsing","url":"https://www.semanticscholar.org/author/2065868"},{"authorId":"1719316","name":"Tanja Lange","url":"https://www.semanticscholar.org/author/1719316"},{"authorId":"49968838","name":"Yuval Yarom","url":"https://www.semanticscholar.org/author/49968838"}],"doi":"10.1007/978-3-662-53140-2_16","isInfluential":true,"paperId":"63e21447b7098b41c4ff16e7e2be257fbb24e49a","title":"Flush, Gauss, and Reload - A Cache Attack on the BLISS Lattice-Based Signature Scheme","url":"https://www.semanticscholar.org/paper/63e21447b7098b41c4ff16e7e2be257fbb24e49a","venue":"CHES","year":2016},{"arxivId":null,"authors":[{"authorId":"2133038","name":"Thomas Espitau","url":"https://www.semanticscholar.org/author/2133038"},{"authorId":"1740168","name":"Pierre-Alain Fouque","url":"https://www.semanticscholar.org/author/1740168"},{"authorId":"2417391","name":"Beno\u00eet G\u00e9rard","url":"https://www.semanticscholar.org/author/2417391"},{"authorId":"1678628","name":"Mehdi Tibouchi","url":"https://www.semanticscholar.org/author/1678628"}],"doi":null,"isInfluential":false,"paperId":"676cc5e17cf76ec057810e5dd44baead41ad5ee7","title":"Loop abort Faults on Lattice-Based Fiat-Shamir & Hash'n Sign signatures","url":"https://www.semanticscholar.org/paper/676cc5e17cf76ec057810e5dd44baead41ad5ee7","venue":"IACR Cryptology ePrint Archive","year":2016},{"arxivId":null,"authors":[{"authorId":"1786029","name":"L\u00e9o Ducas","url":"https://www.semanticscholar.org/author/1786029"}],"doi":null,"isInfluential":true,"paperId":"394257e099e25217b57e3527e3d00e9411ef1872","title":"Accelerating Bliss: the geometry of ternary polynomials","url":"https://www.semanticscholar.org/paper/394257e099e25217b57e3527e3d00e9411ef1872","venue":"IACR Cryptology ePrint Archive","year":2014},{"arxivId":null,"authors":[{"authorId":"1751064","name":"Sonia Bela\u00efd","url":"https://www.semanticscholar.org/author/1751064"},{"authorId":"1740168","name":"Pierre-Alain Fouque","url":"https://www.semanticscholar.org/author/1740168"},{"authorId":"2417391","name":"Beno\u00eet G\u00e9rard","url":"https://www.semanticscholar.org/author/2417391"}],"doi":"10.1007/978-3-662-45608-8_17","isInfluential":false,"paperId":"29b04f83ea21386955754b936a3aeb9207a0b65c","title":"Side-Channel Analysis of Multiplications in GF(2128) - Application to AES-GCM","url":"https://www.semanticscholar.org/paper/29b04f83ea21386955754b936a3aeb9207a0b65c","venue":"ASIACRYPT","year":2014},{"arxivId":null,"authors":[{"authorId":"39939156","name":"Yinqian Zhang","url":"https://www.semanticscholar.org/author/39939156"},{"authorId":"1687161","name":"Ari Juels","url":"https://www.semanticscholar.org/author/1687161"},{"authorId":"1746214","name":"Michael K. Reiter","url":"https://www.semanticscholar.org/author/1746214"},{"authorId":"1707461","name":"Thomas Ristenpart","url":"https://www.semanticscholar.org/author/1707461"}],"doi":"10.1145/2660267.2660356","isInfluential":false,"paperId":"7272e04a354d3bc54b1a8119e868090996d3bf1d","title":"Cross-Tenant Side-Channel Attacks in PaaS Clouds","url":"https://www.semanticscholar.org/paper/7272e04a354d3bc54b1a8119e868090996d3bf1d","venue":"ACM Conference on Computer and Communications Security","year":2014},{"arxivId":null,"authors":[{"authorId":"1786029","name":"L\u00e9o Ducas","url":"https://www.semanticscholar.org/author/1786029"},{"authorId":"1792616","name":"Tancr\u00e8de Lepoint","url":"https://www.semanticscholar.org/author/1792616"},{"authorId":"2538633","name":"Vadim Lyubashevsky","url":"https://www.semanticscholar.org/author/2538633"},{"authorId":"1722449","name":"Peter Schwabe","url":"https://www.semanticscholar.org/author/1722449"},{"authorId":"33308902","name":"Gregor Seiler","url":"https://www.semanticscholar.org/author/33308902"},{"authorId":"1803138","name":"Damien Stehl\u00e9","url":"https://www.semanticscholar.org/author/1803138"}],"doi":null,"isInfluential":false,"paperId":"3131fd498409dd774ebd28a2f0ecbdf8958ca2cd","title":"CRYSTALS - Dilithium: Digital Signatures from Module Lattices","url":"https://www.semanticscholar.org/paper/3131fd498409dd774ebd28a2f0ecbdf8958ca2cd","venue":"IACR Cryptology ePrint Archive","year":2017},{"arxivId":null,"authors":[{"authorId":"38915715","name":"Joop van de Pol","url":"https://www.semanticscholar.org/author/38915715"},{"authorId":"1686813","name":"Nigel P. Smart","url":"https://www.semanticscholar.org/author/1686813"},{"authorId":"49968838","name":"Yuval Yarom","url":"https://www.semanticscholar.org/author/49968838"}],"doi":"10.1007/978-3-319-16715-2_1","isInfluential":false,"paperId":"4ad23e9e5745e8f3ee19317c54844b58d93513df","title":"Just a Little Bit More","url":"https://www.semanticscholar.org/paper/4ad23e9e5745e8f3ee19317c54844b58d93513df","venue":"IACR Cryptology ePrint Archive","year":2014},{"arxivId":null,"authors":[{"authorId":"2900815","name":"Thomas Allan","url":"https://www.semanticscholar.org/author/2900815"},{"authorId":"2863384","name":"Billy Bob Brumley","url":"https://www.semanticscholar.org/author/2863384"},{"authorId":"1679867","name":"Katrina E. Falkner","url":"https://www.semanticscholar.org/author/1679867"},{"authorId":"38915715","name":"Joop van de Pol","url":"https://www.semanticscholar.org/author/38915715"},{"authorId":"49968838","name":"Yuval Yarom","url":"https://www.semanticscholar.org/author/49968838"}],"doi":"10.1145/2991079.2991084","isInfluential":false,"paperId":"1513be7178d849dc4363b31c9ea19a2baea076e7","title":"Amplifying Side Channels Through Performance Degradation","url":"https://www.semanticscholar.org/paper/1513be7178d849dc4363b31c9ea19a2baea076e7","venue":"IACR Cryptology ePrint Archive","year":2015},{"arxivId":null,"authors":[{"authorId":"2784199","name":"Nina Bindel","url":"https://www.semanticscholar.org/author/2784199"},{"authorId":"1775826","name":"Johannes A. Buchmann","url":"https://www.semanticscholar.org/author/1775826"},{"authorId":"37448020","name":"Juliane Kr\u00e4mer","url":"https://www.semanticscholar.org/author/37448020"}],"doi":"10.1109/FDTC.2016.11","isInfluential":false,"paperId":"1231c2b5d424766e7a174c08ec3af3db991bb8a8","title":"Lattice-Based Signature Schemes and Their Sensitivity to Fault Attacks","url":"https://www.semanticscholar.org/paper/1231c2b5d424766e7a174c08ec3af3db991bb8a8","venue":"2016 Workshop on Fault Diagnosis and Tolerance in Cryptography (FDTC)","year":2016},{"arxivId":null,"authors":[{"authorId":"1751064","name":"Sonia Bela\u00efd","url":"https://www.semanticscholar.org/author/1751064"},{"authorId":"1788866","name":"Jean-S\u00e9bastien Coron","url":"https://www.semanticscholar.org/author/1788866"},{"authorId":"1740168","name":"Pierre-Alain Fouque","url":"https://www.semanticscholar.org/author/1740168"},{"authorId":"2417391","name":"Beno\u00eet G\u00e9rard","url":"https://www.semanticscholar.org/author/2417391"},{"authorId":"32743197","name":"Jean-Gabriel Kammerer","url":"https://www.semanticscholar.org/author/32743197"},{"authorId":"1726631","name":"Emmanuel Prouff","url":"https://www.semanticscholar.org/author/1726631"}],"doi":"10.1007/978-3-662-48324-4_20","isInfluential":false,"paperId":"548f2564274c33e7a646a99f7763496b1b7bf257","title":"Improved Side-Channel Analysis of Finite-Field Multiplication","url":"https://www.semanticscholar.org/paper/548f2564274c33e7a646a99f7763496b1b7bf257","venue":"IACR Cryptology ePrint Archive","year":2015},{"arxivId":null,"authors":[{"authorId":"1774354","name":"Sedat Akleylek","url":"https://www.semanticscholar.org/author/1774354"},{"authorId":"2784199","name":"Nina Bindel","url":"https://www.semanticscholar.org/author/2784199"},{"authorId":"1775826","name":"Johannes A. Buchmann","url":"https://www.semanticscholar.org/author/1775826"},{"authorId":"37448020","name":"Juliane Kr\u00e4mer","url":"https://www.semanticscholar.org/author/37448020"},{"authorId":"35101262","name":"Giorgia Azzurra Marson","url":"https://www.semanticscholar.org/author/35101262"}],"doi":"10.1007/978-3-319-31517-1_3","isInfluential":false,"paperId":"43fb8926f0fce498351c442cc49beab0e6f7151f","title":"An Efficient Lattice-Based Signature Scheme with Provably Secure Instantiation","url":"https://www.semanticscholar.org/paper/43fb8926f0fce498351c442cc49beab0e6f7151f","venue":"IACR Cryptology ePrint Archive","year":2016},{"arxivId":null,"authors":[{"authorId":"49968838","name":"Yuval Yarom","url":"https://www.semanticscholar.org/author/49968838"},{"authorId":"2525494","name":"Naomi Benger","url":"https://www.semanticscholar.org/author/2525494"}],"doi":null,"isInfluential":false,"paperId":"87d49f253a0e623e0255afa06d63e9b5a9fb09d0","title":"Recovering OpenSSL ECDSA Nonces Using the FLUSH+RELOAD Cache Side-channel Attack","url":"https://www.semanticscholar.org/paper/87d49f253a0e623e0255afa06d63e9b5a9fb09d0","venue":"IACR Cryptology ePrint Archive","year":2014},{"arxivId":null,"authors":[{"authorId":"49968838","name":"Yuval Yarom","url":"https://www.semanticscholar.org/author/49968838"},{"authorId":"1679867","name":"Katrina E. Falkner","url":"https://www.semanticscholar.org/author/1679867"}],"doi":null,"isInfluential":true,"paperId":"447611b97696bf363409371fa6ffb7befc36e5b7","title":"Flush+Reload: a High Resolution, Low Noise, L3 Cache Side-Channel Attack","url":"https://www.semanticscholar.org/paper/447611b97696bf363409371fa6ffb7befc36e5b7","venue":"IACR Cryptology ePrint Archive","year":2013},{"arxivId":null,"authors":[{"authorId":"2738264","name":"\u00c9ric Levieil","url":"https://www.semanticscholar.org/author/2738264"},{"authorId":"1740168","name":"Pierre-Alain Fouque","url":"https://www.semanticscholar.org/author/1740168"}],"doi":"10.1007/11832072_24","isInfluential":true,"paperId":"5d3424acaf6da288409a34bfcbc188ec740dea1d","title":"An Improved LPN Algorithm","url":"https://www.semanticscholar.org/paper/5d3424acaf6da288409a34bfcbc188ec740dea1d","venue":"SCN","year":2006},{"arxivId":"1703.06986","authors":[{"authorId":"25141461","name":"Ahmad Moghimi","url":"https://www.semanticscholar.org/author/25141461"},{"authorId":"2835874","name":"Gorka Irazoqui Apecechea","url":"https://www.semanticscholar.org/author/2835874"},{"authorId":"1759115","name":"Thomas Eisenbarth","url":"https://www.semanticscholar.org/author/1759115"}],"doi":"10.1007/978-3-319-66787-4_4","isInfluential":false,"paperId":"f22f9ca383779d50619d5cde96df7c4c998a9c39","title":"CacheZoom: How SGX Amplifies the Power of Cache Attacks","url":"https://www.semanticscholar.org/paper/f22f9ca383779d50619d5cde96df7c4c998a9c39","venue":"CHES","year":2017},{"arxivId":null,"authors":[{"authorId":"2672355","name":"Thomas P\u00f6ppelmann","url":"https://www.semanticscholar.org/author/2672355"},{"authorId":"1786029","name":"L\u00e9o Ducas","url":"https://www.semanticscholar.org/author/1786029"},{"authorId":"2955750","name":"Tim G\u00fcneysu","url":"https://www.semanticscholar.org/author/2955750"}],"doi":"10.1007/978-3-662-44709-3_20","isInfluential":false,"paperId":"11136c9841bb33a7433e122e586065fccbb746a8","title":"Enhanced Lattice-Based Signatures on Reconfigurable Hardware","url":"https://www.semanticscholar.org/paper/11136c9841bb33a7433e122e586065fccbb746a8","venue":"CHES","year":2014},{"arxivId":null,"authors":[{"authorId":"1742404","name":"Amos Fiat","url":"https://www.semanticscholar.org/author/1742404"},{"authorId":"1706216","name":"Adi Shamir","url":"https://www.semanticscholar.org/author/1706216"}],"doi":"10.1007/3-540-47721-7_12","isInfluential":false,"paperId":"09c1ba685a08632e4a35eac23f2888ffa4572746","title":"How to Prove Yourself: Practical Solutions to Identification and Signature Problems","url":"https://www.semanticscholar.org/paper/09c1ba685a08632e4a35eac23f2888ffa4572746","venue":"CRYPTO","year":1986},{"arxivId":null,"authors":[{"authorId":"1902820","name":"Tobias Oder","url":"https://www.semanticscholar.org/author/1902820"},{"authorId":"2672355","name":"Thomas P\u00f6ppelmann","url":"https://www.semanticscholar.org/author/2672355"},{"authorId":"2955750","name":"Tim G\u00fcneysu","url":"https://www.semanticscholar.org/author/2955750"}],"doi":"10.1145/2593069.2593098","isInfluential":false,"paperId":"7d8e8b3379787a6f9c6fe60ebd7a09253c07fe58","title":"Beyond ECDSA and RSA: Lattice-based digital signatures on constrained devices","url":"https://www.semanticscholar.org/paper/7d8e8b3379787a6f9c6fe60ebd7a09253c07fe58","venue":"2014 51st ACM/EDAC/IEEE Design Automation Conference (DAC)","year":2014},{"arxivId":null,"authors":[{"authorId":"47748074","name":"Qian Guo","url":"https://www.semanticscholar.org/author/47748074"},{"authorId":"1731198","name":"Thomas Johansson","url":"https://www.semanticscholar.org/author/1731198"},{"authorId":"2239962","name":"Carl L\u00f6ndahl","url":"https://www.semanticscholar.org/author/2239962"}],"doi":"10.1007/978-3-662-45611-8_1","isInfluential":false,"paperId":"2c7cc21a48058749b08fa00a2ae3cc87f4996e87","title":"Solving LPN Using Covering Codes","url":"https://www.semanticscholar.org/paper/2c7cc21a48058749b08fa00a2ae3cc87f4996e87","venue":"ASIACRYPT","year":2014},{"arxivId":null,"authors":[{"authorId":"1702202","name":"Oded Regev","url":"https://www.semanticscholar.org/author/1702202"}],"doi":"10.1145/1060590.1060603","isInfluential":false,"paperId":"997f6949599b0db10f62ad3fe2b319a3bef1918f","title":"On lattices, learning with errors, random linear codes, and cryptography","url":"https://www.semanticscholar.org/paper/997f6949599b0db10f62ad3fe2b319a3bef1918f","venue":"STOC","year":2005}],"title":"To BLISS-B or not to be: Attacking strongSwan's Implementation of Post-Quantum Signatures","topics":[{"topic":"BLISS","topicId":"416318","url":"https://www.semanticscholar.org/topic/416318"},{"topic":"strongSwan","topicId":"972531","url":"https://www.semanticscholar.org/topic/972531"},{"topic":"Post-quantum cryptography","topicId":"227467","url":"https://www.semanticscholar.org/topic/227467"},{"topic":"Lattice-based cryptography","topicId":"853992","url":"https://www.semanticscholar.org/topic/853992"},{"topic":"IPsec","topicId":"214958","url":"https://www.semanticscholar.org/topic/214958"},{"topic":"Algorithm","topicId":"305","url":"https://www.semanticscholar.org/topic/305"},{"topic":"Side-channel attack","topicId":"28247","url":"https://www.semanticscholar.org/topic/28247"},{"topic":"Parity learning","topicId":"779894","url":"https://www.semanticscholar.org/topic/779894"},{"topic":"ECC memory","topicId":"139843","url":"https://www.semanticscholar.org/topic/139843"},{"topic":"RSA (cryptosystem)","topicId":"71363","url":"https://www.semanticscholar.org/topic/71363"},{"topic":"Linear programming","topicId":"12656","url":"https://www.semanticscholar.org/topic/12656"},{"topic":"Quantum cryptography","topicId":"48058","url":"https://www.semanticscholar.org/topic/48058"},{"topic":"Digital signature","topicId":"34880","url":"https://www.semanticscholar.org/topic/34880"},{"topic":"Key (cryptography)","topicId":"67214","url":"https://www.semanticscholar.org/topic/67214"},{"topic":"Key escrow","topicId":"21342","url":"https://www.semanticscholar.org/topic/21342"},{"topic":"Virtual private network","topicId":"74076","url":"https://www.semanticscholar.org/topic/74076"},{"topic":"Lattice reduction","topicId":"436076","url":"https://www.semanticscholar.org/topic/436076"}],"url":"https://www.semanticscholar.org/paper/11353a73d789fc965859dec96d141038d59124d8","venue":"ACM Conference on Computer and Communications Security","year":2017}
+{
+  "arxivId": null,
+  "authors": [
+    {
+      "authorId": "3241376",
+      "name": "Peter Pessl",
+      "url": "https://www.semanticscholar.org/author/3241376"
+    },
+    {
+      "authorId": "3364677",
+      "name": "Leon Groot Bruinderink",
+      "url": "https://www.semanticscholar.org/author/3364677"
+    },
+    {
+      "authorId": "49968838",
+      "name": "Yuval Yarom",
+      "url": "https://www.semanticscholar.org/author/49968838"
+    }
+  ],
+  "citationVelocity": 9,
+  "citations": [
+    {
+      "arxivId": null,
+      "authors": [
+        {
+          "authorId": "37981282",
+          "name": "Divesh Aggarwal",
+          "url": "https://www.semanticscholar.org/author/37981282"
+        },
+        {
+          "authorId": "2989185",
+          "name": "G. K. Brennen",
+          "url": "https://www.semanticscholar.org/author/2989185"
+        },
+        {
+          "authorId": "16922137",
+          "name": "Troy",
+          "url": "https://www.semanticscholar.org/author/16922137"
+        },
+        {
+          "authorId": "49037736",
+          "name": "D. T. Lee",
+          "url": "https://www.semanticscholar.org/author/49037736"
+        },
+        {
+          "authorId": "1724934",
+          "name": "Miklos Santha",
+          "url": "https://www.semanticscholar.org/author/1724934"
+        },
+        {
+          "authorId": "2147926",
+          "name": "Marco Tomamichel",
+          "url": "https://www.semanticscholar.org/author/2147926"
+        }
+      ],
+      "doi": null,
+      "isInfluential": false,
+      "paperId": "8e7d0e7cf1e95795b82d001a0e7f393159296114",
+      "title": "Quantum attacks on Bitcoin , and how to protect against them",
+      "url": "https://www.semanticscholar.org/paper/8e7d0e7cf1e95795b82d001a0e7f393159296114",
+      "venue": "",
+      "year": 2017
+    },
+    {
+      "arxivId": null,
+      "authors": [
+        {
+          "authorId": "47176403",
+          "name": "Ayesha Khalid",
+          "url": "https://www.semanticscholar.org/author/47176403"
+        },
+        {
+          "authorId": "1902820",
+          "name": "Tobias Oder",
+          "url": "https://www.semanticscholar.org/author/1902820"
+        },
+        {
+          "authorId": "2988192",
+          "name": "Felipe Valencia",
+          "url": "https://www.semanticscholar.org/author/2988192"
+        },
+        {
+          "authorId": "25369418",
+          "name": "M\\u00e1ire O'Neill",
+          "url": "https://www.semanticscholar.org/author/25369418"
+        },
+        {
+          "authorId": "2955750",
+          "name": "Tim G\\u00fcneysu",
+          "url": "https://www.semanticscholar.org/author/2955750"
+        },
+        {
+          "authorId": "3114610",
+          "name": "Francesco Regazzoni",
+          "url": "https://www.semanticscholar.org/author/3114610"
+        }
+      ],
+      "doi": "10.1145/3194554.3194616",
+      "isInfluential": false,
+      "paperId": "fdce6af037d0e74f4484957e678d7be6f9838c5b",
+      "title": "Physical Protection of Lattice-Based Cryptography: Challenges and Solutions",
+      "url": "https://www.semanticscholar.org/paper/fdce6af037d0e74f4484957e678d7be6f9838c5b",
+      "venue": "ACM Great Lakes Symposium on VLSI",
+      "year": 2018
+    },
+    {
+      "arxivId": null,
+      "authors": [
+        {
+          "authorId": "36693563",
+          "name": "Arjun Chopra",
+          "url": "https://www.semanticscholar.org/author/36693563"
+        }
+      ],
+      "doi": null,
+      "isInfluential": false,
+      "paperId": "3e019c349161bb6a258f97c59b992b7c7cb796a4",
+      "title": "GLYPH: A New Insantiation of the GLP Digital Signature Scheme",
+      "url": "https://www.semanticscholar.org/paper/3e019c349161bb6a258f97c59b992b7c7cb796a4",
+      "venue": "IACR Cryptology ePrint Archive",
+      "year": 2017
+    },
+    {
+      "arxivId": null,
+      "authors": [
+        {
+          "authorId": "2149484",
+          "name": "Martha Johanna Sep\\u00falveda",
+          "url": "https://www.semanticscholar.org/author/2149484"
+        },
+        {
+          "authorId": "2563139",
+          "name": "Andreas Zankl",
+          "url": "https://www.semanticscholar.org/author/2563139"
+        },
+        {
+          "authorId": "2332824",
+          "name": "Oliver Mischke",
+          "url": "https://www.semanticscholar.org/author/2332824"
+        }
+      ],
+      "doi": "10.1109/SOCC.2017.8226020",
+      "isInfluential": false,
+      "paperId": "d9c4775506e7db89663586663e9f0786203c5aee",
+      "title": "Cache attacks and countermeasures for NTRUEncrypt on MPSoCs: Post-quantum resistance for the IoT",
+      "url": "https://www.semanticscholar.org/paper/d9c4775506e7db89663586663e9f0786203c5aee",
+      "venue": "2017 30th IEEE International System-on-Chip Conference (SOCC)",
+      "year": 2017
+    },
+    {
+      "arxivId": null,
+      "authors": [
+        {
+          "authorId": "38873620",
+          "name": "Prasanna Ravi",
+          "url": "https://www.semanticscholar.org/author/38873620"
+        },
+        {
+          "authorId": "1704922",
+          "name": "Mahabir Prasad Jhanwar",
+          "url": "https://www.semanticscholar.org/author/1704922"
+        },
+        {
+          "authorId": "6725864",
+          "name": "James Howe",
+          "url": "https://www.semanticscholar.org/author/6725864"
+        },
+        {
+          "authorId": "1774792",
+          "name": "Anupam Chattopadhyay",
+          "url": "https://www.semanticscholar.org/author/1774792"
+        },
+        {
+          "authorId": "40428273",
+          "name": "Shivam Bhasin",
+          "url": "https://www.semanticscholar.org/author/40428273"
+        }
+      ],
+      "doi": null,
+      "isInfluential": false,
+      "paperId": "17cf234eb0c9b8781d936d79aaf6035a79c1bee1",
+      "title": "Side-channel Assisted Existential Forgery Attack on Dilithium - A NIST PQC candidate",
+      "url": "https://www.semanticscholar.org/paper/17cf234eb0c9b8781d936d79aaf6035a79c1bee1",
+      "venue": "IACR Cryptology ePrint Archive",
+      "year": 2018
+    },
+    {
+      "arxivId": null,
+      "authors": [
+        {
+          "authorId": "2133038",
+          "name": "Thomas Espitau",
+          "url": "https://www.semanticscholar.org/author/2133038"
+        },
+        {
+          "authorId": "1740168",
+          "name": "Pierre-Alain Fouque",
+          "url": "https://www.semanticscholar.org/author/1740168"
+        },
+        {
+          "authorId": "79424034",
+          "name": "Beno&#x00EE;t G&#x00E9;rard",
+          "url": "https://www.semanticscholar.org/author/79424034"
+        },
+        {
+          "authorId": "1678628",
+          "name": "Mehdi Tibouchi",
+          "url": "https://www.semanticscholar.org/author/1678628"
+        }
+      ],
+      "doi": "10.1109/TC.2018.2833119",
+      "isInfluential": false,
+      "paperId": "967f2c94e622f19760096a1788ed10851308f123",
+      "title": "Loop-Abort Faults on Lattice-Based Signature Schemes and Key Exchange Protocols",
+      "url": "https://www.semanticscholar.org/paper/967f2c94e622f19760096a1788ed10851308f123",
+      "venue": "IEEE Transactions on Computers",
+      "year": 2018
+    },
+    {
+      "arxivId": null,
+      "authors": [
+        {
+          "authorId": "1737231",
+          "name": "Gilles Barthe",
+          "url": "https://www.semanticscholar.org/author/1737231"
+        },
+        {
+          "authorId": "1751064",
+          "name": "Sonia Bela\\u00efd",
+          "url": "https://www.semanticscholar.org/author/1751064"
+        },
+        {
+          "authorId": "2133038",
+          "name": "Thomas Espitau",
+          "url": "https://www.semanticscholar.org/author/2133038"
+        },
+        {
+          "authorId": "1740168",
+          "name": "Pierre-Alain Fouque",
+          "url": "https://www.semanticscholar.org/author/1740168"
+        },
+        {
+          "authorId": "1959667",
+          "name": "Benjamin Gr\\u00e9goire",
+          "url": "https://www.semanticscholar.org/author/1959667"
+        },
+        {
+          "authorId": "40913101",
+          "name": "M\\u00e9lissa Rossi",
+          "url": "https://www.semanticscholar.org/author/40913101"
+        },
+        {
+          "authorId": "1678628",
+          "name": "Mehdi Tibouchi",
+          "url": "https://www.semanticscholar.org/author/1678628"
+        }
+      ],
+      "doi": "10.1007/978-3-319-78375-8_12",
+      "isInfluential": false,
+      "paperId": "a55ea8bf100bfc388bb77921e06490aa93b01440",
+      "title": "Masking the GLP Lattice-Based Signature Scheme at Any Order",
+      "url": "https://www.semanticscholar.org/paper/a55ea8bf100bfc388bb77921e06490aa93b01440",
+      "venue": "IACR Cryptology ePrint Archive",
+      "year": 2018
+    },
+    {
+      "arxivId": null,
+      "authors": [
+        {
+          "authorId": "1846928",
+          "name": "Jonathan Bootle",
+          "url": "https://www.semanticscholar.org/author/1846928"
+        },
+        {
+          "authorId": "3455334",
+          "name": "Claire Delaplace",
+          "url": "https://www.semanticscholar.org/author/3455334"
+        },
+        {
+          "authorId": "2133038",
+          "name": "Thomas Espitau",
+          "url": "https://www.semanticscholar.org/author/2133038"
+        },
+        {
+          "authorId": "1740168",
+          "name": "Pierre-Alain Fouque",
+          "url": "https://www.semanticscholar.org/author/1740168"
+        },
+        {
+          "authorId": "1678628",
+          "name": "Mehdi Tibouchi",
+          "url": "https://www.semanticscholar.org/author/1678628"
+        }
+      ],
+      "doi": "10.1007/978-3-030-03326-2_17",
+      "isInfluential": false,
+      "paperId": "f0d93f1e139baabb6850d8ac010347a63e600bda",
+      "title": "LWE Without Modular Reduction and Improved Side-Channel Attacks Against BLISS",
+      "url": "https://www.semanticscholar.org/paper/f0d93f1e139baabb6850d8ac010347a63e600bda",
+      "venue": "ASIACRYPT",
+      "year": 2018
+    },
+    {
+      "arxivId": null,
+      "authors": [
+        {
+          "authorId": "1786029",
+          "name": "L\\u00e9o Ducas",
+          "url": "https://www.semanticscholar.org/author/1786029"
+        },
+        {
+          "authorId": "1713646",
+          "name": "Eike Kiltz",
+          "url": "https://www.semanticscholar.org/author/1713646"
+        },
+        {
+          "authorId": "1792616",
+          "name": "Tancr\\u00e8de Lepoint",
+          "url": "https://www.semanticscholar.org/author/1792616"
+        },
+        {
+          "authorId": "2538633",
+          "name": "Vadim Lyubashevsky",
+          "url": "https://www.semanticscholar.org/author/2538633"
+        },
+        {
+          "authorId": "1722449",
+          "name": "Peter Schwabe",
+          "url": "https://www.semanticscholar.org/author/1722449"
+        },
+        {
+          "authorId": "33308902",
+          "name": "Gregor Seiler",
+          "url": "https://www.semanticscholar.org/author/33308902"
+        },
+        {
+          "authorId": "1803138",
+          "name": "Damien Stehl\\u00e9",
+          "url": "https://www.semanticscholar.org/author/1803138"
+        }
+      ],
+      "doi": "10.13154/tches.v2018.i1.238-268",
+      "isInfluential": false,
+      "paperId": "6ff92b3c3af69b8fccc2ae9fd140c5c0fdec9196",
+      "title": "CRYSTALS-Dilithium: A Lattice-Based Digital Signature Scheme",
+      "url": "https://www.semanticscholar.org/paper/6ff92b3c3af69b8fccc2ae9fd140c5c0fdec9196",
+      "venue": "IACR Trans. Cryptogr. Hardw. Embed. Syst.",
+      "year": 2018
+    },
+    {
+      "arxivId": null,
+      "authors": [
+        {
+          "authorId": "38873620",
+          "name": "Prasanna Ravi",
+          "url": "https://www.semanticscholar.org/author/38873620"
+        },
+        {
+          "authorId": "40428273",
+          "name": "Shivam Bhasin",
+          "url": "https://www.semanticscholar.org/author/40428273"
+        },
+        {
+          "authorId": "1774792",
+          "name": "Anupam Chattopadhyay",
+          "url": "https://www.semanticscholar.org/author/1774792"
+        }
+      ],
+      "doi": null,
+      "isInfluential": false,
+      "paperId": "9d46f94ccfbb638d10ddbc3c650a5f37b3330665",
+      "title": "Number \"Not\" Used Once - Key Recovery Fault Attacks on LWE Based Lattice Cryptographic Schemes",
+      "url": "https://www.semanticscholar.org/paper/9d46f94ccfbb638d10ddbc3c650a5f37b3330665",
+      "venue": "IACR Cryptology ePrint Archive",
+      "year": 2018
+    },
+    {
+      "arxivId": null,
+      "authors": [
+        {
+          "authorId": "3364677",
+          "name": "Leon Groot Bruinderink",
+          "url": "https://www.semanticscholar.org/author/3364677"
+        },
+        {
+          "authorId": "3241376",
+          "name": "Peter Pessl",
+          "url": "https://www.semanticscholar.org/author/3241376"
+        }
+      ],
+      "doi": "10.13154/tches.v2018.i3.21-43",
+      "isInfluential": false,
+      "paperId": "86c9044627ad4c9b53e9d3de80d778a82fe26cbc",
+      "title": "Differential Fault Attacks on Deterministic Lattice Signatures",
+      "url": "https://www.semanticscholar.org/paper/86c9044627ad4c9b53e9d3de80d778a82fe26cbc",
+      "venue": "IACR Trans. Cryptogr. Hardw. Embed. Syst.",
+      "year": 2018
+    },
+    {
+      "arxivId": null,
+      "authors": [
+        {
+          "authorId": "2860224",
+          "name": "Rouzbeh Behnia",
+          "url": "https://www.semanticscholar.org/author/2860224"
+        },
+        {
+          "authorId": "19267672",
+          "name": "Muslum Ozgur Ozmen",
+          "url": "https://www.semanticscholar.org/author/19267672"
+        },
+        {
+          "authorId": "40645384",
+          "name": "Attila A. Yavuz",
+          "url": "https://www.semanticscholar.org/author/40645384"
+        },
+        {
+          "authorId": "2524585",
+          "name": "Mike Rosulek",
+          "url": "https://www.semanticscholar.org/author/2524585"
+        }
+      ],
+      "doi": "10.1145/3243734.3243819",
+      "isInfluential": false,
+      "paperId": "26be83bfb4e2282f2ca28434790bdc1d16134fa0",
+      "title": "TACHYON: Fast Signatures from Compact Knapsack",
+      "url": "https://www.semanticscholar.org/paper/26be83bfb4e2282f2ca28434790bdc1d16134fa0",
+      "venue": "ACM Conference on Computer and Communications Security",
+      "year": 2018
+    }
+  ],
+  "doi": "10.1145/3133956.3134023",
+  "influentialCitationCount": 0,
+  "paperId": "11353a73d789fc965859dec96d141038d59124d8",
+  "references": [
+    {
+      "arxivId": null,
+      "authors": [
+        {
+          "authorId": "3241376",
+          "name": "Peter Pessl",
+          "url": "https://www.semanticscholar.org/author/3241376"
+        },
+        {
+          "authorId": "1743786",
+          "name": "Stefan Mangard",
+          "url": "https://www.semanticscholar.org/author/1743786"
+        }
+      ],
+      "doi": "10.1007/978-3-319-29485-8_15",
+      "isInfluential": false,
+      "paperId": "2ce210df0f284d5d35beadd55e5aaa0b8e41af48",
+      "title": "Enhancing Side-Channel Analysis of Binary-Field Multiplication with Bit Reliability",
+      "url": "https://www.semanticscholar.org/paper/2ce210df0f284d5d35beadd55e5aaa0b8e41af48",
+      "venue": "CT-RSA",
+      "year": 2016
+    },
+    {
+      "arxivId": null,
+      "authors": [
+        {
+          "authorId": "3118445",
+          "name": "Markku-Juhani O. Saarinen",
+          "url": "https://www.semanticscholar.org/author/3118445"
+        }
+      ],
+      "doi": "10.1007/s13389-017-0149-6",
+      "isInfluential": false,
+      "paperId": "0c677be877b858ee5de54bf9f9d2727b54a550cd",
+      "title": "Arithmetic coding and blinding countermeasures for lattice signatures",
+      "url": "https://www.semanticscholar.org/paper/0c677be877b858ee5de54bf9f9d2727b54a550cd",
+      "venue": "Journal of Cryptographic Engineering",
+      "year": 2017
+    },
+    {
+      "arxivId": null,
+      "authors": [
+        {
+          "authorId": "1793589",
+          "name": "Krzysztof Pietrzak",
+          "url": "https://www.semanticscholar.org/author/1793589"
+        }
+      ],
+      "doi": "10.1007/978-3-642-27660-6_9",
+      "isInfluential": false,
+      "paperId": "e90a94bbc5eecd75a4b6b6e9e165d2735f9a91b5",
+      "title": "Cryptography from Learning Parity with Noise",
+      "url": "https://www.semanticscholar.org/paper/e90a94bbc5eecd75a4b6b6e9e165d2735f9a91b5",
+      "venue": "SOFSEM",
+      "year": 2012
+    },
+    {
+      "arxivId": null,
+      "authors": [
+        {
+          "authorId": "47380723",
+          "name": "Qian Ge",
+          "url": "https://www.semanticscholar.org/author/47380723"
+        },
+        {
+          "authorId": "49968838",
+          "name": "Yuval Yarom",
+          "url": "https://www.semanticscholar.org/author/49968838"
+        },
+        {
+          "authorId": "1741872",
+          "name": "David Cock",
+          "url": "https://www.semanticscholar.org/author/1741872"
+        },
+        {
+          "authorId": "1743811",
+          "name": "Gernot Heiser",
+          "url": "https://www.semanticscholar.org/author/1743811"
+        }
+      ],
+      "doi": "10.1007/s13389-016-0141-6",
+      "isInfluential": false,
+      "paperId": "7fa78624a4b222f81b9c94400b59b49eb9314d96",
+      "title": "A survey of microarchitectural timing attacks and countermeasures on contemporary hardware",
+      "url": "https://www.semanticscholar.org/paper/7fa78624a4b222f81b9c94400b59b49eb9314d96",
+      "venue": "Journal of Cryptographic Engineering",
+      "year": 2016
+    },
+    {
+      "arxivId": null,
+      "authors": [
+        {
+          "authorId": "2175374",
+          "name": "Daniel J. Bernstein",
+          "url": "https://www.semanticscholar.org/author/2175374"
+        },
+        {
+          "authorId": "1719316",
+          "name": "Tanja Lange",
+          "url": "https://www.semanticscholar.org/author/1719316"
+        },
+        {
+          "authorId": "40298169",
+          "name": "Christiane Peters",
+          "url": "https://www.semanticscholar.org/author/40298169"
+        }
+      ],
+      "doi": "10.1007/978-3-540-88403-3_3",
+      "isInfluential": false,
+      "paperId": "6ff3ba7754dbd376f431ac847d1452ae23c79a72",
+      "title": "Attacking and Defending the McEliece Cryptosystem",
+      "url": "https://www.semanticscholar.org/paper/6ff3ba7754dbd376f431ac847d1452ae23c79a72",
+      "venue": "PQCrypto",
+      "year": 2008
+    },
+    {
+      "arxivId": "1502.07373",
+      "authors": [
+        {
+          "authorId": "3214290",
+          "name": "Yossef Oren",
+          "url": "https://www.semanticscholar.org/author/3214290"
+        },
+        {
+          "authorId": "1806308",
+          "name": "Vasileios P. Kemerlis",
+          "url": "https://www.semanticscholar.org/author/1806308"
+        },
+        {
+          "authorId": "1738240",
+          "name": "Simha Sethumadhavan",
+          "url": "https://www.semanticscholar.org/author/1738240"
+        },
+        {
+          "authorId": "1720824",
+          "name": "Angelos Dennis Keromytis",
+          "url": "https://www.semanticscholar.org/author/1720824"
+        }
+      ],
+      "doi": "10.1145/2810103.2813708",
+      "isInfluential": false,
+      "paperId": "73e3dd2b8fba372316b780fdb81bcb7686c15bae",
+      "title": "The Spy in the Sandbox: Practical Cache Attacks in JavaScript and their Implications",
+      "url": "https://www.semanticscholar.org/paper/73e3dd2b8fba372316b780fdb81bcb7686c15bae",
+      "venue": "ACM Conference on Computer and Communications Security",
+      "year": 2015
+    },
+    {
+      "arxivId": null,
+      "authors": [
+        {
+          "authorId": "2835874",
+          "name": "Gorka Irazoqui Apecechea",
+          "url": "https://www.semanticscholar.org/author/2835874"
+        },
+        {
+          "authorId": "39173754",
+          "name": "Mehmet Sinan Inci",
+          "url": "https://www.semanticscholar.org/author/39173754"
+        },
+        {
+          "authorId": "1759115",
+          "name": "Thomas Eisenbarth",
+          "url": "https://www.semanticscholar.org/author/1759115"
+        },
+        {
+          "authorId": "1714383",
+          "name": "Berk Sunar",
+          "url": "https://www.semanticscholar.org/author/1714383"
+        }
+      ],
+      "doi": "10.1007/978-3-319-11379-1_15",
+      "isInfluential": false,
+      "paperId": "135d6f50f43dc278d20026352f0051ac368ce315",
+      "title": "Wait a Minute! A fast, Cross-VM Attack on AES",
+      "url": "https://www.semanticscholar.org/paper/135d6f50f43dc278d20026352f0051ac368ce315",
+      "venue": "RAID",
+      "year": 2014
+    },
+    {
+      "arxivId": null,
+      "authors": [
+        {
+          "authorId": "3316619",
+          "name": "Yuanmi Chen",
+          "url": "https://www.semanticscholar.org/author/3316619"
+        },
+        {
+          "authorId": "2623263",
+          "name": "Phong Q. Nguyen",
+          "url": "https://www.semanticscholar.org/author/2623263"
+        }
+      ],
+      "doi": "10.1007/978-3-642-25385-0_1",
+      "isInfluential": false,
+      "paperId": "8ade32c4833474ffde68b8b0c0d162ffdae1b9e3",
+      "title": "BKZ 2.0: Better Lattice Security Estimates",
+      "url": "https://www.semanticscholar.org/paper/8ade32c4833474ffde68b8b0c0d162ffdae1b9e3",
+      "venue": "ASIACRYPT",
+      "year": 2011
+    },
+    {
+      "arxivId": null,
+      "authors": [
+        {
+          "authorId": "1704716",
+          "name": "Yukiyasu Tsunoo",
+          "url": "https://www.semanticscholar.org/author/1704716"
+        }
+      ],
+      "doi": null,
+      "isInfluential": false,
+      "paperId": "50972a401df35a2ce6a7eb0dc7a7c401a94a75bc",
+      "title": "Cryptanalysis of Block Ciphers Implemented on Computers with Cache",
+      "url": "https://www.semanticscholar.org/paper/50972a401df35a2ce6a7eb0dc7a7c401a94a75bc",
+      "venue": "",
+      "year": 2002
+    },
+    {
+      "arxivId": null,
+      "authors": [
+        {
+          "authorId": "1679539",
+          "name": "Arjen K. Lenstra",
+          "url": "https://www.semanticscholar.org/author/1679539"
+        },
+        {
+          "authorId": "2071886",
+          "name": "Hendrik W. Lenstra",
+          "url": "https://www.semanticscholar.org/author/2071886"
+        },
+        {
+          "authorId": null,
+          "name": "L. Lovfi",
+          "url": null
+        }
+      ],
+      "doi": null,
+      "isInfluential": true,
+      "paperId": "2fa8b58bb107f8cdfdec4e4365befb2dcccab018",
+      "title": "Factoring Polynomials with Rational Coefficients",
+      "url": "https://www.semanticscholar.org/paper/2fa8b58bb107f8cdfdec4e4365befb2dcccab018",
+      "venue": "",
+      "year": 1982
+    },
+    {
+      "arxivId": null,
+      "authors": [
+        {
+          "authorId": "3413188",
+          "name": "Cesar Pereida Garc\\u00eda",
+          "url": "https://www.semanticscholar.org/author/3413188"
+        },
+        {
+          "authorId": "2863384",
+          "name": "Billy Bob Brumley",
+          "url": "https://www.semanticscholar.org/author/2863384"
+        },
+        {
+          "authorId": "49968838",
+          "name": "Yuval Yarom",
+          "url": "https://www.semanticscholar.org/author/49968838"
+        }
+      ],
+      "doi": "10.1145/2976749.2978420",
+      "isInfluential": false,
+      "paperId": "58d0a735c548701711f4352d2d10992f4f1c327e",
+      "title": "\"Make Sure DSA Signing Exponentiations Really are Constant-Time\"",
+      "url": "https://www.semanticscholar.org/paper/58d0a735c548701711f4352d2d10992f4f1c327e",
+      "venue": "ACM Conference on Computer and Communications Security",
+      "year": 2016
+    },
+    {
+      "arxivId": null,
+      "authors": [
+        {
+          "authorId": "3146593",
+          "name": "Dag Arne Osvik",
+          "url": "https://www.semanticscholar.org/author/3146593"
+        },
+        {
+          "authorId": "1706216",
+          "name": "Adi Shamir",
+          "url": "https://www.semanticscholar.org/author/1706216"
+        },
+        {
+          "authorId": "2337345",
+          "name": "Eran Tromer",
+          "url": "https://www.semanticscholar.org/author/2337345"
+        }
+      ],
+      "doi": null,
+      "isInfluential": false,
+      "paperId": "afd02ebc331bf2ff9fdb2785fec5a27bb6c69cad",
+      "title": "Cache attacks and countermeasures : The case of AES",
+      "url": "https://www.semanticscholar.org/paper/afd02ebc331bf2ff9fdb2785fec5a27bb6c69cad",
+      "venue": "",
+      "year": 2006
+    },
+    {
+      "arxivId": null,
+      "authors": [
+        {
+          "authorId": "1786029",
+          "name": "L\\u00e9o Ducas",
+          "url": "https://www.semanticscholar.org/author/1786029"
+        },
+        {
+          "authorId": "35501788",
+          "name": "Alain Durmus",
+          "url": "https://www.semanticscholar.org/author/35501788"
+        },
+        {
+          "authorId": "1792616",
+          "name": "Tancr\\u00e8de Lepoint",
+          "url": "https://www.semanticscholar.org/author/1792616"
+        },
+        {
+          "authorId": "2538633",
+          "name": "Vadim Lyubashevsky",
+          "url": "https://www.semanticscholar.org/author/2538633"
+        }
+      ],
+      "doi": "10.1007/978-3-642-40041-4_3",
+      "isInfluential": true,
+      "paperId": "16d916b69aa99a32d999068a376a5b4e96bfbd07",
+      "title": "Lattice Signatures and Bimodal Gaussians",
+      "url": "https://www.semanticscholar.org/paper/16d916b69aa99a32d999068a376a5b4e96bfbd07",
+      "venue": "CRYPTO",
+      "year": 2013
+    },
+    {
+      "arxivId": null,
+      "authors": [
+        {
+          "authorId": "1690967",
+          "name": "Avrim Blum",
+          "url": "https://www.semanticscholar.org/author/1690967"
+        },
+        {
+          "authorId": "2186481",
+          "name": "Adam Tauman Kalai",
+          "url": "https://www.semanticscholar.org/author/2186481"
+        },
+        {
+          "authorId": "38798098",
+          "name": "Hal Wasserman",
+          "url": "https://www.semanticscholar.org/author/38798098"
+        }
+      ],
+      "doi": "10.1145/335305.335355",
+      "isInfluential": false,
+      "paperId": "0f752f131b0f5acdb9be4557574cf539ddd999bf",
+      "title": "Noise-tolerant learning, the parity problem, and the statistical query model",
+      "url": "https://www.semanticscholar.org/paper/0f752f131b0f5acdb9be4557574cf539ddd999bf",
+      "venue": "STOC",
+      "year": 2000
+    },
+    {
+      "arxivId": null,
+      "authors": [
+        {
+          "authorId": "2018023",
+          "name": "Richard Lindner",
+          "url": "https://www.semanticscholar.org/author/2018023"
+        },
+        {
+          "authorId": "1706585",
+          "name": "Chris Peikert",
+          "url": "https://www.semanticscholar.org/author/1706585"
+        }
+      ],
+      "doi": "10.1007/978-3-642-19074-2_21",
+      "isInfluential": false,
+      "paperId": "407d206f741e98b97a257ff6af9eda8fa9f843d2",
+      "title": "Better Key Sizes (and Attacks) for LWE-Based Encryption",
+      "url": "https://www.semanticscholar.org/paper/407d206f741e98b97a257ff6af9eda8fa9f843d2",
+      "venue": "IACR Cryptology ePrint Archive",
+      "year": 2010
+    },
+    {
+      "arxivId": null,
+      "authors": [
+        {
+          "authorId": "3413188",
+          "name": "Cesar Pereida Garc\\u00eda",
+          "url": "https://www.semanticscholar.org/author/3413188"
+        },
+        {
+          "authorId": "2863384",
+          "name": "Billy Bob Brumley",
+          "url": "https://www.semanticscholar.org/author/2863384"
+        }
+      ],
+      "doi": null,
+      "isInfluential": false,
+      "paperId": "0e9b9e095fed2df3762ee5bf00ec4f15001a3a7c",
+      "title": "Constant-Time Callees with Variable-Time Callers",
+      "url": "https://www.semanticscholar.org/paper/0e9b9e095fed2df3762ee5bf00ec4f15001a3a7c",
+      "venue": "IACR Cryptology ePrint Archive",
+      "year": 2016
+    },
+    {
+      "arxivId": null,
+      "authors": [
+        {
+          "authorId": "3241376",
+          "name": "Peter Pessl",
+          "url": "https://www.semanticscholar.org/author/3241376"
+        }
+      ],
+      "doi": "10.1007/978-3-319-49890-4_9",
+      "isInfluential": true,
+      "paperId": "219e42a75820e128da43f8c5d1a56f92e6374ec5",
+      "title": "Analyzing the Shuffling Side-Channel Countermeasure for Lattice-Based Signatures",
+      "url": "https://www.semanticscholar.org/paper/219e42a75820e128da43f8c5d1a56f92e6374ec5",
+      "venue": "IACR Cryptology ePrint Archive",
+      "year": 2016
+    },
+    {
+      "arxivId": null,
+      "authors": [
+        {
+          "authorId": "3364677",
+          "name": "Leon Groot Bruinderink",
+          "url": "https://www.semanticscholar.org/author/3364677"
+        },
+        {
+          "authorId": "2065868",
+          "name": "Andreas H\\u00fclsing",
+          "url": "https://www.semanticscholar.org/author/2065868"
+        },
+        {
+          "authorId": "1719316",
+          "name": "Tanja Lange",
+          "url": "https://www.semanticscholar.org/author/1719316"
+        },
+        {
+          "authorId": "49968838",
+          "name": "Yuval Yarom",
+          "url": "https://www.semanticscholar.org/author/49968838"
+        }
+      ],
+      "doi": "10.1007/978-3-662-53140-2_16",
+      "isInfluential": true,
+      "paperId": "63e21447b7098b41c4ff16e7e2be257fbb24e49a",
+      "title": "Flush, Gauss, and Reload - A Cache Attack on the BLISS Lattice-Based Signature Scheme",
+      "url": "https://www.semanticscholar.org/paper/63e21447b7098b41c4ff16e7e2be257fbb24e49a",
+      "venue": "CHES",
+      "year": 2016
+    },
+    {
+      "arxivId": null,
+      "authors": [
+        {
+          "authorId": "2133038",
+          "name": "Thomas Espitau",
+          "url": "https://www.semanticscholar.org/author/2133038"
+        },
+        {
+          "authorId": "1740168",
+          "name": "Pierre-Alain Fouque",
+          "url": "https://www.semanticscholar.org/author/1740168"
+        },
+        {
+          "authorId": "2417391",
+          "name": "Beno\\u00eet G\\u00e9rard",
+          "url": "https://www.semanticscholar.org/author/2417391"
+        },
+        {
+          "authorId": "1678628",
+          "name": "Mehdi Tibouchi",
+          "url": "https://www.semanticscholar.org/author/1678628"
+        }
+      ],
+      "doi": null,
+      "isInfluential": false,
+      "paperId": "676cc5e17cf76ec057810e5dd44baead41ad5ee7",
+      "title": "Loop abort Faults on Lattice-Based Fiat-Shamir & Hash'n Sign signatures",
+      "url": "https://www.semanticscholar.org/paper/676cc5e17cf76ec057810e5dd44baead41ad5ee7",
+      "venue": "IACR Cryptology ePrint Archive",
+      "year": 2016
+    },
+    {
+      "arxivId": null,
+      "authors": [
+        {
+          "authorId": "1786029",
+          "name": "L\\u00e9o Ducas",
+          "url": "https://www.semanticscholar.org/author/1786029"
+        }
+      ],
+      "doi": null,
+      "isInfluential": true,
+      "paperId": "394257e099e25217b57e3527e3d00e9411ef1872",
+      "title": "Accelerating Bliss: the geometry of ternary polynomials",
+      "url": "https://www.semanticscholar.org/paper/394257e099e25217b57e3527e3d00e9411ef1872",
+      "venue": "IACR Cryptology ePrint Archive",
+      "year": 2014
+    },
+    {
+      "arxivId": null,
+      "authors": [
+        {
+          "authorId": "1751064",
+          "name": "Sonia Bela\\u00efd",
+          "url": "https://www.semanticscholar.org/author/1751064"
+        },
+        {
+          "authorId": "1740168",
+          "name": "Pierre-Alain Fouque",
+          "url": "https://www.semanticscholar.org/author/1740168"
+        },
+        {
+          "authorId": "2417391",
+          "name": "Beno\\u00eet G\\u00e9rard",
+          "url": "https://www.semanticscholar.org/author/2417391"
+        }
+      ],
+      "doi": "10.1007/978-3-662-45608-8_17",
+      "isInfluential": false,
+      "paperId": "29b04f83ea21386955754b936a3aeb9207a0b65c",
+      "title": "Side-Channel Analysis of Multiplications in GF(2128) - Application to AES-GCM",
+      "url": "https://www.semanticscholar.org/paper/29b04f83ea21386955754b936a3aeb9207a0b65c",
+      "venue": "ASIACRYPT",
+      "year": 2014
+    },
+    {
+      "arxivId": null,
+      "authors": [
+        {
+          "authorId": "39939156",
+          "name": "Yinqian Zhang",
+          "url": "https://www.semanticscholar.org/author/39939156"
+        },
+        {
+          "authorId": "1687161",
+          "name": "Ari Juels",
+          "url": "https://www.semanticscholar.org/author/1687161"
+        },
+        {
+          "authorId": "1746214",
+          "name": "Michael K. Reiter",
+          "url": "https://www.semanticscholar.org/author/1746214"
+        },
+        {
+          "authorId": "1707461",
+          "name": "Thomas Ristenpart",
+          "url": "https://www.semanticscholar.org/author/1707461"
+        }
+      ],
+      "doi": "10.1145/2660267.2660356",
+      "isInfluential": false,
+      "paperId": "7272e04a354d3bc54b1a8119e868090996d3bf1d",
+      "title": "Cross-Tenant Side-Channel Attacks in PaaS Clouds",
+      "url": "https://www.semanticscholar.org/paper/7272e04a354d3bc54b1a8119e868090996d3bf1d",
+      "venue": "ACM Conference on Computer and Communications Security",
+      "year": 2014
+    },
+    {
+      "arxivId": null,
+      "authors": [
+        {
+          "authorId": "1786029",
+          "name": "L\\u00e9o Ducas",
+          "url": "https://www.semanticscholar.org/author/1786029"
+        },
+        {
+          "authorId": "1792616",
+          "name": "Tancr\\u00e8de Lepoint",
+          "url": "https://www.semanticscholar.org/author/1792616"
+        },
+        {
+          "authorId": "2538633",
+          "name": "Vadim Lyubashevsky",
+          "url": "https://www.semanticscholar.org/author/2538633"
+        },
+        {
+          "authorId": "1722449",
+          "name": "Peter Schwabe",
+          "url": "https://www.semanticscholar.org/author/1722449"
+        },
+        {
+          "authorId": "33308902",
+          "name": "Gregor Seiler",
+          "url": "https://www.semanticscholar.org/author/33308902"
+        },
+        {
+          "authorId": "1803138",
+          "name": "Damien Stehl\\u00e9",
+          "url": "https://www.semanticscholar.org/author/1803138"
+        }
+      ],
+      "doi": null,
+      "isInfluential": false,
+      "paperId": "3131fd498409dd774ebd28a2f0ecbdf8958ca2cd",
+      "title": "CRYSTALS - Dilithium: Digital Signatures from Module Lattices",
+      "url": "https://www.semanticscholar.org/paper/3131fd498409dd774ebd28a2f0ecbdf8958ca2cd",
+      "venue": "IACR Cryptology ePrint Archive",
+      "year": 2017
+    },
+    {
+      "arxivId": null,
+      "authors": [
+        {
+          "authorId": "38915715",
+          "name": "Joop van de Pol",
+          "url": "https://www.semanticscholar.org/author/38915715"
+        },
+        {
+          "authorId": "1686813",
+          "name": "Nigel P. Smart",
+          "url": "https://www.semanticscholar.org/author/1686813"
+        },
+        {
+          "authorId": "49968838",
+          "name": "Yuval Yarom",
+          "url": "https://www.semanticscholar.org/author/49968838"
+        }
+      ],
+      "doi": "10.1007/978-3-319-16715-2_1",
+      "isInfluential": false,
+      "paperId": "4ad23e9e5745e8f3ee19317c54844b58d93513df",
+      "title": "Just a Little Bit More",
+      "url": "https://www.semanticscholar.org/paper/4ad23e9e5745e8f3ee19317c54844b58d93513df",
+      "venue": "IACR Cryptology ePrint Archive",
+      "year": 2014
+    },
+    {
+      "arxivId": null,
+      "authors": [
+        {
+          "authorId": "2900815",
+          "name": "Thomas Allan",
+          "url": "https://www.semanticscholar.org/author/2900815"
+        },
+        {
+          "authorId": "2863384",
+          "name": "Billy Bob Brumley",
+          "url": "https://www.semanticscholar.org/author/2863384"
+        },
+        {
+          "authorId": "1679867",
+          "name": "Katrina E. Falkner",
+          "url": "https://www.semanticscholar.org/author/1679867"
+        },
+        {
+          "authorId": "38915715",
+          "name": "Joop van de Pol",
+          "url": "https://www.semanticscholar.org/author/38915715"
+        },
+        {
+          "authorId": "49968838",
+          "name": "Yuval Yarom",
+          "url": "https://www.semanticscholar.org/author/49968838"
+        }
+      ],
+      "doi": "10.1145/2991079.2991084",
+      "isInfluential": false,
+      "paperId": "1513be7178d849dc4363b31c9ea19a2baea076e7",
+      "title": "Amplifying Side Channels Through Performance Degradation",
+      "url": "https://www.semanticscholar.org/paper/1513be7178d849dc4363b31c9ea19a2baea076e7",
+      "venue": "IACR Cryptology ePrint Archive",
+      "year": 2015
+    },
+    {
+      "arxivId": null,
+      "authors": [
+        {
+          "authorId": "2784199",
+          "name": "Nina Bindel",
+          "url": "https://www.semanticscholar.org/author/2784199"
+        },
+        {
+          "authorId": "1775826",
+          "name": "Johannes A. Buchmann",
+          "url": "https://www.semanticscholar.org/author/1775826"
+        },
+        {
+          "authorId": "37448020",
+          "name": "Juliane Kr\\u00e4mer",
+          "url": "https://www.semanticscholar.org/author/37448020"
+        }
+      ],
+      "doi": "10.1109/FDTC.2016.11",
+      "isInfluential": false,
+      "paperId": "1231c2b5d424766e7a174c08ec3af3db991bb8a8",
+      "title": "Lattice-Based Signature Schemes and Their Sensitivity to Fault Attacks",
+      "url": "https://www.semanticscholar.org/paper/1231c2b5d424766e7a174c08ec3af3db991bb8a8",
+      "venue": "2016 Workshop on Fault Diagnosis and Tolerance in Cryptography (FDTC)",
+      "year": 2016
+    },
+    {
+      "arxivId": null,
+      "authors": [
+        {
+          "authorId": "1751064",
+          "name": "Sonia Bela\\u00efd",
+          "url": "https://www.semanticscholar.org/author/1751064"
+        },
+        {
+          "authorId": "1788866",
+          "name": "Jean-S\\u00e9bastien Coron",
+          "url": "https://www.semanticscholar.org/author/1788866"
+        },
+        {
+          "authorId": "1740168",
+          "name": "Pierre-Alain Fouque",
+          "url": "https://www.semanticscholar.org/author/1740168"
+        },
+        {
+          "authorId": "2417391",
+          "name": "Beno\\u00eet G\\u00e9rard",
+          "url": "https://www.semanticscholar.org/author/2417391"
+        },
+        {
+          "authorId": "32743197",
+          "name": "Jean-Gabriel Kammerer",
+          "url": "https://www.semanticscholar.org/author/32743197"
+        },
+        {
+          "authorId": "1726631",
+          "name": "Emmanuel Prouff",
+          "url": "https://www.semanticscholar.org/author/1726631"
+        }
+      ],
+      "doi": "10.1007/978-3-662-48324-4_20",
+      "isInfluential": false,
+      "paperId": "548f2564274c33e7a646a99f7763496b1b7bf257",
+      "title": "Improved Side-Channel Analysis of Finite-Field Multiplication",
+      "url": "https://www.semanticscholar.org/paper/548f2564274c33e7a646a99f7763496b1b7bf257",
+      "venue": "IACR Cryptology ePrint Archive",
+      "year": 2015
+    },
+    {
+      "arxivId": null,
+      "authors": [
+        {
+          "authorId": "1774354",
+          "name": "Sedat Akleylek",
+          "url": "https://www.semanticscholar.org/author/1774354"
+        },
+        {
+          "authorId": "2784199",
+          "name": "Nina Bindel",
+          "url": "https://www.semanticscholar.org/author/2784199"
+        },
+        {
+          "authorId": "1775826",
+          "name": "Johannes A. Buchmann",
+          "url": "https://www.semanticscholar.org/author/1775826"
+        },
+        {
+          "authorId": "37448020",
+          "name": "Juliane Kr\\u00e4mer",
+          "url": "https://www.semanticscholar.org/author/37448020"
+        },
+        {
+          "authorId": "35101262",
+          "name": "Giorgia Azzurra Marson",
+          "url": "https://www.semanticscholar.org/author/35101262"
+        }
+      ],
+      "doi": "10.1007/978-3-319-31517-1_3",
+      "isInfluential": false,
+      "paperId": "43fb8926f0fce498351c442cc49beab0e6f7151f",
+      "title": "An Efficient Lattice-Based Signature Scheme with Provably Secure Instantiation",
+      "url": "https://www.semanticscholar.org/paper/43fb8926f0fce498351c442cc49beab0e6f7151f",
+      "venue": "IACR Cryptology ePrint Archive",
+      "year": 2016
+    },
+    {
+      "arxivId": null,
+      "authors": [
+        {
+          "authorId": "49968838",
+          "name": "Yuval Yarom",
+          "url": "https://www.semanticscholar.org/author/49968838"
+        },
+        {
+          "authorId": "2525494",
+          "name": "Naomi Benger",
+          "url": "https://www.semanticscholar.org/author/2525494"
+        }
+      ],
+      "doi": null,
+      "isInfluential": false,
+      "paperId": "87d49f253a0e623e0255afa06d63e9b5a9fb09d0",
+      "title": "Recovering OpenSSL ECDSA Nonces Using the FLUSH+RELOAD Cache Side-channel Attack",
+      "url": "https://www.semanticscholar.org/paper/87d49f253a0e623e0255afa06d63e9b5a9fb09d0",
+      "venue": "IACR Cryptology ePrint Archive",
+      "year": 2014
+    },
+    {
+      "arxivId": null,
+      "authors": [
+        {
+          "authorId": "49968838",
+          "name": "Yuval Yarom",
+          "url": "https://www.semanticscholar.org/author/49968838"
+        },
+        {
+          "authorId": "1679867",
+          "name": "Katrina E. Falkner",
+          "url": "https://www.semanticscholar.org/author/1679867"
+        }
+      ],
+      "doi": null,
+      "isInfluential": true,
+      "paperId": "447611b97696bf363409371fa6ffb7befc36e5b7",
+      "title": "Flush+Reload: a High Resolution, Low Noise, L3 Cache Side-Channel Attack",
+      "url": "https://www.semanticscholar.org/paper/447611b97696bf363409371fa6ffb7befc36e5b7",
+      "venue": "IACR Cryptology ePrint Archive",
+      "year": 2013
+    },
+    {
+      "arxivId": null,
+      "authors": [
+        {
+          "authorId": "2738264",
+          "name": "\\u00c9ric Levieil",
+          "url": "https://www.semanticscholar.org/author/2738264"
+        },
+        {
+          "authorId": "1740168",
+          "name": "Pierre-Alain Fouque",
+          "url": "https://www.semanticscholar.org/author/1740168"
+        }
+      ],
+      "doi": "10.1007/11832072_24",
+      "isInfluential": true,
+      "paperId": "5d3424acaf6da288409a34bfcbc188ec740dea1d",
+      "title": "An Improved LPN Algorithm",
+      "url": "https://www.semanticscholar.org/paper/5d3424acaf6da288409a34bfcbc188ec740dea1d",
+      "venue": "SCN",
+      "year": 2006
+    },
+    {
+      "arxivId": "1703.06986",
+      "authors": [
+        {
+          "authorId": "25141461",
+          "name": "Ahmad Moghimi",
+          "url": "https://www.semanticscholar.org/author/25141461"
+        },
+        {
+          "authorId": "2835874",
+          "name": "Gorka Irazoqui Apecechea",
+          "url": "https://www.semanticscholar.org/author/2835874"
+        },
+        {
+          "authorId": "1759115",
+          "name": "Thomas Eisenbarth",
+          "url": "https://www.semanticscholar.org/author/1759115"
+        }
+      ],
+      "doi": "10.1007/978-3-319-66787-4_4",
+      "isInfluential": false,
+      "paperId": "f22f9ca383779d50619d5cde96df7c4c998a9c39",
+      "title": "CacheZoom: How SGX Amplifies the Power of Cache Attacks",
+      "url": "https://www.semanticscholar.org/paper/f22f9ca383779d50619d5cde96df7c4c998a9c39",
+      "venue": "CHES",
+      "year": 2017
+    },
+    {
+      "arxivId": null,
+      "authors": [
+        {
+          "authorId": "2672355",
+          "name": "Thomas P\\u00f6ppelmann",
+          "url": "https://www.semanticscholar.org/author/2672355"
+        },
+        {
+          "authorId": "1786029",
+          "name": "L\\u00e9o Ducas",
+          "url": "https://www.semanticscholar.org/author/1786029"
+        },
+        {
+          "authorId": "2955750",
+          "name": "Tim G\\u00fcneysu",
+          "url": "https://www.semanticscholar.org/author/2955750"
+        }
+      ],
+      "doi": "10.1007/978-3-662-44709-3_20",
+      "isInfluential": false,
+      "paperId": "11136c9841bb33a7433e122e586065fccbb746a8",
+      "title": "Enhanced Lattice-Based Signatures on Reconfigurable Hardware",
+      "url": "https://www.semanticscholar.org/paper/11136c9841bb33a7433e122e586065fccbb746a8",
+      "venue": "CHES",
+      "year": 2014
+    },
+    {
+      "arxivId": null,
+      "authors": [
+        {
+          "authorId": "1742404",
+          "name": "Amos Fiat",
+          "url": "https://www.semanticscholar.org/author/1742404"
+        },
+        {
+          "authorId": "1706216",
+          "name": "Adi Shamir",
+          "url": "https://www.semanticscholar.org/author/1706216"
+        }
+      ],
+      "doi": "10.1007/3-540-47721-7_12",
+      "isInfluential": false,
+      "paperId": "09c1ba685a08632e4a35eac23f2888ffa4572746",
+      "title": "How to Prove Yourself: Practical Solutions to Identification and Signature Problems",
+      "url": "https://www.semanticscholar.org/paper/09c1ba685a08632e4a35eac23f2888ffa4572746",
+      "venue": "CRYPTO",
+      "year": 1986
+    },
+    {
+      "arxivId": null,
+      "authors": [
+        {
+          "authorId": "1902820",
+          "name": "Tobias Oder",
+          "url": "https://www.semanticscholar.org/author/1902820"
+        },
+        {
+          "authorId": "2672355",
+          "name": "Thomas P\\u00f6ppelmann",
+          "url": "https://www.semanticscholar.org/author/2672355"
+        },
+        {
+          "authorId": "2955750",
+          "name": "Tim G\\u00fcneysu",
+          "url": "https://www.semanticscholar.org/author/2955750"
+        }
+      ],
+      "doi": "10.1145/2593069.2593098",
+      "isInfluential": false,
+      "paperId": "7d8e8b3379787a6f9c6fe60ebd7a09253c07fe58",
+      "title": "Beyond ECDSA and RSA: Lattice-based digital signatures on constrained devices",
+      "url": "https://www.semanticscholar.org/paper/7d8e8b3379787a6f9c6fe60ebd7a09253c07fe58",
+      "venue": "2014 51st ACM/EDAC/IEEE Design Automation Conference (DAC)",
+      "year": 2014
+    },
+    {
+      "arxivId": null,
+      "authors": [
+        {
+          "authorId": "47748074",
+          "name": "Qian Guo",
+          "url": "https://www.semanticscholar.org/author/47748074"
+        },
+        {
+          "authorId": "1731198",
+          "name": "Thomas Johansson",
+          "url": "https://www.semanticscholar.org/author/1731198"
+        },
+        {
+          "authorId": "2239962",
+          "name": "Carl L\\u00f6ndahl",
+          "url": "https://www.semanticscholar.org/author/2239962"
+        }
+      ],
+      "doi": "10.1007/978-3-662-45611-8_1",
+      "isInfluential": false,
+      "paperId": "2c7cc21a48058749b08fa00a2ae3cc87f4996e87",
+      "title": "Solving LPN Using Covering Codes",
+      "url": "https://www.semanticscholar.org/paper/2c7cc21a48058749b08fa00a2ae3cc87f4996e87",
+      "venue": "ASIACRYPT",
+      "year": 2014
+    },
+    {
+      "arxivId": null,
+      "authors": [
+        {
+          "authorId": "1702202",
+          "name": "Oded Regev",
+          "url": "https://www.semanticscholar.org/author/1702202"
+        }
+      ],
+      "doi": "10.1145/1060590.1060603",
+      "isInfluential": false,
+      "paperId": "997f6949599b0db10f62ad3fe2b319a3bef1918f",
+      "title": "On lattices, learning with errors, random linear codes, and cryptography",
+      "url": "https://www.semanticscholar.org/paper/997f6949599b0db10f62ad3fe2b319a3bef1918f",
+      "venue": "STOC",
+      "year": 2005
+    }
+  ],
+  "title": "To BLISS-B or not to be: Attacking strongSwan's Implementation of Post-Quantum Signatures",
+  "topics": [
+    {
+      "topic": "BLISS",
+      "topicId": "416318",
+      "url": "https://www.semanticscholar.org/topic/416318"
+    },
+    {
+      "topic": "strongSwan",
+      "topicId": "972531",
+      "url": "https://www.semanticscholar.org/topic/972531"
+    },
+    {
+      "topic": "Post-quantum cryptography",
+      "topicId": "227467",
+      "url": "https://www.semanticscholar.org/topic/227467"
+    },
+    {
+      "topic": "Lattice-based cryptography",
+      "topicId": "853992",
+      "url": "https://www.semanticscholar.org/topic/853992"
+    },
+    {
+      "topic": "IPsec",
+      "topicId": "214958",
+      "url": "https://www.semanticscholar.org/topic/214958"
+    },
+    {
+      "topic": "Algorithm",
+      "topicId": "305",
+      "url": "https://www.semanticscholar.org/topic/305"
+    },
+    {
+      "topic": "Side-channel attack",
+      "topicId": "28247",
+      "url": "https://www.semanticscholar.org/topic/28247"
+    },
+    {
+      "topic": "Parity learning",
+      "topicId": "779894",
+      "url": "https://www.semanticscholar.org/topic/779894"
+    },
+    {
+      "topic": "ECC memory",
+      "topicId": "139843",
+      "url": "https://www.semanticscholar.org/topic/139843"
+    },
+    {
+      "topic": "RSA (cryptosystem)",
+      "topicId": "71363",
+      "url": "https://www.semanticscholar.org/topic/71363"
+    },
+    {
+      "topic": "Linear programming",
+      "topicId": "12656",
+      "url": "https://www.semanticscholar.org/topic/12656"
+    },
+    {
+      "topic": "Quantum cryptography",
+      "topicId": "48058",
+      "url": "https://www.semanticscholar.org/topic/48058"
+    },
+    {
+      "topic": "Digital signature",
+      "topicId": "34880",
+      "url": "https://www.semanticscholar.org/topic/34880"
+    },
+    {
+      "topic": "Key (cryptography)",
+      "topicId": "67214",
+      "url": "https://www.semanticscholar.org/topic/67214"
+    },
+    {
+      "topic": "Key escrow",
+      "topicId": "21342",
+      "url": "https://www.semanticscholar.org/topic/21342"
+    },
+    {
+      "topic": "Virtual private network",
+      "topicId": "74076",
+      "url": "https://www.semanticscholar.org/topic/74076"
+    },
+    {
+      "topic": "Lattice reduction",
+      "topicId": "436076",
+      "url": "https://www.semanticscholar.org/topic/436076"
+    }
+  ],
+  "url": "https://www.semanticscholar.org/paper/11353a73d789fc965859dec96d141038d59124d8",
+  "venue": "ACM Conference on Computer and Communications Security",
+  "year": 2017
+}

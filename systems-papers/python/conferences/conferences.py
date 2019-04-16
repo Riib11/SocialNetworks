@@ -121,7 +121,13 @@ def load_s2id_to_key():
   return load_json(FP_S2_KEYS)
 
 if __name__ == "__main__":
-  dump_s2id_to_key()
+  # dump_s2id_to_key()
+
+  conf_papers = list(get_each_conference_papers())
+
+  papers_count = 0
+  for (conf, papers) in conf_papers: papers_count += len(papers)
+  print("papers_count =", papers_count)
 
 
 
