@@ -10,12 +10,13 @@ save_correlations_csv:
 keys : [ attr_key ]
 data : author_name => { attr_key : attr_val }
 """
-def save_correlations_csv(keys, data, DIR_DATA):
-  with open(
-    DIR_DATA+"correlations_v{version}.csv"\
-    .format(version=VERSION),
-    "w+"
-  ) as file:
+def save_correlations_csv(keys, data, iso_comp, DIR_DATA):
+  if iso_comp:
+    fn = DIR_DATA+"correlations_v{0}_c{1}.csv".format(VERSION, iso_comp)
+  else:
+    fn = DIR_DATA+"correlations_v{version}.csv".format(version=VERSION)
+  
+  with open(fn, "w+") as file:
     writer = csv.writer(file)
 
     # header row

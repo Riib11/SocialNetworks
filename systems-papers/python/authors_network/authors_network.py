@@ -37,7 +37,7 @@ PERSONSFEATURES_KEYS = \
       , "as_keynote_speaker"
       , "as_author" ]
 
-def save_centrality_data(centrality_name, data, suffix=""):
+def save_centrality_data(data, centrality_name, suffix=""):
   dump_json(data, DIR_DATA+centrality_name+"_centralities"+suffix)
 
 def load_centrality_data(centrality_name, suffix=""):
@@ -162,15 +162,19 @@ class AuthorsNetwork:
       suffix += "cc-rank="+str(self.attributes["cc-rank"])
 
     # dump calculated data
+    
     log("Calculating Nodes' Degree Centrality...", lvl=1)
     save_centrality_data(nx.degree_centrality(self.graph),
       "degree", suffix)
+    
     log("Calculating Nodes' Eigenvector Centrality...", lvl=1)
     save_centrality_data(nx.eigenvector_centrality(self.graph),
       "eigenvector", suffix)
+    
     log("Calculating Nodes' Closeness Centrality...", lvl=1)
     save_centrality_data(nx.closeness_centrality(self.graph),
       "closeness", suffix)
+    
     log("Calculating Nodes' Betweenness Centrality...", lvl=1)
     save_centrality_data(
       nx.betweenness_centrality(self.graph, normalized=False),
@@ -370,7 +374,7 @@ class AuthorsNetwork:
     # centralities data
     for cent_key in CENTRALITY_KEYS:
       # centrality_dict : node_id => cent_val
-      centrality_dict = load_centrality_data(cent_key)
+      centrality_dict = load_centrality_data(cent_key,"cc-rank=0")
       for author_id, cent_val in centrality_dict.items():
         author_name = self.author_names[author_id]
         cent_val = round(cent_val, 4)
@@ -399,6 +403,7 @@ class AuthorsNetwork:
     correlations.save_correlations_csv(
       CENTRALITY_KEYS + PERSONSFEATURES_KEYS,
       data,
+      str(self.attributes["cc-rank"]) if "cc-rank" in self.attributes else None,
       DIR_DATA)
 
 

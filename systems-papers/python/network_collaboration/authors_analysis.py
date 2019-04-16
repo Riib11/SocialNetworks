@@ -45,7 +45,7 @@ if False:
   G.save_adjacency_matrix_csv()
   quit()
 
-if True:
+if False:
   G.save_author_id_to_author_name_email_csv()
   quit()
 
@@ -56,8 +56,9 @@ if False:
 
 ################################################################################
 
-if True:
+if False:
   message("Calculating All Network Centralities")
+  G.isolate_component(0)
   G.calculate_centralities()
 
 ################################################################################

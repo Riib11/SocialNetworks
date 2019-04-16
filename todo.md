@@ -2,6 +2,8 @@
 
 ## !!!
 
+- debug finding keys for paper, then papers that don't have keys / map to same keys should be thrown out of gA
+
 - look at authors centralities and write explanation of how they relate and what the significances are, wrapping up!
 
 - look up info on how centralities are used (in data science)
