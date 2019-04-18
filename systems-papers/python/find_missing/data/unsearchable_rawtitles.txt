@@ -1,0 +1,9 @@
+Tool Demonstration: A development environment for the Alf language within the MagicDraw UML tool
+Off-Road Performance Modeling — How to Deal with Segmented Data?
+Improving the network of a search engine services through application-aware routing
+GASPI/GPI In-Memory Check Pointing Library
+Design and Evaluation of AWGR-based Photonic NoC Architectures for 2.5D Inegrated High Performance Computing Systems
+Cold Boot Attacks are Still Hot: Security Analysis of Memory Scramblers in Modern Procesors
+Toward a Holistic Framework for ConductingScientific Evaluations of OpenStack
+MiniCrypt: Reconciling Encryption and Compression for Big Data Stores
+MOSAIC: Processing a Trillion-Edge Graph on a Single Commodity Machine

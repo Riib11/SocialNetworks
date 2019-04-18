@@ -1,6 +1,6 @@
 parent_dir    = "find_missing/"
-found_urls_fn = parent_dir + "found_urls.txt"
-found_ids_fn  = parent_dir + "found_ids.txt"
+found_urls_fn = parent_dir + "data/missing_rawtitles_editdistance_urls.txt"
+found_ids_fn  = parent_dir + "data/missing_rawtitles_editdistance_ids.txt"
 
 with open(found_urls_fn, "r+") as file:
   found_urls = [ line.strip() for line in file ]
