@@ -1,1 +1,45 @@
 A Domain-Specific Controlled English Language for Automated Regulatory Compliance
+Tool Demonstration: A development environment for the Alf language within the MagicDraw UML tool
+Better Call the Crowd. Using Crowdsourcing to Shape your Domain-Specific Languages
+Red Shift: Procedural Shift-Reduce Parsing
+Virtual Textual Model Composition for Supporting Maintenance and Aspect-Orientation
+Browser Fingerprinting via OS and Hardware Level Features
+Flatten and Conquer
+Will Serverless End Linux’s Dominance in the Cloud?
+Secure Page Fusion with VUsion
+Checking Open-Source License Violation and 1-day Security Risk at Large Scale
+Families of Graph Algorithms : An SSSP Case Study
+Off-Road Performance Modeling — How to Deal with Segmented Data?
+Improving the network of a search engine services through application-aware routing
+GASPI/GPI In-Memory Check Pointing Library
+AWL: Turning Spatial Aliasing From Foe to Friend for Accurate WiFi Device Localization
+Towards Network Intrusion Detection at ISP Scale
+Design and Evaluation of AWGR-based Photonic NoC Architectures for 2.5D Inegrated High Performance Computing Systems
+Cold Boot Attacks are Still Hot: Security Analysis of Memory Scramblers in Modern Procesors
+Neurosurgeon: Collaborative Intelligence Between Cloud and the Mobile Edge
+Quantifying I/O and Communication Traffic Interference on Burst Buffer Equipped Dragonfly Networks
+Understanding Power-performance Relationship of Energy-efficient Modern DRAM Devices for Chip Multiprocessor Workloads
+How to Learn Klingon Without Dictionary: Detection and Measurement of Black Keywords Used by Underground Economy
+Leakage-Abuse Attacks on Order-Revealing Encryption
+Increasing Interposer Utilization: A Scalable, Energy Efficient and High Bandwidth Multichip Integration Solution
+An Open Platform for Experimentation with Commercial Mobile Broadband Networks
+QUILTS: Multidimensional Data Partitioning Based on Query Aware, Skew Tolerant Space Filling Curves
+The BUDS Language for Distributed Machine Learning
+Landmark indexing for scalable evaluation of label-constrained reachability queries
+BatchDB: Efficient Isolated Execution of Hybrid OLTP+OLAP Workloads
+Scaling Up Hands-Off Crowdsourced Entity Matching: An RDBMS Approach
+Deterministic Distributed Edge-Coloring, and Vertex-Coloring of Graphs with Bounded Diversity
+An Empirical Study of Computation-Intensive Loops for Identifying and Classifying Loop Kernels
+"Routing Keys" Zahavi
+Toward a Holistic Framework for ConductingScientific Evaluations of OpenStack
+SLO-aware Colocation of Data Center Tasks Based on Instantaneous Resource Requirements
+BestConfig: Tapping the Performance Potential of Systems via Configuration Adjustment
+MiniCrypt: Reconciling Encryption and Compression for Big Data Stores
+Node.fz: Fuzzing Server-side Event-driven JavaScript
+MOSAIC: Processing a Trillion-Edge Graph on a Single Commodity Machine
+Practical Persistence for Multi-threaded Applications
+Atomic In-Place Updates for Transactional Non-Volatile Main Memories
+Melissa: Large Scale In Transit Global Sensitivity Analysis Avoiding Intermediate Files
+ARM Wrestling with Big Data: A Study of Commodity ARM Server for Big Data Workloads
+Reducing network congestion and global communication bottlenecks during aggregation on Torus and Dragonfly topologies for writing hierarchical data
+Bounding Cache Miss Costs of Multithreaded Computations Under General Schedulers
