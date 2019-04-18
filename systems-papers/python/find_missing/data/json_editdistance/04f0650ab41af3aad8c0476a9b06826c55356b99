@@ -1,0 +1,1207 @@
+{
+  "arxivId": null,
+  "authors": [
+    {
+      "authorId": "40361678",
+      "name": "Sidharth Kumar",
+      "url": "https://www.semanticscholar.org/author/40361678"
+    },
+    {
+      "authorId": "46629758",
+      "name": "Duong Hoang",
+      "url": "https://www.semanticscholar.org/author/46629758"
+    },
+    {
+      "authorId": "8808472",
+      "name": "Steve Petruzza",
+      "url": "https://www.semanticscholar.org/author/8808472"
+    },
+    {
+      "authorId": "50040661",
+      "name": "John Edwards",
+      "url": "https://www.semanticscholar.org/author/50040661"
+    },
+    {
+      "authorId": "1685087",
+      "name": "Valerio Pascucci",
+      "url": "https://www.semanticscholar.org/author/1685087"
+    }
+  ],
+  "citationVelocity": 0,
+  "citations": [],
+  "doi": "10.1109/HiPC.2017.00034",
+  "influentialCitationCount": 0,
+  "paperId": "04f0650ab41af3aad8c0476a9b06826c55356b99",
+  "references": [
+    {
+      "arxivId": null,
+      "authors": [
+        {
+          "authorId": "40361678",
+          "name": "Sidharth Kumar",
+          "url": "https://www.semanticscholar.org/author/40361678"
+        },
+        {
+          "authorId": "3348747",
+          "name": "Venkatram Vishwanath",
+          "url": "https://www.semanticscholar.org/author/3348747"
+        },
+        {
+          "authorId": "2797656",
+          "name": "Philip H. Carns",
+          "url": "https://www.semanticscholar.org/author/2797656"
+        },
+        {
+          "authorId": "33706977",
+          "name": "Joshua A. Levine",
+          "url": "https://www.semanticscholar.org/author/33706977"
+        },
+        {
+          "authorId": "1692762",
+          "name": "Robert Latham",
+          "url": "https://www.semanticscholar.org/author/1692762"
+        },
+        {
+          "authorId": "2592350",
+          "name": "Giorgio Scorzelli",
+          "url": "https://www.semanticscholar.org/author/2592350"
+        },
+        {
+          "authorId": "1963481",
+          "name": "Hemanth Kolla",
+          "url": "https://www.semanticscholar.org/author/1963481"
+        },
+        {
+          "authorId": "1754826",
+          "name": "Ray W. Grout",
+          "url": "https://www.semanticscholar.org/author/1754826"
+        },
+        {
+          "authorId": "40211322",
+          "name": "Robert B. Ross",
+          "url": "https://www.semanticscholar.org/author/40211322"
+        },
+        {
+          "authorId": "1857295",
+          "name": "Michael E. Papka",
+          "url": "https://www.semanticscholar.org/author/1857295"
+        },
+        {
+          "authorId": "1843053",
+          "name": "Jacqueline Chen",
+          "url": "https://www.semanticscholar.org/author/1843053"
+        },
+        {
+          "authorId": "1685087",
+          "name": "Valerio Pascucci",
+          "url": "https://www.semanticscholar.org/author/1685087"
+        }
+      ],
+      "doi": "10.1109/SC.2012.54",
+      "isInfluential": false,
+      "paperId": "0b1d26613dc0bd12da5c3f9d637d5e8571621395",
+      "title": "Efficient data restructuring and aggregation for I/O acceleration in PIDX",
+      "url": "https://www.semanticscholar.org/paper/0b1d26613dc0bd12da5c3f9d637d5e8571621395",
+      "venue": "2012 International Conference for High Performance Computing, Networking, Storage and Analysis",
+      "year": 2012
+    },
+    {
+      "arxivId": null,
+      "authors": [
+        {
+          "authorId": "40361678",
+          "name": "Sidharth Kumar",
+          "url": "https://www.semanticscholar.org/author/40361678"
+        },
+        {
+          "authorId": "3157944",
+          "name": "Avishek Saha",
+          "url": "https://www.semanticscholar.org/author/3157944"
+        },
+        {
+          "authorId": "3348747",
+          "name": "Venkatram Vishwanath",
+          "url": "https://www.semanticscholar.org/author/3348747"
+        },
+        {
+          "authorId": "2797656",
+          "name": "Philip H. Carns",
+          "url": "https://www.semanticscholar.org/author/2797656"
+        },
+        {
+          "authorId": "2856372",
+          "name": "John A. Schmidt",
+          "url": "https://www.semanticscholar.org/author/2856372"
+        },
+        {
+          "authorId": "2592350",
+          "name": "Giorgio Scorzelli",
+          "url": "https://www.semanticscholar.org/author/2592350"
+        },
+        {
+          "authorId": "1963481",
+          "name": "Hemanth Kolla",
+          "url": "https://www.semanticscholar.org/author/1963481"
+        },
+        {
+          "authorId": "1754826",
+          "name": "Ray W. Grout",
+          "url": "https://www.semanticscholar.org/author/1754826"
+        },
+        {
+          "authorId": "1692762",
+          "name": "Robert Latham",
+          "url": "https://www.semanticscholar.org/author/1692762"
+        },
+        {
+          "authorId": "40211322",
+          "name": "Robert B. Ross",
+          "url": "https://www.semanticscholar.org/author/40211322"
+        },
+        {
+          "authorId": "1857295",
+          "name": "Michael E. Papka",
+          "url": "https://www.semanticscholar.org/author/1857295"
+        },
+        {
+          "authorId": "1843053",
+          "name": "Jacqueline Chen",
+          "url": "https://www.semanticscholar.org/author/1843053"
+        },
+        {
+          "authorId": "1685087",
+          "name": "Valerio Pascucci",
+          "url": "https://www.semanticscholar.org/author/1685087"
+        }
+      ],
+      "doi": "10.1145/2503210.2503252",
+      "isInfluential": false,
+      "paperId": "36033cc275f927d2835bce6d19ec727fdb1a2fb4",
+      "title": "Characterization and modeling of PIDX parallel I/O for performance optimization",
+      "url": "https://www.semanticscholar.org/paper/36033cc275f927d2835bce6d19ec727fdb1a2fb4",
+      "venue": "2013 SC - International Conference for High Performance Computing, Networking, Storage and Analysis (SC)",
+      "year": 2013
+    },
+    {
+      "arxivId": null,
+      "authors": [
+        {
+          "authorId": "31643126",
+          "name": "Huy Bui",
+          "url": "https://www.semanticscholar.org/author/31643126"
+        },
+        {
+          "authorId": "48288861",
+          "name": "Hal Finkel",
+          "url": "https://www.semanticscholar.org/author/48288861"
+        },
+        {
+          "authorId": "3348747",
+          "name": "Venkatram Vishwanath",
+          "url": "https://www.semanticscholar.org/author/3348747"
+        },
+        {
+          "authorId": "2675615",
+          "name": "Salman Habib",
+          "url": "https://www.semanticscholar.org/author/2675615"
+        },
+        {
+          "authorId": "2306356",
+          "name": "Katrin Heitmann",
+          "url": "https://www.semanticscholar.org/author/2306356"
+        },
+        {
+          "authorId": "1745342",
+          "name": "Jason Leigh",
+          "url": "https://www.semanticscholar.org/author/1745342"
+        },
+        {
+          "authorId": "1857295",
+          "name": "Michael E. Papka",
+          "url": "https://www.semanticscholar.org/author/1857295"
+        },
+        {
+          "authorId": "50087627",
+          "name": "Kevin Harms",
+          "url": "https://www.semanticscholar.org/author/50087627"
+        }
+      ],
+      "doi": "10.1109/PDP.2014.60",
+      "isInfluential": false,
+      "paperId": "c0c56908d343d52669e1aee072dd611681dc831f",
+      "title": "Scalable Parallel I/O on a Blue Gene/Q Supercomputer Using Compression, Topology-Aware Data Aggregation, and Subfiling",
+      "url": "https://www.semanticscholar.org/paper/c0c56908d343d52669e1aee072dd611681dc831f",
+      "venue": "2014 22nd Euromicro International Conference on Parallel, Distributed, and Network-Based Processing",
+      "year": 2014
+    },
+    {
+      "arxivId": null,
+      "authors": [
+        {
+          "authorId": "1743356",
+          "name": "Juan Miguel del Rosario",
+          "url": "https://www.semanticscholar.org/author/1743356"
+        },
+        {
+          "authorId": "1766516",
+          "name": "Rajesh Bordawekar",
+          "url": "https://www.semanticscholar.org/author/1766516"
+        },
+        {
+          "authorId": "1686646",
+          "name": "Alok N. Choudhary",
+          "url": "https://www.semanticscholar.org/author/1686646"
+        }
+      ],
+      "doi": "10.1145/165660.165667",
+      "isInfluential": true,
+      "paperId": "176d712d084112b2e65e385e8220e4679c24f28a",
+      "title": "Improved parallel I/O via a two-phase run-time access strategy",
+      "url": "https://www.semanticscholar.org/paper/176d712d084112b2e65e385e8220e4679c24f28a",
+      "venue": "SIGARCH Computer Architecture News",
+      "year": 1993
+    },
+    {
+      "arxivId": null,
+      "authors": [
+        {
+          "authorId": "35390188",
+          "name": "Chuck Baldwin",
+          "url": "https://www.semanticscholar.org/author/35390188"
+        },
+        {
+          "authorId": "2477953",
+          "name": "G. Mohammed Abdulla",
+          "url": "https://www.semanticscholar.org/author/2477953"
+        },
+        {
+          "authorId": "1712062",
+          "name": "Terence Critchlow",
+          "url": "https://www.semanticscholar.org/author/1712062"
+        }
+      ],
+      "doi": "10.1145/956863.956872",
+      "isInfluential": false,
+      "paperId": "a7c58954468de7113ac1e1588a3efa6683add7f3",
+      "title": "Multi-resolution modeling of large scale scientific simulation data",
+      "url": "https://www.semanticscholar.org/paper/a7c58954468de7113ac1e1588a3efa6683add7f3",
+      "venue": "CIKM",
+      "year": 2003
+    },
+    {
+      "arxivId": null,
+      "authors": [
+        {
+          "authorId": "2952841",
+          "name": "Francois Tessier",
+          "url": "https://www.semanticscholar.org/author/2952841"
+        },
+        {
+          "authorId": "1832035",
+          "name": "Preeti Malakar",
+          "url": "https://www.semanticscholar.org/author/1832035"
+        },
+        {
+          "authorId": "3348747",
+          "name": "Venkatram Vishwanath",
+          "url": "https://www.semanticscholar.org/author/3348747"
+        },
+        {
+          "authorId": "1795494",
+          "name": "Emmanuel Jeannot",
+          "url": "https://www.semanticscholar.org/author/1795494"
+        },
+        {
+          "authorId": "1732216",
+          "name": "Florin Isaila",
+          "url": "https://www.semanticscholar.org/author/1732216"
+        }
+      ],
+      "doi": "10.1109/COM-HPC.2016.13",
+      "isInfluential": false,
+      "paperId": "fb298cc422fd8585051d742d70784370be55cb96",
+      "title": "Topology-Aware Data Aggregation for Intensive I/O on Large-Scale Supercomputers",
+      "url": "https://www.semanticscholar.org/paper/fb298cc422fd8585051d742d70784370be55cb96",
+      "venue": "2016 First International Workshop on Communication Optimizations in HPC (COMHPC)",
+      "year": 2016
+    },
+    {
+      "arxivId": null,
+      "authors": [
+        {
+          "authorId": "38854574",
+          "name": "Yuan Tian",
+          "url": "https://www.semanticscholar.org/author/38854574"
+        },
+        {
+          "authorId": "1736095",
+          "name": "Scott Klasky",
+          "url": "https://www.semanticscholar.org/author/1736095"
+        },
+        {
+          "authorId": "1709886",
+          "name": "Weikuan Yu",
+          "url": "https://www.semanticscholar.org/author/1709886"
+        },
+        {
+          "authorId": "49291943",
+          "name": "Bin Wang",
+          "url": "https://www.semanticscholar.org/author/49291943"
+        },
+        {
+          "authorId": "1754718",
+          "name": "Hasan Abbasi",
+          "url": "https://www.semanticscholar.org/author/1754718"
+        },
+        {
+          "authorId": "1734819",
+          "name": "Norbert Podhorszki",
+          "url": "https://www.semanticscholar.org/author/1734819"
+        },
+        {
+          "authorId": "1754826",
+          "name": "Ray W. Grout",
+          "url": "https://www.semanticscholar.org/author/1754826"
+        }
+      ],
+      "doi": "10.1109/NAS.2013.21",
+      "isInfluential": false,
+      "paperId": "8de993e56cc95df26171741d8f33ae3d83f3261d",
+      "title": "DynaM: Dynamic Multiresolution Data Representation for Large-Scale Scientific Analysis",
+      "url": "https://www.semanticscholar.org/paper/8de993e56cc95df26171741d8f33ae3d83f3261d",
+      "venue": "2013 IEEE Eighth International Conference on Networking, Architecture and Storage",
+      "year": 2013
+    },
+    {
+      "arxivId": null,
+      "authors": [
+        {
+          "authorId": "1685087",
+          "name": "Valerio Pascucci",
+          "url": "https://www.semanticscholar.org/author/1685087"
+        },
+        {
+          "authorId": "47135610",
+          "name": "R. J. Frank",
+          "url": "https://www.semanticscholar.org/author/47135610"
+        }
+      ],
+      "doi": "10.1007/978-3-642-55787-3_14",
+      "isInfluential": false,
+      "paperId": "155f59e40f1ad2467e004dfcb4bb9ccf5522d1d1",
+      "title": "Hierarchical Indexing for Out-of-Core Access to Multi-Resolution Data",
+      "url": "https://www.semanticscholar.org/paper/155f59e40f1ad2467e004dfcb4bb9ccf5522d1d1",
+      "venue": "",
+      "year": 2003
+    },
+    {
+      "arxivId": null,
+      "authors": [
+        {
+          "authorId": "1733331",
+          "name": "Brian Summa",
+          "url": "https://www.semanticscholar.org/author/1733331"
+        },
+        {
+          "authorId": "2592350",
+          "name": "Giorgio Scorzelli",
+          "url": "https://www.semanticscholar.org/author/2592350"
+        },
+        {
+          "authorId": "49354945",
+          "name": "Ming Jiang",
+          "url": "https://www.semanticscholar.org/author/49354945"
+        },
+        {
+          "authorId": "1718183",
+          "name": "Timo Bremer",
+          "url": "https://www.semanticscholar.org/author/1718183"
+        },
+        {
+          "authorId": "1685087",
+          "name": "Valerio Pascucci",
+          "url": "https://www.semanticscholar.org/author/1685087"
+        }
+      ],
+      "doi": "10.1145/1944846.1944847",
+      "isInfluential": false,
+      "paperId": "1103f46b77bed0f597e7289ee54073d5190853a9",
+      "title": "Interactive editing of massive imagery made simple: Turning Atlanta into Atlantis",
+      "url": "https://www.semanticscholar.org/paper/1103f46b77bed0f597e7289ee54073d5190853a9",
+      "venue": "ACM Trans. Graph.",
+      "year": 2011
+    },
+    {
+      "arxivId": null,
+      "authors": [
+        {
+          "authorId": "2103228",
+          "name": "Hongzhang Shan",
+          "url": "https://www.semanticscholar.org/author/2103228"
+        },
+        {
+          "authorId": "2388198",
+          "name": "Katie Antypas",
+          "url": "https://www.semanticscholar.org/author/2388198"
+        },
+        {
+          "authorId": "1746446",
+          "name": "John Shalf",
+          "url": "https://www.semanticscholar.org/author/1746446"
+        }
+      ],
+      "doi": "10.1109/SC.2008.5222721",
+      "isInfluential": false,
+      "paperId": "e67bc6e1fb1f0878a7ca89024d7e4fd6687da6e4",
+      "title": "Characterizing and predicting the I/O performance of HPC applications using a parameterized synthetic benchmark",
+      "url": "https://www.semanticscholar.org/paper/e67bc6e1fb1f0878a7ca89024d7e4fd6687da6e4",
+      "venue": "HiPC 2008",
+      "year": 2008
+    },
+    {
+      "arxivId": null,
+      "authors": [
+        {
+          "authorId": "1709886",
+          "name": "Weikuan Yu",
+          "url": "https://www.semanticscholar.org/author/1709886"
+        },
+        {
+          "authorId": "7553591",
+          "name": "Jeffrey S. Vetter",
+          "url": "https://www.semanticscholar.org/author/7553591"
+        }
+      ],
+      "doi": "10.1109/ICPP.2008.76",
+      "isInfluential": false,
+      "paperId": "34e64b546a37df201ecb29cad0248df029a71adb",
+      "title": "ParColl: Partitioned Collective I/O on the Cray XT",
+      "url": "https://www.semanticscholar.org/paper/34e64b546a37df201ecb29cad0248df029a71adb",
+      "venue": "2008 37th International Conference on Parallel Processing",
+      "year": 2008
+    },
+    {
+      "arxivId": null,
+      "authors": [
+        {
+          "authorId": "50603042",
+          "name": "Qingyu Meng",
+          "url": "https://www.semanticscholar.org/author/50603042"
+        },
+        {
+          "authorId": "49309434",
+          "name": "Alan Humphrey",
+          "url": "https://www.semanticscholar.org/author/49309434"
+        },
+        {
+          "authorId": "2856372",
+          "name": "John A. Schmidt",
+          "url": "https://www.semanticscholar.org/author/2856372"
+        },
+        {
+          "authorId": "1747568",
+          "name": "Martin Berzins",
+          "url": "https://www.semanticscholar.org/author/1747568"
+        }
+      ],
+      "doi": "10.1145/2503210.2503250",
+      "isInfluential": true,
+      "paperId": "18ff47d4024f9ba7fdb7c21c6c49ffbe9a6ed99f",
+      "title": "Investigating applications portability with the uintah DAG-based runtime system on petascale supercomputers",
+      "url": "https://www.semanticscholar.org/paper/18ff47d4024f9ba7fdb7c21c6c49ffbe9a6ed99f",
+      "venue": "2013 SC - International Conference for High Performance Computing, Networking, Storage and Analysis (SC)",
+      "year": 2013
+    },
+    {
+      "arxivId": null,
+      "authors": [
+        {
+          "authorId": "1793853",
+          "name": "Rajeev Thakur",
+          "url": "https://www.semanticscholar.org/author/1793853"
+        },
+        {
+          "authorId": "1703559",
+          "name": "William Gropp",
+          "url": "https://www.semanticscholar.org/author/1703559"
+        },
+        {
+          "authorId": "1773576",
+          "name": "Brian R. Toonen",
+          "url": "https://www.semanticscholar.org/author/1773576"
+        }
+      ],
+      "doi": "10.1177/1094342005054258",
+      "isInfluential": false,
+      "paperId": "dcba56ee1fa047e1c983336ecb4099dab46cd749",
+      "title": "Optimizing the Synchronization Operations in Message Passing Interface One-Sided Communication",
+      "url": "https://www.semanticscholar.org/paper/dcba56ee1fa047e1c983336ecb4099dab46cd749",
+      "venue": "IJHPCA",
+      "year": 2005
+    },
+    {
+      "arxivId": null,
+      "authors": [
+        {
+          "authorId": "3348747",
+          "name": "Venkatram Vishwanath",
+          "url": "https://www.semanticscholar.org/author/3348747"
+        },
+        {
+          "authorId": "3102192",
+          "name": "Mark Hereld",
+          "url": "https://www.semanticscholar.org/author/3102192"
+        },
+        {
+          "authorId": "34641509",
+          "name": "Vitali A. Morozov",
+          "url": "https://www.semanticscholar.org/author/34641509"
+        },
+        {
+          "authorId": "1857295",
+          "name": "Michael E. Papka",
+          "url": "https://www.semanticscholar.org/author/1857295"
+        }
+      ],
+      "doi": "10.1145/2063384.2063409",
+      "isInfluential": false,
+      "paperId": "409ed5839cf6d0ba246d91f82d1ac33cbe600c27",
+      "title": "Topology-aware data movement and staging for I/O acceleration on Blue Gene/P supercomputing systems",
+      "url": "https://www.semanticscholar.org/paper/409ed5839cf6d0ba246d91f82d1ac33cbe600c27",
+      "venue": "2011 International Conference for High Performance Computing, Networking, Storage and Analysis (SC)",
+      "year": 2011
+    },
+    {
+      "arxivId": null,
+      "authors": [
+        {
+          "authorId": "40505818",
+          "name": "Chaoli Wang",
+          "url": "https://www.semanticscholar.org/author/40505818"
+        },
+        {
+          "authorId": "2704672",
+          "name": "Jinzhu Gao",
+          "url": "https://www.semanticscholar.org/author/2704672"
+        },
+        {
+          "authorId": "1921233",
+          "name": "Liya Li",
+          "url": "https://www.semanticscholar.org/author/1921233"
+        },
+        {
+          "authorId": "39073212",
+          "name": "Han-Wei Shen",
+          "url": "https://www.semanticscholar.org/author/39073212"
+        }
+      ],
+      "doi": "10.2312/VG/VG05/011-019",
+      "isInfluential": false,
+      "paperId": "59a902d3a87001aaf091752773e8b4679651499c",
+      "title": "A multiresolution volume rendering framework for large-scale time-varying data visualization",
+      "url": "https://www.semanticscholar.org/paper/59a902d3a87001aaf091752773e8b4679651499c",
+      "venue": "Fourth International Workshop on Volume Graphics, 2005.",
+      "year": 2005
+    },
+    {
+      "arxivId": null,
+      "authors": [
+        {
+          "authorId": "1793853",
+          "name": "Rajeev Thakur",
+          "url": "https://www.semanticscholar.org/author/1793853"
+        },
+        {
+          "authorId": "1703559",
+          "name": "William Gropp",
+          "url": "https://www.semanticscholar.org/author/1703559"
+        },
+        {
+          "authorId": "1695428",
+          "name": "Ewing L. Lusk",
+          "url": "https://www.semanticscholar.org/author/1695428"
+        }
+      ],
+      "doi": "10.1109/FMPC.1999.750599",
+      "isInfluential": false,
+      "paperId": "7a7c928f6218d595da98e6949c34dd29c9212d69",
+      "title": "Data sieving and collective I/O in ROMIO",
+      "url": "https://www.semanticscholar.org/paper/7a7c928f6218d595da98e6949c34dd29c9212d69",
+      "venue": "",
+      "year": 1999
+    },
+    {
+      "arxivId": null,
+      "authors": [
+        {
+          "authorId": "66025583",
+          "name": "Christensen Cameron",
+          "url": "https://www.semanticscholar.org/author/66025583"
+        },
+        {
+          "authorId": "66300277",
+          "name": "Lee Ji-Woo",
+          "url": "https://www.semanticscholar.org/author/66300277"
+        },
+        {
+          "authorId": "67271311",
+          "name": "Liu Shusen",
+          "url": "https://www.semanticscholar.org/author/67271311"
+        },
+        {
+          "authorId": "66586846",
+          "name": "Bremer Peer-Timo",
+          "url": "https://www.semanticscholar.org/author/66586846"
+        },
+        {
+          "authorId": "67257332",
+          "name": "Scorzelli Giorgio",
+          "url": "https://www.semanticscholar.org/author/67257332"
+        },
+        {
+          "authorId": "65891655",
+          "name": "Pascucci Valerio",
+          "url": "https://www.semanticscholar.org/author/65891655"
+        }
+      ],
+      "doi": null,
+      "isInfluential": false,
+      "paperId": "f910ce40a8a2988912ebbf87cb819c1a1714261c",
+      "title": "Embedded domain-specific language and runtime system for progressive spatiotemporal data analysis and visualization",
+      "url": "https://www.semanticscholar.org/paper/f910ce40a8a2988912ebbf87cb819c1a1714261c",
+      "venue": "",
+      "year": 2016
+    },
+    {
+      "arxivId": null,
+      "authors": [
+        {
+          "authorId": "1772467",
+          "name": "Jay F. Lofstead",
+          "url": "https://www.semanticscholar.org/author/1772467"
+        },
+        {
+          "authorId": "49063389",
+          "name": "Robert B. Ross",
+          "url": "https://www.semanticscholar.org/author/49063389"
+        }
+      ],
+      "doi": "10.1145/2503210.2503238",
+      "isInfluential": false,
+      "paperId": "b2d4dcc29be84c364da99b7b6900bcfb56b93c08",
+      "title": "Insights for exascale IO APIs from building a petascale IO API",
+      "url": "https://www.semanticscholar.org/paper/b2d4dcc29be84c364da99b7b6900bcfb56b93c08",
+      "venue": "2013 SC - International Conference for High Performance Computing, Networking, Storage and Analysis (SC)",
+      "year": 2013
+    },
+    {
+      "arxivId": null,
+      "authors": [
+        {
+          "authorId": "1685087",
+          "name": "Valerio Pascucci",
+          "url": "https://www.semanticscholar.org/author/1685087"
+        },
+        {
+          "authorId": "30694615",
+          "name": "Randall J. Frank",
+          "url": "https://www.semanticscholar.org/author/30694615"
+        }
+      ],
+      "doi": "10.1109/SC.2001.10053",
+      "isInfluential": true,
+      "paperId": "a21bc68c2208b0e9e449b874bfc5925d4684f708",
+      "title": "Global static indexing for real-time exploration of very large regular grids",
+      "url": "https://www.semanticscholar.org/paper/a21bc68c2208b0e9e449b874bfc5925d4684f708",
+      "venue": "SC",
+      "year": 2001
+    },
+    {
+      "arxivId": null,
+      "authors": [
+        {
+          "authorId": "40361678",
+          "name": "Sidharth Kumar",
+          "url": "https://www.semanticscholar.org/author/40361678"
+        },
+        {
+          "authorId": "15379453",
+          "name": "Cameron Christensen",
+          "url": "https://www.semanticscholar.org/author/15379453"
+        },
+        {
+          "authorId": "2856372",
+          "name": "John A. Schmidt",
+          "url": "https://www.semanticscholar.org/author/2856372"
+        },
+        {
+          "authorId": "1718183",
+          "name": "Timo Bremer",
+          "url": "https://www.semanticscholar.org/author/1718183"
+        },
+        {
+          "authorId": "2975664",
+          "name": "Eric Brugger",
+          "url": "https://www.semanticscholar.org/author/2975664"
+        },
+        {
+          "authorId": "3348747",
+          "name": "Venkatram Vishwanath",
+          "url": "https://www.semanticscholar.org/author/3348747"
+        },
+        {
+          "authorId": "2797656",
+          "name": "Philip H. Carns",
+          "url": "https://www.semanticscholar.org/author/2797656"
+        },
+        {
+          "authorId": "1963481",
+          "name": "Hemanth Kolla",
+          "url": "https://www.semanticscholar.org/author/1963481"
+        },
+        {
+          "authorId": "1754826",
+          "name": "Ray W. Grout",
+          "url": "https://www.semanticscholar.org/author/1754826"
+        },
+        {
+          "authorId": "1843053",
+          "name": "Jacqueline Chen",
+          "url": "https://www.semanticscholar.org/author/1843053"
+        },
+        {
+          "authorId": "1747568",
+          "name": "Martin Berzins",
+          "url": "https://www.semanticscholar.org/author/1747568"
+        },
+        {
+          "authorId": "2592350",
+          "name": "Giorgio Scorzelli",
+          "url": "https://www.semanticscholar.org/author/2592350"
+        },
+        {
+          "authorId": "1685087",
+          "name": "Valerio Pascucci",
+          "url": "https://www.semanticscholar.org/author/1685087"
+        }
+      ],
+      "doi": "10.1007/978-3-319-07518-1_20",
+      "isInfluential": false,
+      "paperId": "aca13aca0a16541e2236351a688c8e3add8ef97c",
+      "title": "Fast Multiresolution Reads of Massive Simulation Datasets",
+      "url": "https://www.semanticscholar.org/paper/aca13aca0a16541e2236351a688c8e3add8ef97c",
+      "venue": "ISC",
+      "year": 2014
+    },
+    {
+      "arxivId": null,
+      "authors": [
+        {
+          "authorId": "46840461",
+          "name": "George Morton",
+          "url": "https://www.semanticscholar.org/author/46840461"
+        }
+      ],
+      "doi": null,
+      "isInfluential": true,
+      "paperId": "78e33d896c71e426486f2103504e13186af73c05",
+      "title": "A computer oriented geodetic data base and a new technique in file sequencing",
+      "url": "https://www.semanticscholar.org/paper/78e33d896c71e426486f2103504e13186af73c05",
+      "venue": "",
+      "year": 1966
+    },
+    {
+      "arxivId": null,
+      "authors": [
+        {
+          "authorId": "2103230",
+          "name": "Pavan Balaji",
+          "url": "https://www.semanticscholar.org/author/2103230"
+        },
+        {
+          "authorId": "48130532",
+          "name": "Anthony Chan",
+          "url": "https://www.semanticscholar.org/author/48130532"
+        },
+        {
+          "authorId": "1793853",
+          "name": "Rajeev Thakur",
+          "url": "https://www.semanticscholar.org/author/1793853"
+        },
+        {
+          "authorId": "1703559",
+          "name": "William Gropp",
+          "url": "https://www.semanticscholar.org/author/1703559"
+        },
+        {
+          "authorId": "1695428",
+          "name": "Ewing L. Lusk",
+          "url": "https://www.semanticscholar.org/author/1695428"
+        }
+      ],
+      "doi": "10.1007/s00450-009-0095-3",
+      "isInfluential": false,
+      "paperId": "547014986afdf86ced23cdcce4583ee04f464160",
+      "title": "Toward message passing for a\\u00a0million processes: characterizing MPI on a\\u00a0massive scale blue gene/P",
+      "url": "https://www.semanticscholar.org/paper/547014986afdf86ced23cdcce4583ee04f464160",
+      "venue": "Computer Science - Research and Development",
+      "year": 2009
+    },
+    {
+      "arxivId": null,
+      "authors": [
+        {
+          "authorId": "47739915",
+          "name": "J. H. Chen",
+          "url": "https://www.semanticscholar.org/author/47739915"
+        },
+        {
+          "authorId": "9126822",
+          "name": "Alok N. Choudhary",
+          "url": "https://www.semanticscholar.org/author/9126822"
+        },
+        {
+          "authorId": "1687845",
+          "name": "Bronis R. de Supinski",
+          "url": "https://www.semanticscholar.org/author/1687845"
+        },
+        {
+          "authorId": "49787549",
+          "name": "Michael Keith Devries",
+          "url": "https://www.semanticscholar.org/author/49787549"
+        },
+        {
+          "authorId": "49761448",
+          "name": "Evatt R. Hawkes",
+          "url": "https://www.semanticscholar.org/author/49761448"
+        },
+        {
+          "authorId": "1736095",
+          "name": "Scott Klasky",
+          "url": "https://www.semanticscholar.org/author/1736095"
+        },
+        {
+          "authorId": "1847672",
+          "name": "Wei-keng Liao",
+          "url": "https://www.semanticscholar.org/author/1847672"
+        },
+        {
+          "authorId": "49249021",
+          "name": "Ka Lok Ma",
+          "url": "https://www.semanticscholar.org/author/49249021"
+        },
+        {
+          "authorId": "2213052",
+          "name": "John M. Mellor-Crummey",
+          "url": "https://www.semanticscholar.org/author/2213052"
+        },
+        {
+          "authorId": "1734819",
+          "name": "Norbert Podhorszki",
+          "url": "https://www.semanticscholar.org/author/1734819"
+        },
+        {
+          "authorId": "37893242",
+          "name": "Ramanan Sankaran",
+          "url": "https://www.semanticscholar.org/author/37893242"
+        },
+        {
+          "authorId": "48955672",
+          "name": "Swapnil Shende",
+          "url": "https://www.semanticscholar.org/author/48955672"
+        },
+        {
+          "authorId": "27101531",
+          "name": "Chun Sang Yoo",
+          "url": "https://www.semanticscholar.org/author/27101531"
+        }
+      ],
+      "doi": "10.1088/1749-4699/2/1/015001",
+      "isInfluential": true,
+      "paperId": "65dc8ce6207109658e31662e10932fe586f272ef",
+      "title": "Terascale direct numerical simulations of turbulent combustion using S3D.",
+      "url": "https://www.semanticscholar.org/paper/65dc8ce6207109658e31662e10932fe586f272ef",
+      "venue": "",
+      "year": 2008
+    },
+    {
+      "arxivId": null,
+      "authors": [
+        {
+          "authorId": "40361678",
+          "name": "Sidharth Kumar",
+          "url": "https://www.semanticscholar.org/author/40361678"
+        },
+        {
+          "authorId": "50040661",
+          "name": "John Edwards",
+          "url": "https://www.semanticscholar.org/author/50040661"
+        },
+        {
+          "authorId": "1718183",
+          "name": "Timo Bremer",
+          "url": "https://www.semanticscholar.org/author/1718183"
+        },
+        {
+          "authorId": "15158152",
+          "name": "Aaron Knoll",
+          "url": "https://www.semanticscholar.org/author/15158152"
+        },
+        {
+          "authorId": "15379453",
+          "name": "Cameron Christensen",
+          "url": "https://www.semanticscholar.org/author/15379453"
+        },
+        {
+          "authorId": "3348747",
+          "name": "Venkatram Vishwanath",
+          "url": "https://www.semanticscholar.org/author/3348747"
+        },
+        {
+          "authorId": "2797656",
+          "name": "Philip H. Carns",
+          "url": "https://www.semanticscholar.org/author/2797656"
+        },
+        {
+          "authorId": "2856372",
+          "name": "John A. Schmidt",
+          "url": "https://www.semanticscholar.org/author/2856372"
+        },
+        {
+          "authorId": "1685087",
+          "name": "Valerio Pascucci",
+          "url": "https://www.semanticscholar.org/author/1685087"
+        }
+      ],
+      "doi": "10.1109/SC.2014.39",
+      "isInfluential": false,
+      "paperId": "1fc9b092574d02836163f213f296c96b9b1f8dfc",
+      "title": "Efficient I/O and Storage of Adaptive-Resolution Data",
+      "url": "https://www.semanticscholar.org/paper/1fc9b092574d02836163f213f296c96b9b1f8dfc",
+      "venue": "SC14: International Conference for High Performance Computing, Networking, Storage and Analysis",
+      "year": 2014
+    },
+    {
+      "arxivId": null,
+      "authors": [
+        {
+          "authorId": "40361678",
+          "name": "Sidharth Kumar",
+          "url": "https://www.semanticscholar.org/author/40361678"
+        },
+        {
+          "authorId": "3348747",
+          "name": "Venkatram Vishwanath",
+          "url": "https://www.semanticscholar.org/author/3348747"
+        },
+        {
+          "authorId": "2797656",
+          "name": "Philip H. Carns",
+          "url": "https://www.semanticscholar.org/author/2797656"
+        },
+        {
+          "authorId": "1733331",
+          "name": "Brian Summa",
+          "url": "https://www.semanticscholar.org/author/1733331"
+        },
+        {
+          "authorId": "2592350",
+          "name": "Giorgio Scorzelli",
+          "url": "https://www.semanticscholar.org/author/2592350"
+        },
+        {
+          "authorId": "1685087",
+          "name": "Valerio Pascucci",
+          "url": "https://www.semanticscholar.org/author/1685087"
+        },
+        {
+          "authorId": "40211322",
+          "name": "Robert B. Ross",
+          "url": "https://www.semanticscholar.org/author/40211322"
+        },
+        {
+          "authorId": "1843053",
+          "name": "Jacqueline Chen",
+          "url": "https://www.semanticscholar.org/author/1843053"
+        },
+        {
+          "authorId": "1963481",
+          "name": "Hemanth Kolla",
+          "url": "https://www.semanticscholar.org/author/1963481"
+        },
+        {
+          "authorId": "1754826",
+          "name": "Ray W. Grout",
+          "url": "https://www.semanticscholar.org/author/1754826"
+        }
+      ],
+      "doi": "10.1109/CLUSTER.2011.19",
+      "isInfluential": false,
+      "paperId": "12e7574576be81bcc9827754ec1593ed3e75d14a",
+      "title": "PIDX: Efficient Parallel I/O for Multi-resolution Multi-dimensional Scientific Datasets",
+      "url": "https://www.semanticscholar.org/paper/12e7574576be81bcc9827754ec1593ed3e75d14a",
+      "venue": "2011 IEEE International Conference on Cluster Computing",
+      "year": 2011
+    },
+    {
+      "arxivId": null,
+      "authors": [
+        {
+          "authorId": "1680805",
+          "name": "Palghat P. Vaidyanathan",
+          "url": "https://www.semanticscholar.org/author/1680805"
+        },
+        {
+          "authorId": "50545735",
+          "name": "T. Q. Nguyen",
+          "url": "https://www.semanticscholar.org/author/50545735"
+        }
+      ],
+      "doi": null,
+      "isInfluential": false,
+      "paperId": "275a8b178471a9f96b2604a644111b66840dc56b",
+      "title": "The Lifting Scheme: A Construction Of Second Generation Wavelets",
+      "url": "https://www.semanticscholar.org/paper/275a8b178471a9f96b2604a644111b66840dc56b",
+      "venue": "",
+      "year": 1995
+    },
+    {
+      "arxivId": null,
+      "authors": [
+        {
+          "authorId": "2562839",
+          "name": "Jonathan Woodring",
+          "url": "https://www.semanticscholar.org/author/2562839"
+        },
+        {
+          "authorId": "8412011",
+          "name": "Susan M. Mniszewski",
+          "url": "https://www.semanticscholar.org/author/8412011"
+        },
+        {
+          "authorId": "1702503",
+          "name": "Christopher M. Brislawn",
+          "url": "https://www.semanticscholar.org/author/1702503"
+        },
+        {
+          "authorId": "3256288",
+          "name": "David E. DeMarle",
+          "url": "https://www.semanticscholar.org/author/3256288"
+        },
+        {
+          "authorId": "1787080",
+          "name": "James Paul Ahrens",
+          "url": "https://www.semanticscholar.org/author/1787080"
+        }
+      ],
+      "doi": "10.1109/LDAV.2011.6092314",
+      "isInfluential": false,
+      "paperId": "c750b9288ed25777e5b7129139e01c143177324c",
+      "title": "Revisiting wavelet compression for large-scale climate data using JPEG 2000 and ensuring data precision",
+      "url": "https://www.semanticscholar.org/paper/c750b9288ed25777e5b7129139e01c143177324c",
+      "venue": "2011 IEEE Symposium on Large Data Analysis and Visualization",
+      "year": 2011
+    }
+  ],
+  "title": "Reducing Network Congestion and Synchronization Overhead During Aggregation of Hierarchical Data",
+  "topics": [
+    {
+      "topic": "Network congestion",
+      "topicId": "32569",
+      "url": "https://www.semanticscholar.org/topic/32569"
+    },
+    {
+      "topic": "Supercomputer",
+      "topicId": "9282",
+      "url": "https://www.semanticscholar.org/topic/9282"
+    },
+    {
+      "topic": "Discrete wavelet transform",
+      "topicId": "45576",
+      "url": "https://www.semanticscholar.org/topic/45576"
+    },
+    {
+      "topic": "Hierarchical database model",
+      "topicId": "110806",
+      "url": "https://www.semanticscholar.org/topic/110806"
+    },
+    {
+      "topic": "Fractal",
+      "topicId": "13485",
+      "url": "https://www.semanticscholar.org/topic/13485"
+    },
+    {
+      "topic": "Octree",
+      "topicId": "90089",
+      "url": "https://www.semanticscholar.org/topic/90089"
+    },
+    {
+      "topic": "Hierarchical Data Format",
+      "topicId": "306571",
+      "url": "https://www.semanticscholar.org/topic/306571"
+    },
+    {
+      "topic": "Input/output",
+      "topicId": "8197",
+      "url": "https://www.semanticscholar.org/topic/8197"
+    },
+    {
+      "topic": "News aggregator",
+      "topicId": "210281",
+      "url": "https://www.semanticscholar.org/topic/210281"
+    },
+    {
+      "topic": "Internationalization and localization",
+      "topicId": "69706",
+      "url": "https://www.semanticscholar.org/topic/69706"
+    },
+    {
+      "topic": "Data aggregation",
+      "topicId": "10164",
+      "url": "https://www.semanticscholar.org/topic/10164"
+    },
+    {
+      "topic": "Dataflow",
+      "topicId": "31870",
+      "url": "https://www.semanticscholar.org/topic/31870"
+    },
+    {
+      "topic": "Experiment",
+      "topicId": "378",
+      "url": "https://www.semanticscholar.org/topic/378"
+    },
+    {
+      "topic": "Throughput",
+      "topicId": "316",
+      "url": "https://www.semanticscholar.org/topic/316"
+    },
+    {
+      "topic": "Simulation",
+      "topicId": "194",
+      "url": "https://www.semanticscholar.org/topic/194"
+    },
+    {
+      "topic": "Speedup",
+      "topicId": "4162",
+      "url": "https://www.semanticscholar.org/topic/4162"
+    },
+    {
+      "topic": "Fastest",
+      "topicId": "172009",
+      "url": "https://www.semanticscholar.org/topic/172009"
+    },
+    {
+      "topic": "Computation",
+      "topicId": "339",
+      "url": "https://www.semanticscholar.org/topic/339"
+    },
+    {
+      "topic": "Vii",
+      "topicId": "813053",
+      "url": "https://www.semanticscholar.org/topic/813053"
+    }
+  ],
+  "url": "https://www.semanticscholar.org/paper/04f0650ab41af3aad8c0476a9b06826c55356b99",
+  "venue": "2017 IEEE 24th International Conference on High Performance Computing (HiPC)",
+  "year": 2017
+}
