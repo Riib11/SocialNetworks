@@ -2,6 +2,8 @@
 
 ## !!!
 
+- make authors features matrix for just the largest connected component individually
+
 - recreate authors features matrix for final and make final analysis
 
 - look at authors centralities and write explanation of how they relate and what the significances are, wrapping up!
