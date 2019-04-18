@@ -67,14 +67,16 @@ class AuthorsNetwork:
     p = [ self.persons_features[aid]["npubs"] for aid in closenesses.keys() if "npubs" in self.persons_features[aid] ]
     return np.corrcoef(c, p)
 
-  def write(self):
-    suffix = "".join(
+  def get_suffix(self):
+    return "".join(
       [ "_" + k + "=" + str(v)
-      for (k,v) in self.attributes.items() ])
-    nx.write_gexf(self.graph, DIR_GEPHI + "authors-network"+suffix+".gexf")
+        for (k,v) in self.attributes.items() ])
+
+  def write(self):
+    nx.write_gexf(self.graph, DIR_GEPHI + "authors-network"+self.get_suffix()+".gexf")
 
   def add_paper(self, paper):
-    paper_id = paper["id"]
+    paper_id = paper["id"] if "id" in paper else paper["paperId"]
     self.papers[paper_id] = paper
     for author in paper["authors"]:
       author_id, author_name = extract_author_id_name(author)
@@ -157,9 +159,7 @@ class AuthorsNetwork:
     for node in isolates: self.graph.node[node]["isolate"] = True
 
   def calculate_centralities(self):
-    suffix = ""
-    if "cc-rank" in self.attributes:
-      suffix += "cc-rank="+str(self.attributes["cc-rank"])
+    suffix = self.get_suffix()
 
     # dump calculated data
     
@@ -346,7 +346,7 @@ class AuthorsNetwork:
       plt.tight_layout()
       fig.savefig(DIR_FIGS+"centralities_"+
         "v"+str(version)+
-        "_"+suffix+
+        +suffix+
       ".png", dpi=100)
 
   def print_centralities_correlations(self):
@@ -364,8 +364,9 @@ class AuthorsNetwork:
       message("      r =", r)
       message("p-value =", pv)
 
-  def save_all_correlations(self):
+  def save_all_correlations_csv(self):
     data = {} # author_name => { attr_key : attr_val }
+    suffix = self.get_suffix()
 
     def set_attr(author_name, attr_key, attr_val):
       if not author_name in data: data[author_name] = {}
@@ -374,24 +375,15 @@ class AuthorsNetwork:
     # centralities data
     for cent_key in CENTRALITY_KEYS:
       # centrality_dict : node_id => cent_val
-      centrality_dict = load_centrality_data(cent_key,"cc-rank=0")
+      centrality_dict = load_centrality_data(cent_key, suffix)
       for author_id, cent_val in centrality_dict.items():
         author_name = self.author_names[author_id]
         cent_val = round(cent_val, 4)
         set_attr(author_name, cent_key, cent_val)
 
-    # print(data.keys())
-
     for author_name in data.keys():
       if author_name in self.persons_features_named:
         author_features = self.persons_features_named[author_name]
-        # print(author_features.items())
-        # exit()
-        # print(
-        #   [ author_features[k]
-        #     for k in [" as_pc_chair", " as_pc", " as_session_chair", " as_panelist", " as_keynote_speaker", " as_author"]
-        #     if k in author_features ])
-        
         for pf_key in PERSONSFEATURES_KEYS:
           if pf_key in author_features:
             try:
@@ -403,7 +395,7 @@ class AuthorsNetwork:
     correlations.save_correlations_csv(
       CENTRALITY_KEYS + PERSONSFEATURES_KEYS,
       data,
-      str(self.attributes["cc-rank"]) if "cc-rank" in self.attributes else None,
+      suffix,
       DIR_DATA)
 
 

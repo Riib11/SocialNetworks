@@ -2,6 +2,10 @@
 
 ## April 13 - April 19
 
+- recreated authors features matrix with final data
+
+- made authors features matrix for just the largest connected component individually
+
 - made a final, good mapping `rawtitle => s2id` that contains the vast majority of database plus some things I had to manually search, for a total of 2430 entries.
   - this is in `find_missing/data/rawtitle_to_s2id.json` and `find_missing/data/rawtitle_to_s2id`
   - rawtitles that I still couldn't find are in `find_missing/data/unsearchable_rawtitles.txt`

@@ -1,5 +1,7 @@
 setwd("~/SocialNetworks/systems-papers/python/authors_network/")
 
+correlations_data_fn = "data/correlations_vA1_c_cc-rank=0.csv"
+
 library(psych)
 
 ################################################################################
@@ -10,7 +12,7 @@ library(psych)
 ################################################################################
 # figure
 
-version <- "A1"
+version <- "CR0"
 name <- "Author-Features-Correlations-Matrix"
 
 winsorization_fraction <- 0.02
@@ -38,7 +40,8 @@ png(
 ################################################################################
 # data
 
-data_table <- read.csv(paste("data/correlations_v",version,".csv", sep=""))
+
+data_table <- read.csv(correlations_data_fn)
 
 # labels
 

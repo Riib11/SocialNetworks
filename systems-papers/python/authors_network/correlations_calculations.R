@@ -1,6 +1,7 @@
 setwd("~/SocialNetworks/systems-papers/python/authors_network/")
-version = "A"
-data_table = read.csv(paste("data/correlations_v",version,".csv", sep=""))
+correlations_fn = "data/correlations_vA1_c_cc-rank=0.csv"
+
+data_table = read.csv(correlations_fn)
 
 winsorize <- function(x) {
     Min <- which.min(x)
@@ -16,6 +17,7 @@ values = data_table[2:length(data_table)]
 pruned_values = mapply(winsorize, values)
 
 mode = "Correlation"
+suffix = "(cc-rank = 0)"
 
 calculations = cor(
   values,
@@ -25,4 +27,4 @@ calculations = cor(
 
 write.csv(
   calculations,
-  file = paste("numbers/Author Features",mode,"Calculations.csv", sep=" "))
+  file = paste("numbers/Author Features",mode,"Calculations.csv",suffix, sep=" "))

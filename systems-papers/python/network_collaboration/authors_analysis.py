@@ -37,6 +37,12 @@ G = AuthorsNetwork()
 for paper_id, paper in papers.items(): G.add_paper(paper)
 G.fill_graph()
 
+if True:
+  message("Saving Centralities Data for Isolated Component")
+  G.isolate_component(0)
+  G.calculate_centralities()
+  G.save_all_correlations_csv()
+
 if False:
   print("correlation: ", G.correlate_closeness_npubs())
   quit()
@@ -67,9 +73,9 @@ if False:
   message("Analyzing Centralities Correlations")
   G.print_centralities_correlations()
 
-if True:
+if False:
   message("Saving All Correlations to CSV")
-  G.save_all_correlations()
+  G.save_all_correlations_csv()
 
 ################################################################################
 if False:
