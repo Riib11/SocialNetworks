@@ -2,8 +2,6 @@
 
 ## !!!
 
-- extract ids from new urls, put into final dictionary, check out new mappings ive made
-
 - recreate authors features matrix for final and make final analysis
 
 - look at authors centralities and write explanation of how they relate and what the significances are, wrapping up!

@@ -2,6 +2,10 @@
 
 ## April 13 - April 19
 
+- made a final, good mapping `rawtitle => s2id` that contains the vast majority of database plus some things I had to manually search, for a total of 2428 entries.
+  - this is in `find_missing/data/rawtitle_to_s2id.json` and `find_missing/data/rawtitle_to_s2id`
+  - rawtitles that I still couldn't find are in `find_missing/data/unsearchable_rawtitles.txt`
+
 - debug finding keys for paper, then papers that don't have keys / map to same keys should be thrown out of gA
 
 ## April 6 - April 12
