@@ -1,45 +1,43 @@
 import utils.strings as util_str
 import conferences.conferences as conf_data
 import semantic_scholar.s2data as s2_data
+import utils.json as u_json
 from tqdm import tqdm
 
-VERSION = 2
+DATA_DIR = "find_missing/data/"
+MISSING_RAWTITLES_FN   = DATA_DIR + "missing_rawtitles.txt"
+RAWTITLE_TO_S2TITLE_FN = DATA_DIR + "rawtitle_to_s2title.json"
+RAWTITLE_TO_S2ID_FN    = DATA_DIR + "rawtitle_to_s2id.json"
 
-source_fn = "finding_missing/find_missing_papers_result.txt"
-target_fn = "finding_missing/find_missing_papers_result_{0}.txt".format(VERSION)
+conferences = list(conf_data.get_each_conference_papers())
+rawpapers = sum([ conf_papers for conf_name, conf_papers in conferences ], [])
 
-known        = s2_data.get_dict_gA()
-known_titles = [ p["title"] for p in known.values() ]
-title_to_id  = { p["title"] : p_id for p_id, p in known.items() }
-
-# DONE
-# conferences  = list(conf_data.get_each_conference_papers())
-# papers       = sum([ conf_papers for conf_name, conf_papers in conferences ], [])
-# paper_titles = [ p["title"] for p in papers ]
-
-with open(source_fn) as file:
-  paper_titles = [ line.strip() for line in file ]
+known_papers = s2_data.get_dict_gA().values()
 
 match_threshold = 5
 def is_match(s1, s2):
   return s1.lower() == s2.lower()
-  # return or util_str.editDistance(s1, s2) <= match_threshold
 
-def is_known(paper_title):
-  if paper_title in known_titles: return True
-  return any([
-      is_match(paper_title, known_title)
-      for known_title in known_titles ])
+rawtitle_to_s2title = {}
+rawtitle_to_s2id    = {}
 
-missing_titles = \
-  [ paper_title
-    for paper_title in tqdm(paper_titles)
-    if not is_known(paper_title) ]
+def is_known(rawpaper):
+  rawtitle = rawpaper["title"]
+  for paper in known_papers:
+    known_title = paper["title"]
+    if is_match(rawtitle, known_title):
+      rawtitle_to_s2title[rawtitle] = known_title
+      rawtitle_to_s2id[rawtitle] = paper["id"] if "id" in paper else paper["paperId"]
+      return True
+  return False
 
-print("="*80)
-print("\n".join(missing_titles))
-print("="*80)
-print("total:", len(missing_titles))
+missing_rawpapers = [ rawpaper for rawpaper in tqdm(rawpapers) if not is_known(rawpaper) ]
 
-print("missing paper titles written to:", target_fn)
-with open(target_fn, "w+") as file: file.write("\n".join(missing_titles) + "\n")
+print(len(missing_rawpapers), " = missing raw papers:")
+print(len(rawtitle_to_s2id),   "= entries for (raw title => s2 title)")
+
+with open(MISSING_RAWTITLES_FN, "w+") as file:
+  [ file.write(rawpaper["title"] + "\n") for rawpaper in missing_rawpapers ]
+
+u_json.dump_json(rawtitle_to_s2title, RAWTITLE_TO_S2TITLE_FN)
+u_json.dump_json(rawtitle_to_s2id, RAWTITLE_TO_S2ID_FN)

@@ -11,8 +11,6 @@
   - paper_s2id => paper_key
   - Jesus Christ this took a lot of work
 
-
-
 ## April 1 - April 5
 
 - created proper and more validly-Winsorized pairs graph for authors features. only Winsorize first 9 (finely-grained) features, and found that Winsorize-fraction=0.02 is about good
