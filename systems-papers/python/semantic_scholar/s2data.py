@@ -21,7 +21,7 @@ get_gB = lambda: utils.load_json_file(gB_fn)
 dict_gA_old_fn = semantic_scholar_proccessed_dir + "dict_gA.json"
 get_dict_gA_old = lambda: utils.load_json_file(dict_gA_old_fn)
 
-dict_gA_fn = semantic_scholar_proccessed_dir + "gA_all_dict.json"
+dict_gA_fn = semantic_scholar_proccessed_dir + "gA_dict_2.json"
 get_dict_gA = lambda: utils.load_json_file(dict_gA_fn)
 
 dict_gB_fn = semantic_scholar_proccessed_dir + "dict_gB.json"
