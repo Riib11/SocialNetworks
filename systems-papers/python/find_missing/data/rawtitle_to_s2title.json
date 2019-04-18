@@ -2427,5 +2427,6 @@
     "Melissa: Large Scale In Transit Global Sensitivity Analysis Avoiding Intermediate Files": "Melissa: large scale in transit sensitivity analysis avoiding intermediate files",
     "ARM Wrestling with Big Data: A Study of Commodity ARM Server for Big Data Workloads": "ARM Wrestling with Big Data: A Study of ARM64 and x64 Servers for Data Intensive Workloads",
     "Reducing network congestion and global communication bottlenecks during aggregation on Torus and Dragonfly topologies for writing hierarchical data": "Reducing Network Congestion and Synchronization Overhead During Aggregation of Hierarchical Data",
-    "Bounding Cache Miss Costs of Multithreaded Computations Under General Schedulers": "Bounding Cache Miss Costs of Multithreaded Computations Under General Schedulers: Extended Abstract"
+    "Bounding Cache Miss Costs of Multithreaded Computations Under General Schedulers": "Bounding Cache Miss Costs of Multithreaded Computations Under General Schedulers: Extended Abstract",
+    "Understanding Power-performance Relationship of Energy-efficient Modern DRAM Devices for Chip Multiprocessor Workloads": "Leveraging Power-Performance Relationship of Energy-Efficient Modern DRAM Devices"
 }

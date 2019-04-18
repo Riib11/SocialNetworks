@@ -122,14 +122,8 @@ def load_s2id_to_key():
 
 if __name__ == "__main__":
   # dump_s2id_to_key()
-
-  conf_papers = list(get_each_conference_papers())
-
-  papers_count = 0
-  for (conf, papers) in conf_papers: papers_count += len(papers)
-  print("papers_count =", papers_count)
-
-
+  print("rawpapers count =",
+    sum([ len(papers) for (conf, papers) in list(get_each_conference_papers()) ]))
 
 
 ################################################################################

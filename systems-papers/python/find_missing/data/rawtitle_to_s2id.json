@@ -2427,5 +2427,6 @@
     "Melissa: Large Scale In Transit Global Sensitivity Analysis Avoiding Intermediate Files": "3ae7abd61e3b68b503ef82ed8e73c54c29f2c30f",
     "ARM Wrestling with Big Data: A Study of Commodity ARM Server for Big Data Workloads": "3569a92631b764755201cec205058e7ce95e4702",
     "Reducing network congestion and global communication bottlenecks during aggregation on Torus and Dragonfly topologies for writing hierarchical data": "04f0650ab41af3aad8c0476a9b06826c55356b99",
-    "Bounding Cache Miss Costs of Multithreaded Computations Under General Schedulers": "d13102675ed42987721f473ba69d74a7f7fdbfe1"
+    "Bounding Cache Miss Costs of Multithreaded Computations Under General Schedulers": "d13102675ed42987721f473ba69d74a7f7fdbfe1",
+    "Understanding Power-performance Relationship of Energy-efficient Modern DRAM Devices for Chip Multiprocessor Workloads": "0d4c880bbe43cbeae96b1ef959f10a406f25adb1"
 }
