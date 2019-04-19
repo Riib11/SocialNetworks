@@ -2,6 +2,8 @@
 
 ## April 13 - April 19
 
+- made rough outline of Report Outline (`notes/Report Outline.md`)
+
 - recreated authors features matrix with final data
 
 - made authors features matrix for just the largest connected component individually
