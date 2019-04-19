@@ -5,11 +5,6 @@ correlations_data_fn = "data/correlations_vA1_c_cc-rank=0.csv"
 library(psych)
 
 ################################################################################
-# margins
-
-# par(mar = c(5,5,5,5)) # doesn't seem to work...
-
-################################################################################
 # figure
 
 version <- "CR0"
@@ -26,7 +21,7 @@ attributes <- paste(
   paste("wfrac", winsorization_fraction, sep="="),
   paste("wfeats", winsorization_features_str, sep="="),
   paste("v", version, sep="="),
-sep="-")
+sep="_")
 
 png(
   filename = paste("figs/",name,"_",attributes,".png", sep=""),
@@ -54,29 +49,9 @@ to_label = function(name) {
 }
 
 ################################################################################
-# prune
+# prune via winsorize
 
 values <- data_table[2:length(data_table)]
-
-# test <- function() {
-
-#   x <- values[3][[1]]
-#   frac <- 0.05
-#   lim <- quantile(x, probs = c(frac, 1-frac), na.rm = TRUE)
-
-#   print(paste("limits:", lim[1], lim[2]))
-
-#   print(paste("mean:", mean(x, na.rm = TRUE)))
-#   y <- x[ lim[1] <= x & x <= lim[2] ]
-#   z <- x[ lim[2] < x ]
-
-#   print(paste("total", length(x)))
-#   print(paste("keep:", length(y)))
-#   print(paste("drop:", length(z)))
-
-#   quit()
-# }
-# test()
 
 winsorize <- function (x, frac) {
   lim <- quantile(x, probs=c(frac, 1-frac), na.rm = TRUE)
@@ -94,10 +69,6 @@ for (i in winsorization_features) {
   Z[i] <- winsorize(x, winsorization_fraction)
 }
 
-# plot(Z[])
-
-# values_winsorized[1:9] <- mapply(winsorize, values[1:9])
-
 ################################################################################
 # plot
 
@@ -107,21 +78,5 @@ psych::pairs.panels(
   density = TRUE,
   lm      = F
 )
-
-
-# pairs(
-#   Z,
-	
-#   main = name,
-
-#   # log = "xy", # causes 32 warnings
-#   na.action = na.omit,
-  
-#   pch = 21,
-
-#   # upper.panel = NULL
-#   lower.panel = NULL,
-#   labels = mapply(to_label, names(data_table[2:length(data_table)]))
-# )
 
 dev.off()
