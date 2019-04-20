@@ -2,6 +2,9 @@
 
 ## April 13 - April 19
 
+- flush out report outline with more specifics in the Analysis and Conclusions sections
+- summarize (more) thoughts on the social network analysis papers that I read
+
 - made rough outline of Report Outline (`notes/Report Outline.md`)
 
 - recreated authors features matrix with final data

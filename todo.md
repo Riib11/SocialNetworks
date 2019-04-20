@@ -4,9 +4,7 @@
 
 - regenerate `author_name => author_s2id` mapping (with finalized data)
 
-- flush out report outline with more specifics in the Analysis and Conclusions sections
 
-- summarize (more) thoughts on the social network analysis papers that I read
 
 ## !!
 
