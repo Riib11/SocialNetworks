@@ -2,9 +2,10 @@
 
 ## !!!
 
-- regenerate `author_name => author_s2id` mapping (with finalized data)
+- flush out report outline Conclusions / come up with more solid conclusions
 
-
+- touch up data analyses for report
+- touch up data visualizations for report
 
 ## !!
 
