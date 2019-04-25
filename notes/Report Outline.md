@@ -26,8 +26,9 @@ There are several different kinds of centrality measures that vary in what they 
 *TODO*: describe centralities and how to interpret them
 
 The partitioning of a network into connected components yields that for each node in a partition, there is a path from that node to each other node in its partition.
-Connected components separate nodes into groups that are completely connected by the trait that edges represent. Each component can be analyzed as a isolated sub-network.
-Sometimes two would-be components are connected by just a few bridges. This is related to closeness and betweeness centrality.
+Connected components separate nodes into groups that are completely connected by the trait that edges represent.
+Each component can be analyzed as an isolated sub-network.
+Sometimes two would-be components are connected by just a few bridges. This is related to closeness and betweenness centrality.
 
 Computer science collaboration analysts have used degree centrality along with correlations of node traits to make determinations about, for example, how likely nodes are to be connected given their features (e.g. gender) [Ghiasi G.].
 Along with degree, connections between nodes can be classified by the features of the connected nodes. [Ghiasi G.].
@@ -39,7 +40,7 @@ There were also some interesting results suggesting that cross-disciplinary coll
 
 I had two main research questions:
 
-_Question_: Which conferences should be considered closely related to the main group of papers / topics, and which should be considered controls, belonging to related topics, but not quite as strongly related to the bulk of the papers? 
+_Question_: Which conferences should be considered closely related to the main group of papers / topics, and which should be considered controls, belonging to related topics, but not quite as strongly related to the bulk of the papers?
 _Hypothesis_: The commonly-recognized computer systems conferences would be more related to each other than the purposely-inserted control conferences (via Eitan) in terms of collaboration- and citation-connectivity.
 
 __Question__: How closely to various "influence scores" correlate to various centrality measurements in the 2017 authors' collaboration network?
@@ -95,7 +96,40 @@ There is one large connected component with the majority of authors, and it vari
 
 ## Conclusions
 
-*TODO*
+### Summary
+Three of the centrality metrics (degree, betweenness, and closeness) seem to measure some interesting, connective feature of the author's collaboration network, and one (eigenvector) does not.
+
+### Eigenvector Centrality
+- Assuming that the standard influence metrics such as hindex, i10index, and npubs are at least somewhat correlated with author influence, the fact that the eigenvector centrality, which is a crude "page-rank" score, is extremely monotonic in this network suggests that it is not useless in this social network context.
+- TODO: what does this say, given the usual meaning of page-rank?
+- TODO: what does this say about author influence?
+
+### Degree Centrality
+- Degree centrality is the number of connections an author has in the author collaboration network.
+- This is a usual metric that is immediately calculable from the authors collaborations network.
+- It correlates highest with betweenness (0.46) and as_author (0.50), and negligibly (< 0.3) with all other author features.
+- Correlating with betweenness makes sense because generally the more authors you are connected to, the more likely you are to have a shortest path going through you.
+- Correlating with as_author makes sense because generally the more papers you author the more people you've co-authored with.
+- The fact that it does not correlate highly with npubs, hindex, and i10index is interesting because it shows that just directly collaborating with more people, or writing more papers than average during a given year (as_author) does not do much to promote your influence score as an author.
+- TODO: what does this say about author influence?
+
+### Betweenness Centrality
+- Betweenness centrality of an author `A` is the sum of the fraction, for each pair of other authors, of all the shortest paths between those authors that goes through `A`, normalized over the whole network by the size of each node's connected component size.
+- It correlates highest with degree centrality (0.46) and `as_author` (0.5), and correlates negligibly (< 0.23) with all other author features.
+- Correlating with `as_author` makes sense because generally the more papers you worked on, the more likely you collaborated in some way connecting a shortest path.
+- Correlating with degree centrality is described in the Degree Centrality section above.
+- The fact that it correlates (although not extremely well) with degree but does not correlate with npubs, hindex, and i10index suggests that this measure is detecting a similar feature as degree that is orthogonal to the traditional influence metrics, but is clearly different as well.
+- Betweenness has a very bi-modal distribution which separates the largest cluster from the smaller clusters; many more nodes in the largest cluster have the opportunity to connect would-be separate connected components.
+- TODO: what does this say about author influence?
+
+### Closeness Centrality
+- Closeness centrality is the inverse of the average distance from every other author that a given author is in it's connected component of the author collaboration network, normalized over the entire network by each author's connected component size.
+- This is how closely connected an author is the center of mass of their network
+- Has very normal distribution
+- Does not correlate (<0.25) with any other author features
+- It is really surprising that this doesn't correlate with anything, especially degree (0.25) and betweenness (0.19).
+- The normal distribution suggests that this is perhaps a random assignment, and that closeness has little to do with interesting features of authors.
+
 
 ## References
 
