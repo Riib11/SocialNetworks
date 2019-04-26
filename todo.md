@@ -2,7 +2,7 @@
 
 ## !!!
 
-- flush out report outline Conclusions / come up with more solid conclusions
+- how to make individual graphs for the diagonal of pairs matrix?
 
 - touch up data analyses for report
 - touch up data visualizations for report

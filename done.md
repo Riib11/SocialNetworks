@@ -1,5 +1,11 @@
 # Done
 
+## April 19 - April 26
+
+- flush out report outline Conclusions / come up with more solid conclusions
+- flush out report outline with more specifics in the Analysis and Conclusions sections
+- did more reading of significance of centrality metrics
+
 ## April 13 - April 19
 
 - flush out report outline with more specifics in the Analysis and Conclusions sections

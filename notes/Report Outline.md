@@ -1,10 +1,11 @@
 # Report Outline
 
-<!-- Format --
+<!-- Format ------------------------------------------------------------------------------------------------------------------
 The idea is that every paragraph in the final report
 is represented by at least one sentence in this outline.
--->
+----------------------------------------------------------------------------------------------------------------------------->
 
+<!--------------------------------------------------------------------------------------------------------------------------->
 ## Introduction
 
 The data set consists of the record of papers published in computer systems conferences during 2017.
@@ -14,6 +15,7 @@ The fields that we I focused on were:
   - author: name, Google scholar email, semantic scholar id (s2id) hindex, i10index, number of publications (npubs), as pc chair, as session chair, as panelist, as keynote speaker, as author
 The purpose of collecting and analyzing this data was to look for any patterns in the networks and correlations of the data and their fields, and then to clearly document and attempt to explain the results.
 
+<!--------------------------------------------------------------------------------------------------------------------------->
 ## Background
 
 - Context of work on social networks
@@ -36,6 +38,7 @@ Along with degree, connections between nodes can be classified by the features o
 More generally, collaboration networks of scientific researchers analysis has pointed to some specific features being important for how likely authors are to collaborate: co-authorship distance, geographic closeness, cultural closeness, likeness of research institution type (e.g. university or industry) [Knoke D., Yang S.]
 There were also some interesting results suggesting that cross-disciplinary collaboration may be comparably important to inter-disciplinary collaboration [Knoke., Yang S.]
 
+<!--------------------------------------------------------------------------------------------------------------------------->
 ## Questions / Hypotheses
 
 I had two main research questions:
@@ -46,16 +49,19 @@ _Hypothesis_: The commonly-recognized computer systems conferences would be more
 __Question__: How closely to various "influence scores" correlate to various centrality measurements in the 2017 authors' collaboration network?
 _Hypothesis_: The influences scores, such as hindex and i10index, would correlate strongly with other emergent measures of node influence, such as various centrality measures.
 
+<!--------------------------------------------------------------------------------------------------------------------------->
 ## Conference Citation Network
 
 In the conference citation network, each node represents a conference from the 2017 data and each directed edge A to B is weighted by the number of papers in B (not necessarily from 2017 data) that were cited by a 2017 paper in A.
 
 *figure: conference citation network with manual labels*
 
+<!--------------------------------------------------------------------------------------------------------------------------->
 ### Analysis
 
 Not very interesting because data very incomplete and no immediate patterns emerged.
 
+<!--------------------------------------------------------------------------------------------------------------------------->
 ## Paper Collaboration Network
 
 In the paper collaboration network, each node represents a paper from the 2017 data and each undirected edge between A and B is weighted by the number of authors that A and B shared.
@@ -68,6 +74,7 @@ This network can be colored by many different metrics, including node centraliti
 
 This network was clean to look at, but seemed hard to read higher-level patterns out of in comparison to the authors collaboration network.
 
+<!--------------------------------------------------------------------------------------------------------------------------->
 ## Author Collaboration Network
 
 In the author collaboration network, each node represents an author and each undirected edge between A and B is weighted by the number of papers in the 2017 data that were co-authored by A and B.
@@ -94,6 +101,7 @@ There is one large connected component with the majority of authors, and it vari
 
 *figure: author features pairs matrix*
 
+<!--------------------------------------------------------------------------------------------------------------------------->
 ## Conclusions
 
 ### Summary
@@ -120,7 +128,9 @@ Three of the centrality metrics (degree, betweenness, and closeness) seem to mea
 - Correlating with degree centrality is described in the Degree Centrality section above.
 - The fact that it correlates (although not extremely well) with degree but does not correlate with npubs, hindex, and i10index suggests that this measure is detecting a similar feature as degree that is orthogonal to the traditional influence metrics, but is clearly different as well.
 - Betweenness has a very bi-modal distribution which separates the largest cluster from the smaller clusters; many more nodes in the largest cluster have the opportunity to connect would-be separate connected components.
-- TODO: what does this say about author influence?
+- Betweenness typically represents how much control a node has over the connections of other nodes. [https://cambridge-intelligence.com/keylines-faqs-social-network-analysis/]
+  - In this context that could translate to how key to setting up connections for other authors an author is. The hypothesis that this is a useful measure of influence is consistent and supported with Sonnenwald's analysis that authors usually collaborate with other authors they are connected to through personal-interaction-centric means.
+
 
 ### Closeness Centrality
 - Closeness centrality is the inverse of the average distance from every other author that a given author is in it's connected component of the author collaboration network, normalized over the entire network by each author's connected component size.
@@ -129,8 +139,18 @@ Three of the centrality metrics (degree, betweenness, and closeness) seem to mea
 - Does not correlate (<0.25) with any other author features
 - It is really surprising that this doesn't correlate with anything, especially degree (0.25) and betweenness (0.19).
 - The normal distribution suggests that this is perhaps a random assignment, and that closeness has little to do with interesting features of authors.
+- Closeness centrality typically represents how efficiently-connected a node is in the network [https://cambridge-intelligence.com/keylines-faqs-social-network-analysis/].
+
+### Relating to Author Influence
+
+The degree, closeness, and betweenness centralities seem to measure important, novel attributes of some kind of influence (centrality) in the collaborations network.
+- don't correlate with traditional influence measures
+- are nontrivial; don't just correlate with number of publications
+
+These results support the hypothesis that influence in terms of collaboration is not well correlated to influence in terms of citations and other traditional influence metrics. Collaboration influence is an orthogonal dimension of author influence.
 
 
+<!--------------------------------------------------------------------------------------------------------------------------->
 ## References
 
 - Ghiasi G - _On the Compliance of Women Engineers with a Gendered Scientific System_
