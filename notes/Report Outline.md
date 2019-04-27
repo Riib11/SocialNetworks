@@ -144,10 +144,10 @@ Three of the centrality metrics (degree, betweenness, and closeness) seem to mea
 ### Relating to Author Influence
 
 The degree, closeness, and betweenness centralities seem to measure important, novel attributes of some kind of influence (centrality) in the collaborations network.
-- don't correlate with traditional influence measures
+- don't correlate with traditional influence measures (reputation)
 - are nontrivial; don't just correlate with number of publications
 
-These results support the hypothesis that influence in terms of collaboration is not well correlated to influence in terms of citations and other traditional influence metrics. Collaboration influence is an orthogonal dimension of author influence.
+These results support the hypothesis that influence in terms of collaboration is not well correlated to influence in terms of citations and other traditional influence metrics (reputation). Collaboration influence is an orthogonal dimension of author influence.
 
 
 <!--------------------------------------------------------------------------------------------------------------------------->

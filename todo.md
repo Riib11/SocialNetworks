@@ -2,7 +2,10 @@
 
 ## !!!
 
+- find missing paper_keys that Eitan sent me and put into full dict
+
 - how to make individual graphs for the diagonal of pairs matrix?
+  - histogram + geom_smooth()
 
 - touch up data analyses for report
 - touch up data visualizations for report

@@ -44,7 +44,7 @@ def get_s2_conferences():
     else:
       pass
       # print("[!!!]", paper["title"])
-  
+
   return s2_paper_confs
 
 def dump_s2_conferences():
@@ -56,6 +56,7 @@ def load_s2_conferences():
 
 ################################################################################
 ################################################################################
+
 
 def get_s2id_to_key():
   """
@@ -125,7 +126,6 @@ if __name__ == "__main__":
   print("rawpapers count =",
     sum([ len(papers) for (conf, papers) in list(get_each_conference_papers()) ]))
 
-
 ################################################################################
 ################################################################################
 
@@ -143,7 +143,7 @@ def get_s2id_key():
 
   # s2_paper_keys :: paper_id => key
   s2_paper_keys = {}
-  
+
   # build s2_paper_keys by iterating through all s2 papers
   for paper_id, paper in papers.items():
     key = match_paper_title_with_key(paper["title"])
@@ -153,7 +153,7 @@ def get_s2id_key():
     else:
       # print("[!!!]", paper["title"])
       pass
-  
+
   return s2_paper_keys
 
 def dump_s2id_key():
