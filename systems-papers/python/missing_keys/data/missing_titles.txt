@@ -1,0 +1,102 @@
+Who is Fiddling with Prices? Building and Deploying a Watchdog Service for E-commerce
+Carousel: Scalable Traffic Shaping at End-Hosts
+"Disk|Crypt|Net: rethinking the stack for high performance video streaming"
+Ethical issues of research using datasets of illicit origin
+Gray Failure: The Achilles’ Heel of Cloud-Scale Systems
+It's time to think about an Operating System for Near Data Processing Architecture
+"Towards O(1) Memory"
+"Hardware is the new software"
+"Deterministic Browser"
+Don’t Let One Rotten Apple Spoil the Whole Barrel: Towards Automated Detection of Shadowed Domains
+A Stitch in Time: Supporting Android Developers in Writing Secure Code
+Watch Me, but Don’t Touch Me! Contactless Control Flow Monitoring via Electromagnetic Emanations
+No-Match Attacks and Robust Partnering Definitions — Defining Trivial Attacks for Security Protocols is Not Trivial
+The Return of Coppersmith’s Attack: Practical Factorization of Widely Used RSA Moduli
+How Unique is Your .onion? An Analysis of the Fingerprintability of Tor Onion Services
+Checking Open-Source License Violation and 1-day Security Risk at Large Scale
+Efficient Public Trace-and-Revoke from Standard Assumptions
+One-Way Wave Equation Migration at Scale on GPUs using Directive-Based Programming
+Apollo: Reusable Models for Fast and Dynamic Tuning of Input-Dependent Code
+DC2-MTCP: Light-weight Coding for Efficient Multi-path Transmission in Data Center Network
+Following the Blind Seer — Creating Better Performance Models Using Less Information
+Dealing with performance unpredictability in Asymmetric Multicore Processor cloud
+Families of Graph Algorithms : An SSSP Case Study
+Off-Road Performance Modeling — How to Deal with Segmented Data?
+Online dynamic monitoring of MPI communication
+Addressing Volume and Latency Overheads in 1D-parallel Sparse Matrix Vector Multiplication
+Improving the network of a search engine services through application-aware routing
+Hierarchical Self-Tuning of Concurrency, Resource Units in Data-Analytics Frameworks
+Deep Learning with Edge Computing for Localization of Epileptogenicity using Multimodal rs-fMRI, EEG Big Data
+Social Fusion: Integrating Twitter, Instagram for Event Monitoring
+LAMMPS’PPPM Long-Range Solver for the Second Generation Xeon Phi
+High-Performance Incremental SVM Learning on Intel®Xeon Phi™ Processors
+Accelerating Seismic Simulations Using the Intel Xeon Phi Knight sLanding Processor
+gearshifft–The FFT Benchmark Suite for Heterogeneous Platforms
+Taming Performance Hotspots in Cloud Storage with Dynamic  Load Redistribution
+Cloud Standards in Comparison: Are New Security Frameworks  Improving Cloud Security?
+Synchronized-by-Default Concurrency for Shared Memory Systems
+Revisiting Reading Rate with Mobility: Rate-Adaptive Reading in COTS RFID System
+Efficiently Enumerating Minimal Triangulation
+Application-Specific Performance-Aware Energy Optimization on Android Mobile Device
+Design and Evaluation of AWGR-based Photonic NoC Architectures for 2.5D Inegrated High Performance Computing Systems
+"Compute Caches"
+PipeLayer: A Pipelined ReRAM-Based Accelerator for Deep Larning
+Needle : Leveraging Program Analysis to Analyze and Extract Accelerators from Whole Programs
+G-Scalar: Cost-Effective Generalized Scalar Execution Architecture fo Power-Efficient GPUs
+Configtron: Tackling network diversity with heterogeneous configurations.
+Prophet: Precise QoS Prediction on Non-Preemptive Accelerators to Improve Utilization in Warehouse Scale Computers
+ReFlex: Remote Flash == Local Flash
+I Can’t Believe It’s Not Causal! Scalable Causal Consistency with No Slowdown Cascades
+Contention-Aware Kernel-Assisted MPI Collectives for Multi/Many-core Systems
+QoS- and Contention- Aware Resource Provisioning in Streaming Processing Engine
+keybin Key-based Binning for Distributed Clustering
+Analysis and Modeling of the End-to-End I/O Performance in OLCF’s Titan Supercomputer
+Deep and Shallow convections in Atmosphere Models on Intel Xeon Phi Coprocessor Systems
+Block-space GPU Mapping for Embedded Sierpinski Gasket Fractals
+Rivulet: Fault-Tolerant Platform for Smart-Home Applications
+Demystifying the Characteristics of 3D-Stacked Memories: A Case Study for Hybrid Memory Cub
+Macrobase: Prioritizing Attention in fast data
+Weld: A Common Runtime for High Performance Data Analysis
+Engaged or Frustrated? Disambiguating Emotional State in Search
+A Probabilistic Reformulation of Memory-Based Collaborative Filtering – Implications on Popularity Biases
+Information Retrieval Meets Game Theory: The Ranking Competition Between Documents’ Authors
+What Are You Known For? Learning User Topical Profiles with Implicit and Explicit Footprints
+FPGA Based Data Partitioning
+Cryptanalysis of Comparable Encryption in SIGMOD’16
+Discovering Your Selling Points: Personalized Social Influential Tag Exploration
+Scalable Kernel Density Classification using Threshold-Based Pruning
+Parallel Algorithm for the Computation of Cycles in Relative Neighborhood Graphs
+Simple and Fast Parallel Algorithms for the Voronoi Maps and the Euclidean Distance Map, with GPU implementations
+Distributed Learning Dynamics in Social Groups
+The Multiparty Communication Complexity of Testing Triangle-Freeness
+Using Time Without Clocks via Zigzag Causality
+Template For Implementing Fast Lock-free Trees Using HTM
+Ignore or Comply? On Breaking Symmetry in Consensus
+"Life Beyond Set Agreement"
+On Moving Averages, Histograms and Time-Dependent Rates for Online Measurement
+AutoPerf: Automated Load Testing and Resource Usage Proﬁling of Multi-Tier Internet Applications
+A Performance-Centric Approach to Complex Decisions Support
+Analytic Models of Checkpointing for Concurrent Component-Based Software Systems 
+Fast Networks and Slow Memories: A Mechanism for Mitigating Bandwidth  Mismatches
+A Robust Tabu Search Heuristic for VM Consolidation under Demand Uncertainity in Virtualized Datacenters
+A New File System I/O Mode for Efﬁcient User-level Caching
+Dynamic Management of In-memory Storage for Efficiently Integrating Compute- and Data-intensive Computing on HPC Systems
+PCSsampler: Sample based, Private-state Cluster Scheduling
+Enabling Workflow Aware Scheduling on HPC systems
+NICE: Network-Integrated Cluster Efficient Storage
+The lock holder and the lock waiter pre-emption problems: nip them in the bud using informed spinlocks (I-Spinlocks)
+Node.fz: Fuzzing Server-side Event-driven JavaScript
+MOSAIC: Processing a Trillion-Edge Graph on a Single Commodity Machine
+Collaboratively Improving Topic Discovery and Word Embeddings by Coordinating Global and Local Conte
+"Similarity Forests"
+PReP: Path-Based Relevance from a Probabilistic Perspective in Heteogeneous Information Networks
+HyperLogLog Hyper Extended: Sketches for Concave Sublinear   Frequency Statistics
+"Tessellating Stencils"
+An X10 based Distributed Streaming Graph Database Engine
+A Novel Implementation of 2D3V Particle-In-Cell (PIC) Algorithm for Kepler GPU Architectures
+HeteroOS - OS design for heterogeneous memory management in datacenter
+"Kernel Conditional Clustering"
+Swarm-based Incast Congestion Control in datacenter Serving Web Applications
+Optimal Reissue Policies For Reducing Tail-Latency
+"The Mobile Server Problem"
+"Matrix Multiplication, a Li le Faster"
