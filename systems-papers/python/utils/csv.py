@@ -2,12 +2,12 @@ import csv
 import utils.debug as debug
 from tqdm import tqdm
 
-def dump_csv(d, fn):
+def dump_csv(d, fn, headers=None):
     debug.log("writing csv to file: "+fn)
     with open(fn, "w+") as file:
         writer = csv.writer(file, delimiter=',')
-        for k,v in tqdm(d.items()):
-            writer.writerow([k,v])
+        if headers: writer.writerow(headers)
+        for k,v in tqdm(d.items()): writer.writerow([k,v])
 
 # def dict_to_csv(d, file):
 #   writer = csv.write()

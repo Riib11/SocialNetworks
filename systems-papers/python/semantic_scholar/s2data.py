@@ -10,7 +10,8 @@ make_grep_gA_mis_fn = lambda i: semantic_scholar_tmp_dir + "gA_missing_" + str(i
 # Raw Data (list)
 
 # gA_fn = semantic_scholar_proccessed_dir + "gA.json"
-gA_fn = semantic_scholar_proccessed_dir + "gA_all.json"
+# gA_fn = semantic_scholar_proccessed_dir + "gA_all.json"
+gA_fn = semantic_scholar_proccessed_dir + "gA_dict_04-28.json"
 get_gA = lambda: utils.load_json_file(gA_fn)
 
 gB_fn = semantic_scholar_proccessed_dir + "gB.json"

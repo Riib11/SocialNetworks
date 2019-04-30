@@ -9,6 +9,7 @@ from utils.debug import *
 import utils.shared_utils as utils
 from utils.json import *
 import csv
+import utils.csv as u_csv
 from tqdm import tqdm
 import authors_network.correlations as correlations
 
@@ -53,7 +54,7 @@ class AuthorsNetwork:
     self.persons_features_named = { f["name"]: f for f in pf_data.getPersonsFeatures() }
     # author_id => person_features
     self.persons_features = {}
-    
+
     self.missing_names    = set()
     self.used_names       = set()
 
@@ -124,7 +125,7 @@ class AuthorsNetwork:
       node_attr = self.graph.node[author_id]
       node_attr["author-id"]   = author_id
       node_attr["author-name"] = self.author_names[author_id]
-      
+
       if author_name in self.persons_features_named:
         pf = self.persons_features_named[author_name]
         for key, value in pf.items():
@@ -162,19 +163,19 @@ class AuthorsNetwork:
     suffix = self.get_suffix()
 
     # dump calculated data
-    
+
     log("Calculating Nodes' Degree Centrality...", lvl=1)
     save_centrality_data(nx.degree_centrality(self.graph),
       "degree", suffix)
-    
+
     log("Calculating Nodes' Eigenvector Centrality...", lvl=1)
     save_centrality_data(nx.eigenvector_centrality(self.graph),
       "eigenvector", suffix)
-    
+
     log("Calculating Nodes' Closeness Centrality...", lvl=1)
     save_centrality_data(nx.closeness_centrality(self.graph),
       "closeness", suffix)
-    
+
     log("Calculating Nodes' Betweenness Centrality...", lvl=1)
     save_centrality_data(
       nx.betweenness_centrality(self.graph, normalized=False),
@@ -228,7 +229,7 @@ class AuthorsNetwork:
         facecolor = "blue")
 
     node_count = self.graph.number_of_nodes()
-    
+
     plot_histogram(221,
       "Degree Centralities", "Degree", "Nodes",
       bins = 50, xmax = 30,
@@ -412,7 +413,7 @@ class AuthorsNetwork:
       message("-"*20, lvl=1)
       message("name:", attr["author-name"], lvl=1)
       message(centrality_key+":", attr[centrality_key], lvl=1)
-      if " papers" in attr: 
+      if " papers" in attr:
         message("papers:", attr[" papers"], lvl=1)
       i += 1
 
@@ -445,7 +446,7 @@ class AuthorsNetwork:
     for comp in nx.connected_components(self.graph):
       for node in comp:
         self.graph.node[node]["cc-size"] = len(comp)
-    
+
     self.attributes["coloring"] = "cc-size"
 
   def fill_centralities(self, centrality, calculate=False):
@@ -464,7 +465,7 @@ class AuthorsNetwork:
       centralities = centrality_functions[centrality](self.graph)
     else:
       centralities = load_centrality_data(centrality, suffix)
-    
+
     for node, c in centralities.items():
       self.graph.node[node][centrality+"-centrality"] = c
 
@@ -506,11 +507,14 @@ class AuthorsNetwork:
 
   def save_author_id_to_author_name_email_csv(self):
     author_name_email = self.get_author_id_to_author_name_email_dict()
-    with open(DIR_DATA+"author_id_to_author_name_email.csv", "w+") as file:
-      writer = csv.writer(file)
-      writer.writerow(["author_id", "author_name", "author_email"])
-      for author_id, (author_name, author_email) in tqdm(author_name_email.items()):
-        writer.writerow([author_id, author_name, author_email])
+    u_csv.dump_csv(author_name_email, DIR_DATA+"author_id_to_author_name_email.csv",
+        headers=["author_id", "author_name", "author_email"])
+
+    # with open(DIR_DATA+"author_id_to_author_name_email.csv", "w+") as file:
+    #   writer = csv.writer(file)
+    #   writer.writerow(["author_id", "author_name", "author_email"])
+    #   for author_id, (author_name, author_email) in tqdm(author_name_email.items()):
+    #     writer.writerow([author_id, author_name, author_email])
 
 def extract_author_id_name(author):
   # success - author in data set (has id)
