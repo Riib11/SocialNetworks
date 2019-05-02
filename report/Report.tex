@@ -11,6 +11,8 @@
 %-----------------------------------------------------------------------------------------------------------------------------
 % commands
 
+\renewcommand{\figure}[1]{\vspace{1em}\noindent#1\vspace{1em}}
+
 \renewcommand{\it}{\textit}
 
 %-----------------------------------------------------------------------------------------------------------------------------
@@ -45,7 +47,7 @@ During the summer of 2018, Frachtenburg and his research assistants extracted fe
 The second layer of data embelleshment was matching authors with Google scholar accounts and personal survey results in order to attach author features such as email, institution, country, and gender.
 Finally, a third layer of data embelleshment was matching authors and papers to Semantic Scholar (TODO: citation) entries.
 Nearly all the papers and authors (TODO: percentage) from the original PDF's were found in Semantic Scholar.
-Importantly, these Semantic Scholar identities significantly contributed to author disambiguation.
+Importantly, these Semantic Scholar identities significantly contributed to author disambiguation and retrieved the papers from previous years that were cited by the 2017 papers.
 
 The stated purpose for my work on and analysis of this data was to look for patterns in the authors' and papers' individual-level features (from the embelleshed data) and network-level features.
 I analyzed several different networks, focussing on the collaboration and citation connections between authors, papers, and conferences.
@@ -107,10 +109,17 @@ The data also contained papers from conferences that were identified as outside 
 My hypothesis was that the typical intuitions about which computer systems conferences were most computer-systems-y would be right.
 Of all people the scientists should know what kind of work they are doing, right?
 
+My second inquiry was into the significance of typical reputation measures for authors, such as hindex and i10index, at the network level of analysis. More specifically, I predicted that reputation would correlate with the network-level sense of centrality that would be captured by some of the centrality metrics detailed in the previous section. The relationship between reputation and network-level node features should reveal something in regards to what the reputation metrics are and aren't good measures of.
 
 %-----------------------------------------------------------------------------------------------------------------------------
 %-----------------------------------------------------------------------------------------------------------------------------
 \section{Conference Citation Network}
+
+In the conference citation network, each node is a 2017 conference and each directed edge represents a citation by a paper in the source node's conference of a paper in the target node's conference. These citations can go back in time however, as the conferences included in the data repeat regularly over the last couple decades. Many citations were of conferences that were not present in the 2017 data; these were excluded from analysis.
+
+\figure{TODO: conference citation network figure with labels, colors, sizes}
+
+TODO: look back at this figure and make some judgements.
 
 %-----------------------------------------------------------------------------------------------------------------------------
 %-----------------------------------------------------------------------------------------------------------------------------
