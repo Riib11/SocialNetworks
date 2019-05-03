@@ -4,14 +4,33 @@
 %-----------------------------------------------------------------------------------------------------------------------------
 % packages
 
-% \usepackage[margin=1.5in]{geometry}
+% layout
 \usepackage[a4paper, total={5in, 8in}]{geometry}
+% \usepackage[margin=1.5in]{geometry}
+
+% font
+\usepackage{romande}
+\usepackage[T1]{fontenc}
+% \usepackage{gfsartemisia-euler}
+% \usepackage[T1]{fontenc}
+
+% graphics
+\usepackage{graphicx}
+\graphicspath{ {./images/} }
 
 %-----------------------------------------------------------------------------------------------------------------------------
 %-----------------------------------------------------------------------------------------------------------------------------
 % commands
 
-\renewcommand{\figure}[1]{\vspace{1em}\noindent#1\vspace{1em}}
+\newcommand{\todoblock}[1]{
+\vspace{1em}
+\noindent
+\textit{TODO:} #1
+\\
+\vspace{1em}
+}
+
+\newcommand{\todo}[1]{\textit{TODO:} #1}
 
 \renewcommand{\it}{\textit}
 
@@ -40,13 +59,14 @@
 %-----------------------------------------------------------------------------------------------------------------------------
 %-----------------------------------------------------------------------------------------------------------------------------
 \section{Introduction}
+\label{sec:introduction}
 
 The data set I used for this study is the record of papers published in a selection of computer systems conferences (categorized by Frachtenburg) and a few control, non-computer systems conferences from 2017.
 The original format was the raw PDF's of all of these papers.
 During the summer of 2018, Frachtenburg and his research assistants extracted features from the PDF's including author names, paper titles, and bibliographies.
 The second layer of data embelleshment was matching authors with Google scholar accounts and personal survey results in order to attach author features such as email, institution, country, and gender.
-Finally, a third layer of data embelleshment was matching authors and papers to Semantic Scholar (TODO: citation) entries.
-Nearly all the papers and authors (TODO: percentage) from the original PDF's were found in Semantic Scholar.
+Finally, a third layer of data embelleshment was matching authors and papers to Semantic Scholar (\todo{citation}) entries.
+Nearly all the papers and authors (\todo{percentage}) from the original PDF's were found in Semantic Scholar.
 Importantly, these Semantic Scholar identities significantly contributed to author disambiguation and retrieved the papers from previous years that were cited by the 2017 papers.
 
 The stated purpose for my work on and analysis of this data was to look for patterns in the authors' and papers' individual-level features (from the embelleshed data) and network-level features.
@@ -57,6 +77,7 @@ These correlations were novel in the context of some more tradition \it{author r
 %-----------------------------------------------------------------------------------------------------------------------------
 %-----------------------------------------------------------------------------------------------------------------------------
 \section{Background}
+\label{sec:background}
 
 The study of social networks in general has detailed how networks can give rise to novel, emergent and important features.
 These sorts of features include: diameter, connected components, bridges, distance, and centrality.
@@ -75,8 +96,8 @@ This measure is the most common used in network analysis, but it is also the mos
 
 Eigenvector centrality is more complicated.
 The concept is that it weights the centrality of each node by the centralities of its neighbors, after starting from some base ranking of nodes by degree.
-In this way, it is closely related to PageRank (TODO: citation).
-Formally, the eigenvector centrality of the nodes in a network is given by the vector $x$ that satisfies the equation $$ A x = \lambda x $$ where $A$ is the adjacency matrix of the network and $\lambda$ is an eigenvector with non-negative entries (TODO: citation).
+In this way, it is closely related to PageRank (\todo{citation}).
+Formally, the eigenvector centrality of the nodes in a network is given by the vector $x$ that satisfies the equation $$ A x = \lambda x $$ where $A$ is the adjacency matrix of the network and $\lambda$ is an eigenvector with non-negative entries (\todo{citation}).
 This requirement yields that there is a unique solution up to scaling. Therefor, eigenvector centrality is only meaningfully considered when normalized over the eigenvector centralities of all the nodes in the network.
 Eigenvector centrality is a network-level-focussed measure because it weights heavily not just the direct neighbors of a node but also the neighbors of its neighbors and so on with diminishing effect.
 
@@ -102,6 +123,7 @@ Some interesting results pointed to the conclusion that, perhaps, inter-discipli
 %-----------------------------------------------------------------------------------------------------------------------------
 %-----------------------------------------------------------------------------------------------------------------------------
 \section{Hypotheses}
+\label{sec:hypotheses}
 
 My first inquiry was into the topical relationships of the conferences of the papers into the data.
 Which conferences were most closely related to ``computer systems'' research, and how did the other distribute?
@@ -109,35 +131,94 @@ The data also contained papers from conferences that were identified as outside 
 My hypothesis was that the typical intuitions about which computer systems conferences were most computer-systems-y would be right.
 Of all people the scientists should know what kind of work they are doing, right?
 
-My second inquiry was into the significance of typical reputation measures for authors, such as hindex and i10index, at the network level of analysis. More specifically, I predicted that reputation would correlate with the network-level sense of centrality that would be captured by some of the centrality metrics detailed in the previous section. The relationship between reputation and network-level node features should reveal something in regards to what the reputation metrics are and aren't good measures of.
+My second inquiry was into the significance of typical reputation measures for authors, such as hindex and i10index, at the network level of analysis. More specifically, I predicted that reputation would correlate with the network-level sense of centrality that would be captured by some of the centrality metrics detailed in section \ref{sec:background}. The relationship between reputation and network-level node features should reveal something in regards to what the reputation metrics are and aren't good measures of.
 
 %-----------------------------------------------------------------------------------------------------------------------------
 %-----------------------------------------------------------------------------------------------------------------------------
 \section{Conference Citation Network}
+\label{conference-citation-network}
 
-In the conference citation network, each node is a 2017 conference and each directed edge represents a citation by a paper in the source node's conference of a paper in the target node's conference. These citations can go back in time however, as the conferences included in the data repeat regularly over the last couple decades. Many citations were of conferences that were not present in the 2017 data; these were excluded from analysis.
+In the conference citation network, each node represents a 2017 conference and each directed edge represents a citation by a paper in the source node's conference of a paper in the target node's conference.
+Multiple with the same source and target combine into a single edge by summing weights (where weight is the number of citations that an edge represents).
+These citations can go back in time however, as the conferences included in the data repeat regularly over the last couple decades.
+Many citations were of conferences that were not present in the 2017 data; these were excluded from analysis.
 
-\figure{TODO: conference citation network figure with labels, colors, sizes}
+\todoblock{conference citation network figure with labels, colors, sizes.}
 
-TODO: look back at this figure and make some judgements.
+\todoblock{look back at this figure and make some judgements.}
+
+\todoblock{relate to first research question of how system-y certain conferences are.}
 
 %-----------------------------------------------------------------------------------------------------------------------------
 %-----------------------------------------------------------------------------------------------------------------------------
 \section{Paper Collaboration Network}
+\label{sec:paper-collaboration-network}
+
+In the paper collaboration network, each node represents a paper from the 2017 data and each undirected edge represents an author that is shared by each of the connected node's papers.
+Multiple edges between the same two nodes combine into a single edge by summing weights (where weight is the number of shared authors that an edge represents).
+
+\begin{figure}[h]
+  \centering
+  \includegraphics
+    [width=1.0\textwidth]
+    {paper-collaboration-network-centrality-degree.png}
+  \caption{The paper collaboration network where the size and color of nodes correspond to their degree centrality. The color scale is from blue (low centrality) to white (middling centrality) to red (high centrality).}
+  \label{fig:paper-collaboration-network-centrality-degree}
+\end{figure}
+
+As \ref{fig:paper-collaboration-network-centrality-degree} illustrates, this network is very clean visually.
+It also gives a sense for the shape of the network.
+There is a distinct, largest connected component that contains the vast majority of the highly degree-centric nodes.
+\todo{number of connected components and distribution of sizes}
+Outside of this there are only a few other notably-large components, and only one of which has notably-high degree-centric nodes (located in the bottom-right of figure \ref{fig:paper-collaboration-network-centrality-degree}).
+\todo{name some papers in this group}
+
+I found, however, that for the purpose of analyzing the features of authors, this network was sub-optimal.
+Lumping together authors by paper obscure what are likely important author attribuets that are heterogeneous among the co-authors of a particular paper. Taking these considerations into account, I went on to create analyze the network in section \ref{sec:author-collaboration-network}.
 
 %-----------------------------------------------------------------------------------------------------------------------------
 %-----------------------------------------------------------------------------------------------------------------------------
 \section{Author Collaboration Network}
+\label{sec:author-collaboration-network}
 
+In the author collaboration network, each node represents an author and each undirected edge represents a paper from the 2017 data that the connected authors collaborated on.
+Multiple edges between the same nodes are combined into a single edge by summing weights (where the weight of an edge is the number of co-authored papers between the connected nodes' authors).
+
+\begin{figure}[h]
+  \centering
+  \includegraphics
+    [width=1.0\textwidth]
+    {authors-network-centrality-degree.png}
+  \caption{The author collaboration network where the size and color of nodes correspond to their degree centrality. The color scale is from blue (low centrality) to white (middling centrality) to red (high centrality).}
+  \label{fig:authors-network-centrality-degree}
+\end{figure}
+
+As is immediately obvious from figure \ref{fig:authors-network-centrality-degree}, there is one particular group of nodes that is skewing the degree centrality of the whole network.
+This fully-connected clique of authors are those that authored the \todo{which paper is this?} paper.
+
+\todoblock{figures for all the other centraltiy metrics}
+
+\todoblock{distributions of centralities}
+
+\todoblock{authors features pairs matrix}
 
 %-----------------------------------------------------------------------------------------------------------------------------
 %-----------------------------------------------------------------------------------------------------------------------------
 \section{Conclusions}
+\label{sec:conclusions}
+
+\subsection{Conferences' Thematic Relations to Computer Systems}
+
+\todo{reflect on observations in the conference section}
+
+\subsection{Reputation and Centrality}
+
+
 
 
 %-----------------------------------------------------------------------------------------------------------------------------
 %-----------------------------------------------------------------------------------------------------------------------------
-\section{References}
+\section*{References}
 
 
 \end{document}
