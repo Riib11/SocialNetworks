@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  2 MAY 2019 10:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  2 MAY 2019 18:56
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -207,25 +207,25 @@ Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 (./Report.aux)
 \openout1 = `Report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 49.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 49.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 42.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 42.
  (/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Try loading font information for T1+yrd on input line 49.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Try loading font information for T1+yrd on input line 42.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/romande/t1yrd.fd
 File: t1yrd.fd 2010/07/10 Fontinst v1.933 font definitions for T1/yrd.
@@ -322,23 +322,23 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 55.
+(Font)              <12> on input line 48.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 55.
+(Font)              <8> on input line 48.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 55.
+(Font)              <6> on input line 48.
 LaTeX Font Info:    Font shape `T1/yrd/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/yrd/b/n' tried instead on input line 61.
+(Font)              Font shape `T1/yrd/b/n' tried instead on input line 54.
 LaTeX Font Info:    Font shape `T1/yrd/b/n' in size <14.4> not available
-(Font)              Font shape `T1/yrd/db/n' tried instead on input line 61.
+(Font)              Font shape `T1/yrd/db/n' tried instead on input line 54.
 
 [1
 
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 100.
+(Font)              <7> on input line 93.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 100.
+(Font)              <5> on input line 93.
 
 [2] [3]
 <./images/paper-collaboration-network-centrality-degree.png, id=18, 1027.84pt x
@@ -347,50 +347,62 @@ File: ./images/paper-collaboration-network-centrality-degree.png Graphic file (
 type png)
  <use ./images/paper-collaboration-network-centrality-degree.png>
 Package pdftex.def Info: ./images/paper-collaboration-network-centrality-degree
-.png used on input line 164.
+.png used on input line 157.
 (pdftex.def)             Requested size: 361.34999pt x 361.3491pt.
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[4]
-<./images/authors-network-centrality-degree.png, id=23, 1027.84pt x 1027.84pt>
+
+<./images/authors-network-centrality-degree.png, id=20, 1027.84pt x 1027.84pt>
 File: ./images/authors-network-centrality-degree.png Graphic file (type png)
 
 <use ./images/authors-network-centrality-degree.png>
 Package pdftex.def Info: ./images/authors-network-centrality-degree.png used on
- input line 191.
+ input line 184.
 (pdftex.def)             Requested size: 361.34999pt x 361.3491pt.
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+[4]
 LaTeX Font Info:    Font shape `T1/yrd/bx/n' in size <12> not available
-(Font)              Font shape `T1/yrd/b/n' tried instead on input line 210.
+(Font)              Font shape `T1/yrd/b/n' tried instead on input line 201.
 LaTeX Font Info:    Font shape `T1/yrd/b/n' in size <12> not available
-(Font)              Font shape `T1/yrd/db/n' tried instead on input line 210.
-[5] [6 <./images/paper-collaboration-network-centrality-degree.png>] [7 <./imag
-es/authors-network-centrality-degree.png>] (./Report.aux) ) 
+(Font)              Font shape `T1/yrd/db/n' tried instead on input line 201.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[5 <./images/paper-collaboration-network-centrality-degree.png>] [6 <./images/a
+uthors-network-centrality-degree.png>]
+LaTeX Font Info:    Try loading font information for TS1+yrd on input line 225.
+
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/romande/ts1yrd.fd
+File: ts1yrd.fd 2010/07/10 Fontinst v1.933 font definitions for TS1/yrd.
+) [7] [8]
+(./Report.aux) ) 
 Here is how much of TeX's memory you used:
- 3261 strings out of 493014
- 45356 string characters out of 6133351
- 109698 words of memory out of 5000000
- 6749 multiletter control sequences out of 15000+600000
- 47255 words of font info for 38 fonts, out of 8000000 for 9000
+ 3298 strings out of 493014
+ 45883 string characters out of 6133351
+ 109688 words of memory out of 5000000
+ 6780 multiletter control sequences out of 15000+600000
+ 47962 words of font info for 41 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  37i,6n,35p,552b,276s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/
-2016/texmf-dist/fonts/enc/dvips/romande/t1-romandeadf.enc}</usr/local/texlive/2
-016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/20
-16/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2016
-/texmf-dist/fonts/type1/arkandis/romande/yrdd8a.pfb></usr/local/texlive/2016/te
-xmf-dist/fonts/type1/arkandis/romande/yrdr8a.pfb></usr/local/texlive/2016/texmf
--dist/fonts/type1/arkandis/romande/yrdrc8a.pfb></usr/local/texlive/2016/texmf-d
-ist/fonts/type1/arkandis/romande/yrdri8a.pfb>
-Output written on Report.pdf (7 pages, 277196 bytes).
+{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/romande/ts1
+-euro-yrd.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/romande/t1-ro
+mandeadf.enc}</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmmi10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/arkandis/romande/yrdd
+8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/arkandis/romande/yrdr8a.
+pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/arkandis/romande/yrdrc8a.pf
+b></usr/local/texlive/2016/texmf-dist/fonts/type1/arkandis/romande/yrdri8a.pfb>
+Output written on Report.pdf (8 pages, 282554 bytes).
 PDF statistics:
- 58 PDF objects out of 1000 (max. 8388607)
- 38 compressed objects within 1 object stream
+ 64 PDF objects out of 1000 (max. 8388607)
+ 43 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 

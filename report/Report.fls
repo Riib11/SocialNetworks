@@ -120,7 +120,14 @@ INPUT ./images/authors-network-centrality-degree.png
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/arkandis/romande/yrdd8t.tfm
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/vf/arkandis/romande/yrdd8t.vf
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/arkandis/romande/t1-romandeadf-yrdd.tfm
+INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/romande/ts1yrd.fd
+INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/romande/ts1yrd.fd
+INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/arkandis/romande/yrdr8c.tfm
+INPUT /usr/local/texlive/2016/texmf-dist/fonts/vf/arkandis/romande/yrdr8c.vf
+INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/arkandis/romande/ts1-yrdr.tfm
+INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/arkandis/romande/s-yrdr.tfm
 INPUT Report.aux
+INPUT /usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/romande/ts1-euro-yrd.enc
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/romande/t1-romandeadf.enc
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb

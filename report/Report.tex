@@ -22,15 +22,8 @@
 %-----------------------------------------------------------------------------------------------------------------------------
 % commands
 
-\newcommand{\todoblock}[1]{
-\vspace{1em}
-\noindent
-\textit{TODO:} #1
-\\
-\vspace{1em}
-}
-
-\newcommand{\todo}[1]{\textit{TODO:} #1}
+\newcommand{\todoblock}[1]{\noindent\textit{todo}: #1}
+\newcommand{\todo}[1]{\textit{todo}: #1}
 
 \renewcommand{\it}{\textit}
 
@@ -135,8 +128,8 @@ My second inquiry was into the significance of typical reputation measures for a
 
 %-----------------------------------------------------------------------------------------------------------------------------
 %-----------------------------------------------------------------------------------------------------------------------------
-\section{Conference Citation Network}
-\label{conference-citation-network}
+\section{Conference Citation}
+\label{sec:conference-citation}
 
 In the conference citation network, each node represents a 2017 conference and each directed edge represents a citation by a paper in the source node's conference of a paper in the target node's conference.
 Multiple with the same source and target combine into a single edge by summing weights (where weight is the number of citations that an edge represents).
@@ -151,13 +144,13 @@ Many citations were of conferences that were not present in the 2017 data; these
 
 %-----------------------------------------------------------------------------------------------------------------------------
 %-----------------------------------------------------------------------------------------------------------------------------
-\section{Paper Collaboration Network}
-\label{sec:paper-collaboration-network}
+\section{Paper Collaboration}
+\label{sec:paper-collaboration}
 
 In the paper collaboration network, each node represents a paper from the 2017 data and each undirected edge represents an author that is shared by each of the connected node's papers.
 Multiple edges between the same two nodes combine into a single edge by summing weights (where weight is the number of shared authors that an edge represents).
 
-\begin{figure}[h]
+\begin{figure}[h!]
   \centering
   \includegraphics
     [width=1.0\textwidth]
@@ -174,17 +167,17 @@ Outside of this there are only a few other notably-large components, and only on
 \todo{name some papers in this group}
 
 I found, however, that for the purpose of analyzing the features of authors, this network was sub-optimal.
-Lumping together authors by paper obscure what are likely important author attribuets that are heterogeneous among the co-authors of a particular paper. Taking these considerations into account, I went on to create analyze the network in section \ref{sec:author-collaboration-network}.
+Grouping together authors by paper obscure what are likely important author attribuets that are heterogeneous among the co-authors of a particular paper. Taking these considerations into account, I went on to create analyze the network in section \ref{sec:author-collaboration}.
 
 %-----------------------------------------------------------------------------------------------------------------------------
 %-----------------------------------------------------------------------------------------------------------------------------
-\section{Author Collaboration Network}
-\label{sec:author-collaboration-network}
+\section{Author Collaboration}
+\label{sec:author-collaboration}
 
 In the author collaboration network, each node represents an author and each undirected edge represents a paper from the 2017 data that the connected authors collaborated on.
 Multiple edges between the same nodes are combined into a single edge by summing weights (where the weight of an edge is the number of co-authored papers between the connected nodes' authors).
 
-\begin{figure}[h]
+\begin{figure}[h!]
   \centering
   \includegraphics
     [width=1.0\textwidth]
@@ -200,8 +193,6 @@ This fully-connected clique of authors are those that authored the \todo{which p
 
 \todoblock{distributions of centralities}
 
-\todoblock{authors features pairs matrix}
-
 %-----------------------------------------------------------------------------------------------------------------------------
 %-----------------------------------------------------------------------------------------------------------------------------
 \section{Conclusions}
@@ -213,6 +204,66 @@ This fully-connected clique of authors are those that authored the \todo{which p
 
 \subsection{Reputation and Centrality}
 
+\begin{figure}[h!]
+  \centering
+  \todoblock{authors features pairs matrix image}
+  % \includegraphics
+  %   [width=1.0\textwidth]
+  %   {authors-network-centrality-degree.png}
+  \caption{\todo{}}
+  \label{fig:authors-feature-pairs-matrix}
+\end{figure}
+
+\todoblock{definitions of authors features}
+
+In section \ref{sec:author-collaboration}, I listed and illustrated the network-level features of the author collaboration network.
+In figure \ref{fig:authors-feature-pairs-matrix}, the network-level node centralities along with all other recorded author features are correlated against each other in pairs.
+This correlations matrix yields some interesting results about how the different centrality distributions can be intepreted, but first to justify the pruning of some less-interesting correlations.
+
+First of all, the following features did not correlate interestingly with any other features:
+\begin{itemize}
+\item as\_pc chair
+\item as\_pc
+\item as\_session\_chair
+\item as\_panelist
+\item as\_keynote\_speaker
+\end{itemize}
+This is likely because these specific measures turn out to be extremeley bi-modally and coarsly distributed as opposed to the other author features.
+If an author is a panelist in 2017 they only do it once or twice and the vast majority of authors are never panelists, and likewise for as\_pc\_chair, as\_pc, etc.
+
+Secondly, the following features are extremeley highly correlated (\todo{to what degree? look at total network pairs matrix}) with each other and correlate highly similarly with every other feature: h10index, h10index5y, i10index, i10index5y.
+Since each of these is a popular reputation metric for authors, this result is unsurprising; they are all attempting to measure roughly the same thing.
+I chose h10index as a representative of this group so that they other may be omitted from further correlations matrices.
+
+The most interesting results were that of how the different centrality metrics correlated and did not correlate with the author features that I expected to be related to centrality/influence in the collaborations network.
+I analyzed each centrality metric individually.
+
+The eigenvector centrality distribution was extremeley bi-modal in a similar way to the as panelist feature, but without good reason to be so.
+Eitan and I looked at some of the authors that obtained high centrality scores: \todo{examples of high eigenvector centrality nodes}.
+Since the distribution of these centralities was so incomparable to all other metrics and it seemed to elevate authors that did not have a clear reason for being considered so highly influential, I decided to omit this metric from further consideration.
+Eigenvector centrality can be thought of as a crude version of PageRank, which clearly has very good use cases.
+For example, it is accepted as well correlated with ``relatedness'' in the context of the network of web pages connected by hyperlinks.
+
+However, the social network of author collaborations seems to be a case where this kind of centrality was not related to the concepts of influence or reputation.
+Perhaps eigenvector centrality placed too much weight on certain connections because nodes in this network tend not to have more than a few edges (\todo{node degree distribution}).
+Additionally, eigenvector centrality seemed to not be commonly used in the context of social networks in general so there may be a mismatch in setup of social networks and ``reference networks'' in regards to the ideal for eigenvector centrality.
+
+
+The degree centrality distribution was one of the more immediately calculable and obvious metrics.
+It is also one of the usual metrics considered in social network research.
+Degree centrality correlated highest with betweenness ($0.46$) and as\_author ($0.50$).
+It correlated negligably ($< 0.3$) with all other author features.
+
+The fact that degree and betweenness centralities correlate made sense because being connected to more nodes increases the chances that a node will end up on a shortest path.
+However the correlation is not extremeley high (it was still $< 0.6$), so there were clearly differences in what attributes many co-authors to an author and how exactly an author chooses their co-authors as to be most efficiently connected to the rest of the network.
+
+The fact that degree and as\_author correlate made even more sense because authoring more papers usually involves more than just exctly the same people for each paper.
+Again the correlation is not extremeley high (it is still $< 0.6$), so there was a effect of authors ``in-collaborating'' with authors that they have already collaborated with during the year.
+This was expected because authors are more likely to collaborate with other authors tehy already know, and one way to get to know a co-author is in fact by co-authoring with them.
+
+The more unexpected results were the lack or correlation between degree centrality and each of npubs and hindex.
+This is significant because it strongly suggested that the raw number of collaborations that an author does has little to do with either an author's reputation (hindex) or how likely they are to publish papers (npubs).
+So collaborativeness is mostly orthoganol to reputation it seemed.
 
 
 
