@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1556848613 "Report.tex" "Report.pdf" "Report" 1556848614
+["pdflatex"] 1556855624 "Report.tex" "Report.pdf" "Report" 1556855636
   "/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/romande/t1-romandeadf.enc" 1279323936 3199 65262f35b9874997b13e6912c924d5fa ""
   "/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/romande/ts1-euro-yrd.enc" 1279323936 3837 badbff3c48a454a05df39af8ee85a163 ""
   "/usr/local/texlive/2016/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
@@ -76,12 +76,12 @@
   "/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1488157916 1888048 f2c5faed5981a516f406b2ccc20bff71 ""
   "/usr/local/texlive/2016/texmf-var/web2c/pdftex/pdflatex.fmt" 1463979169 3873397 413fbfbbedb8e719ddc392043a7add02 ""
   "/usr/local/texlive/2016/texmf.cnf" 1463979140 577 2938757e76f31531e65cc647e3507693 ""
-  "Report.aux" 1556848614 1863 3524d0a4cd9840de5cd559277fab8a2c ""
-  "Report.tex" 1556848613 21895 ad59568dc7e5d8f0febafafa2440196a ""
+  "Report.aux" 1556855625 2015 a3485fb80d17eaffd11486e7406a17c7 ""
+  "Report.tex" 1556855636 26005 da63dc952e116f256af07ecc1889c463 ""
   "images/authors-network-centrality-degree.png" 1556818046 61581 ca6dfb21f6a3303aaeeea2d9b06a26c4 ""
   "images/paper-collaboration-network-centrality-degree.png" 1556815294 117888 58223226ce1936c4d520a10fec845643 ""
   (generated)
-  "Report.aux"
-  "Report.log"
-  "Report.pdf"
   "Report.toc"
+  "Report.aux"
+  "Report.pdf"
+  "Report.log"

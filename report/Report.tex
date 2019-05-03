@@ -128,7 +128,7 @@ My second inquiry was into the significance of typical reputation measures for a
 
 %-----------------------------------------------------------------------------------------------------------------------------
 %-----------------------------------------------------------------------------------------------------------------------------
-\section{Conference Citation}
+\section{Conference Citations}
 \label{sec:conference-citation}
 
 In the conference citation network, each node represents a 2017 conference and each directed edge represents a citation by a paper in the source node's conference of a paper in the target node's conference.
@@ -144,7 +144,7 @@ Many citations were of conferences that were not present in the 2017 data; these
 
 %-----------------------------------------------------------------------------------------------------------------------------
 %-----------------------------------------------------------------------------------------------------------------------------
-\section{Paper Collaboration}
+\section{Paper Collaborations}
 \label{sec:paper-collaboration}
 
 In the paper collaboration network, each node represents a paper from the 2017 data and each undirected edge represents an author that is shared by each of the connected node's papers.
@@ -171,7 +171,7 @@ Grouping together authors by paper obscure what are likely important author attr
 
 %-----------------------------------------------------------------------------------------------------------------------------
 %-----------------------------------------------------------------------------------------------------------------------------
-\section{Author Collaboration}
+\section{Author Collaborations}
 \label{sec:author-collaboration}
 
 In the author collaboration network, each node represents an author and each undirected edge represents a paper from the 2017 data that the connected authors collaborated on.
@@ -262,14 +262,58 @@ Again the correlation is not extremeley high (it is still $< 0.6$), so there was
 This was expected because authors are more likely to collaborate with other authors tehy already know, and one way to get to know a co-author is in fact by co-authoring with them.
 
 The more unexpected results were the lack or correlation between degree centrality and each of npubs and hindex.
-This is significant because it strongly suggested that the raw number of collaborations that an author does has little to do with either an author's reputation (hindex) or how likely they are to publish papers (npubs).
-So collaborativeness is mostly orthoganol to reputation it seemed.
+This is significant because it strongly suggested that the raw number of collaborations that an author does had little to do with either an author's reputation (hindex) or how likely they are to publish papers (npubs).
+So collaborativeness (in the degree centrality sense) is mostly orthoganol to reputation.
 
+\begin{figure}[h!]
+  \centering
+  \todoblock{authors features pairs matrix for only the largest component image}
+  % \includegraphics
+  %   [width=1.0\textwidth]
+  %   {authors-network-centrality-degree.png}
+  \caption{\todo{}}
+  \label{fig:authors-feature-pairs-matrix-cc}
+\end{figure}
+
+The betweenness centrality distribution has a large group hovering around 0 and an extremeley long tail of higher values.
+The large group hovering around 0 was was all the authors that had only a couple of co-authors and were not part of a larger component.
+These authors appear as the unconnected fringes of figure \ref{fig:authors-network-centrality-degree}.
+However, even when only the distribution of betweenness in the largest component was considered there was a long tail.
+Thus suggested that there is a fractal fringing of betweenness at varying levels of analysis (how many connected components are included in the analysis).
+There were a few central hubs in the network that act as bridges between many other nodes.
+
+Betweenness centrality correlated highest with degree centrality (0.46) and as\_author (0.5).
+These results made sense for similar reasons as degree centrality.
+Since correlation did not establish a ``causal'' relationship by itself, the correlation of betweenness and degree centralities can be explained in the opposite direction by the observation that an author's being more efficiently (in terms of their choice of co-authors) connected to the network increases the likelihood that that author has more co-authors.
+
+Betweenness correlated negligably ($< 0.23$) with all other features.
+This is another suprising result alongside degree centrality's neglibably correlation with other features.
+So this result likewise suggests that betweenness measures something orthogonal to the traditional measure of reputation.
+Additionally, the non-correlation with npubs suggests that being efficiently connected to the network (betweenness) had little to do with how many papers an author previously wrote. In other words, the career output of an author does not predict how influencial they are on the collaborations network.
+
+Finally, the closeness centrality distribution was separated into two groups when considering the entire network. One group (the left-hand group of the betweenness distribution in figure \ref{fig:authors-feature-pairs-matrix}) was log-normal and the other group (the right-hand group of the betweenness distribution in figure \ref{fig:authors-feature-pairs-matrix} or the entire distribution of figure \ref{fig:authors-feature-pairs-matrix-cc}) was normal.
+Since component size was log-normally distributed \todo{check this and reference source}, these distribution shapes suggested that closeness centrality was distributed normally in each component.
+So furthermore the closeness seemed to be relatively randomly distributed; there were no clear center of influence in the network.
+Rather, within each component (most evidently in the largest component) there were seperate would-be subcomponents that are connected by highly between bridges.
+
+
+Altogether these results suggested that centrality, in particular degree and betweenness centrality, measure a sense of author \textit{influence} in scholarly collaborations that were distinct from reputation or traditional measures of collaboration.
+Not only did betweenness and degree centrality not correlate with other author features (other than as\_author), they did not correlate extremely with each other either.
+The influence of an author on the collaborations of other authors thus seemed to be more nuanced than just local measures of collaborations counts or history of (successful) publications. What made an author an effective influence on the collaborations of their peers was a matter of traits mostly orthoganol to their own personal scholarly product.
 
 
 %-----------------------------------------------------------------------------------------------------------------------------
 %-----------------------------------------------------------------------------------------------------------------------------
 \section*{References}
+
+\noindent
+Ghiasi G. \textit{On the Compliance of Women Engineers with a Gendered Scientific System}.
+
+\noindent
+Sonnenwald D. \textit{Scientific Collaboration}.
+
+\noindent
+Knoke D. and Yang S. \textit{Social Network Analysis}.
 
 
 \end{document}

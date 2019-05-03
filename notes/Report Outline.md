@@ -46,7 +46,7 @@ I had two main research questions:
 _Question_: Which conferences should be considered closely related to the main group of papers / topics, and which should be considered controls, belonging to related topics, but not quite as strongly related to the bulk of the papers?
 _Hypothesis_: The commonly-recognized computer systems conferences would be more related to each other than the purposely-inserted control conferences (via Eitan) in terms of collaboration- and citation-connectivity.
 
-__Question__: How closely to various "influence scores" correlate to various centrality measurements in the 2017 authors' collaboration network?
+_Question_: How closely to various "influence scores" correlate to various centrality measurements in the 2017 authors' collaboration network?
 _Hypothesis_: The influences scores, such as hindex and i10index, would correlate strongly with other emergent measures of node influence, such as various centrality measures.
 
 <!--------------------------------------------------------------------------------------------------------------------------->
